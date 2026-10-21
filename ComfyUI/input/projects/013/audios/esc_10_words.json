@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Muestra",
+    "start": 0.1,
+    "end": 0.732
+  },
+  {
+    "word": "siempre",
+    "start": 0.732,
+    "end": 1.365
+  },
+  {
+    "word": "un",
+    "start": 1.365,
+    "end": 1.546
+  },
+  {
+    "word": "objetivo",
+    "start": 1.546,
+    "end": 2.268
+  },
+  {
+    "word": "falso",
+    "start": 2.268,
+    "end": 2.72
+  },
+  {
+    "word": "para",
+    "start": 2.72,
+    "end": 3.082
+  },
+  {
+    "word": "desviar",
+    "start": 3.082,
+    "end": 3.714
+  },
+  {
+    "word": "la",
+    "start": 3.714,
+    "end": 3.895
+  },
+  {
+    "word": "atención",
+    "start": 3.895,
+    "end": 4.618
+  },
+  {
+    "word": "de",
+    "start": 4.618,
+    "end": 4.798
+  },
+  {
+    "word": "todos",
+    "start": 4.798,
+    "end": 5.25
+  }
+]

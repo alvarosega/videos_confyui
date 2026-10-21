@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Sin",
+    "start": 0.12,
+    "end": 0.336
+  },
+  {
+    "word": "consecuencias",
+    "start": 0.336,
+    "end": 1.27
+  },
+  {
+    "word": "reales",
+    "start": 1.27,
+    "end": 1.701
+  },
+  {
+    "word": "para",
+    "start": 1.701,
+    "end": 1.989
+  },
+  {
+    "word": "ambos",
+    "start": 1.989,
+    "end": 2.348
+  },
+  {
+    "word": "lados",
+    "start": 2.348,
+    "end": 2.708
+  },
+  {
+    "word": "no",
+    "start": 2.708,
+    "end": 2.851
+  },
+  {
+    "word": "existe",
+    "start": 2.851,
+    "end": 3.282
+  },
+  {
+    "word": "un",
+    "start": 3.282,
+    "end": 3.426
+  },
+  {
+    "word": "trato",
+    "start": 3.426,
+    "end": 3.786
+  },
+  {
+    "word": "justo",
+    "start": 3.786,
+    "end": 4.145
+  }
+]

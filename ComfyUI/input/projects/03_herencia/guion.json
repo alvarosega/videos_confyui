@@ -1,0 +1,127 @@
+{
+  "estilo_global": "cinematic 3D animation render, League of Legends high-end CGI aesthetic, stylized digital sculpture, detailed Physically Based Rendering (PBR), dramatic volumetric studio lighting, subsurface scattering, sharp ambient occlusion, complex shadowed background in sharp focus, intricate clothing micro-textures, octane render lighting, shallow depth of field, cinematic color grading",
+  "prompt_negativo_global": "smooth skin, plastic texture, clay render, photorealistic, raw photo, photograph, real human face, skin pores, simple shading, flat lighting, in-game graphics, mobile game style, low poly cgi, 2d drawing, anime, flat art, deformed face, open mouth, asymmetric lips, bad eyes, text, words, letters, typography, watermark, logo, blurry",
+  "personajes": {
+    "mateo": {
+      "nombre": "Mateo",
+      "voz_tts": "es-AR-SantiagoNeural",
+      "prompt_positivo_base": "detailed 3D digital model of a 32-year-old Latino corporate executive, complex PBR skin shader with subsurface scattering, sharp angular jawline, messy dark brown sculpted hair, subtle stylized stubble, distinct clean lip contour, strictly closed neutral mouth, relaxed jaw",
+      "prompt_negativo_base": "photorealistic, real skin pores, real human photo, photograph, 2d illustration, flat render, smooth plastic skin, simple lighting, open mouth, smiling",
+      "avatar": "man.png"
+    }
+  },
+  "escenas": [
+    {
+      "id": "esc_01",
+      "tipo": "personaje",
+      "personaje_id": "mateo",
+      "dialogo": "Cuando mi abuelo murió, mis tíos se repartieron quince edificios en la capital. A mí solo me dejó una llave vieja oxidada. En el funeral, se rieron en mi cara.",
+      "accion_prompt": "wearing a meticulously textured dark formal suit jacket with intricate weave. Background is a complex dark wood bookshelf library in sharp volumetric focus with rich shadowed textures",
+      "prompt_negativo_escena": "smooth textures, simple background, bright sunlight, modern office, windows"
+    },
+    {
+      "id": "esc_02",
+      "tipo": "b_roll",
+      "personaje_id": "mateo",
+      "dialogo": "Dijeron que cuidar al viejo cinco años en el hospital solo me sirvió para heredar basura. Pero mi abuelo jamás daba una puntada sin hilo.",
+      "accion_prompt": "cinematic 3D vertical macro render of an ornate antique heavy brass safety deposit key resting beside a heavy red wax seal on a dark polished mahogany desk, intricate oxidized metal patina, rich wood grain textures with physically based rendering, dramatic side rim light, deep cinematic shadows, shallow depth of field",
+      "prompt_negativo_escena": "person, human, hand holding key, modern key, text, letters, plastic textures, flat lighting, photograph"
+    },
+    {
+      "id": "esc_03",
+      "tipo": "personaje",
+      "personaje_id": "mateo",
+      "dialogo": "La llave abría una caja de seguridad privada en el sótano del banco central. Adentro no había dinero ni lingotes de oro.",
+      "accion_prompt": "wearing a dark formal suit jacket. Background is a complex modular brushed steel safety deposit box wall in a dark, underground bank vault, physically based metal textures, tight cinematic indoor composition",
+      "prompt_negativo_escena": "simple background, smooth metal, full body, wide shot, floor, ceiling, windows, sunlight, multiple people"
+    },
+    {
+      "id": "esc_04",
+      "tipo": "b_roll",
+      "personaje_id": "mateo",
+      "dialogo": "Había una sola carpeta negra con pagarés, facturas y deudas hipotecarias firmadas por mis tíos durante los últimos diez años.",
+      "accion_prompt": "cinematic 3D shot of an open luxury textured black leather legal binder displaying thick parchment folios bound with a crimson judicial archive ribbon, embossed red notary wax crests in sharp relief, dramatic overhead spotlight, deep ambient occlusion, physically based leather and paper shaders",
+      "prompt_negativo_escena": "person, hand, messy desk, colorful folders, illegible letters, deformed paper, flat render, photograph"
+    },
+    {
+      "id": "esc_05",
+      "tipo": "personaje",
+      "personaje_id": "mateo",
+      "dialogo": "Durante una década, el abuelo compró en silencio cada una de las deudas que ellos acumularon para pagar sus autos de lujo y sus viajes.",
+      "accion_prompt": "wearing a dark formal suit jacket. Background is an complex executive office window with a detailed city silhouette in sharp focus",
+      "prompt_negativo_escena": "multiple people, floor, night time, rain on window"
+    },
+    {
+      "id": "esc_06",
+      "tipo": "b_roll",
+      "personaje_id": "mateo",
+      "dialogo": "Las escrituras de los quince edificios que presumían estaban puestas como garantía de pago ante el tribunal de quiebras.",
+      "accion_prompt": "cinematic 3D isometric perspective of commercial real estate deed dossiers sealed with red embossed bankruptcy court ribbons, resting on a dark reflective obsidian conference table, sharp glass reflections of distant high-rise windows, volumetric rim lighting, physically based rendering",
+      "prompt_negativo_escena": "person, hand, wooden table, blurry stamps, text, alphabet, photograph"
+    },
+    {
+      "id": "esc_07",
+      "tipo": "personaje",
+      "personaje_id": "mateo",
+      "dialogo": "Pasaron dos meses festejando en redes que eran los nuevos magnates de la familia. Yo me senté a esperar que venciera el plazo legal.",
+      "accion_prompt": "wearing a dark formal suit jacket. Background is a complex architectural concrete office wall in sharp focus with detailed physically based textures",
+      "prompt_negativo_escena": "smooth wall, multiple people, party, floor, sunlight"
+    },
+    {
+      "id": "esc_08",
+      "tipo": "b_roll",
+      "personaje_id": "mateo",
+      "dialogo": "Ayer a las nueve de la mañana expiró el último período de gracia. La deuda total pasó a ser de cobro inmediato.",
+      "accion_prompt": "cinematic 3D vertical macro shot of a luxury minimalist executive mechanical desk clock, exposed intricate titanium skeleton tourbillon gears, polished sapphire crystal dome, sharp dramatic studio key lighting, deep shadows, physically based metal and glass shaders",
+      "prompt_negativo_escena": "person, hand, wall clock, digital display, blurry numbers, text, flat lighting, photograph"
+    },
+    {
+      "id": "esc_09",
+      "tipo": "personaje",
+      "personaje_id": "mateo",
+      "dialogo": "Hoy entré a la junta de accionistas en el piso cuarenta. Cuando me vieron, ordenaron a los guardias de seguridad que me sacaran a la fuerza.",
+      "accion_prompt": "wearing a dark formal suit jacket. Background is a complex polished mahogany boardroom wall with detailed PBR wood textures in sharp volumetric focus",
+      "prompt_negativo_escena": "smooth textures, multiple people, other persons, audience, floor"
+    },
+    {
+      "id": "esc_10",
+      "tipo": "b_roll",
+      "personaje_id": "mateo",
+      "dialogo": "No me moví. Abrí mi maletín y arrojé sobre la mesa la orden judicial de ejecución de embargo.",
+      "accion_prompt": "cinematic 3D shot of an open sleek matte black carbon-fiber executive briefcase on a polished black marble table, revealing thick official court seizure binders secured with heavy crimson seal cords, sharp rim lighting, dramatic chiaroscuro",
+      "prompt_negativo_escena": "person, hand, open luggage, wooden table, blurry mess, text, words, photograph"
+    },
+    {
+      "id": "esc_11",
+      "tipo": "personaje",
+      "personaje_id": "mateo",
+      "dialogo": "El juez ordenó el traspaso del cien por ciento de las propiedades al titular de los pagarés. O sea... a mí.",
+      "accion_prompt": "wearing a dark formal suit jacket. Background is a complex corporate wall in sharp volumetric focus without chairs or other side subjects",
+      "prompt_negativo_escena": "multiple people, 2men, company, other persons, companion, assistant, meeting table, smooth texture"
+    },
+    {
+      "id": "esc_12",
+      "tipo": "b_roll",
+      "personaje_id": "mateo",
+      "dialogo": "El abuelo les dejó los edificios para inflar su ego, pero me dio sus deudas para ser el dueño de sus vidas.",
+      "accion_prompt": "cinematic 3D macro render of an executive gold and black lacquer fountain pen resting diagonally across a heavy textured parchment deed, glistening drop of black ink near an embossed red notary wax seal, moody dramatic key lighting, shallow depth of field",
+      "prompt_negativo_escena": "hand holding pen, person, floating pen, writing hand, blurry paper, text, alphabet, photograph"
+    },
+    {
+      "id": "esc_13",
+      "tipo": "personaje",
+      "personaje_id": "mateo",
+      "dialogo": "Los guardias de seguridad entraron a la sala, pero no se llevaron a mí. Escoltaron a mis tíos hasta la salida.",
+      "accion_prompt": "wearing a dark formal suit jacket. Background is a complex corporate glass door interior wall in sharp volumetric focus",
+      "prompt_negativo_escena": "multiple people, 2men, guards, walking persons, floor"
+    },
+    {
+      "id": "esc_14",
+      "tipo": "personaje",
+      "personaje_id": "mateo",
+      "dialogo": "Tienen veinticuatro horas para desalojar todas mis propiedades. Gracias por cuidarlas este tiempo.",
+      "accion_prompt": "wearing a dark formal suit jacket. Background is a complex textured elevator lobby wall directly behind his head in sharp volumetric focus",
+      "prompt_negativo_escena": "multiple people, floor, angry people, luggage, smooth textures"
+    }
+  ]
+}

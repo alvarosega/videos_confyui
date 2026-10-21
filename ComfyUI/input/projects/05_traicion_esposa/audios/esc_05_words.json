@@ -1,0 +1,37 @@
+[
+  {
+    "word": "Ella",
+    "start": 0.15,
+    "end": 0.504
+  },
+  {
+    "word": "me",
+    "start": 0.504,
+    "end": 0.681
+  },
+  {
+    "word": "dijo",
+    "start": 0.681,
+    "end": 1.035
+  },
+  {
+    "word": "es",
+    "start": 1.035,
+    "end": 1.212
+  },
+  {
+    "word": "la",
+    "start": 1.212,
+    "end": 1.388
+  },
+  {
+    "word": "vida",
+    "start": 1.388,
+    "end": 1.742
+  },
+  {
+    "word": "supéralo",
+    "start": 1.742,
+    "end": 2.45
+  }
+]

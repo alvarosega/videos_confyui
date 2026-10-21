@@ -1,0 +1,37 @@
+[
+  {
+    "word": "Cancelamos",
+    "start": 0.15,
+    "end": 0.876
+  },
+  {
+    "word": "las",
+    "start": 0.876,
+    "end": 1.093
+  },
+  {
+    "word": "cirugías",
+    "start": 1.093,
+    "end": 1.674
+  },
+  {
+    "word": "frente",
+    "start": 1.674,
+    "end": 2.109
+  },
+  {
+    "word": "a",
+    "start": 2.109,
+    "end": 2.254
+  },
+  {
+    "word": "sus",
+    "start": 2.254,
+    "end": 2.472
+  },
+  {
+    "word": "pacientes",
+    "start": 2.472,
+    "end": 3.125
+  }
+]

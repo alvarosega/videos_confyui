@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Si",
+    "start": 0.12,
+    "end": 0.272
+  },
+  {
+    "word": "la",
+    "start": 0.272,
+    "end": 0.424
+  },
+  {
+    "word": "respuesta",
+    "start": 0.424,
+    "end": 1.109
+  },
+  {
+    "word": "es",
+    "start": 1.109,
+    "end": 1.261
+  },
+  {
+    "word": "cero",
+    "start": 1.261,
+    "end": 1.565
+  },
+  {
+    "word": "eres",
+    "start": 1.565,
+    "end": 1.869
+  },
+  {
+    "word": "esclavo",
+    "start": 1.869,
+    "end": 2.402
+  },
+  {
+    "word": "de",
+    "start": 2.402,
+    "end": 2.554
+  },
+  {
+    "word": "tu",
+    "start": 2.554,
+    "end": 2.706
+  },
+  {
+    "word": "propio",
+    "start": 2.706,
+    "end": 3.163
+  },
+  {
+    "word": "ingreso",
+    "start": 3.163,
+    "end": 3.695
+  }
+]

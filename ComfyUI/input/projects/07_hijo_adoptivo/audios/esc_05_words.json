@@ -1,0 +1,127 @@
+[
+  {
+    "word": "Me",
+    "start": 0.15,
+    "end": 0.29
+  },
+  {
+    "word": "llamó",
+    "start": 0.29,
+    "end": 0.64
+  },
+  {
+    "word": "ladrón",
+    "start": 0.64,
+    "end": 1.061
+  },
+  {
+    "word": "en",
+    "start": 1.061,
+    "end": 1.201
+  },
+  {
+    "word": "público",
+    "start": 1.201,
+    "end": 1.691
+  },
+  {
+    "word": "asegurando",
+    "start": 1.691,
+    "end": 2.391
+  },
+  {
+    "word": "que",
+    "start": 2.391,
+    "end": 2.601
+  },
+  {
+    "word": "oculté",
+    "start": 2.601,
+    "end": 3.022
+  },
+  {
+    "word": "la",
+    "start": 3.022,
+    "end": 3.162
+  },
+  {
+    "word": "supuesta",
+    "start": 3.162,
+    "end": 3.722
+  },
+  {
+    "word": "fortuna",
+    "start": 3.722,
+    "end": 4.212
+  },
+  {
+    "word": "de",
+    "start": 4.212,
+    "end": 4.352
+  },
+  {
+    "word": "su",
+    "start": 4.352,
+    "end": 4.493
+  },
+  {
+    "word": "madre",
+    "start": 4.493,
+    "end": 4.843
+  },
+  {
+    "word": "mientras",
+    "start": 4.843,
+    "end": 5.403
+  },
+  {
+    "word": "mi",
+    "start": 5.403,
+    "end": 5.543
+  },
+  {
+    "word": "esposa",
+    "start": 5.543,
+    "end": 5.963
+  },
+  {
+    "word": "y",
+    "start": 5.963,
+    "end": 6.104
+  },
+  {
+    "word": "mi",
+    "start": 6.104,
+    "end": 6.244
+  },
+  {
+    "word": "hermano",
+    "start": 6.244,
+    "end": 6.734
+  },
+  {
+    "word": "sonreían",
+    "start": 6.734,
+    "end": 7.294
+  },
+  {
+    "word": "triunfantes",
+    "start": 7.294,
+    "end": 8.065
+  },
+  {
+    "word": "a",
+    "start": 8.065,
+    "end": 8.205
+  },
+  {
+    "word": "su",
+    "start": 8.205,
+    "end": 8.345
+  },
+  {
+    "word": "lado",
+    "start": 8.345,
+    "end": 8.625
+  }
+]

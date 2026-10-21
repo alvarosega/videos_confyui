@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Si",
+    "start": 0.15,
+    "end": 0.289
+  },
+  {
+    "word": "no",
+    "start": 0.289,
+    "end": 0.427
+  },
+  {
+    "word": "puede",
+    "start": 0.427,
+    "end": 0.774
+  },
+  {
+    "word": "demostrarlo",
+    "start": 0.774,
+    "end": 1.537
+  },
+  {
+    "word": "con",
+    "start": 1.537,
+    "end": 1.745
+  },
+  {
+    "word": "números",
+    "start": 1.745,
+    "end": 2.231
+  },
+  {
+    "word": "reales",
+    "start": 2.231,
+    "end": 2.647
+  },
+  {
+    "word": "date",
+    "start": 2.647,
+    "end": 2.924
+  },
+  {
+    "word": "la",
+    "start": 2.924,
+    "end": 3.063
+  },
+  {
+    "word": "vuelta",
+    "start": 3.063,
+    "end": 3.479
+  },
+  {
+    "word": "inmediatamente",
+    "start": 3.479,
+    "end": 4.45
+  }
+]

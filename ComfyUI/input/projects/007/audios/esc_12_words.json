@@ -1,0 +1,52 @@
+[
+  {
+    "word": "La",
+    "start": 0.12,
+    "end": 0.273
+  },
+  {
+    "word": "excelencia",
+    "start": 0.273,
+    "end": 1.038
+  },
+  {
+    "word": "no",
+    "start": 1.038,
+    "end": 1.191
+  },
+  {
+    "word": "es",
+    "start": 1.191,
+    "end": 1.344
+  },
+  {
+    "word": "acumular",
+    "start": 1.344,
+    "end": 1.957
+  },
+  {
+    "word": "sino",
+    "start": 1.957,
+    "end": 2.263
+  },
+  {
+    "word": "quitar",
+    "start": 2.263,
+    "end": 2.722
+  },
+  {
+    "word": "todo",
+    "start": 2.722,
+    "end": 3.028
+  },
+  {
+    "word": "lo",
+    "start": 3.028,
+    "end": 3.181
+  },
+  {
+    "word": "superfluo",
+    "start": 3.181,
+    "end": 3.87
+  }
+]

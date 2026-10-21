@@ -1,0 +1,62 @@
+[
+  {
+    "word": "El",
+    "start": 0.12,
+    "end": 0.27
+  },
+  {
+    "word": "trabajo",
+    "start": 0.27,
+    "end": 0.795
+  },
+  {
+    "word": "duro",
+    "start": 0.795,
+    "end": 1.095
+  },
+  {
+    "word": "jamás",
+    "start": 1.095,
+    "end": 1.47
+  },
+  {
+    "word": "habla",
+    "start": 1.47,
+    "end": 1.845
+  },
+  {
+    "word": "por",
+    "start": 1.845,
+    "end": 2.07
+  },
+  {
+    "word": "sí",
+    "start": 2.07,
+    "end": 2.22
+  },
+  {
+    "word": "solo",
+    "start": 2.22,
+    "end": 2.52
+  },
+  {
+    "word": "en",
+    "start": 2.52,
+    "end": 2.67
+  },
+  {
+    "word": "el",
+    "start": 2.67,
+    "end": 2.82
+  },
+  {
+    "word": "mundo",
+    "start": 2.82,
+    "end": 3.195
+  },
+  {
+    "word": "profesional",
+    "start": 3.195,
+    "end": 4.02
+  }
+]

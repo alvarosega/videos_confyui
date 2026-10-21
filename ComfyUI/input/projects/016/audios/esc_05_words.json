@@ -1,0 +1,57 @@
+[
+  {
+    "word": "La",
+    "start": 0.12,
+    "end": 0.257
+  },
+  {
+    "word": "atención",
+    "start": 0.257,
+    "end": 0.804
+  },
+  {
+    "word": "pública",
+    "start": 0.804,
+    "end": 1.284
+  },
+  {
+    "word": "siempre",
+    "start": 1.284,
+    "end": 1.763
+  },
+  {
+    "word": "genera",
+    "start": 1.763,
+    "end": 2.173
+  },
+  {
+    "word": "más",
+    "start": 2.173,
+    "end": 2.379
+  },
+  {
+    "word": "poder",
+    "start": 2.379,
+    "end": 2.721
+  },
+  {
+    "word": "que",
+    "start": 2.721,
+    "end": 2.926
+  },
+  {
+    "word": "la",
+    "start": 2.926,
+    "end": 3.063
+  },
+  {
+    "word": "discreción",
+    "start": 3.063,
+    "end": 3.747
+  },
+  {
+    "word": "absoluta",
+    "start": 3.747,
+    "end": 4.295
+  }
+]

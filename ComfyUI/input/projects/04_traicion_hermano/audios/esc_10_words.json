@@ -1,0 +1,52 @@
+[
+  {
+    "word": "Presenté",
+    "start": 0.15,
+    "end": 0.713
+  },
+  {
+    "word": "ante",
+    "start": 0.713,
+    "end": 0.994
+  },
+  {
+    "word": "los",
+    "start": 0.994,
+    "end": 1.206
+  },
+  {
+    "word": "fiscales",
+    "start": 1.206,
+    "end": 1.769
+  },
+  {
+    "word": "las",
+    "start": 1.769,
+    "end": 1.98
+  },
+  {
+    "word": "carpetas",
+    "start": 1.98,
+    "end": 2.543
+  },
+  {
+    "word": "de",
+    "start": 2.543,
+    "end": 2.683
+  },
+  {
+    "word": "la",
+    "start": 2.683,
+    "end": 2.824
+  },
+  {
+    "word": "auditoría",
+    "start": 2.824,
+    "end": 3.457
+  },
+  {
+    "word": "forense",
+    "start": 3.457,
+    "end": 3.95
+  }
+]

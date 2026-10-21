@@ -1,0 +1,52 @@
+[
+  {
+    "word": "Averigua",
+    "start": 0.12,
+    "end": 0.701
+  },
+  {
+    "word": "con",
+    "start": 0.701,
+    "end": 0.919
+  },
+  {
+    "word": "cuidado",
+    "start": 0.919,
+    "end": 1.428
+  },
+  {
+    "word": "qué",
+    "start": 1.428,
+    "end": 1.645
+  },
+  {
+    "word": "desastre",
+    "start": 1.645,
+    "end": 2.227
+  },
+  {
+    "word": "ocurrió",
+    "start": 2.227,
+    "end": 2.735
+  },
+  {
+    "word": "para",
+    "start": 2.735,
+    "end": 3.026
+  },
+  {
+    "word": "crear",
+    "start": 3.026,
+    "end": 3.389
+  },
+  {
+    "word": "esa",
+    "start": 3.389,
+    "end": 3.607
+  },
+  {
+    "word": "regla",
+    "start": 3.607,
+    "end": 3.97
+  }
+]

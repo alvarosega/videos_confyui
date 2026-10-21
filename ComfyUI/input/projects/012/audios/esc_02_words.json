@@ -1,0 +1,52 @@
+[
+  {
+    "word": "Suele",
+    "start": 0.1,
+    "end": 0.574
+  },
+  {
+    "word": "ser",
+    "start": 0.574,
+    "end": 0.859
+  },
+  {
+    "word": "el",
+    "start": 0.859,
+    "end": 1.049
+  },
+  {
+    "word": "amigo",
+    "start": 1.049,
+    "end": 1.523
+  },
+  {
+    "word": "cercano",
+    "start": 1.523,
+    "end": 2.188
+  },
+  {
+    "word": "que",
+    "start": 2.188,
+    "end": 2.472
+  },
+  {
+    "word": "contrataste",
+    "start": 2.472,
+    "end": 3.516
+  },
+  {
+    "word": "por",
+    "start": 3.516,
+    "end": 3.801
+  },
+  {
+    "word": "puro",
+    "start": 3.801,
+    "end": 4.181
+  },
+  {
+    "word": "afecto",
+    "start": 4.181,
+    "end": 4.75
+  }
+]

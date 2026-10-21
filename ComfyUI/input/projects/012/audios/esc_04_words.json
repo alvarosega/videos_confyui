@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Le",
+    "start": 0.1,
+    "end": 0.279
+  },
+  {
+    "word": "otorgó",
+    "start": 0.279,
+    "end": 0.815
+  },
+  {
+    "word": "riquezas",
+    "start": 0.815,
+    "end": 1.53
+  },
+  {
+    "word": "tierras",
+    "start": 1.53,
+    "end": 2.155
+  },
+  {
+    "word": "y",
+    "start": 2.155,
+    "end": 2.334
+  },
+  {
+    "word": "un",
+    "start": 2.334,
+    "end": 2.513
+  },
+  {
+    "word": "enorme",
+    "start": 2.513,
+    "end": 3.049
+  },
+  {
+    "word": "poder",
+    "start": 3.049,
+    "end": 3.495
+  },
+  {
+    "word": "dentro",
+    "start": 3.495,
+    "end": 4.031
+  },
+  {
+    "word": "del",
+    "start": 4.031,
+    "end": 4.3
+  },
+  {
+    "word": "imperio",
+    "start": 4.3,
+    "end": 4.925
+  }
+]

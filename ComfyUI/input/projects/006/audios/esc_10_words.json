@@ -1,0 +1,52 @@
+[
+  {
+    "word": "Cuántos",
+    "start": 0.12,
+    "end": 0.628
+  },
+  {
+    "word": "meses",
+    "start": 0.628,
+    "end": 0.99
+  },
+  {
+    "word": "puedes",
+    "start": 0.99,
+    "end": 1.425
+  },
+  {
+    "word": "vivir",
+    "start": 1.425,
+    "end": 1.788
+  },
+  {
+    "word": "hoy",
+    "start": 1.788,
+    "end": 2.005
+  },
+  {
+    "word": "sin",
+    "start": 2.005,
+    "end": 2.222
+  },
+  {
+    "word": "recibir",
+    "start": 2.222,
+    "end": 2.73
+  },
+  {
+    "word": "órdenes",
+    "start": 2.73,
+    "end": 3.237
+  },
+  {
+    "word": "de",
+    "start": 3.237,
+    "end": 3.382
+  },
+  {
+    "word": "nadie",
+    "start": 3.382,
+    "end": 3.745
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "word": "Tiene",
+    "start": 0.1,
+    "end": 0.558
+  },
+  {
+    "word": "mucho",
+    "start": 0.558,
+    "end": 1.017
+  },
+  {
+    "word": "más",
+    "start": 1.017,
+    "end": 1.292
+  },
+  {
+    "word": "que",
+    "start": 1.292,
+    "end": 1.567
+  },
+  {
+    "word": "demostrar",
+    "start": 1.567,
+    "end": 2.392
+  },
+  {
+    "word": "que",
+    "start": 2.392,
+    "end": 2.667
+  },
+  {
+    "word": "un",
+    "start": 2.667,
+    "end": 2.85
+  },
+  {
+    "word": "amigo",
+    "start": 2.85,
+    "end": 3.308
+  },
+  {
+    "word": "consentido",
+    "start": 3.308,
+    "end": 4.225
+  }
+]

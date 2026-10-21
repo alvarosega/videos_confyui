@@ -1,0 +1,143 @@
+{
+  "id_proyecto": "04_traicion_hermano",
+  "preset_usado": "stylized_3d_animation",
+  "estilo_global": "cinematic 3D animation render, League of Legends high-end CGI aesthetic, stylized digital sculpture, detailed Physically Based Rendering (PBR), dramatic volumetric studio lighting, subsurface scattering, sharp ambient occlusion, complex shadowed background in sharp focus, intricate clothing micro-textures, octane render lighting, shallow depth of field, cinematic corporate thriller color grading",
+  "prompt_negativo_global": "smooth skin, plastic texture, clay render, photorealistic, raw photo, photograph, real human face, skin pores, simple shading, flat lighting, in-game graphics, mobile game style, low poly cgi, 2d drawing, anime, flat art, deformed face, open mouth, teeth, asymmetric lips, bad eyes, text, words, letters, typography, watermark, logo, blurry",
+  "personajes": {
+    "rodrigo": {
+      "nombre": "Rodrigo",
+      "voz_tts": "es-ES-AlvaroNeural",
+      "prompt_positivo_base": "detailed 3D digital model of a distinguished 45-year-old Latino tech executive, complex PBR skin shader with subtle subsurface scattering, sharp angular jawline, neat dark hair with elegant salt-and-pepper temples, groomed short grey-flecked stylized beard, distinct clean lip contour, strictly closed neutral mouth, relaxed jaw",
+      "prompt_negativo_base": "photorealistic, real skin pores, real human photo, photograph, 2d illustration, flat render, smooth plastic skin, simple lighting, open mouth, teeth visible, smiling, laughing, angry expression, head turned, side view",
+      "avatar": "man.png"
+    }
+  },
+  "escenas": [
+    {
+      "id": "esc_01",
+      "tipo": "personaje",
+      "personaje_id": "rodrigo",
+      "dialogo": "Hace seis meses, mi hermano menor pagó a dos neurólogos para falsificar un informe médico, declararme mentalmente incapacitado y quitarme el control de mi empresa tecnológica.",
+      "accion_prompt": "wearing a tailored charcoal grey Italian wool suit jacket with crisp white collar. Background is a luxury executive office with dark walnut wood paneling and volumetric shadowed depth in sharp focus",
+      "prompt_negativo_escena": "multiple people, 2men, bright sunlight, modern windows, casual clothing, smooth textures, floor",
+      "duracion_audio": 10.72
+    },
+    {
+      "id": "esc_02",
+      "tipo": "b_roll",
+      "personaje_id": "rodrigo",
+      "dialogo": "Me sacó con guardias y vendió el sesenta por ciento de las acciones.",
+      "accion_prompt": "cinematic 3D vertical macro shot of heavy medical folio binders bound with a crimson archive ribbon on a dark mahogany desk, embossed red hospital wax seal in sharp relief, dramatic key light, shallow depth of field",
+      "prompt_negativo_escena": "hand, person, computer, blurry stamps, text, letters, plastic texture, photograph",
+      "duracion_audio": 4.75
+    },
+    {
+      "id": "esc_03",
+      "tipo": "personaje",
+      "personaje_id": "rodrigo",
+      "dialogo": "Salió en televisión festejando que había salvado el patrimonio familiar de la supuesta demencia de su hermano mayor.",
+      "accion_prompt": "wearing a tailored charcoal grey Italian suit. Background is a high-rise penthouse office interior with floor-to-ceiling glass revealing a stylized distant city skyline in sharp volumetric focus",
+      "prompt_negativo_escena": "multiple people, floor, night storm, rain on glass, casual clothes, smooth textures",
+      "duracion_audio": 7.25
+    },
+    {
+      "id": "esc_04",
+      "tipo": "b_roll",
+      "personaje_id": "rodrigo",
+      "dialogo": "La arquitectura del software central jamás perteneció a la empresa.",
+      "accion_prompt": "cinematic 3D macro render of an encrypted matte black hardware security key inserted into a brushed titanium server blade, blinking cool white LED indicators, intricate metallic circuitry with physically based rendering",
+      "prompt_negativo_escena": "hand, person, wire mess, cartoon, blurry metal, plastic, photograph",
+      "duracion_audio": 4.55
+    },
+    {
+      "id": "esc_05",
+      "tipo": "personaje",
+      "personaje_id": "rodrigo",
+      "dialogo": "Están registrados bajo una patente personal internacional que creé cuatro años antes de fundar la compañía con él.",
+      "accion_prompt": "wearing a tailored charcoal grey Italian suit jacket. Background is a sleek corporate conference room with brushed metallic accents and geometric architectural lines in sharp focus",
+      "prompt_negativo_escena": "multiple people, audience, projector screen, whiteboard, floor, simple textures",
+      "duracion_audio": 7.47
+    },
+    {
+      "id": "esc_06",
+      "tipo": "b_roll",
+      "personaje_id": "rodrigo",
+      "dialogo": "El contrato exigía la autenticación de mi firma biométrica personal.",
+      "accion_prompt": "cinematic 3D macro render of thick international patent certificate folios bearing heavy gold embossed notary seals and royal blue archival ribbons on heavy textured parchment, dramatic side studio lighting, deep ambient occlusion",
+      "prompt_negativo_escena": "hand holding paper, text, alphabet, digital tablet, flat lighting, photograph",
+      "duracion_audio": 4.83
+    },
+    {
+      "id": "esc_07",
+      "tipo": "personaje",
+      "personaje_id": "rodrigo",
+      "dialogo": "Como no la tenía, mi hermano decidió usar un generador digital para simular mi autorización de transferencia tecnológica.",
+      "accion_prompt": "wearing a tailored charcoal grey Italian suit. Background is a minimalist executive boardroom wall with subtle acoustic slat panels and dark architectural lighting in sharp focus",
+      "prompt_negativo_escena": "multiple people, 2men, casual clothes, floor, bright outdoor light, smooth wall",
+      "duracion_audio": 7.67
+    },
+    {
+      "id": "esc_08",
+      "tipo": "b_roll",
+      "personaje_id": "rodrigo",
+      "dialogo": "Su intento activó una alerta de fraude en la comisión de valores.",
+      "accion_prompt": "cinematic 3D macro render of a futuristic cyber-security terminal chassis displaying an abstract glowing crimson biometric lock emblem, pulsing red warning ambient glow across brushed dark titanium panels, subtle scanline textures",
+      "prompt_negativo_escena": "person, hands, readable words, alphabet, messy desktop, keyboard, blurry monitor, photograph",
+      "duracion_audio": 4.35
+    },
+    {
+      "id": "esc_09",
+      "tipo": "personaje",
+      "personaje_id": "rodrigo",
+      "dialogo": "Esta mañana entré a la junta de accionistas justo cuando el fondo de inversión iba a transferir los cincuenta millones a su cuenta personal.",
+      "accion_prompt": "wearing a tailored charcoal grey Italian suit. Background is an imposing dark marble corporate boardroom wall in sharp volumetric focus without side chairs or extra subjects",
+      "prompt_negativo_escena": "multiple people, crowd, meeting table, investors, floor, smooth marble, casual wear",
+      "duracion_audio": 8.47
+    },
+    {
+      "id": "esc_10",
+      "tipo": "b_roll",
+      "personaje_id": "rodrigo",
+      "dialogo": "Presenté ante los fiscales las carpetas de la auditoría forense.",
+      "accion_prompt": "cinematic 3D macro render of heavy federal judicial dossiers and crimson forensic audit folders lying flat on a polished black marble conference table, embossed official wax seals in sharp relief, dramatic rim lighting",
+      "prompt_negativo_escena": "hand, person, open bags, messy documents, wooden table, text, words, photograph",
+      "duracion_audio": 4.5
+    },
+    {
+      "id": "esc_11",
+      "tipo": "personaje",
+      "personaje_id": "rodrigo",
+      "dialogo": "Le dije: Declararme incapacitado te sirvió para robar acciones vacías, pero usar mi firma convierte tu venta en fraude federal agravado.",
+      "accion_prompt": "wearing a tailored charcoal grey Italian suit jacket. Background is a luxurious executive office wall with dark vertical acoustic fins in sharp volumetric focus",
+      "prompt_negativo_escena": "multiple people, 2men, brother, audience, shouting people, floor, smooth textures",
+      "duracion_audio": 8.68
+    },
+    {
+      "id": "esc_12",
+      "tipo": "b_roll",
+      "personaje_id": "rodrigo",
+      "dialogo": "Los inversores cancelaron el contrato y ejecutaron la cláusula penal.",
+      "accion_prompt": "cinematic 3D vertical macro shot of a heavy acquisition legal folder crossed with severed red security cordons, an executive black and gold fountain pen lying at rest on dark reflective glass, dramatic studio chiaroscuro lighting",
+      "prompt_negativo_escena": "hand holding stamp, text, readable letters, face, body, casual desk, flat render, photograph",
+      "duracion_audio": 5.05
+    },
+    {
+      "id": "esc_13",
+      "tipo": "personaje",
+      "personaje_id": "rodrigo",
+      "dialogo": "Los policías le pusieron las esposas en la misma silla donde planeaba celebrar su estafa millonaria.",
+      "accion_prompt": "Rodrigo, a sharp-featured man in his late 30s with slicked-back dark hair and a five o'clock shadow, sits immobilized in a luxurious high-back leather executive chair. He wears a perfectly tailored charcoal grey Italian suit with a crisp white shirt and a loosened silk tie. His wrists are tightly bound to the polished wooden armrests of the chair by cold metallic handcuffs. A single bead of sweat trickles down his temple; his expression is a mix of bitter defiance and crushed ambition. In the background, a sleek corporate interior features frosted glass double doors with brushed steel handles, softly blurred by shallow depth of field. Harsh top-down cinematic lighting casts dramatic chiaroscuro shadows across his face and the armrests, creating a tense, dark thriller atmosphere. High contrast, hyperrealistic, 8k, sharp focus on his face and the handcuffs, low-angle shot emphasizing his trapped state.",
+      "prompt_negativo_escena": "multiple people, police officers, struggle, motion blur, blurry, low quality, distorted face, extra limbs, cropped composition, floor visible, messy background, cartoon, illustration, bright colors, happy mood, wide shot",
+      "duracion_audio": 6.65
+    },
+    {
+      "id": "esc_14",
+      "tipo": "personaje",
+      "personaje_id": "rodrigo",
+      "dialogo": "Mientras se lo llevaban, me miró temblando. Le dije: Querías mi lugar en la empresa... ahora vas a ocupar el tuyo en prisión.",
+      "accion_prompt": "wearing a tailored charcoal grey Italian suit jacket. Background is an executive high-rise elevator lobby with brushed gunmetal steel panels in sharp volumetric focus",
+      "prompt_negativo_escena": "multiple people, police cars, prison, smiling, open mouth, luggage, floor, smooth walls",
+      "duracion_audio": 8.72
+    }
+  ]
+}

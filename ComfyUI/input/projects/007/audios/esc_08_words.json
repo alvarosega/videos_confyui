@@ -1,0 +1,52 @@
+[
+  {
+    "word": "El",
+    "start": 0.12,
+    "end": 0.26
+  },
+  {
+    "word": "verdadero",
+    "start": 0.26,
+    "end": 0.892
+  },
+  {
+    "word": "avance",
+    "start": 0.892,
+    "end": 1.313
+  },
+  {
+    "word": "surge",
+    "start": 1.313,
+    "end": 1.663
+  },
+  {
+    "word": "cuando",
+    "start": 1.663,
+    "end": 2.084
+  },
+  {
+    "word": "eliminas",
+    "start": 2.084,
+    "end": 2.645
+  },
+  {
+    "word": "distracciones",
+    "start": 2.645,
+    "end": 3.557
+  },
+  {
+    "word": "y",
+    "start": 3.557,
+    "end": 3.698
+  },
+  {
+    "word": "ruido",
+    "start": 3.698,
+    "end": 4.048
+  },
+  {
+    "word": "innecesario",
+    "start": 4.048,
+    "end": 4.82
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "word": "El",
+    "start": 0.1,
+    "end": 0.256
+  },
+  {
+    "word": "fracaso",
+    "start": 0.256,
+    "end": 0.8
+  },
+  {
+    "word": "crónico",
+    "start": 0.8,
+    "end": 1.344
+  },
+  {
+    "word": "casi",
+    "start": 1.344,
+    "end": 1.656
+  },
+  {
+    "word": "nunca",
+    "start": 1.656,
+    "end": 2.044
+  },
+  {
+    "word": "es",
+    "start": 2.044,
+    "end": 2.2
+  },
+  {
+    "word": "un",
+    "start": 2.2,
+    "end": 2.356
+  },
+  {
+    "word": "simple",
+    "start": 2.356,
+    "end": 2.822
+  },
+  {
+    "word": "accidente",
+    "start": 2.822,
+    "end": 3.522
+  },
+  {
+    "word": "del",
+    "start": 3.522,
+    "end": 3.756
+  },
+  {
+    "word": "destino",
+    "start": 3.756,
+    "end": 4.3
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Si",
+    "start": 0.1,
+    "end": 0.267
+  },
+  {
+    "word": "intentas",
+    "start": 0.267,
+    "end": 0.935
+  },
+  {
+    "word": "rescatar",
+    "start": 0.935,
+    "end": 1.603
+  },
+  {
+    "word": "por",
+    "start": 1.603,
+    "end": 1.853
+  },
+  {
+    "word": "compasión",
+    "start": 1.853,
+    "end": 2.604
+  },
+  {
+    "word": "a",
+    "start": 2.604,
+    "end": 2.771
+  },
+  {
+    "word": "quien",
+    "start": 2.771,
+    "end": 3.189
+  },
+  {
+    "word": "vive",
+    "start": 3.189,
+    "end": 3.522
+  },
+  {
+    "word": "en",
+    "start": 3.522,
+    "end": 3.689
+  },
+  {
+    "word": "crisis",
+    "start": 3.689,
+    "end": 4.19
+  },
+  {
+    "word": "permanente",
+    "start": 4.19,
+    "end": 5.025
+  }
+]

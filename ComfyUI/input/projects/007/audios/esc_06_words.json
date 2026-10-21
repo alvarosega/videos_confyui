@@ -1,0 +1,52 @@
+[
+  {
+    "word": "La",
+    "start": 0.12,
+    "end": 0.269
+  },
+  {
+    "word": "salud",
+    "start": 0.269,
+    "end": 0.642
+  },
+  {
+    "word": "mejora",
+    "start": 0.642,
+    "end": 1.09
+  },
+  {
+    "word": "eliminando",
+    "start": 1.09,
+    "end": 1.836
+  },
+  {
+    "word": "toxinas",
+    "start": 1.836,
+    "end": 2.358
+  },
+  {
+    "word": "no",
+    "start": 2.358,
+    "end": 2.507
+  },
+  {
+    "word": "comprando",
+    "start": 2.507,
+    "end": 3.179
+  },
+  {
+    "word": "más",
+    "start": 3.179,
+    "end": 3.403
+  },
+  {
+    "word": "suplementos",
+    "start": 3.403,
+    "end": 4.223
+  },
+  {
+    "word": "costosos",
+    "start": 4.223,
+    "end": 4.82
+  }
+]

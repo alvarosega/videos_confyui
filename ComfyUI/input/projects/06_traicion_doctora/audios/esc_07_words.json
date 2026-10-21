@@ -1,0 +1,32 @@
+[
+  {
+    "word": "Olvidaron",
+    "start": 0.15,
+    "end": 0.795
+  },
+  {
+    "word": "quién",
+    "start": 0.795,
+    "end": 1.153
+  },
+  {
+    "word": "compró",
+    "start": 1.153,
+    "end": 1.582
+  },
+  {
+    "word": "cada",
+    "start": 1.582,
+    "end": 1.869
+  },
+  {
+    "word": "máquina",
+    "start": 1.869,
+    "end": 2.37
+  },
+  {
+    "word": "médica",
+    "start": 2.37,
+    "end": 2.8
+  }
+]

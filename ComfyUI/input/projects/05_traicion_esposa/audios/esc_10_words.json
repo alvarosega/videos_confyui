@@ -1,0 +1,122 @@
+[
+  {
+    "word": "Ayer",
+    "start": 0.15,
+    "end": 0.417
+  },
+  {
+    "word": "por",
+    "start": 0.417,
+    "end": 0.617
+  },
+  {
+    "word": "la",
+    "start": 0.617,
+    "end": 0.751
+  },
+  {
+    "word": "mañana",
+    "start": 0.751,
+    "end": 1.151
+  },
+  {
+    "word": "los",
+    "start": 1.151,
+    "end": 1.351
+  },
+  {
+    "word": "bancos",
+    "start": 1.351,
+    "end": 1.752
+  },
+  {
+    "word": "congelaron",
+    "start": 1.752,
+    "end": 2.419
+  },
+  {
+    "word": "sus",
+    "start": 2.419,
+    "end": 2.619
+  },
+  {
+    "word": "cuentas",
+    "start": 2.619,
+    "end": 3.087
+  },
+  {
+    "word": "y",
+    "start": 3.087,
+    "end": 3.22
+  },
+  {
+    "word": "la",
+    "start": 3.22,
+    "end": 3.354
+  },
+  {
+    "word": "policía",
+    "start": 3.354,
+    "end": 3.821
+  },
+  {
+    "word": "judicial",
+    "start": 3.821,
+    "end": 4.355
+  },
+  {
+    "word": "llegó",
+    "start": 4.355,
+    "end": 4.688
+  },
+  {
+    "word": "a",
+    "start": 4.688,
+    "end": 4.822
+  },
+  {
+    "word": "la",
+    "start": 4.822,
+    "end": 4.955
+  },
+  {
+    "word": "mansión",
+    "start": 4.955,
+    "end": 5.423
+  },
+  {
+    "word": "con",
+    "start": 5.423,
+    "end": 5.623
+  },
+  {
+    "word": "camiones",
+    "start": 5.623,
+    "end": 6.157
+  },
+  {
+    "word": "de",
+    "start": 6.157,
+    "end": 6.29
+  },
+  {
+    "word": "mudanza",
+    "start": 6.29,
+    "end": 6.757
+  },
+  {
+    "word": "para",
+    "start": 6.757,
+    "end": 7.024
+  },
+  {
+    "word": "el",
+    "start": 7.024,
+    "end": 7.158
+  },
+  {
+    "word": "embargo",
+    "start": 7.158,
+    "end": 7.625
+  }
+]

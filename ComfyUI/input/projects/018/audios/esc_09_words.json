@@ -1,0 +1,62 @@
+[
+  {
+    "word": "Obligar",
+    "start": 0.12,
+    "end": 0.625
+  },
+  {
+    "word": "a",
+    "start": 0.625,
+    "end": 0.769
+  },
+  {
+    "word": "la",
+    "start": 0.769,
+    "end": 0.913
+  },
+  {
+    "word": "otra",
+    "start": 0.913,
+    "end": 1.201
+  },
+  {
+    "word": "parte",
+    "start": 1.201,
+    "end": 1.562
+  },
+  {
+    "word": "a",
+    "start": 1.562,
+    "end": 1.706
+  },
+  {
+    "word": "desplazarse",
+    "start": 1.706,
+    "end": 2.499
+  },
+  {
+    "word": "desgasta",
+    "start": 2.499,
+    "end": 3.075
+  },
+  {
+    "word": "toda",
+    "start": 3.075,
+    "end": 3.364
+  },
+  {
+    "word": "su",
+    "start": 3.364,
+    "end": 3.508
+  },
+  {
+    "word": "energía",
+    "start": 3.508,
+    "end": 4.012
+  },
+  {
+    "word": "mental",
+    "start": 4.012,
+    "end": 4.445
+  }
+]

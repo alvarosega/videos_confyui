@@ -1,0 +1,52 @@
+[
+  {
+    "word": "Buscan",
+    "start": 0.1,
+    "end": 0.541
+  },
+  {
+    "word": "personas",
+    "start": 0.541,
+    "end": 1.128
+  },
+  {
+    "word": "nobles",
+    "start": 1.128,
+    "end": 1.569
+  },
+  {
+    "word": "y",
+    "start": 1.569,
+    "end": 1.716
+  },
+  {
+    "word": "productivas",
+    "start": 1.716,
+    "end": 2.523
+  },
+  {
+    "word": "para",
+    "start": 2.523,
+    "end": 2.817
+  },
+  {
+    "word": "usarlas",
+    "start": 2.817,
+    "end": 3.331
+  },
+  {
+    "word": "como",
+    "start": 3.331,
+    "end": 3.625
+  },
+  {
+    "word": "escudo",
+    "start": 3.625,
+    "end": 4.066
+  },
+  {
+    "word": "financiero",
+    "start": 4.066,
+    "end": 4.8
+  }
+]

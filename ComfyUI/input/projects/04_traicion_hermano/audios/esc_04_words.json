@@ -1,0 +1,52 @@
+[
+  {
+    "word": "La",
+    "start": 0.15,
+    "end": 0.283
+  },
+  {
+    "word": "arquitectura",
+    "start": 0.283,
+    "end": 1.079
+  },
+  {
+    "word": "del",
+    "start": 1.079,
+    "end": 1.278
+  },
+  {
+    "word": "software",
+    "start": 1.278,
+    "end": 1.809
+  },
+  {
+    "word": "central",
+    "start": 1.809,
+    "end": 2.274
+  },
+  {
+    "word": "jamás",
+    "start": 2.274,
+    "end": 2.606
+  },
+  {
+    "word": "perteneció",
+    "start": 2.606,
+    "end": 3.27
+  },
+  {
+    "word": "a",
+    "start": 3.27,
+    "end": 3.403
+  },
+  {
+    "word": "la",
+    "start": 3.403,
+    "end": 3.535
+  },
+  {
+    "word": "empresa",
+    "start": 3.535,
+    "end": 4.0
+  }
+]

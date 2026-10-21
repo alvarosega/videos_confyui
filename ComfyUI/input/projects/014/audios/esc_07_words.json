@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Las",
+    "start": 0.1,
+    "end": 0.364
+  },
+  {
+    "word": "personas",
+    "start": 0.364,
+    "end": 1.07
+  },
+  {
+    "word": "inseguras",
+    "start": 1.07,
+    "end": 1.863
+  },
+  {
+    "word": "hablan",
+    "start": 1.863,
+    "end": 2.392
+  },
+  {
+    "word": "sin",
+    "start": 2.392,
+    "end": 2.656
+  },
+  {
+    "word": "parar",
+    "start": 2.656,
+    "end": 3.097
+  },
+  {
+    "word": "buscando",
+    "start": 3.097,
+    "end": 3.802
+  },
+  {
+    "word": "desesperadamente",
+    "start": 3.802,
+    "end": 5.212
+  },
+  {
+    "word": "una",
+    "start": 5.212,
+    "end": 5.477
+  },
+  {
+    "word": "validación",
+    "start": 5.477,
+    "end": 6.358
+  },
+  {
+    "word": "externa",
+    "start": 6.358,
+    "end": 6.975
+  }
+]

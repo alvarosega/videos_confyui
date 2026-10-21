@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Comprende",
+    "start": 0.12,
+    "end": 0.75
+  },
+  {
+    "word": "la",
+    "start": 0.75,
+    "end": 0.89
+  },
+  {
+    "word": "función",
+    "start": 0.89,
+    "end": 1.38
+  },
+  {
+    "word": "del",
+    "start": 1.38,
+    "end": 1.59
+  },
+  {
+    "word": "muro",
+    "start": 1.59,
+    "end": 1.87
+  },
+  {
+    "word": "antes",
+    "start": 1.87,
+    "end": 2.22
+  },
+  {
+    "word": "de",
+    "start": 2.22,
+    "end": 2.36
+  },
+  {
+    "word": "decidir",
+    "start": 2.36,
+    "end": 2.85
+  },
+  {
+    "word": "derribarlo",
+    "start": 2.85,
+    "end": 3.55
+  },
+  {
+    "word": "por",
+    "start": 3.55,
+    "end": 3.76
+  },
+  {
+    "word": "completo",
+    "start": 3.76,
+    "end": 4.32
+  }
+]

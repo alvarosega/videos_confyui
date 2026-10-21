@@ -1,0 +1,57 @@
+[
+  {
+    "word": "No",
+    "start": 0.15,
+    "end": 0.289
+  },
+  {
+    "word": "era",
+    "start": 0.289,
+    "end": 0.498
+  },
+  {
+    "word": "una",
+    "start": 0.498,
+    "end": 0.707
+  },
+  {
+    "word": "ley",
+    "start": 0.707,
+    "end": 0.915
+  },
+  {
+    "word": "moralista",
+    "start": 0.915,
+    "end": 1.542
+  },
+  {
+    "word": "era",
+    "start": 1.542,
+    "end": 1.75
+  },
+  {
+    "word": "ingeniería",
+    "start": 1.75,
+    "end": 2.446
+  },
+  {
+    "word": "de",
+    "start": 2.446,
+    "end": 2.585
+  },
+  {
+    "word": "riesgos",
+    "start": 2.585,
+    "end": 3.072
+  },
+  {
+    "word": "totalmente",
+    "start": 3.072,
+    "end": 3.768
+  },
+  {
+    "word": "perfecta",
+    "start": 3.768,
+    "end": 4.325
+  }
+]

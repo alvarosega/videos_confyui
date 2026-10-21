@@ -1,0 +1,57 @@
+[
+  {
+    "word": "No",
+    "start": 0.1,
+    "end": 0.275
+  },
+  {
+    "word": "tenían",
+    "start": 0.275,
+    "end": 0.799
+  },
+  {
+    "word": "tiempo",
+    "start": 0.799,
+    "end": 1.322
+  },
+  {
+    "word": "ni",
+    "start": 1.322,
+    "end": 1.497
+  },
+  {
+    "word": "ejércitos",
+    "start": 1.497,
+    "end": 2.283
+  },
+  {
+    "word": "suficientes",
+    "start": 2.283,
+    "end": 3.243
+  },
+  {
+    "word": "para",
+    "start": 3.243,
+    "end": 3.593
+  },
+  {
+    "word": "detener",
+    "start": 3.593,
+    "end": 4.204
+  },
+  {
+    "word": "la",
+    "start": 4.204,
+    "end": 4.378
+  },
+  {
+    "word": "unificación",
+    "start": 4.378,
+    "end": 5.339
+  },
+  {
+    "word": "alemana",
+    "start": 5.339,
+    "end": 5.95
+  }
+]

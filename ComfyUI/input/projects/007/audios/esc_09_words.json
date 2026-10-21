@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Haz",
+    "start": 0.12,
+    "end": 0.335
+  },
+  {
+    "word": "una",
+    "start": 0.335,
+    "end": 0.549
+  },
+  {
+    "word": "lista",
+    "start": 0.549,
+    "end": 0.907
+  },
+  {
+    "word": "de",
+    "start": 0.907,
+    "end": 1.05
+  },
+  {
+    "word": "tres",
+    "start": 1.05,
+    "end": 1.336
+  },
+  {
+    "word": "hábitos",
+    "start": 1.336,
+    "end": 1.836
+  },
+  {
+    "word": "o",
+    "start": 1.836,
+    "end": 1.979
+  },
+  {
+    "word": "personas",
+    "start": 1.979,
+    "end": 2.551
+  },
+  {
+    "word": "que",
+    "start": 2.551,
+    "end": 2.766
+  },
+  {
+    "word": "drenan",
+    "start": 2.766,
+    "end": 3.195
+  },
+  {
+    "word": "energía",
+    "start": 3.195,
+    "end": 3.695
+  }
+]

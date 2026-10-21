@@ -1,0 +1,52 @@
+[
+  {
+    "word": "Los",
+    "start": 0.1,
+    "end": 0.391
+  },
+  {
+    "word": "amigos",
+    "start": 0.391,
+    "end": 0.973
+  },
+  {
+    "word": "dan",
+    "start": 0.973,
+    "end": 1.264
+  },
+  {
+    "word": "por",
+    "start": 1.264,
+    "end": 1.555
+  },
+  {
+    "word": "sentados",
+    "start": 1.555,
+    "end": 2.331
+  },
+  {
+    "word": "los",
+    "start": 2.331,
+    "end": 2.622
+  },
+  {
+    "word": "favores",
+    "start": 2.622,
+    "end": 3.301
+  },
+  {
+    "word": "y",
+    "start": 3.301,
+    "end": 3.495
+  },
+  {
+    "word": "guardan",
+    "start": 3.495,
+    "end": 4.174
+  },
+  {
+    "word": "rencores",
+    "start": 4.174,
+    "end": 4.95
+  }
+]

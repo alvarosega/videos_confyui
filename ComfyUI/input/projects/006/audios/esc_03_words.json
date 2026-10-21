@@ -1,0 +1,52 @@
+[
+  {
+    "word": "El",
+    "start": 0.12,
+    "end": 0.266
+  },
+  {
+    "word": "sistema",
+    "start": 0.266,
+    "end": 0.778
+  },
+  {
+    "word": "corporativo",
+    "start": 0.778,
+    "end": 1.582
+  },
+  {
+    "word": "jamás",
+    "start": 1.582,
+    "end": 1.948
+  },
+  {
+    "word": "paga",
+    "start": 1.948,
+    "end": 2.24
+  },
+  {
+    "word": "por",
+    "start": 2.24,
+    "end": 2.46
+  },
+  {
+    "word": "tu",
+    "start": 2.46,
+    "end": 2.606
+  },
+  {
+    "word": "genialidad",
+    "start": 2.606,
+    "end": 3.337
+  },
+  {
+    "word": "o",
+    "start": 3.337,
+    "end": 3.483
+  },
+  {
+    "word": "talento",
+    "start": 3.483,
+    "end": 3.995
+  }
+]

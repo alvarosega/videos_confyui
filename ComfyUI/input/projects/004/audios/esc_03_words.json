@@ -1,0 +1,62 @@
+[
+  {
+    "word": "En",
+    "start": 0.12,
+    "end": 0.254
+  },
+  {
+    "word": "En",
+    "start": 0.254,
+    "end": 0.388
+  },
+  {
+    "word": "la",
+    "start": 0.388,
+    "end": 0.522
+  },
+  {
+    "word": "burocracia",
+    "start": 0.522,
+    "end": 1.191
+  },
+  {
+    "word": "ganas",
+    "start": 1.191,
+    "end": 1.526
+  },
+  {
+    "word": "diciendo",
+    "start": 1.526,
+    "end": 2.061
+  },
+  {
+    "word": "lo",
+    "start": 2.061,
+    "end": 2.195
+  },
+  {
+    "word": "que",
+    "start": 2.195,
+    "end": 2.396
+  },
+  {
+    "word": "otros",
+    "start": 2.396,
+    "end": 2.73
+  },
+  {
+    "word": "teóricos",
+    "start": 2.73,
+    "end": 3.266
+  },
+  {
+    "word": "quieren",
+    "start": 3.266,
+    "end": 3.735
+  },
+  {
+    "word": "escuchar",
+    "start": 3.735,
+    "end": 4.27
+  }
+]

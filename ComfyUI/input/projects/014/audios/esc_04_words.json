@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Nadie",
+    "start": 0.1,
+    "end": 0.548
+  },
+  {
+    "word": "conocía",
+    "start": 0.548,
+    "end": 1.175
+  },
+  {
+    "word": "sus",
+    "start": 1.175,
+    "end": 1.444
+  },
+  {
+    "word": "pensamientos",
+    "start": 1.444,
+    "end": 2.52
+  },
+  {
+    "word": "reales",
+    "start": 2.52,
+    "end": 3.057
+  },
+  {
+    "word": "desatando",
+    "start": 3.057,
+    "end": 3.864
+  },
+  {
+    "word": "pánico",
+    "start": 3.864,
+    "end": 4.402
+  },
+  {
+    "word": "absoluto",
+    "start": 4.402,
+    "end": 5.118
+  },
+  {
+    "word": "en",
+    "start": 5.118,
+    "end": 5.298
+  },
+  {
+    "word": "la",
+    "start": 5.298,
+    "end": 5.477
+  },
+  {
+    "word": "corte",
+    "start": 5.477,
+    "end": 5.925
+  }
+]

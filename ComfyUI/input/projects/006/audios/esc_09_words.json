@@ -1,0 +1,52 @@
+[
+  {
+    "word": "Mide",
+    "start": 0.12,
+    "end": 0.415
+  },
+  {
+    "word": "tu",
+    "start": 0.415,
+    "end": 0.562
+  },
+  {
+    "word": "verdadera",
+    "start": 0.562,
+    "end": 1.225
+  },
+  {
+    "word": "riqueza",
+    "start": 1.225,
+    "end": 1.74
+  },
+  {
+    "word": "calculando",
+    "start": 1.74,
+    "end": 2.476
+  },
+  {
+    "word": "una",
+    "start": 2.476,
+    "end": 2.697
+  },
+  {
+    "word": "sola",
+    "start": 2.697,
+    "end": 2.992
+  },
+  {
+    "word": "métrica",
+    "start": 2.992,
+    "end": 3.507
+  },
+  {
+    "word": "muy",
+    "start": 3.507,
+    "end": 3.728
+  },
+  {
+    "word": "simple",
+    "start": 3.728,
+    "end": 4.17
+  }
+]

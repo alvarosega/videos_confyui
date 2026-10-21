@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Es",
+    "start": 0.1,
+    "end": 0.252
+  },
+  {
+    "word": "el",
+    "start": 0.252,
+    "end": 0.405
+  },
+  {
+    "word": "síntoma",
+    "start": 0.405,
+    "end": 0.939
+  },
+  {
+    "word": "evidente",
+    "start": 0.939,
+    "end": 1.548
+  },
+  {
+    "word": "de",
+    "start": 1.548,
+    "end": 1.701
+  },
+  {
+    "word": "un",
+    "start": 1.701,
+    "end": 1.853
+  },
+  {
+    "word": "patrón",
+    "start": 1.853,
+    "end": 2.311
+  },
+  {
+    "word": "mental",
+    "start": 2.311,
+    "end": 2.768
+  },
+  {
+    "word": "autodestructivo",
+    "start": 2.768,
+    "end": 3.911
+  },
+  {
+    "word": "muy",
+    "start": 3.911,
+    "end": 4.14
+  },
+  {
+    "word": "profundo",
+    "start": 4.14,
+    "end": 4.75
+  }
+]

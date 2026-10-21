@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Mantén",
+    "start": 0.15,
+    "end": 0.578
+  },
+  {
+    "word": "tu",
+    "start": 0.578,
+    "end": 0.72
+  },
+  {
+    "word": "postura",
+    "start": 0.72,
+    "end": 1.219
+  },
+  {
+    "word": "firme",
+    "start": 1.219,
+    "end": 1.576
+  },
+  {
+    "word": "sin",
+    "start": 1.576,
+    "end": 1.79
+  },
+  {
+    "word": "mostrar",
+    "start": 1.79,
+    "end": 2.289
+  },
+  {
+    "word": "ninguna",
+    "start": 2.289,
+    "end": 2.788
+  },
+  {
+    "word": "duda",
+    "start": 2.788,
+    "end": 3.073
+  },
+  {
+    "word": "frente",
+    "start": 3.073,
+    "end": 3.501
+  },
+  {
+    "word": "a",
+    "start": 3.501,
+    "end": 3.644
+  },
+  {
+    "word": "ellos",
+    "start": 3.644,
+    "end": 4.0
+  }
+]

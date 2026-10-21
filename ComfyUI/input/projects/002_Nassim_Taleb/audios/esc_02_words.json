@@ -1,0 +1,57 @@
+[
+  {
+    "word": "En",
+    "start": 0.15,
+    "end": 0.291
+  },
+  {
+    "word": "realidad",
+    "start": 0.291,
+    "end": 0.855
+  },
+  {
+    "word": "siempre",
+    "start": 0.855,
+    "end": 1.348
+  },
+  {
+    "word": "las",
+    "start": 1.348,
+    "end": 1.559
+  },
+  {
+    "word": "impone",
+    "start": 1.559,
+    "end": 1.982
+  },
+  {
+    "word": "una",
+    "start": 1.982,
+    "end": 2.193
+  },
+  {
+    "word": "minoría",
+    "start": 2.193,
+    "end": 2.686
+  },
+  {
+    "word": "inflexible",
+    "start": 2.686,
+    "end": 3.391
+  },
+  {
+    "word": "que",
+    "start": 3.391,
+    "end": 3.602
+  },
+  {
+    "word": "no",
+    "start": 3.602,
+    "end": 3.743
+  },
+  {
+    "word": "cede",
+    "start": 3.743,
+    "end": 4.025
+  }
+]

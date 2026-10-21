@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Tu",
+    "start": 0.1,
+    "end": 0.276
+  },
+  {
+    "word": "superior",
+    "start": 0.276,
+    "end": 0.981
+  },
+  {
+    "word": "jerárquico",
+    "start": 0.981,
+    "end": 1.862
+  },
+  {
+    "word": "nunca",
+    "start": 1.862,
+    "end": 2.302
+  },
+  {
+    "word": "busca",
+    "start": 2.302,
+    "end": 2.743
+  },
+  {
+    "word": "talento",
+    "start": 2.743,
+    "end": 3.36
+  },
+  {
+    "word": "puro",
+    "start": 3.36,
+    "end": 3.712
+  },
+  {
+    "word": "sino",
+    "start": 3.712,
+    "end": 4.064
+  },
+  {
+    "word": "seguridad",
+    "start": 4.064,
+    "end": 4.857
+  },
+  {
+    "word": "de",
+    "start": 4.857,
+    "end": 5.033
+  },
+  {
+    "word": "estatus",
+    "start": 5.033,
+    "end": 5.65
+  }
+]

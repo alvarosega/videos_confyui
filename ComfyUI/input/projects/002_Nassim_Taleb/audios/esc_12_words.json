@@ -1,0 +1,47 @@
+[
+  {
+    "word": "Quien",
+    "start": 0.15,
+    "end": 0.488
+  },
+  {
+    "word": "carece",
+    "start": 0.488,
+    "end": 0.894
+  },
+  {
+    "word": "de",
+    "start": 0.894,
+    "end": 1.029
+  },
+  {
+    "word": "límites",
+    "start": 1.029,
+    "end": 1.502
+  },
+  {
+    "word": "termina",
+    "start": 1.502,
+    "end": 1.975
+  },
+  {
+    "word": "cediendo",
+    "start": 1.975,
+    "end": 2.516
+  },
+  {
+    "word": "en",
+    "start": 2.516,
+    "end": 2.651
+  },
+  {
+    "word": "absolutamente",
+    "start": 2.651,
+    "end": 3.53
+  },
+  {
+    "word": "todo",
+    "start": 3.53,
+    "end": 3.8
+  }
+]

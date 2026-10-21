@@ -1,0 +1,62 @@
+[
+  {
+    "word": "Su",
+    "start": 0.15,
+    "end": 0.288
+  },
+  {
+    "word": "intento",
+    "start": 0.288,
+    "end": 0.77
+  },
+  {
+    "word": "activó",
+    "start": 0.77,
+    "end": 1.183
+  },
+  {
+    "word": "una",
+    "start": 1.183,
+    "end": 1.39
+  },
+  {
+    "word": "alerta",
+    "start": 1.39,
+    "end": 1.803
+  },
+  {
+    "word": "de",
+    "start": 1.803,
+    "end": 1.941
+  },
+  {
+    "word": "fraude",
+    "start": 1.941,
+    "end": 2.354
+  },
+  {
+    "word": "en",
+    "start": 2.354,
+    "end": 2.492
+  },
+  {
+    "word": "la",
+    "start": 2.492,
+    "end": 2.629
+  },
+  {
+    "word": "comisión",
+    "start": 2.629,
+    "end": 3.18
+  },
+  {
+    "word": "de",
+    "start": 3.18,
+    "end": 3.318
+  },
+  {
+    "word": "valores",
+    "start": 3.318,
+    "end": 3.8
+  }
+]

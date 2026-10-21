@@ -1,0 +1,62 @@
+[
+  {
+    "word": "Hablar",
+    "start": 0.1,
+    "end": 0.606
+  },
+  {
+    "word": "de",
+    "start": 0.606,
+    "end": 0.775
+  },
+  {
+    "word": "más",
+    "start": 0.775,
+    "end": 1.029
+  },
+  {
+    "word": "para",
+    "start": 1.029,
+    "end": 1.366
+  },
+  {
+    "word": "romper",
+    "start": 1.366,
+    "end": 1.873
+  },
+  {
+    "word": "un",
+    "start": 1.873,
+    "end": 2.042
+  },
+  {
+    "word": "silencio",
+    "start": 2.042,
+    "end": 2.717
+  },
+  {
+    "word": "incómodo",
+    "start": 2.717,
+    "end": 3.392
+  },
+  {
+    "word": "arruina",
+    "start": 3.392,
+    "end": 3.983
+  },
+  {
+    "word": "cualquier",
+    "start": 3.983,
+    "end": 4.743
+  },
+  {
+    "word": "negociación",
+    "start": 4.743,
+    "end": 5.671
+  },
+  {
+    "word": "estratégica",
+    "start": 5.671,
+    "end": 6.6
+  }
+]

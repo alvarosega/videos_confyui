@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Quien",
+    "start": 0.15,
+    "end": 0.513
+  },
+  {
+    "word": "decide",
+    "start": 0.513,
+    "end": 0.949
+  },
+  {
+    "word": "sobre",
+    "start": 0.949,
+    "end": 1.312
+  },
+  {
+    "word": "el",
+    "start": 1.312,
+    "end": 1.458
+  },
+  {
+    "word": "futuro",
+    "start": 1.458,
+    "end": 1.893
+  },
+  {
+    "word": "debe",
+    "start": 1.893,
+    "end": 2.184
+  },
+  {
+    "word": "poner",
+    "start": 2.184,
+    "end": 2.547
+  },
+  {
+    "word": "algo",
+    "start": 2.547,
+    "end": 2.838
+  },
+  {
+    "word": "en",
+    "start": 2.838,
+    "end": 2.983
+  },
+  {
+    "word": "riesgo",
+    "start": 2.983,
+    "end": 3.419
+  },
+  {
+    "word": "tangible",
+    "start": 3.419,
+    "end": 4.0
+  }
+]

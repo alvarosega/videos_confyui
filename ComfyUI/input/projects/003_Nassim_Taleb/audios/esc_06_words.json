@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Puedes",
+    "start": 0.15,
+    "end": 0.562
+  },
+  {
+    "word": "ganar",
+    "start": 0.562,
+    "end": 0.906
+  },
+  {
+    "word": "cien",
+    "start": 0.906,
+    "end": 1.181
+  },
+  {
+    "word": "veces",
+    "start": 1.181,
+    "end": 1.525
+  },
+  {
+    "word": "seguidas",
+    "start": 1.525,
+    "end": 2.075
+  },
+  {
+    "word": "y",
+    "start": 2.075,
+    "end": 2.213
+  },
+  {
+    "word": "perderlo",
+    "start": 2.213,
+    "end": 2.763
+  },
+  {
+    "word": "absolutamente",
+    "start": 2.763,
+    "end": 3.656
+  },
+  {
+    "word": "todo",
+    "start": 3.656,
+    "end": 3.931
+  },
+  {
+    "word": "en",
+    "start": 3.931,
+    "end": 4.069
+  },
+  {
+    "word": "minutos",
+    "start": 4.069,
+    "end": 4.55
+  }
+]

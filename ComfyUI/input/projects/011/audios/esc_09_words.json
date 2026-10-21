@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Nadie",
+    "start": 0.1,
+    "end": 0.535
+  },
+  {
+    "word": "asciende",
+    "start": 0.535,
+    "end": 1.231
+  },
+  {
+    "word": "a",
+    "start": 1.231,
+    "end": 1.406
+  },
+  {
+    "word": "quien",
+    "start": 1.406,
+    "end": 1.841
+  },
+  {
+    "word": "hace",
+    "start": 1.841,
+    "end": 2.189
+  },
+  {
+    "word": "sentir",
+    "start": 2.189,
+    "end": 2.711
+  },
+  {
+    "word": "inseguro",
+    "start": 2.711,
+    "end": 3.407
+  },
+  {
+    "word": "al",
+    "start": 3.407,
+    "end": 3.581
+  },
+  {
+    "word": "líder",
+    "start": 3.581,
+    "end": 4.017
+  },
+  {
+    "word": "del",
+    "start": 4.017,
+    "end": 4.278
+  },
+  {
+    "word": "equipo",
+    "start": 4.278,
+    "end": 4.8
+  }
+]

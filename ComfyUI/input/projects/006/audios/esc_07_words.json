@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Depender",
+    "start": 0.12,
+    "end": 0.688
+  },
+  {
+    "word": "de",
+    "start": 0.688,
+    "end": 0.83
+  },
+  {
+    "word": "un",
+    "start": 0.83,
+    "end": 0.972
+  },
+  {
+    "word": "cheque",
+    "start": 0.972,
+    "end": 1.397
+  },
+  {
+    "word": "mensual",
+    "start": 1.397,
+    "end": 1.894
+  },
+  {
+    "word": "paraliza",
+    "start": 1.894,
+    "end": 2.462
+  },
+  {
+    "word": "cualquier",
+    "start": 2.462,
+    "end": 3.101
+  },
+  {
+    "word": "decisión",
+    "start": 3.101,
+    "end": 3.668
+  },
+  {
+    "word": "audaz",
+    "start": 3.668,
+    "end": 4.023
+  },
+  {
+    "word": "y",
+    "start": 4.023,
+    "end": 4.165
+  },
+  {
+    "word": "libre",
+    "start": 4.165,
+    "end": 4.52
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "word": "Cuando",
+    "start": 0.15,
+    "end": 0.575
+  },
+  {
+    "word": "la",
+    "start": 0.575,
+    "end": 0.716
+  },
+  {
+    "word": "nave",
+    "start": 0.716,
+    "end": 0.999
+  },
+  {
+    "word": "se",
+    "start": 0.999,
+    "end": 1.141
+  },
+  {
+    "word": "hunde",
+    "start": 1.141,
+    "end": 1.494
+  },
+  {
+    "word": "el",
+    "start": 1.494,
+    "end": 1.636
+  },
+  {
+    "word": "consultor",
+    "start": 1.636,
+    "end": 2.273
+  },
+  {
+    "word": "se",
+    "start": 2.273,
+    "end": 2.414
+  },
+  {
+    "word": "marcha",
+    "start": 2.414,
+    "end": 2.839
+  },
+  {
+    "word": "tranquilo",
+    "start": 2.839,
+    "end": 3.475
+  },
+  {
+    "word": "a",
+    "start": 3.475,
+    "end": 3.617
+  },
+  {
+    "word": "casa",
+    "start": 3.617,
+    "end": 3.9
+  }
+]

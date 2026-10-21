@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Mi",
+    "start": 0.15,
+    "end": 0.296
+  },
+  {
+    "word": "teléfono",
+    "start": 0.296,
+    "end": 0.882
+  },
+  {
+    "word": "transmitía",
+    "start": 0.882,
+    "end": 1.614
+  },
+  {
+    "word": "en",
+    "start": 1.614,
+    "end": 1.761
+  },
+  {
+    "word": "vivo",
+    "start": 1.761,
+    "end": 2.054
+  },
+  {
+    "word": "todas",
+    "start": 2.054,
+    "end": 2.42
+  },
+  {
+    "word": "las",
+    "start": 2.42,
+    "end": 2.639
+  },
+  {
+    "word": "grabaciones",
+    "start": 2.639,
+    "end": 3.445
+  },
+  {
+    "word": "a",
+    "start": 3.445,
+    "end": 3.591
+  },
+  {
+    "word": "la",
+    "start": 3.591,
+    "end": 3.737
+  },
+  {
+    "word": "policía",
+    "start": 3.737,
+    "end": 4.25
+  }
+]

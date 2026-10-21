@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Quien",
+    "start": 0.1,
+    "end": 0.552
+  },
+  {
+    "word": "conoce",
+    "start": 0.552,
+    "end": 1.094
+  },
+  {
+    "word": "tus",
+    "start": 1.094,
+    "end": 1.365
+  },
+  {
+    "word": "verdaderas",
+    "start": 1.365,
+    "end": 2.269
+  },
+  {
+    "word": "intenciones",
+    "start": 2.269,
+    "end": 3.263
+  },
+  {
+    "word": "siempre",
+    "start": 3.263,
+    "end": 3.895
+  },
+  {
+    "word": "podrá",
+    "start": 3.895,
+    "end": 4.347
+  },
+  {
+    "word": "preparar",
+    "start": 4.347,
+    "end": 5.07
+  },
+  {
+    "word": "su",
+    "start": 5.07,
+    "end": 5.25
+  },
+  {
+    "word": "defensa",
+    "start": 5.25,
+    "end": 5.883
+  },
+  {
+    "word": "previa",
+    "start": 5.883,
+    "end": 6.425
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Vivimos",
+    "start": 0.12,
+    "end": 0.636
+  },
+  {
+    "word": "en",
+    "start": 0.636,
+    "end": 0.783
+  },
+  {
+    "word": "una",
+    "start": 0.783,
+    "end": 1.004
+  },
+  {
+    "word": "economía",
+    "start": 1.004,
+    "end": 1.594
+  },
+  {
+    "word": "saturada",
+    "start": 1.594,
+    "end": 2.184
+  },
+  {
+    "word": "donde",
+    "start": 2.184,
+    "end": 2.552
+  },
+  {
+    "word": "el",
+    "start": 2.552,
+    "end": 2.7
+  },
+  {
+    "word": "silencio",
+    "start": 2.7,
+    "end": 3.289
+  },
+  {
+    "word": "te",
+    "start": 3.289,
+    "end": 3.437
+  },
+  {
+    "word": "hace",
+    "start": 3.437,
+    "end": 3.732
+  },
+  {
+    "word": "invisible",
+    "start": 3.732,
+    "end": 4.395
+  }
+]

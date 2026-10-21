@@ -1,0 +1,57 @@
+[
+  {
+    "word": "La",
+    "start": 0.12,
+    "end": 0.261
+  },
+  {
+    "word": "competencia",
+    "start": 0.261,
+    "end": 1.034
+  },
+  {
+    "word": "técnica",
+    "start": 1.034,
+    "end": 1.525
+  },
+  {
+    "word": "sin",
+    "start": 1.525,
+    "end": 1.736
+  },
+  {
+    "word": "visibilidad",
+    "start": 1.736,
+    "end": 2.509
+  },
+  {
+    "word": "equivale",
+    "start": 2.509,
+    "end": 3.071
+  },
+  {
+    "word": "exactamente",
+    "start": 3.071,
+    "end": 3.844
+  },
+  {
+    "word": "a",
+    "start": 3.844,
+    "end": 3.985
+  },
+  {
+    "word": "la",
+    "start": 3.985,
+    "end": 4.125
+  },
+  {
+    "word": "total",
+    "start": 4.125,
+    "end": 4.477
+  },
+  {
+    "word": "inexistencia",
+    "start": 4.477,
+    "end": 5.32
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "word": "La",
+    "start": 0.1,
+    "end": 0.28
+  },
+  {
+    "word": "incertidumbre",
+    "start": 0.28,
+    "end": 1.453
+  },
+  {
+    "word": "obligaba",
+    "start": 1.453,
+    "end": 2.174
+  },
+  {
+    "word": "a",
+    "start": 2.174,
+    "end": 2.354
+  },
+  {
+    "word": "los",
+    "start": 2.354,
+    "end": 2.625
+  },
+  {
+    "word": "demás",
+    "start": 2.625,
+    "end": 3.076
+  },
+  {
+    "word": "a",
+    "start": 3.076,
+    "end": 3.256
+  },
+  {
+    "word": "hablar",
+    "start": 3.256,
+    "end": 3.797
+  },
+  {
+    "word": "por",
+    "start": 3.797,
+    "end": 4.068
+  },
+  {
+    "word": "pura",
+    "start": 4.068,
+    "end": 4.429
+  },
+  {
+    "word": "ansiedad",
+    "start": 4.429,
+    "end": 5.15
+  }
+]

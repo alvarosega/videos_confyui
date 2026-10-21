@@ -1,0 +1,52 @@
+[
+  {
+    "word": "No",
+    "start": 0.12,
+    "end": 0.273
+  },
+  {
+    "word": "necesitas",
+    "start": 0.273,
+    "end": 0.964
+  },
+  {
+    "word": "agregar",
+    "start": 0.964,
+    "end": 1.501
+  },
+  {
+    "word": "más",
+    "start": 1.501,
+    "end": 1.731
+  },
+  {
+    "word": "hábitos",
+    "start": 1.731,
+    "end": 2.267
+  },
+  {
+    "word": "ni",
+    "start": 2.267,
+    "end": 2.421
+  },
+  {
+    "word": "comprar",
+    "start": 2.421,
+    "end": 2.958
+  },
+  {
+    "word": "cosas",
+    "start": 2.958,
+    "end": 3.341
+  },
+  {
+    "word": "nuevas",
+    "start": 3.341,
+    "end": 3.801
+  },
+  {
+    "word": "diariamente",
+    "start": 3.801,
+    "end": 4.645
+  }
+]

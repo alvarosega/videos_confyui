@@ -1,0 +1,132 @@
+[
+  {
+    "word": "En",
+    "start": 0.15,
+    "end": 0.3
+  },
+  {
+    "word": "la",
+    "start": 0.3,
+    "end": 0.45
+  },
+  {
+    "word": "audiencia",
+    "start": 0.45,
+    "end": 1.125
+  },
+  {
+    "word": "presenté",
+    "start": 1.125,
+    "end": 1.725
+  },
+  {
+    "word": "la",
+    "start": 1.725,
+    "end": 1.875
+  },
+  {
+    "word": "auditoría",
+    "start": 1.875,
+    "end": 2.55
+  },
+  {
+    "word": "forense",
+    "start": 2.55,
+    "end": 3.075
+  },
+  {
+    "word": "El",
+    "start": 3.375,
+    "end": 3.509
+  },
+  {
+    "word": "juez",
+    "start": 3.509,
+    "end": 3.778
+  },
+  {
+    "word": "disolvió",
+    "start": 3.778,
+    "end": 4.314
+  },
+  {
+    "word": "el",
+    "start": 4.314,
+    "end": 4.449
+  },
+  {
+    "word": "fideicomiso",
+    "start": 4.449,
+    "end": 5.187
+  },
+  {
+    "word": "de",
+    "start": 5.187,
+    "end": 5.321
+  },
+  {
+    "word": "inmediato",
+    "start": 5.321,
+    "end": 5.925
+  },
+  {
+    "word": "y",
+    "start": 5.925,
+    "end": 6.059
+  },
+  {
+    "word": "ordenó",
+    "start": 6.059,
+    "end": 6.462
+  },
+  {
+    "word": "transferir",
+    "start": 6.462,
+    "end": 7.133
+  },
+  {
+    "word": "todo",
+    "start": 7.133,
+    "end": 7.401
+  },
+  {
+    "word": "el",
+    "start": 7.401,
+    "end": 7.536
+  },
+  {
+    "word": "dinero",
+    "start": 7.536,
+    "end": 7.938
+  },
+  {
+    "word": "de",
+    "start": 7.938,
+    "end": 8.072
+  },
+  {
+    "word": "vuelta",
+    "start": 8.072,
+    "end": 8.475
+  },
+  {
+    "word": "a",
+    "start": 8.475,
+    "end": 8.609
+  },
+  {
+    "word": "mi",
+    "start": 8.609,
+    "end": 8.743
+  },
+  {
+    "word": "capital",
+    "start": 8.743,
+    "end": 9.213
+  },
+  {
+    "word": "personal",
+    "start": 9.213,
+    "end": 9.75
+  }
+]

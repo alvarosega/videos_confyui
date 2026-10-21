@@ -1,0 +1,223 @@
+{
+  "3": {
+    "inputs": {
+      "seed": 42,
+      "steps": 25,
+      "cfg": 5.5,
+      "sampler_name": "dpmpp_2m",
+      "scheduler": "karras",
+      "denoise": 1.0,
+      "model": ["26", 0],
+      "positive": ["20", 0],
+      "negative": ["20", 1],
+      "latent_image": ["5", 0]
+    },
+    "class_type": "KSampler",
+    "_meta": {
+      "title": "Capa 1: Generador Escena y Cuerpo"
+    }
+  },
+  "4": {
+    "inputs": {
+      "ckpt_name": "sd_xl_base_1.0.safetensors"
+    },
+    "class_type": "CheckpointLoaderSimple"
+  },
+  "5": {
+    "inputs": {
+      "width": 768,
+      "height": 1344,
+      "batch_size": 1
+    },
+    "class_type": "EmptyLatentImage"
+  },
+  "6": {
+    "inputs": {
+      "text": "",
+      "clip": ["4", 1]
+    },
+    "class_type": "CLIPTextEncode"
+  },
+  "7": {
+    "inputs": {
+      "text": "",
+      "clip": ["4", 1]
+    },
+    "class_type": "CLIPTextEncode"
+  },
+  "8": {
+    "inputs": {
+      "samples": ["3", 0],
+      "vae": ["4", 2]
+    },
+    "class_type": "VAEDecode"
+  },
+  "9": {
+    "inputs": {
+      "filename_prefix": "projects/temp/ref_images/escena_personaje",
+      "images": ["15", 0]
+    },
+    "class_type": "SaveImage"
+  },
+  "10": {
+    "inputs": {
+      "image": "projects/temp/ref_images/master_personaje.png",
+      "upload": "image"
+    },
+    "class_type": "LoadImage"
+  },
+  "11": {
+    "inputs": {
+      "clip_name": "CLIP-ViT-H-14-laion2B-s32b-b79k.safetensors"
+    },
+    "class_type": "CLIPVisionLoader"
+  },
+  "12": {
+    "inputs": {
+      "ipadapter_file": "ip-adapter-plus-face_sdxl_vit-h.safetensors"
+    },
+    "class_type": "IPAdapterModelLoader"
+  },
+  "26": {
+    "inputs": {
+      "weight": 0.30,
+      "weight_type": "linear",
+      "combine_embeds": "concat",
+      "start_at": 0.0,
+      "end_at": 1.0,
+      "embeds_scaling": "V only",
+      "model": ["4", 0],
+      "ipadapter": ["12", 0],
+      "image": ["10", 0],
+      "clip_vision": ["11", 0]
+    },
+    "class_type": "IPAdapterAdvanced",
+    "_meta": {
+      "title": "IP-Adapter Base (Estructura Ósea 30%)"
+    }
+  },
+  "13": {
+    "inputs": {
+      "weight": 0.75,
+      "weight_type": "linear",
+      "combine_embeds": "concat",
+      "start_at": 0.0,
+      "end_at": 1.0,
+      "embeds_scaling": "V only",
+      "model": ["4", 0],
+      "ipadapter": ["12", 0],
+      "image": ["10", 0],
+      "clip_vision": ["11", 0]
+    },
+    "class_type": "IPAdapterAdvanced",
+    "_meta": {
+      "title": "IP-Adapter Aislado (Rostro 75%)"
+    }
+  },
+  "14": {
+    "inputs": {
+      "model_name": "bbox/face_yolov8m.pt"
+    },
+    "class_type": "UltralyticsDetectorProvider"
+  },
+  "15": {
+    "inputs": {
+      "guide_size": 512,
+      "guide_size_for": "bbox",
+      "max_size": 1024,
+      "seed": 42,
+      "steps": 20,
+      "cfg": 5.0,
+      "sampler_name": "dpmpp_2m",
+      "scheduler": "karras",
+      "denoise": 0.45,
+      "feather": 15,
+      "noise_mask": true,
+      "force_inpaint": true,
+      "bbox_threshold": 0.40,
+      "bbox_dilation": 10,
+      "bbox_crop_factor": 1.9,
+      "sam_detection_hint": "center-1",
+      "sam_dilation": 0,
+      "sam_threshold": 0.93,
+      "sam_bbox_expansion": 0,
+      "sam_mask_hint_threshold": 0.7,
+      "sam_mask_hint_use_negative": "False",
+      "drop_size": 10,
+      "wildcard": "",
+      "cycle": 1,
+      "image": ["8", 0],
+      "model": ["13", 0],
+      "clip": ["4", 1],
+      "vae": ["4", 2],
+      "positive": ["16", 0],
+      "negative": ["7", 0],
+      "bbox_detector": ["14", 0]
+    },
+    "class_type": "FaceDetailer",
+    "_meta": {
+      "title": "Capa 2: Trasplante Facial"
+    }
+  },
+  "16": {
+    "inputs": {
+      "text": "",
+      "clip": ["4", 1]
+    },
+    "class_type": "CLIPTextEncode"
+  },
+  "17": {
+    "inputs": {
+      "image": "poses_base/1.jpg",
+      "upload": "image"
+    },
+    "class_type": "LoadImage"
+  },
+  "21": {
+    "inputs": {
+      "upscale_method": "bilinear",
+      "width": 768,
+      "height": 1344,
+      "crop": "disabled",
+      "image": ["17", 0]
+    },
+    "class_type": "ImageScale",
+    "_meta": {
+      "title": "1. Escalar Pose Directa 9:16 (768x1344)"
+    }
+  },
+  "18": {
+    "inputs": {
+      "detect_hand": "enable",
+      "detect_body": "enable",
+      "detect_face": "enable",
+      "resolution": 512,
+      "image": ["21", 0]
+    },
+    "class_type": "OpenposePreprocessor",
+    "_meta": {
+      "title": "2. Extraer Esqueleto con Rostro y Manos"
+    }
+  },
+  "19": {
+    "inputs": {
+      "control_net_name": "thibaud_xl_openpose.safetensors"
+    },
+    "class_type": "ControlNetLoader"
+  },
+  "20": {
+    "inputs": {
+      "strength": 0.85,
+      "start_percent": 0.0,
+      "end_percent": 0.85,
+      "positive": ["6", 0],
+      "negative": ["7", 0],
+      "control_net": ["19", 0],
+      "image": ["18", 0]
+    },
+    "class_type": "ControlNetApplyAdvanced",
+    "_meta": {
+      "title": "3. ControlNet OpenPose Directo"
+    }
+  }
+}

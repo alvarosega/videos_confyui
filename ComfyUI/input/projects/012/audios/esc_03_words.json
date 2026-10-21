@@ -1,0 +1,52 @@
+[
+  {
+    "word": "El",
+    "start": 0.1,
+    "end": 0.279
+  },
+  {
+    "word": "emperador",
+    "start": 0.279,
+    "end": 1.082
+  },
+  {
+    "word": "Miguel",
+    "start": 1.082,
+    "end": 1.618
+  },
+  {
+    "word": "Tercero",
+    "start": 1.618,
+    "end": 2.243
+  },
+  {
+    "word": "rescató",
+    "start": 2.243,
+    "end": 2.868
+  },
+  {
+    "word": "de",
+    "start": 2.868,
+    "end": 3.046
+  },
+  {
+    "word": "la",
+    "start": 3.046,
+    "end": 3.225
+  },
+  {
+    "word": "ruina",
+    "start": 3.225,
+    "end": 3.671
+  },
+  {
+    "word": "a",
+    "start": 3.671,
+    "end": 3.85
+  },
+  {
+    "word": "Basilio",
+    "start": 3.85,
+    "end": 4.475
+  }
+]

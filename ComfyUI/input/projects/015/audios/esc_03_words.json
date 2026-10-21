@@ -1,0 +1,57 @@
+[
+  {
+    "word": "El",
+    "start": 0.12,
+    "end": 0.267
+  },
+  {
+    "word": "general",
+    "start": 0.267,
+    "end": 0.781
+  },
+  {
+    "word": "Erwin",
+    "start": 0.781,
+    "end": 1.148
+  },
+  {
+    "word": "Rommel",
+    "start": 1.148,
+    "end": 1.588
+  },
+  {
+    "word": "ganaba",
+    "start": 1.588,
+    "end": 2.029
+  },
+  {
+    "word": "batallas",
+    "start": 2.029,
+    "end": 2.616
+  },
+  {
+    "word": "antes",
+    "start": 2.616,
+    "end": 2.983
+  },
+  {
+    "word": "del",
+    "start": 2.983,
+    "end": 3.203
+  },
+  {
+    "word": "primer",
+    "start": 3.203,
+    "end": 3.644
+  },
+  {
+    "word": "disparo",
+    "start": 3.644,
+    "end": 4.158
+  },
+  {
+    "word": "decisivo",
+    "start": 4.158,
+    "end": 4.745
+  }
+]

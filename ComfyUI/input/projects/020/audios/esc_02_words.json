@@ -1,0 +1,52 @@
+[
+  {
+    "word": "terminarás",
+    "start": 0.1,
+    "end": 0.841
+  },
+  {
+    "word": "pagando",
+    "start": 0.841,
+    "end": 1.36
+  },
+  {
+    "word": "todas",
+    "start": 1.36,
+    "end": 1.731
+  },
+  {
+    "word": "sus",
+    "start": 1.731,
+    "end": 1.953
+  },
+  {
+    "word": "deudas",
+    "start": 1.953,
+    "end": 2.398
+  },
+  {
+    "word": "con",
+    "start": 2.398,
+    "end": 2.62
+  },
+  {
+    "word": "tu",
+    "start": 2.62,
+    "end": 2.768
+  },
+  {
+    "word": "propia",
+    "start": 2.768,
+    "end": 3.213
+  },
+  {
+    "word": "ruina",
+    "start": 3.213,
+    "end": 3.584
+  },
+  {
+    "word": "financiera",
+    "start": 3.584,
+    "end": 4.325
+  }
+]

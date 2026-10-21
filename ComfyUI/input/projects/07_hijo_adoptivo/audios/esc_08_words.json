@@ -1,0 +1,32 @@
+[
+  {
+    "word": "El",
+    "start": 0.15,
+    "end": 0.319
+  },
+  {
+    "word": "fideicomiso",
+    "start": 0.319,
+    "end": 1.251
+  },
+  {
+    "word": "lo",
+    "start": 1.251,
+    "end": 1.42
+  },
+  {
+    "word": "creé",
+    "start": 1.42,
+    "end": 1.759
+  },
+  {
+    "word": "únicamente",
+    "start": 1.759,
+    "end": 2.606
+  },
+  {
+    "word": "yo",
+    "start": 2.606,
+    "end": 2.775
+  }
+]

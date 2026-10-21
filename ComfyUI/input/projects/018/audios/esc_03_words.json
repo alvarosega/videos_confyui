@@ -1,0 +1,62 @@
+[
+  {
+    "word": "Napoleón",
+    "start": 0.12,
+    "end": 0.687
+  },
+  {
+    "word": "esperó",
+    "start": 0.687,
+    "end": 1.112
+  },
+  {
+    "word": "con",
+    "start": 1.112,
+    "end": 1.324
+  },
+  {
+    "word": "paciencia",
+    "start": 1.324,
+    "end": 1.962
+  },
+  {
+    "word": "en",
+    "start": 1.962,
+    "end": 2.103
+  },
+  {
+    "word": "Elba",
+    "start": 2.103,
+    "end": 2.387
+  },
+  {
+    "word": "mientras",
+    "start": 2.387,
+    "end": 2.953
+  },
+  {
+    "word": "la",
+    "start": 2.953,
+    "end": 3.095
+  },
+  {
+    "word": "monarquía",
+    "start": 3.095,
+    "end": 3.732
+  },
+  {
+    "word": "francesa",
+    "start": 3.732,
+    "end": 4.299
+  },
+  {
+    "word": "colapsaba",
+    "start": 4.299,
+    "end": 4.937
+  },
+  {
+    "word": "sola",
+    "start": 4.937,
+    "end": 5.22
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Si",
+    "start": 0.1,
+    "end": 0.285
+  },
+  {
+    "word": "tu",
+    "start": 0.285,
+    "end": 0.469
+  },
+  {
+    "word": "brillo",
+    "start": 0.469,
+    "end": 1.024
+  },
+  {
+    "word": "expone",
+    "start": 1.024,
+    "end": 1.578
+  },
+  {
+    "word": "su",
+    "start": 1.578,
+    "end": 1.763
+  },
+  {
+    "word": "mediocridad",
+    "start": 1.763,
+    "end": 2.779
+  },
+  {
+    "word": "te",
+    "start": 2.779,
+    "end": 2.964
+  },
+  {
+    "word": "considerará",
+    "start": 2.964,
+    "end": 3.98
+  },
+  {
+    "word": "una",
+    "start": 3.98,
+    "end": 4.257
+  },
+  {
+    "word": "amenaza",
+    "start": 4.257,
+    "end": 4.903
+  },
+  {
+    "word": "directa",
+    "start": 4.903,
+    "end": 5.55
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Disfrazan",
+    "start": 0.1,
+    "end": 0.76
+  },
+  {
+    "word": "su",
+    "start": 0.76,
+    "end": 0.907
+  },
+  {
+    "word": "incapacidad",
+    "start": 0.907,
+    "end": 1.714
+  },
+  {
+    "word": "de",
+    "start": 1.714,
+    "end": 1.861
+  },
+  {
+    "word": "mala",
+    "start": 1.861,
+    "end": 2.154
+  },
+  {
+    "word": "suerte",
+    "start": 2.154,
+    "end": 2.594
+  },
+  {
+    "word": "para",
+    "start": 2.594,
+    "end": 2.888
+  },
+  {
+    "word": "manipular",
+    "start": 2.888,
+    "end": 3.548
+  },
+  {
+    "word": "la",
+    "start": 3.548,
+    "end": 3.695
+  },
+  {
+    "word": "empatía",
+    "start": 3.695,
+    "end": 4.208
+  },
+  {
+    "word": "ajena",
+    "start": 4.208,
+    "end": 4.575
+  }
+]

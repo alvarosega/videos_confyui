@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Deja",
+    "start": 0.1,
+    "end": 0.467
+  },
+  {
+    "word": "pausas",
+    "start": 0.467,
+    "end": 1.017
+  },
+  {
+    "word": "prolongadas",
+    "start": 1.017,
+    "end": 2.025
+  },
+  {
+    "word": "y",
+    "start": 2.025,
+    "end": 2.208
+  },
+  {
+    "word": "permite",
+    "start": 2.208,
+    "end": 2.85
+  },
+  {
+    "word": "que",
+    "start": 2.85,
+    "end": 3.125
+  },
+  {
+    "word": "la",
+    "start": 3.125,
+    "end": 3.308
+  },
+  {
+    "word": "otra",
+    "start": 3.308,
+    "end": 3.675
+  },
+  {
+    "word": "parte",
+    "start": 3.675,
+    "end": 4.133
+  },
+  {
+    "word": "cometa",
+    "start": 4.133,
+    "end": 4.683
+  },
+  {
+    "word": "errores",
+    "start": 4.683,
+    "end": 5.325
+  }
+]

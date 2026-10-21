@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Solo",
+    "start": 0.12,
+    "end": 0.416
+  },
+  {
+    "word": "estás",
+    "start": 0.416,
+    "end": 0.785
+  },
+  {
+    "word": "entrenando",
+    "start": 0.785,
+    "end": 1.524
+  },
+  {
+    "word": "a",
+    "start": 1.524,
+    "end": 1.672
+  },
+  {
+    "word": "tu",
+    "start": 1.672,
+    "end": 1.819
+  },
+  {
+    "word": "jefe",
+    "start": 1.819,
+    "end": 2.115
+  },
+  {
+    "word": "para",
+    "start": 2.115,
+    "end": 2.411
+  },
+  {
+    "word": "que",
+    "start": 2.411,
+    "end": 2.632
+  },
+  {
+    "word": "cobre",
+    "start": 2.632,
+    "end": 3.002
+  },
+  {
+    "word": "tu",
+    "start": 3.002,
+    "end": 3.149
+  },
+  {
+    "word": "bono",
+    "start": 3.149,
+    "end": 3.445
+  }
+]

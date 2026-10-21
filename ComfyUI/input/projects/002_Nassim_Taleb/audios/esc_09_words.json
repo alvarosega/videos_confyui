@@ -1,0 +1,52 @@
+[
+  {
+    "word": "Buscar",
+    "start": 0.15,
+    "end": 0.585
+  },
+  {
+    "word": "agradar",
+    "start": 0.585,
+    "end": 1.093
+  },
+  {
+    "word": "a",
+    "start": 1.093,
+    "end": 1.238
+  },
+  {
+    "word": "todo",
+    "start": 1.238,
+    "end": 1.528
+  },
+  {
+    "word": "el",
+    "start": 1.528,
+    "end": 1.674
+  },
+  {
+    "word": "mundo",
+    "start": 1.674,
+    "end": 2.036
+  },
+  {
+    "word": "destruye",
+    "start": 2.036,
+    "end": 2.617
+  },
+  {
+    "word": "tu",
+    "start": 2.617,
+    "end": 2.762
+  },
+  {
+    "word": "poder",
+    "start": 2.762,
+    "end": 3.125
+  },
+  {
+    "word": "negociador",
+    "start": 3.125,
+    "end": 3.85
+  }
+]

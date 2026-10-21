@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Pasa",
+    "start": 0.15,
+    "end": 0.441
+  },
+  {
+    "word": "en",
+    "start": 0.441,
+    "end": 0.586
+  },
+  {
+    "word": "reuniones",
+    "start": 0.586,
+    "end": 1.24
+  },
+  {
+    "word": "donde",
+    "start": 1.24,
+    "end": 1.603
+  },
+  {
+    "word": "todos",
+    "start": 1.603,
+    "end": 1.966
+  },
+  {
+    "word": "comen",
+    "start": 1.966,
+    "end": 2.329
+  },
+  {
+    "word": "según",
+    "start": 2.329,
+    "end": 2.692
+  },
+  {
+    "word": "la",
+    "start": 2.692,
+    "end": 2.838
+  },
+  {
+    "word": "dieta",
+    "start": 2.838,
+    "end": 3.201
+  },
+  {
+    "word": "más",
+    "start": 3.201,
+    "end": 3.419
+  },
+  {
+    "word": "estricta",
+    "start": 3.419,
+    "end": 4.0
+  }
+]

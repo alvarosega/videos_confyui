@@ -1,0 +1,62 @@
+[
+  {
+    "word": "En",
+    "start": 0.12,
+    "end": 0.259
+  },
+  {
+    "word": "el",
+    "start": 0.259,
+    "end": 0.399
+  },
+  {
+    "word": "momento",
+    "start": 0.399,
+    "end": 0.887
+  },
+  {
+    "word": "en",
+    "start": 0.887,
+    "end": 1.026
+  },
+  {
+    "word": "que",
+    "start": 1.026,
+    "end": 1.235
+  },
+  {
+    "word": "persigues",
+    "start": 1.235,
+    "end": 1.863
+  },
+  {
+    "word": "a",
+    "start": 1.863,
+    "end": 2.002
+  },
+  {
+    "word": "alguien",
+    "start": 2.002,
+    "end": 2.49
+  },
+  {
+    "word": "regalas",
+    "start": 2.49,
+    "end": 2.978
+  },
+  {
+    "word": "todo",
+    "start": 2.978,
+    "end": 3.257
+  },
+  {
+    "word": "tu",
+    "start": 3.257,
+    "end": 3.396
+  },
+  {
+    "word": "poder",
+    "start": 3.396,
+    "end": 3.745
+  }
+]

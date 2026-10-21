@@ -1,0 +1,52 @@
+[
+  {
+    "word": "Puso",
+    "start": 0.15,
+    "end": 0.446
+  },
+  {
+    "word": "la",
+    "start": 0.446,
+    "end": 0.593
+  },
+  {
+    "word": "taza",
+    "start": 0.593,
+    "end": 0.889
+  },
+  {
+    "word": "frente",
+    "start": 0.889,
+    "end": 1.332
+  },
+  {
+    "word": "a",
+    "start": 1.332,
+    "end": 1.48
+  },
+  {
+    "word": "mí",
+    "start": 1.48,
+    "end": 1.628
+  },
+  {
+    "word": "esperando",
+    "start": 1.628,
+    "end": 2.293
+  },
+  {
+    "word": "ver",
+    "start": 2.293,
+    "end": 2.514
+  },
+  {
+    "word": "el",
+    "start": 2.514,
+    "end": 2.662
+  },
+  {
+    "word": "espectáculo",
+    "start": 2.662,
+    "end": 3.475
+  }
+]

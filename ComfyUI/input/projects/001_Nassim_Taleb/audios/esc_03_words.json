@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Si",
+    "start": 0.15,
+    "end": 0.293
+  },
+  {
+    "word": "su",
+    "start": 0.293,
+    "end": 0.437
+  },
+  {
+    "word": "recomendación",
+    "start": 0.437,
+    "end": 1.368
+  },
+  {
+    "word": "te",
+    "start": 1.368,
+    "end": 1.512
+  },
+  {
+    "word": "genera",
+    "start": 1.512,
+    "end": 1.942
+  },
+  {
+    "word": "ganancias",
+    "start": 1.942,
+    "end": 2.587
+  },
+  {
+    "word": "ellos",
+    "start": 2.587,
+    "end": 2.945
+  },
+  {
+    "word": "cobran",
+    "start": 2.945,
+    "end": 3.375
+  },
+  {
+    "word": "una",
+    "start": 3.375,
+    "end": 3.59
+  },
+  {
+    "word": "comisión",
+    "start": 3.59,
+    "end": 4.163
+  },
+  {
+    "word": "fija",
+    "start": 4.163,
+    "end": 4.45
+  }
+]

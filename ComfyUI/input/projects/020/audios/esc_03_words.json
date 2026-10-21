@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Robert",
+    "start": 0.1,
+    "end": 0.548
+  },
+  {
+    "word": "Greene",
+    "start": 0.548,
+    "end": 0.996
+  },
+  {
+    "word": "documenta",
+    "start": 0.996,
+    "end": 1.668
+  },
+  {
+    "word": "cómo",
+    "start": 1.668,
+    "end": 1.966
+  },
+  {
+    "word": "ciertas",
+    "start": 1.966,
+    "end": 2.489
+  },
+  {
+    "word": "personas",
+    "start": 2.489,
+    "end": 3.086
+  },
+  {
+    "word": "atraen",
+    "start": 3.086,
+    "end": 3.534
+  },
+  {
+    "word": "desastres",
+    "start": 3.534,
+    "end": 4.206
+  },
+  {
+    "word": "de",
+    "start": 4.206,
+    "end": 4.355
+  },
+  {
+    "word": "forma",
+    "start": 4.355,
+    "end": 4.729
+  },
+  {
+    "word": "sistemática",
+    "start": 4.729,
+    "end": 5.55
+  }
+]

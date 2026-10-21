@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Hoy",
+    "start": 0.15,
+    "end": 0.361
+  },
+  {
+    "word": "muchos",
+    "start": 0.361,
+    "end": 0.783
+  },
+  {
+    "word": "directivos",
+    "start": 0.783,
+    "end": 1.486
+  },
+  {
+    "word": "cometen",
+    "start": 1.486,
+    "end": 1.978
+  },
+  {
+    "word": "errores",
+    "start": 1.978,
+    "end": 2.47
+  },
+  {
+    "word": "graves",
+    "start": 2.47,
+    "end": 2.892
+  },
+  {
+    "word": "y",
+    "start": 2.892,
+    "end": 3.033
+  },
+  {
+    "word": "se",
+    "start": 3.033,
+    "end": 3.173
+  },
+  {
+    "word": "van",
+    "start": 3.173,
+    "end": 3.384
+  },
+  {
+    "word": "con",
+    "start": 3.384,
+    "end": 3.595
+  },
+  {
+    "word": "indemnizaciones",
+    "start": 3.595,
+    "end": 4.65
+  }
+]

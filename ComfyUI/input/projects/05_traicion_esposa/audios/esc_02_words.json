@@ -1,0 +1,37 @@
+[
+  {
+    "word": "El",
+    "start": 0.15,
+    "end": 0.306
+  },
+  {
+    "word": "testamento",
+    "start": 0.306,
+    "end": 1.083
+  },
+  {
+    "word": "me",
+    "start": 1.083,
+    "end": 1.239
+  },
+  {
+    "word": "dejaba",
+    "start": 1.239,
+    "end": 1.706
+  },
+  {
+    "word": "un",
+    "start": 1.706,
+    "end": 1.861
+  },
+  {
+    "word": "dólar",
+    "start": 1.861,
+    "end": 2.25
+  },
+  {
+    "word": "simbólico",
+    "start": 2.25,
+    "end": 2.95
+  }
+]

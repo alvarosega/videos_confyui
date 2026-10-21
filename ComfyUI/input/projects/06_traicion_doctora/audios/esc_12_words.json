@@ -1,0 +1,87 @@
+[
+  {
+    "word": "Las",
+    "start": 0.15,
+    "end": 0.346
+  },
+  {
+    "word": "aseguradoras",
+    "start": 0.346,
+    "end": 1.132
+  },
+  {
+    "word": "congelaron",
+    "start": 1.132,
+    "end": 1.787
+  },
+  {
+    "word": "sus",
+    "start": 1.787,
+    "end": 1.984
+  },
+  {
+    "word": "cuentas",
+    "start": 1.984,
+    "end": 2.442
+  },
+  {
+    "word": "y",
+    "start": 2.442,
+    "end": 2.573
+  },
+  {
+    "word": "las",
+    "start": 2.573,
+    "end": 2.769
+  },
+  {
+    "word": "clientas",
+    "start": 2.769,
+    "end": 3.293
+  },
+  {
+    "word": "millonarias",
+    "start": 3.293,
+    "end": 4.014
+  },
+  {
+    "word": "le",
+    "start": 4.014,
+    "end": 4.145
+  },
+  {
+    "word": "interpusieron",
+    "start": 4.145,
+    "end": 4.996
+  },
+  {
+    "word": "demandas",
+    "start": 4.996,
+    "end": 5.52
+  },
+  {
+    "word": "penales",
+    "start": 5.52,
+    "end": 5.978
+  },
+  {
+    "word": "por",
+    "start": 5.978,
+    "end": 6.175
+  },
+  {
+    "word": "estafa",
+    "start": 6.175,
+    "end": 6.568
+  },
+  {
+    "word": "médica",
+    "start": 6.568,
+    "end": 6.961
+  },
+  {
+    "word": "inmediata",
+    "start": 6.961,
+    "end": 7.55
+  }
+]

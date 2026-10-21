@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Escriben",
+    "start": 0.12,
+    "end": 0.703
+  },
+  {
+    "word": "manuales",
+    "start": 0.703,
+    "end": 1.286
+  },
+  {
+    "word": "de",
+    "start": 1.286,
+    "end": 1.432
+  },
+  {
+    "word": "gestión",
+    "start": 1.432,
+    "end": 1.942
+  },
+  {
+    "word": "sin",
+    "start": 1.942,
+    "end": 2.161
+  },
+  {
+    "word": "haber",
+    "start": 2.161,
+    "end": 2.525
+  },
+  {
+    "word": "quebrado",
+    "start": 2.525,
+    "end": 3.108
+  },
+  {
+    "word": "jamás",
+    "start": 3.108,
+    "end": 3.473
+  },
+  {
+    "word": "un",
+    "start": 3.473,
+    "end": 3.618
+  },
+  {
+    "word": "negocio",
+    "start": 3.618,
+    "end": 4.128
+  },
+  {
+    "word": "real",
+    "start": 4.128,
+    "end": 4.42
+  }
+]

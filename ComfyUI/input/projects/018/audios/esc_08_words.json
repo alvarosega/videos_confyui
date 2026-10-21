@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Quien",
+    "start": 0.12,
+    "end": 0.463
+  },
+  {
+    "word": "espera",
+    "start": 0.463,
+    "end": 0.874
+  },
+  {
+    "word": "controlando",
+    "start": 0.874,
+    "end": 1.628
+  },
+  {
+    "word": "un",
+    "start": 1.628,
+    "end": 1.765
+  },
+  {
+    "word": "recurso",
+    "start": 1.765,
+    "end": 2.245
+  },
+  {
+    "word": "valioso",
+    "start": 2.245,
+    "end": 2.725
+  },
+  {
+    "word": "domina",
+    "start": 2.725,
+    "end": 3.136
+  },
+  {
+    "word": "por",
+    "start": 3.136,
+    "end": 3.342
+  },
+  {
+    "word": "completo",
+    "start": 3.342,
+    "end": 3.89
+  },
+  {
+    "word": "el",
+    "start": 3.89,
+    "end": 4.027
+  },
+  {
+    "word": "juego",
+    "start": 4.027,
+    "end": 4.37
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "word": "Invertí",
+    "start": 0.15,
+    "end": 0.723
+  },
+  {
+    "word": "más",
+    "start": 0.723,
+    "end": 0.969
+  },
+  {
+    "word": "de",
+    "start": 0.969,
+    "end": 1.133
+  },
+  {
+    "word": "un",
+    "start": 1.133,
+    "end": 1.297
+  },
+  {
+    "word": "millón",
+    "start": 1.297,
+    "end": 1.788
+  },
+  {
+    "word": "de",
+    "start": 1.788,
+    "end": 1.952
+  },
+  {
+    "word": "dólares",
+    "start": 1.952,
+    "end": 2.525
+  }
+]

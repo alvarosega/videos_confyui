@@ -1,0 +1,57 @@
+[
+  {
+    "word": "La",
+    "start": 0.12,
+    "end": 0.27
+  },
+  {
+    "word": "evolución",
+    "start": 0.27,
+    "end": 0.945
+  },
+  {
+    "word": "no",
+    "start": 0.945,
+    "end": 1.095
+  },
+  {
+    "word": "premia",
+    "start": 1.095,
+    "end": 1.545
+  },
+  {
+    "word": "las",
+    "start": 1.545,
+    "end": 1.77
+  },
+  {
+    "word": "explicaciones",
+    "start": 1.77,
+    "end": 2.745
+  },
+  {
+    "word": "más",
+    "start": 2.745,
+    "end": 2.97
+  },
+  {
+    "word": "elegantes",
+    "start": 2.97,
+    "end": 3.645
+  },
+  {
+    "word": "de",
+    "start": 3.645,
+    "end": 3.795
+  },
+  {
+    "word": "una",
+    "start": 3.795,
+    "end": 4.02
+  },
+  {
+    "word": "pizarra",
+    "start": 4.02,
+    "end": 4.545
+  }
+]

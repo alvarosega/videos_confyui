@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Antes",
+    "start": 0.12,
+    "end": 0.466
+  },
+  {
+    "word": "de",
+    "start": 0.466,
+    "end": 0.604
+  },
+  {
+    "word": "cambiar",
+    "start": 0.604,
+    "end": 1.089
+  },
+  {
+    "word": "cualquier",
+    "start": 1.089,
+    "end": 1.712
+  },
+  {
+    "word": "proceso",
+    "start": 1.712,
+    "end": 2.196
+  },
+  {
+    "word": "o",
+    "start": 2.196,
+    "end": 2.334
+  },
+  {
+    "word": "hábito",
+    "start": 2.334,
+    "end": 2.749
+  },
+  {
+    "word": "antiguo",
+    "start": 2.749,
+    "end": 3.234
+  },
+  {
+    "word": "en",
+    "start": 3.234,
+    "end": 3.372
+  },
+  {
+    "word": "tu",
+    "start": 3.372,
+    "end": 3.511
+  },
+  {
+    "word": "trabajo",
+    "start": 3.511,
+    "end": 3.995
+  }
+]

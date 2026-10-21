@@ -1,0 +1,57 @@
+[
+  {
+    "word": "La",
+    "start": 0.12,
+    "end": 0.266
+  },
+  {
+    "word": "historia",
+    "start": 0.266,
+    "end": 0.852
+  },
+  {
+    "word": "solo",
+    "start": 0.852,
+    "end": 1.145
+  },
+  {
+    "word": "recuerda",
+    "start": 1.145,
+    "end": 1.73
+  },
+  {
+    "word": "al",
+    "start": 1.73,
+    "end": 1.876
+  },
+  {
+    "word": "estratega",
+    "start": 1.876,
+    "end": 2.535
+  },
+  {
+    "word": "que",
+    "start": 2.535,
+    "end": 2.755
+  },
+  {
+    "word": "firma",
+    "start": 2.755,
+    "end": 3.12
+  },
+  {
+    "word": "el",
+    "start": 3.12,
+    "end": 3.267
+  },
+  {
+    "word": "tratado",
+    "start": 3.267,
+    "end": 3.779
+  },
+  {
+    "word": "final",
+    "start": 3.779,
+    "end": 4.145
+  }
+]

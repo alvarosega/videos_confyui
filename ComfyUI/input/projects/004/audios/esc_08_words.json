@@ -1,0 +1,52 @@
+[
+  {
+    "word": "Cuando",
+    "start": 0.12,
+    "end": 0.553
+  },
+  {
+    "word": "alguien",
+    "start": 0.553,
+    "end": 1.058
+  },
+  {
+    "word": "te",
+    "start": 1.058,
+    "end": 1.202
+  },
+  {
+    "word": "dé",
+    "start": 1.202,
+    "end": 1.346
+  },
+  {
+    "word": "un",
+    "start": 1.346,
+    "end": 1.49
+  },
+  {
+    "word": "consejo",
+    "start": 1.49,
+    "end": 1.995
+  },
+  {
+    "word": "complicado",
+    "start": 1.995,
+    "end": 2.716
+  },
+  {
+    "word": "hazle",
+    "start": 2.716,
+    "end": 3.077
+  },
+  {
+    "word": "una",
+    "start": 3.077,
+    "end": 3.293
+  },
+  {
+    "word": "pregunta",
+    "start": 3.293,
+    "end": 3.87
+  }
+]

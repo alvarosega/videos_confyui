@@ -1,0 +1,52 @@
+[
+  {
+    "word": "El",
+    "start": 0.15,
+    "end": 0.292
+  },
+  {
+    "word": "contrato",
+    "start": 0.292,
+    "end": 0.861
+  },
+  {
+    "word": "exigía",
+    "start": 0.861,
+    "end": 1.288
+  },
+  {
+    "word": "la",
+    "start": 1.288,
+    "end": 1.43
+  },
+  {
+    "word": "autenticación",
+    "start": 1.43,
+    "end": 2.355
+  },
+  {
+    "word": "de",
+    "start": 2.355,
+    "end": 2.497
+  },
+  {
+    "word": "mi",
+    "start": 2.497,
+    "end": 2.639
+  },
+  {
+    "word": "firma",
+    "start": 2.639,
+    "end": 2.995
+  },
+  {
+    "word": "biométrica",
+    "start": 2.995,
+    "end": 3.706
+  },
+  {
+    "word": "personal",
+    "start": 3.706,
+    "end": 4.275
+  }
+]

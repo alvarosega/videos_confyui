@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Basta",
+    "start": 0.15,
+    "end": 0.491
+  },
+  {
+    "word": "un",
+    "start": 0.491,
+    "end": 0.627
+  },
+  {
+    "word": "tres",
+    "start": 0.627,
+    "end": 0.899
+  },
+  {
+    "word": "por",
+    "start": 0.899,
+    "end": 1.103
+  },
+  {
+    "word": "ciento",
+    "start": 1.103,
+    "end": 1.512
+  },
+  {
+    "word": "intransigente",
+    "start": 1.512,
+    "end": 2.397
+  },
+  {
+    "word": "para",
+    "start": 2.397,
+    "end": 2.67
+  },
+  {
+    "word": "cambiar",
+    "start": 2.67,
+    "end": 3.147
+  },
+  {
+    "word": "el",
+    "start": 3.147,
+    "end": 3.283
+  },
+  {
+    "word": "rumbo",
+    "start": 3.283,
+    "end": 3.623
+  },
+  {
+    "word": "general",
+    "start": 3.623,
+    "end": 4.1
+  }
+]

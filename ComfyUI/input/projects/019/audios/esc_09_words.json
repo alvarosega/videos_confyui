@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Las",
+    "start": 0.12,
+    "end": 0.335
+  },
+  {
+    "word": "palabras",
+    "start": 0.335,
+    "end": 0.908
+  },
+  {
+    "word": "generan",
+    "start": 0.908,
+    "end": 1.409
+  },
+  {
+    "word": "resistencia",
+    "start": 1.409,
+    "end": 2.197
+  },
+  {
+    "word": "psicológica",
+    "start": 2.197,
+    "end": 2.985
+  },
+  {
+    "word": "mientras",
+    "start": 2.985,
+    "end": 3.558
+  },
+  {
+    "word": "los",
+    "start": 3.558,
+    "end": 3.773
+  },
+  {
+    "word": "hechos",
+    "start": 3.773,
+    "end": 4.202
+  },
+  {
+    "word": "imponen",
+    "start": 4.202,
+    "end": 4.704
+  },
+  {
+    "word": "la",
+    "start": 4.704,
+    "end": 4.847
+  },
+  {
+    "word": "realidad",
+    "start": 4.847,
+    "end": 5.42
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "word": "Tener",
+    "start": 0.12,
+    "end": 0.485
+  },
+  {
+    "word": "tres",
+    "start": 0.485,
+    "end": 0.777
+  },
+  {
+    "word": "títulos",
+    "start": 0.777,
+    "end": 1.288
+  },
+  {
+    "word": "universitarios",
+    "start": 1.288,
+    "end": 2.31
+  },
+  {
+    "word": "jamás",
+    "start": 2.31,
+    "end": 2.674
+  },
+  {
+    "word": "te",
+    "start": 2.674,
+    "end": 2.82
+  },
+  {
+    "word": "hace",
+    "start": 2.82,
+    "end": 3.112
+  },
+  {
+    "word": "una",
+    "start": 3.112,
+    "end": 3.331
+  },
+  {
+    "word": "persona",
+    "start": 3.331,
+    "end": 3.842
+  },
+  {
+    "word": "inteligente",
+    "start": 3.842,
+    "end": 4.645
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Las",
+    "start": 0.15,
+    "end": 0.354
+  },
+  {
+    "word": "luces",
+    "start": 0.354,
+    "end": 0.694
+  },
+  {
+    "word": "de",
+    "start": 0.694,
+    "end": 0.83
+  },
+  {
+    "word": "las",
+    "start": 0.83,
+    "end": 1.034
+  },
+  {
+    "word": "patrullas",
+    "start": 1.034,
+    "end": 1.645
+  },
+  {
+    "word": "policiales",
+    "start": 1.645,
+    "end": 2.325
+  },
+  {
+    "word": "comenzaron",
+    "start": 2.325,
+    "end": 3.005
+  },
+  {
+    "word": "a",
+    "start": 3.005,
+    "end": 3.141
+  },
+  {
+    "word": "iluminar",
+    "start": 3.141,
+    "end": 3.684
+  },
+  {
+    "word": "las",
+    "start": 3.684,
+    "end": 3.888
+  },
+  {
+    "word": "persianas",
+    "start": 3.888,
+    "end": 4.5
+  }
+]

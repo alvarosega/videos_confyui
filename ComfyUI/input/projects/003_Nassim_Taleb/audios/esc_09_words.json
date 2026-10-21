@@ -1,0 +1,57 @@
+[
+  {
+    "word": "El",
+    "start": 0.15,
+    "end": 0.281
+  },
+  {
+    "word": "mercado",
+    "start": 0.281,
+    "end": 0.738
+  },
+  {
+    "word": "está",
+    "start": 0.738,
+    "end": 0.999
+  },
+  {
+    "word": "lleno",
+    "start": 0.999,
+    "end": 1.325
+  },
+  {
+    "word": "de",
+    "start": 1.325,
+    "end": 1.456
+  },
+  {
+    "word": "personas",
+    "start": 1.456,
+    "end": 1.978
+  },
+  {
+    "word": "brillantes",
+    "start": 1.978,
+    "end": 2.631
+  },
+  {
+    "word": "que",
+    "start": 2.631,
+    "end": 2.826
+  },
+  {
+    "word": "quedaron",
+    "start": 2.826,
+    "end": 3.349
+  },
+  {
+    "word": "completamente",
+    "start": 3.349,
+    "end": 4.197
+  },
+  {
+    "word": "arruinadas",
+    "start": 4.197,
+    "end": 4.85
+  }
+]

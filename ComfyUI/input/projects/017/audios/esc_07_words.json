@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Si",
+    "start": 0.12,
+    "end": 0.267
+  },
+  {
+    "word": "ejecutas",
+    "start": 0.267,
+    "end": 0.853
+  },
+  {
+    "word": "absolutamente",
+    "start": 0.853,
+    "end": 1.805
+  },
+  {
+    "word": "todo",
+    "start": 1.805,
+    "end": 2.098
+  },
+  {
+    "word": "te",
+    "start": 2.098,
+    "end": 2.245
+  },
+  {
+    "word": "conviertes",
+    "start": 2.245,
+    "end": 2.977
+  },
+  {
+    "word": "en",
+    "start": 2.977,
+    "end": 3.124
+  },
+  {
+    "word": "un",
+    "start": 3.124,
+    "end": 3.27
+  },
+  {
+    "word": "recurso",
+    "start": 3.27,
+    "end": 3.783
+  },
+  {
+    "word": "operativo",
+    "start": 3.783,
+    "end": 4.443
+  },
+  {
+    "word": "indispensable",
+    "start": 4.443,
+    "end": 5.395
+  }
+]

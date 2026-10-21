@@ -1,0 +1,52 @@
+[
+  {
+    "word": "Nassim",
+    "start": 0.12,
+    "end": 0.557
+  },
+  {
+    "word": "Taleb",
+    "start": 0.557,
+    "end": 0.921
+  },
+  {
+    "word": "explica",
+    "start": 0.921,
+    "end": 1.431
+  },
+  {
+    "word": "en",
+    "start": 1.431,
+    "end": 1.576
+  },
+  {
+    "word": "su",
+    "start": 1.576,
+    "end": 1.722
+  },
+  {
+    "word": "libro",
+    "start": 1.722,
+    "end": 2.086
+  },
+  {
+    "word": "que",
+    "start": 2.086,
+    "end": 2.304
+  },
+  {
+    "word": "mejoramos",
+    "start": 2.304,
+    "end": 2.959
+  },
+  {
+    "word": "únicamente",
+    "start": 2.959,
+    "end": 3.688
+  },
+  {
+    "word": "restando",
+    "start": 3.688,
+    "end": 4.27
+  }
+]

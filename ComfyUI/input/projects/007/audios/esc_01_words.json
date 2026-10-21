@@ -1,0 +1,57 @@
+[
+  {
+    "word": "La",
+    "start": 0.12,
+    "end": 0.261
+  },
+  {
+    "word": "mayoría",
+    "start": 0.261,
+    "end": 0.756
+  },
+  {
+    "word": "de",
+    "start": 0.756,
+    "end": 0.897
+  },
+  {
+    "word": "tus",
+    "start": 0.897,
+    "end": 1.109
+  },
+  {
+    "word": "problemas",
+    "start": 1.109,
+    "end": 1.744
+  },
+  {
+    "word": "se",
+    "start": 1.744,
+    "end": 1.885
+  },
+  {
+    "word": "resuelven",
+    "start": 1.885,
+    "end": 2.521
+  },
+  {
+    "word": "eliminando",
+    "start": 2.521,
+    "end": 3.227
+  },
+  {
+    "word": "lo",
+    "start": 3.227,
+    "end": 3.368
+  },
+  {
+    "word": "que",
+    "start": 3.368,
+    "end": 3.58
+  },
+  {
+    "word": "destruye",
+    "start": 3.58,
+    "end": 4.145
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Tú",
+    "start": 0.15,
+    "end": 0.293
+  },
+  {
+    "word": "asumes",
+    "start": 0.293,
+    "end": 0.72
+  },
+  {
+    "word": "todo",
+    "start": 0.72,
+    "end": 1.006
+  },
+  {
+    "word": "el",
+    "start": 1.006,
+    "end": 1.148
+  },
+  {
+    "word": "riesgo",
+    "start": 1.148,
+    "end": 1.576
+  },
+  {
+    "word": "mientras",
+    "start": 1.576,
+    "end": 2.147
+  },
+  {
+    "word": "ellos",
+    "start": 2.147,
+    "end": 2.503
+  },
+  {
+    "word": "cobran",
+    "start": 2.503,
+    "end": 2.931
+  },
+  {
+    "word": "sin",
+    "start": 2.931,
+    "end": 3.145
+  },
+  {
+    "word": "ninguna",
+    "start": 3.145,
+    "end": 3.644
+  },
+  {
+    "word": "consecuencia",
+    "start": 3.644,
+    "end": 4.5
+  }
+]

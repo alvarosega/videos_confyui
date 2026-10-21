@@ -1,0 +1,52 @@
+[
+  {
+    "word": "No",
+    "start": 0.12,
+    "end": 0.258
+  },
+  {
+    "word": "cambies",
+    "start": 0.258,
+    "end": 0.74
+  },
+  {
+    "word": "principios",
+    "start": 0.74,
+    "end": 1.428
+  },
+  {
+    "word": "fundamentales",
+    "start": 1.428,
+    "end": 2.323
+  },
+  {
+    "word": "por",
+    "start": 2.323,
+    "end": 2.53
+  },
+  {
+    "word": "modas",
+    "start": 2.53,
+    "end": 2.874
+  },
+  {
+    "word": "que",
+    "start": 2.874,
+    "end": 3.08
+  },
+  {
+    "word": "desaparecerán",
+    "start": 3.08,
+    "end": 3.975
+  },
+  {
+    "word": "muy",
+    "start": 3.975,
+    "end": 4.182
+  },
+  {
+    "word": "pronto",
+    "start": 4.182,
+    "end": 4.595
+  }
+]

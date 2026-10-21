@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Quien",
+    "start": 0.1,
+    "end": 0.487
+  },
+  {
+    "word": "no",
+    "start": 0.487,
+    "end": 0.642
+  },
+  {
+    "word": "sabe",
+    "start": 0.642,
+    "end": 0.952
+  },
+  {
+    "word": "gobernar",
+    "start": 0.952,
+    "end": 1.572
+  },
+  {
+    "word": "su",
+    "start": 1.572,
+    "end": 1.726
+  },
+  {
+    "word": "vida",
+    "start": 1.726,
+    "end": 2.036
+  },
+  {
+    "word": "destruirá",
+    "start": 2.036,
+    "end": 2.733
+  },
+  {
+    "word": "la",
+    "start": 2.733,
+    "end": 2.888
+  },
+  {
+    "word": "tuya",
+    "start": 2.888,
+    "end": 3.198
+  },
+  {
+    "word": "por",
+    "start": 3.198,
+    "end": 3.43
+  },
+  {
+    "word": "completo",
+    "start": 3.43,
+    "end": 4.05
+  }
+]

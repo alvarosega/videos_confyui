@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Una",
+    "start": 0.12,
+    "end": 0.334
+  },
+  {
+    "word": "demostración",
+    "start": 0.334,
+    "end": 1.191
+  },
+  {
+    "word": "práctica",
+    "start": 1.191,
+    "end": 1.762
+  },
+  {
+    "word": "y",
+    "start": 1.762,
+    "end": 1.905
+  },
+  {
+    "word": "silenciosa",
+    "start": 1.905,
+    "end": 2.618
+  },
+  {
+    "word": "jamás",
+    "start": 2.618,
+    "end": 2.975
+  },
+  {
+    "word": "genera",
+    "start": 2.975,
+    "end": 3.404
+  },
+  {
+    "word": "fricciones",
+    "start": 3.404,
+    "end": 4.117
+  },
+  {
+    "word": "ni",
+    "start": 4.117,
+    "end": 4.26
+  },
+  {
+    "word": "peleas",
+    "start": 4.26,
+    "end": 4.688
+  },
+  {
+    "word": "innecesarias",
+    "start": 4.688,
+    "end": 5.545
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "word": "La",
+    "start": 0.12,
+    "end": 0.267
+  },
+  {
+    "word": "verdadera",
+    "start": 0.267,
+    "end": 0.928
+  },
+  {
+    "word": "independencia",
+    "start": 0.928,
+    "end": 1.882
+  },
+  {
+    "word": "no",
+    "start": 1.882,
+    "end": 2.029
+  },
+  {
+    "word": "se",
+    "start": 2.029,
+    "end": 2.176
+  },
+  {
+    "word": "mide",
+    "start": 2.176,
+    "end": 2.47
+  },
+  {
+    "word": "por",
+    "start": 2.47,
+    "end": 2.69
+  },
+  {
+    "word": "lo",
+    "start": 2.69,
+    "end": 2.837
+  },
+  {
+    "word": "que",
+    "start": 2.837,
+    "end": 3.057
+  },
+  {
+    "word": "ganas",
+    "start": 3.057,
+    "end": 3.425
+  },
+  {
+    "word": "hoy",
+    "start": 3.425,
+    "end": 3.645
+  }
+]

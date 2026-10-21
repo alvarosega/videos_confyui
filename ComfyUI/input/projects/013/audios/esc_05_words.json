@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Cuando",
+    "start": 0.1,
+    "end": 0.618
+  },
+  {
+    "word": "sus",
+    "start": 0.618,
+    "end": 0.878
+  },
+  {
+    "word": "enemigos",
+    "start": 0.878,
+    "end": 1.569
+  },
+  {
+    "word": "comprendieron",
+    "start": 1.569,
+    "end": 2.692
+  },
+  {
+    "word": "su",
+    "start": 2.692,
+    "end": 2.865
+  },
+  {
+    "word": "estrategia",
+    "start": 2.865,
+    "end": 3.729
+  },
+  {
+    "word": "maestra",
+    "start": 3.729,
+    "end": 4.333
+  },
+  {
+    "word": "ya",
+    "start": 4.333,
+    "end": 4.506
+  },
+  {
+    "word": "era",
+    "start": 4.506,
+    "end": 4.765
+  },
+  {
+    "word": "demasiado",
+    "start": 4.765,
+    "end": 5.543
+  },
+  {
+    "word": "tarde",
+    "start": 5.543,
+    "end": 5.975
+  }
+]

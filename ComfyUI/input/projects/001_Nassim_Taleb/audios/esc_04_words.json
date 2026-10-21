@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Pero",
+    "start": 0.15,
+    "end": 0.417
+  },
+  {
+    "word": "si",
+    "start": 0.417,
+    "end": 0.551
+  },
+  {
+    "word": "pierdes",
+    "start": 0.551,
+    "end": 1.018
+  },
+  {
+    "word": "todos",
+    "start": 1.018,
+    "end": 1.352
+  },
+  {
+    "word": "tus",
+    "start": 1.352,
+    "end": 1.553
+  },
+  {
+    "word": "ahorros",
+    "start": 1.553,
+    "end": 2.02
+  },
+  {
+    "word": "su",
+    "start": 2.02,
+    "end": 2.154
+  },
+  {
+    "word": "sueldo",
+    "start": 2.154,
+    "end": 2.555
+  },
+  {
+    "word": "sigue",
+    "start": 2.555,
+    "end": 2.889
+  },
+  {
+    "word": "completamente",
+    "start": 2.889,
+    "end": 3.757
+  },
+  {
+    "word": "intacto",
+    "start": 3.757,
+    "end": 4.225
+  }
+]

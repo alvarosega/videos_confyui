@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Enseñan",
+    "start": 0.12,
+    "end": 0.642
+  },
+  {
+    "word": "tácticas",
+    "start": 0.642,
+    "end": 1.239
+  },
+  {
+    "word": "complejas",
+    "start": 1.239,
+    "end": 1.91
+  },
+  {
+    "word": "pero",
+    "start": 1.91,
+    "end": 2.208
+  },
+  {
+    "word": "nunca",
+    "start": 2.208,
+    "end": 2.581
+  },
+  {
+    "word": "han",
+    "start": 2.581,
+    "end": 2.805
+  },
+  {
+    "word": "sentido",
+    "start": 2.805,
+    "end": 3.327
+  },
+  {
+    "word": "el",
+    "start": 3.327,
+    "end": 3.476
+  },
+  {
+    "word": "peso",
+    "start": 3.476,
+    "end": 3.774
+  },
+  {
+    "word": "del",
+    "start": 3.774,
+    "end": 3.998
+  },
+  {
+    "word": "fracaso",
+    "start": 3.998,
+    "end": 4.52
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Thomas",
+    "start": 0.12,
+    "end": 0.543
+  },
+  {
+    "word": "Edison",
+    "start": 0.543,
+    "end": 0.965
+  },
+  {
+    "word": "levantó",
+    "start": 0.965,
+    "end": 1.458
+  },
+  {
+    "word": "un",
+    "start": 1.458,
+    "end": 1.599
+  },
+  {
+    "word": "monopolio",
+    "start": 1.599,
+    "end": 2.233
+  },
+  {
+    "word": "registrando",
+    "start": 2.233,
+    "end": 3.007
+  },
+  {
+    "word": "el",
+    "start": 3.007,
+    "end": 3.148
+  },
+  {
+    "word": "esfuerzo",
+    "start": 3.148,
+    "end": 3.712
+  },
+  {
+    "word": "de",
+    "start": 3.712,
+    "end": 3.852
+  },
+  {
+    "word": "ingenieros",
+    "start": 3.852,
+    "end": 4.557
+  },
+  {
+    "word": "anónimos",
+    "start": 4.557,
+    "end": 5.12
+  }
+]

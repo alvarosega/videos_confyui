@@ -1,0 +1,125 @@
+{
+  "id_proyecto": "008",
+  "preset_usado": "stylized_3d_animation",
+  "estilo_global": "cinematic 3D animation render, League of Legends high-end CGI aesthetic, stylized digital sculpture, detailed Physically Based Rendering (PBR), soft even studio ring lighting, flat diffused key lighting on face, completely shadowless facial features, sharp ambient occlusion in background, intricate clothing micro-textures, octane render lighting, standard perspective, cinematic corporate thriller color grading",
+  "prompt_negativo_global": "harsh shadows, deep facial shadows, side lighting, half face in shadow, dark shadows, chiaroscuro, high contrast shadows on face, smooth skin, plastic texture, clay render, photorealistic, raw photo, photograph, real human face, skin pores, simple shading, flat lighting, in-game graphics, mobile game style, low poly cgi, 2d drawing, anime, flat art, deformed face, open mouth, teeth, asymmetric lips, bad eyes, text, words, letters, typography, watermark, logo, blurry, bokeh, elongated face, long face, stretched face, long chin, high forehead, long neck, giraffe neck, vertically stretched, aspect ratio distortion, wide angle distortion, fish-eye, looking away, side glance, averted gaze, multiple people, background people, duplicate character, deformed body, bad anatomy, suit, tie, blazer, tuxedo, formal attire",
+  "personajes": {
+    "samuel": {
+      "nombre": "Samuel",
+      "voz_tts": "em_alex",
+      "prompt_positivo_base": "detailed 3D digital model of a single solo 24-year-old dark-skinned young man, rich deep brown skin tone, high-end CGI aesthetic, stylized 3D digital sculpture, detailed Physically Based Rendering (PBR), complex PBR skin shader with subsurface scattering, sharp intelligent facial features, compact natural face length, standard balanced human facial proportions, short stylish fade haircut with clean edges, completely clean-shaven sharp angular jawline, intense focused dark obsidian eyes looking dead straight into camera lens, strictly closed neutral mouth, distinct clean lip contour, relaxed jaw, natural standard neck length, anatomically correct symmetrical shoulders and upper torso, centered frontal chest-up composition, prominent bust portrait occupying 70% of vertical frame with generous headroom and visible shoulders, direct frontal eye contact, eye-level framing, balanced studio portrait lighting",
+      "prompt_negativo_base": "photorealistic, real skin pores, real human photo, photograph, raw photo, open mouth, teeth visible, smiling, laughing, screaming, angry expression, head turned, side view, profile, 3/4 view, elongated face, long face, stretched face, tall head, long chin, extended forehead, long neck, giraffe neck, vertically stretched, distorted proportions, looking away, looking sideways, averted gaze, misaligned pupils, side-eye, deformed face, bad eyes, female, woman, girl, beard, stubble, facial hair, smooth plastic skin, clay render, 2d illustration, flat render, cropped head, cropped face, cropped chin, cut off, out of frame, foreground obstacles, duplicate character, multiple bodies, multiple people, 2people, second person, background person, crowd, silhouette behind, deformed body, bad anatomy, extra limbs, asymmetrical shoulders, suit, tie, blazer, tuxedo, formal attire, business clothing",
+      "avatar": "man.png"
+    }
+  },
+  "escenas": [
+    {
+      "id": "esc_01",
+      "tipo": "personaje",
+      "personaje_id": "samuel",
+      "dialogo": "Una costumbre no es absurda si ha protegido tu negocio durante décadas.",
+      "accion_prompt": "single solo man, perfectly centered, compact balanced facial proportions, standard natural face shape, locked direct frontal gaze straight into camera lens, normal neck length, anatomically correct symmetrical shoulders and upper torso, wearing a relaxed heavyweight olive-charcoal crewneck sweatshirt with rich cotton texture over a dark base layer. Background is an empty solid monolithic architectural wall with dark matte stone panels strictly behind the subject in sharp volumetric focus with zero other individuals, completely clear unobstructed foreground. Centered frontal chest-up bust portrait occupying 70% of vertical frame with generous headroom and fully visible symmetrical shoulders, soft balanced studio ring light, strictly frontal eye-level view.",
+      "prompt_negativo_escena": "female, woman, girl, multiple people, 2people, second person, background people, duplicate character, body in background, crowd, silhouette behind, elongated face, long face, stretched face, tall forehead, long chin, long neck, giraffe neck, vertically stretched, wide angle distortion, fish-eye, looking away, side-eye, averted gaze, wandering eyes, deformed body, mutated anatomy, bad anatomy, deformed shoulders, twisted torso, extra limbs, blurry background, bokeh, depth of field blur, out of focus, cropped head, cropped face, cropped chin, cut off, out of frame, foreground objects, props blocking view, obstacles, desk, table, partitions in front, harsh shadows, deep facial shadows, split lighting, chiaroscuro, suit, tie, blazer, tuxedo, formal clothes",
+      "duracion_audio": 4.52
+    },
+    {
+      "id": "esc_02",
+      "tipo": "personaje",
+      "personaje_id": "samuel",
+      "dialogo": "Las tradiciones nacen para evitar problemas graves que tú no conoces.",
+      "accion_prompt": "1man, strictly single isolated solo male, only one person in entire frame, perfectly centered, compact balanced facial proportions, standard natural face shape, locked direct frontal gaze straight into camera lens, normal neck length, anatomically correct symmetrical shoulders and upper torso, wearing a relaxed heavyweight olive-charcoal crewneck sweatshirt with rich cotton texture over a dark base layer. Background is an empty completely plain flat solid dark concrete wall strictly behind the lone subject in sharp volumetric focus with zero extra people or human silhouettes, completely clear unobstructed foreground. Centered frontal chest-up bust portrait occupying 70% of vertical frame with generous headroom and fully visible symmetrical shoulders, soft balanced studio ring light, strictly frontal eye-level view.",
+      "prompt_negativo_escena": "multiple people, 2people, second person, background people, duplicate character, body in background, crowd, silhouette behind, duo, pair, twin, extra human, bystander, companion, female, woman, girl, elongated face, long face, stretched face, tall forehead, long chin, long neck, giraffe neck, vertically stretched, wide angle distortion, fish-eye, looking away, side-eye, averted gaze, wandering eyes, deformed body, mutated anatomy, bad anatomy, deformed shoulders, twisted torso, extra limbs, blurry background, bokeh, depth of field blur, out of focus, cropped head, cropped face, cropped chin, cut off, out of frame, foreground objects, props blocking view, obstacles, desk, table, partitions in front, harsh shadows, deep facial shadows, split lighting, chiaroscuro, suit, tie, blazer, tuxedo, formal clothes",
+      "duracion_audio": 4.5
+    },
+    {
+      "id": "esc_03",
+      "tipo": "personaje",
+      "personaje_id": "samuel",
+      "dialogo": "La evolución no premia las explicaciones más elegantes de una pizarra.",
+      "accion_prompt": "1man, strictly single isolated solo male, only one person in entire frame, compact proportional face, normal head length, locked direct eye contact fixed on camera lens, standard neck and anatomically correct stable shoulders, wearing a relaxed deep indigo-navy overshirt in textured micro-twill over a plain black Supima t-shirt. Background is an empty completely plain solid dark matte studio wall strictly behind the lone character in sharp volumetric focus with zero background humans, completely empty foreground space. Centered frontal chest-up bust portrait occupying 70% of vertical frame with generous headroom and visible stable shoulders, soft diffused studio ring illumination, strictly frontal eye-level view.",
+      "prompt_negativo_escena": "multiple people, 2people, second person, background people, duplicate character, body in background, silhouette, duo, pair, twin, extra human, bystander, companion, female, woman, girl, elongated face, long face, stretched face, tall forehead, long chin, long neck, giraffe neck, vertically stretched, deformed body, mutated anatomy, bad anatomy, asymmetrical shoulders, deformed torso, hunched neck, twisted body, extra limbs, looking away, side gaze, averted gaze, blurry background, bokeh, depth of field blur, out of focus, cropped head, cropped face, cropped chin, cut off, out of frame, foreground objects, chalkboard, whiteboard, markers, desk, table, props blocking subject, harsh shadows, deep facial shadows, split lighting, chiaroscuro, suit, tie, casual hoodie",
+      "duracion_audio": 4.75
+    },
+    {
+      "id": "esc_04",
+      "tipo": "personaje",
+      "personaje_id": "samuel",
+      "dialogo": "Premia únicamente a quienes evitan cometer errores fatales de supervivencia.",
+      "accion_prompt": "single solo subject, compact proportional face, normal head length, locked direct eye contact fixed on camera lens, standard neck and anatomically correct stable shoulders, wearing a relaxed deep indigo-navy overshirt in textured micro-twill over a plain black Supima t-shirt. Background is an empty contemporary studio wall with dark matte charcoal horizontal panels strictly behind the character in sharp volumetric focus with no background humans, completely empty foreground space. Centered frontal chest-up bust portrait occupying 70% of vertical frame with generous headroom and visible stable shoulders, soft diffused studio ring illumination, strictly frontal eye-level view.",
+      "prompt_negativo_escena": "female, woman, girl, multiple people, 2people, second person, background people, duplicate character, body in background, silhouette, elongated face, long face, stretched face, tall forehead, long chin, long neck, giraffe neck, vertically stretched, deformed body, mutated anatomy, bad anatomy, asymmetrical shoulders, deformed torso, hunched neck, twisted body, extra limbs, looking away, side gaze, averted gaze, blurry background, bokeh, depth of field blur, out of focus, cropped head, cropped face, cropped chin, cut off, out of frame, foreground objects, chalkboard, whiteboard, markers, desk, table, props blocking subject, harsh shadows, deep facial shadows, split lighting, chiaroscuro, suit, tie, casual hoodie",
+      "duracion_audio": 5.02
+    },
+    {
+      "id": "esc_05",
+      "tipo": "personaje",
+      "personaje_id": "samuel",
+      "dialogo": "En Jugarse la piel, Taleb demuestra que lo superviviente es racional.",
+      "accion_prompt": "single solo man, natural facial symmetry, compact head proportions, direct centered gaze locked onto camera lens, standard neck length and structurally sound symmetrical shoulders, wearing a comfortable burnt-terracotta heavy knit sweater with dense ribbing over a charcoal undershirt. Background is an empty industrial brutalist wall with dark smooth basalt slabs strictly behind the subject in sharp volumetric focus, completely clear unobstructed foreground. Centered frontal chest-up bust portrait occupying 70% of vertical frame with generous headroom and clearly defined upper torso, soft uniform studio key lighting, strictly frontal eye-level view.",
+      "prompt_negativo_escena": "female, woman, girl, multiple people, 2people, second person, background people, duplicate character, silhouette, elongated face, long face, stretched face, tall forehead, long chin, long neck, giraffe neck, vertically stretched, deformed body, mutated anatomy, bad anatomy, deformed shoulders, twisted torso, disjointed neck, extra limbs, mangled body, looking away, side eye, averted gaze, blurry background, bokeh, depth of field blur, out of focus, cropped head, cropped face, cropped chin, cut off, out of frame, foreground objects, book in hand, podium, table, conference desk, obstacles, harsh shadows, deep facial shadows, split lighting, chiaroscuro, suit, tie, blazer",
+      "duracion_audio": 4.32
+    },
+    {
+      "id": "esc_06",
+      "tipo": "personaje",
+      "personaje_id": "samuel",
+      "dialogo": "Romper protocolos antiguos solo por parecer moderno provoca catástrofes inmediatas.",
+      "accion_prompt": "single solo man, natural facial symmetry, compact head proportions, direct centered gaze locked onto camera lens, standard neck length and structurally sound symmetrical shoulders, wearing a comfortable burnt-terracotta heavy knit sweater with dense ribbing over a charcoal undershirt. Background is an empty industrial brutalist wall with dark smooth basalt slabs strictly behind the subject in sharp volumetric focus, completely clear unobstructed foreground. Centered frontal chest-up bust portrait occupying 70% of vertical frame with generous headroom and clearly defined upper torso, soft uniform studio key lighting, strictly frontal eye-level view.",
+      "prompt_negativo_escena": "female, woman, girl, multiple people, 2people, second person, background people, duplicate character, silhouette, elongated face, long face, stretched face, tall forehead, long chin, long neck, giraffe neck, vertically stretched, deformed body, mutated anatomy, bad anatomy, deformed shoulders, twisted torso, disjointed neck, extra limbs, mangled body, looking away, side eye, averted gaze, blurry background, bokeh, depth of field blur, out of focus, cropped head, cropped face, cropped chin, cut off, out of frame, foreground objects, book in hand, podium, table, conference desk, obstacles, harsh shadows, deep facial shadows, split lighting, chiaroscuro, suit, tie, blazer",
+      "duracion_audio": 5.59
+    },
+    {
+      "id": "esc_07",
+      "tipo": "personaje",
+      "personaje_id": "samuel",
+      "dialogo": "Genera desastres que ya habían sido resueltos hace cincuenta años.",
+      "accion_prompt": "single solo subject, standard balanced facial ratio, compact natural face shape, direct centered gaze locked onto camera lens, clean anatomically correct shoulders and chest-up framing, wearing a tailored casual matte graphite bomber jacket with clean zip lines over a black crewneck. Background is a flat architectural wall with smooth dark bronze metal plates strictly behind the subject in sharp volumetric focus, completely clear foreground without reflections or obstacles. Centered frontal chest-up bust portrait occupying 70% of vertical frame with generous headroom and defined shoulders, soft balanced studio key light, strictly frontal eye-level view.",
+      "prompt_negativo_escena": "female, woman, girl, multiple people, 2people, second person, background people, duplicate character, body in background, elongated face, long face, stretched face, tall forehead, long chin, long neck, giraffe neck, vertically stretched, deformed body, mutated anatomy, bad anatomy, deformed shoulders, asymmetrical upper body, disjointed torso, extra limbs, looking away, side glance, averted gaze, blurry background, bokeh, depth of field blur, out of focus, cropped head, cropped face, cropped chin, cut off, out of frame, foreground objects, glass reflection, reflection of person, podium, desk, obstacles, harsh shadows, deep facial shadows, split lighting, chiaroscuro, tie, bowtie, suit, blazer",
+      "duracion_audio": 4.54
+    },
+    {
+      "id": "esc_08",
+      "tipo": "personaje",
+      "personaje_id": "samuel",
+      "dialogo": "Muchos innovadores fracasan al ignorar la experiencia acumulada por otros.",
+      "accion_prompt": "1man, strictly single isolated solo male, only one person in entire frame, standard balanced facial ratio, compact natural face shape, direct centered gaze locked onto camera lens, clean anatomically correct shoulders and chest-up framing, wearing a tailored casual matte graphite bomber jacket with clean zip lines over a black crewneck. Background is an empty completely plain solid dark bronze architectural wall strictly behind the lone subject in sharp volumetric focus without human silhouettes, completely clear foreground without reflections or obstacles. Centered frontal chest-up bust portrait occupying 70% of vertical frame with generous headroom and defined shoulders, soft balanced studio key light, strictly frontal eye-level view.",
+      "prompt_negativo_escena": "multiple people, 2people, second person, background people, duplicate character, body in background, duo, pair, twin, extra human, bystander, companion, female, woman, girl, elongated face, long face, stretched face, tall forehead, long chin, long neck, giraffe neck, vertically stretched, deformed body, mutated anatomy, bad anatomy, deformed shoulders, asymmetrical upper body, disjointed torso, extra limbs, looking away, side glance, averted gaze, blurry background, bokeh, depth of field blur, out of focus, cropped head, cropped face, cropped chin, cut off, out of frame, foreground objects, glass reflection, reflection of person, podium, desk, obstacles, harsh shadows, deep facial shadows, split lighting, chiaroscuro, tie, bowtie, suit, blazer",
+      "duracion_audio": 4.95
+    },
+    {
+      "id": "esc_09",
+      "tipo": "personaje",
+      "personaje_id": "samuel",
+      "dialogo": "Antes de cambiar cualquier proceso o hábito antiguo en tu trabajo:",
+      "accion_prompt": "1man, strictly single solo man, anatomically correct human body structure, perfectly balanced facial proportions, standard compact skull geometry, locked direct eye contact with camera lens, natural standard neck length, level symmetrical shoulders, stable chest-up framing, wearing a simple structured oatmeal-tan waffle-knit long sleeve shirt over an obsidian base top. Background is an empty flat solid dark titanium studio backdrop strictly behind the character in sharp volumetric focus, empty foreground space. Centered frontal chest-up bust portrait occupying 70% of vertical frame with generous headroom and visible shoulders, balanced soft studio key lighting, strictly frontal eye-level view.",
+      "prompt_negativo_escena": "deformed body, mutated anatomy, bad anatomy, deformed shoulders, twisted torso, asymmetrical body, hunchback, disjointed neck, long neck, giraffe neck, extra limbs, extra arms, malformed limbs, distorted proportions, elongated face, long face, stretched face, tall forehead, long chin, vertically stretched, multiple people, 2people, second person, background people, duplicate character, female, woman, girl, looking away, side gaze, wandering eyes, blurry background, bokeh, depth of field blur, out of focus, cropped head, cropped face, cropped chin, cut off, out of frame, foreground objects, props blocking view, furniture in front, desk, table, harsh shadows, deep facial shadows, split lighting, chiaroscuro, suit, tie, tuxedo, blazer",
+      "duracion_audio": 4.2
+    },
+    {
+      "id": "esc_10",
+      "tipo": "personaje",
+      "personaje_id": "samuel",
+      "dialogo": "Averigua con cuidado qué desastre ocurrió para crear esa regla.",
+      "accion_prompt": "single solo subject, balanced facial proportions, compact head geometry, locked direct eye contact with camera lens, stable standard neck and symmetrical shoulders, wearing a structured oatmeal-tan waffle-knit long sleeve shirt over an obsidian base top. Background is an empty minimalist studio wall with flat dark titanium panels strictly behind the character in sharp volumetric focus, empty foreground space. Centered frontal chest-up bust portrait occupying 70% of vertical frame with generous headroom and visible shoulders, balanced soft studio key lighting, strictly frontal eye-level view.",
+      "prompt_negativo_escena": "female, woman, girl, multiple people, 2people, second person, background people, duplicate character, elongated face, long face, stretched face, tall forehead, long chin, long neck, giraffe neck, vertically stretched, deformed body, mutated anatomy, bad anatomy, deformed chest, asymmetrical shoulders, twisted spine, extra limbs, looking away, side gaze, wandering eyes, blurry background, bokeh, depth of field blur, out of focus, cropped head, cropped face, cropped chin, cut off, out of frame, foreground objects, props blocking view, furniture in front, desk, table, harsh shadows, deep facial shadows, split lighting, chiaroscuro, suit, tie, tuxedo, blazer",
+      "duracion_audio": 4.17
+    },
+    {
+      "id": "esc_11",
+      "tipo": "personaje",
+      "personaje_id": "samuel",
+      "dialogo": "Comprende la función del muro antes de decidir derribarlo por completo.",
+      "accion_prompt": "1man, strictly single isolated solo man, anatomically correct natural human structure, standard symmetrical facial geometry, compact natural head length, direct frontal eye contact locked dead straight at camera lens, natural standard neck length, level symmetrical shoulders and stable upright chest-up posture, wearing a clean tailored casual obsidian-black utility shirt with simple chest seams over a dark modal t-shirt. Background is an empty flat completely plain solid dark slate studio backdrop strictly behind the subject in sharp volumetric focus with zero extra people, completely clear unobstructed foreground. Centered frontal chest-up bust portrait occupying 70% of vertical frame with generous headroom and clearly defined upper torso, flat diffused studio key lighting, strictly frontal eye-level view.",
+      "prompt_negativo_escena": "deformed body, mutated anatomy, bad anatomy, deformed shoulders, twisted torso, hunchback, disjointed neck, long neck, giraffe neck, extra limbs, extra arms, malformed limbs, mangled posture, asymmetrical torso, distorted geometry, elongated face, long face, stretched face, tall forehead, long chin, vertically stretched, multiple people, 2people, second person, background people, duplicate body, reflection of person, female, woman, girl, looking away, side-eye, averted gaze, blurry background, bokeh, depth of field blur, out of focus, cropped head, cropped face, cropped chin, cut off, out of frame, foreground objects, glass partitions, window frames in front, obstacles, harsh shadows, deep facial shadows, split lighting, chiaroscuro, bright colors, formal suit, tie, blazer",
+      "duracion_audio": 4.52
+    },
+    {
+      "id": "esc_12",
+      "tipo": "personaje",
+      "personaje_id": "samuel",
+      "dialogo": "El respeto por la supervivencia siempre supera a la lógica teórica.",
+      "accion_prompt": "1man, strictly single isolated solo man, anatomically correct natural human structure, standard symmetrical facial geometry, compact natural head length, direct frontal eye contact locked dead straight at camera lens, natural standard neck length, level symmetrical shoulders and stable upright chest-up posture, wearing a clean tailored casual obsidian-black utility shirt with simple chest seams over a dark modal t-shirt. Background is an empty flat completely plain solid dark slate studio backdrop strictly behind the subject in sharp volumetric focus with zero extra people, completely clear unobstructed foreground. Centered frontal chest-up bust portrait occupying 70% of vertical frame with generous headroom and clearly defined upper torso, flat diffused studio key lighting, strictly frontal eye-level view.",
+      "prompt_negativo_escena": "deformed body, mutated anatomy, bad anatomy, deformed shoulders, twisted torso, hunchback, disjointed neck, long neck, giraffe neck, extra limbs, extra arms, malformed limbs, mangled posture, asymmetrical torso, distorted geometry, elongated face, long face, stretched face, tall forehead, long chin, vertically stretched, multiple people, 2people, second person, background people, duplicate body, reflection of person, female, woman, girl, looking away, side-eye, averted gaze, blurry background, bokeh, depth of field blur, out of focus, cropped head, cropped face, cropped chin, cut off, out of frame, foreground objects, glass partitions, window frames in front, obstacles, harsh shadows, deep facial shadows, split lighting, chiaroscuro, bright colors, formal suit, tie, blazer",
+      "duracion_audio": 4.42
+    }
+  ]
+}

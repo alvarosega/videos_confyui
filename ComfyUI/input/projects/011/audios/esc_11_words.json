@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Si",
+    "start": 0.1,
+    "end": 0.289
+  },
+  {
+    "word": "quieres",
+    "start": 0.289,
+    "end": 0.949
+  },
+  {
+    "word": "ascender",
+    "start": 0.949,
+    "end": 1.703
+  },
+  {
+    "word": "con",
+    "start": 1.703,
+    "end": 1.986
+  },
+  {
+    "word": "éxito",
+    "start": 1.986,
+    "end": 2.457
+  },
+  {
+    "word": "disimula",
+    "start": 2.457,
+    "end": 3.212
+  },
+  {
+    "word": "tu",
+    "start": 3.212,
+    "end": 3.4
+  },
+  {
+    "word": "genialidad",
+    "start": 3.4,
+    "end": 4.343
+  },
+  {
+    "word": "ante",
+    "start": 4.343,
+    "end": 4.721
+  },
+  {
+    "word": "los",
+    "start": 4.721,
+    "end": 5.004
+  },
+  {
+    "word": "demás",
+    "start": 5.004,
+    "end": 5.475
+  }
+]

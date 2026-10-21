@@ -1,0 +1,107 @@
+{
+  "1": {
+    "inputs": {
+      "image": "projects/temp/ref_images/esc_02_b_roll_00001_.png"
+    },
+    "class_type": "LoadImage",
+    "_meta": {
+      "title": "Cargar Imagen B-Roll"
+    }
+  },
+  "2": {
+    "inputs": {
+      "ckpt_name": "svd_xt.safetensors"
+    },
+    "class_type": "ImageOnlyCheckpointLoader",
+    "_meta": {
+      "title": "Cargar Checkpoint SVD-XT"
+    }
+  },
+  "3": {
+    "inputs": {
+      "clip_vision": ["2", 1],
+      "init_image": ["1", 0],
+      "vae": ["2", 2],
+      "width": 576,
+      "height": 1024,
+      "video_frames": 25,
+      "motion_bucket_id": 80,
+      "fps": 6,
+      "augmentation_level": 0.0
+    },
+    "class_type": "SVD_img2vid_Conditioning",
+    "_meta": {
+      "title": "Condicionamiento SVD"
+    }
+  },
+  "4": {
+    "inputs": {
+      "seed": 42,
+      "steps": 18,
+      "cfg": 2.5,
+      "sampler_name": "euler",
+      "scheduler": "karras",
+      "denoise": 1.0,
+      "model": ["2", 0],
+      "positive": ["3", 0],
+      "negative": ["3", 1],
+      "latent_image": ["3", 2]
+    },
+    "class_type": "KSampler",
+    "_meta": {
+      "title": "KSampler Optimizado (18 Steps)"
+    }
+  },
+  "5": {
+    "inputs": {
+      "tile_size": 512,
+      "overlap": 64,
+      "temporal_size": 8,
+      "temporal_overlap": 4,
+      "samples": ["4", 0],
+      "vae": ["2", 2]
+    },
+    "class_type": "VAEDecodeTiled",
+    "_meta": {
+      "title": "VAE Decode Tiled (Cero Desbordamiento de VRAM)"
+    }
+  },
+  "7": {
+    "inputs": {
+      "ckpt_name": "rife47.pth",
+      "clear_cache_after_n_frames": 8,
+      "multiplier": 3,
+      "fast_mode": true,
+      "ensemble": false,
+      "scale_factor": 1.0,
+      "dtype": "float16",
+      "torch_compile": false,
+      "batch_size": 1,
+      "frames": ["5", 0]
+    },
+    "class_type": "RIFE VFI",
+    "_meta": {
+      "title": "Interpolación RIFE (3x Fluidez Rápida)"
+    }
+  },
+  "6": {
+    "inputs": {
+      "images": ["7", 0],
+      "frame_rate": 24.0,
+      "loop_count": 0,
+      "filename_prefix": "projects/temp/renders/escena_broll_video",
+      "format": "video/h264-mp4",
+      "pix_fmt": "yuv420p",
+      "crf": 18,
+      "save_metadata": true,
+      "trim_frame_start": 0,
+      "trim_frame_end": 0,
+      "save_output": true,
+      "pingpong": false
+    },
+    "class_type": "VHS_VideoCombine",
+    "_meta": {
+      "title": "Compilar Video B-Roll"
+    }
+  }
+}

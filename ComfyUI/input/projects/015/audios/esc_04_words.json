@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Sus",
+    "start": 0.12,
+    "end": 0.333
+  },
+  {
+    "word": "enemigos",
+    "start": 0.333,
+    "end": 0.901
+  },
+  {
+    "word": "estaban",
+    "start": 0.901,
+    "end": 1.397
+  },
+  {
+    "word": "completamente",
+    "start": 1.397,
+    "end": 2.32
+  },
+  {
+    "word": "paralizados",
+    "start": 2.32,
+    "end": 3.101
+  },
+  {
+    "word": "por",
+    "start": 3.101,
+    "end": 3.314
+  },
+  {
+    "word": "el",
+    "start": 3.314,
+    "end": 3.455
+  },
+  {
+    "word": "peso",
+    "start": 3.455,
+    "end": 3.739
+  },
+  {
+    "word": "de",
+    "start": 3.739,
+    "end": 3.881
+  },
+  {
+    "word": "su",
+    "start": 3.881,
+    "end": 4.023
+  },
+  {
+    "word": "leyenda",
+    "start": 4.023,
+    "end": 4.52
+  }
+]

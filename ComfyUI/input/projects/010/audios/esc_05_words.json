@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Alinear",
+    "start": 0.15,
+    "end": 0.657
+  },
+  {
+    "word": "el",
+    "start": 0.657,
+    "end": 0.802
+  },
+  {
+    "word": "riesgo",
+    "start": 0.802,
+    "end": 1.238
+  },
+  {
+    "word": "personal",
+    "start": 1.238,
+    "end": 1.817
+  },
+  {
+    "word": "con",
+    "start": 1.817,
+    "end": 2.035
+  },
+  {
+    "word": "el",
+    "start": 2.035,
+    "end": 2.18
+  },
+  {
+    "word": "resultado",
+    "start": 2.18,
+    "end": 2.832
+  },
+  {
+    "word": "colectivo",
+    "start": 2.832,
+    "end": 3.485
+  },
+  {
+    "word": "protege",
+    "start": 3.485,
+    "end": 3.992
+  },
+  {
+    "word": "a",
+    "start": 3.992,
+    "end": 4.137
+  },
+  {
+    "word": "todos",
+    "start": 4.137,
+    "end": 4.5
+  }
+]

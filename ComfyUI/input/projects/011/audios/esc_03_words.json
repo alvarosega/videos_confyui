@@ -1,0 +1,52 @@
+[
+  {
+    "word": "En",
+    "start": 0.1,
+    "end": 0.278
+  },
+  {
+    "word": "Francia",
+    "start": 0.278,
+    "end": 0.9
+  },
+  {
+    "word": "el",
+    "start": 0.9,
+    "end": 1.078
+  },
+  {
+    "word": "ministro",
+    "start": 1.078,
+    "end": 1.789
+  },
+  {
+    "word": "Nicolas",
+    "start": 1.789,
+    "end": 2.411
+  },
+  {
+    "word": "Fouquet",
+    "start": 2.411,
+    "end": 3.033
+  },
+  {
+    "word": "organizó",
+    "start": 3.033,
+    "end": 3.744
+  },
+  {
+    "word": "un",
+    "start": 3.744,
+    "end": 3.922
+  },
+  {
+    "word": "banquete",
+    "start": 3.922,
+    "end": 4.633
+  },
+  {
+    "word": "deslumbrante",
+    "start": 4.633,
+    "end": 5.7
+  }
+]

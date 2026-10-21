@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Quien",
+    "start": 0.12,
+    "end": 0.47
+  },
+  {
+    "word": "toma",
+    "start": 0.47,
+    "end": 0.75
+  },
+  {
+    "word": "la",
+    "start": 0.75,
+    "end": 0.89
+  },
+  {
+    "word": "iniciativa",
+    "start": 0.89,
+    "end": 1.59
+  },
+  {
+    "word": "de",
+    "start": 1.59,
+    "end": 1.73
+  },
+  {
+    "word": "perseguir",
+    "start": 1.73,
+    "end": 2.36
+  },
+  {
+    "word": "siempre",
+    "start": 2.36,
+    "end": 2.85
+  },
+  {
+    "word": "demuestra",
+    "start": 2.85,
+    "end": 3.48
+  },
+  {
+    "word": "una",
+    "start": 3.48,
+    "end": 3.69
+  },
+  {
+    "word": "clara",
+    "start": 3.69,
+    "end": 4.04
+  },
+  {
+    "word": "necesidad",
+    "start": 4.04,
+    "end": 4.67
+  }
+]

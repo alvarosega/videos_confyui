@@ -1,0 +1,57 @@
+[
+  {
+    "word": "La",
+    "start": 0.1,
+    "end": 0.293
+  },
+  {
+    "word": "persona",
+    "start": 0.293,
+    "end": 0.969
+  },
+  {
+    "word": "que",
+    "start": 0.969,
+    "end": 1.259
+  },
+  {
+    "word": "quebrará",
+    "start": 1.259,
+    "end": 2.031
+  },
+  {
+    "word": "tu",
+    "start": 2.031,
+    "end": 2.225
+  },
+  {
+    "word": "negocio",
+    "start": 2.225,
+    "end": 2.9
+  },
+  {
+    "word": "no",
+    "start": 2.9,
+    "end": 3.094
+  },
+  {
+    "word": "es",
+    "start": 3.094,
+    "end": 3.287
+  },
+  {
+    "word": "tu",
+    "start": 3.287,
+    "end": 3.48
+  },
+  {
+    "word": "mayor",
+    "start": 3.48,
+    "end": 3.963
+  },
+  {
+    "word": "competencia",
+    "start": 3.963,
+    "end": 5.025
+  }
+]

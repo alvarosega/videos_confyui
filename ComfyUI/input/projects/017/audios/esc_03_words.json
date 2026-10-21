@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Nikola",
+    "start": 0.12,
+    "end": 0.538
+  },
+  {
+    "word": "Tesla",
+    "start": 0.538,
+    "end": 0.886
+  },
+  {
+    "word": "murió",
+    "start": 0.886,
+    "end": 1.234
+  },
+  {
+    "word": "arruinado",
+    "start": 1.234,
+    "end": 1.861
+  },
+  {
+    "word": "y",
+    "start": 1.861,
+    "end": 2.0
+  },
+  {
+    "word": "abandonado",
+    "start": 2.0,
+    "end": 2.697
+  },
+  {
+    "word": "en",
+    "start": 2.697,
+    "end": 2.836
+  },
+  {
+    "word": "un",
+    "start": 2.836,
+    "end": 2.975
+  },
+  {
+    "word": "hotel",
+    "start": 2.975,
+    "end": 3.324
+  },
+  {
+    "word": "muy",
+    "start": 3.324,
+    "end": 3.532
+  },
+  {
+    "word": "modesto",
+    "start": 3.532,
+    "end": 4.02
+  }
+]

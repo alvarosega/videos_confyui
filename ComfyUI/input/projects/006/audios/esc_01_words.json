@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Un",
+    "start": 0.12,
+    "end": 0.28
+  },
+  {
+    "word": "salario",
+    "start": 0.28,
+    "end": 0.838
+  },
+  {
+    "word": "fijo",
+    "start": 0.838,
+    "end": 1.157
+  },
+  {
+    "word": "mensual",
+    "start": 1.157,
+    "end": 1.716
+  },
+  {
+    "word": "es",
+    "start": 1.716,
+    "end": 1.876
+  },
+  {
+    "word": "el",
+    "start": 1.876,
+    "end": 2.035
+  },
+  {
+    "word": "anestésico",
+    "start": 2.035,
+    "end": 2.833
+  },
+  {
+    "word": "más",
+    "start": 2.833,
+    "end": 3.073
+  },
+  {
+    "word": "potente",
+    "start": 3.073,
+    "end": 3.632
+  },
+  {
+    "word": "del",
+    "start": 3.632,
+    "end": 3.871
+  },
+  {
+    "word": "mundo",
+    "start": 3.871,
+    "end": 4.27
+  }
+]

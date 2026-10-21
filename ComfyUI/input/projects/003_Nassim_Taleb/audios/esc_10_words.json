@@ -1,0 +1,57 @@
+[
+  {
+    "word": "La",
+    "start": 0.15,
+    "end": 0.299
+  },
+  {
+    "word": "regla",
+    "start": 0.299,
+    "end": 0.672
+  },
+  {
+    "word": "de",
+    "start": 0.672,
+    "end": 0.821
+  },
+  {
+    "word": "oro",
+    "start": 0.821,
+    "end": 1.044
+  },
+  {
+    "word": "para",
+    "start": 1.044,
+    "end": 1.342
+  },
+  {
+    "word": "tu",
+    "start": 1.342,
+    "end": 1.491
+  },
+  {
+    "word": "supervivencia",
+    "start": 1.491,
+    "end": 2.46
+  },
+  {
+    "word": "financiera",
+    "start": 2.46,
+    "end": 3.205
+  },
+  {
+    "word": "es",
+    "start": 3.205,
+    "end": 3.354
+  },
+  {
+    "word": "muy",
+    "start": 3.354,
+    "end": 3.578
+  },
+  {
+    "word": "simple",
+    "start": 3.578,
+    "end": 4.025
+  }
+]

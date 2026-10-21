@@ -1,0 +1,52 @@
+[
+  {
+    "word": "La",
+    "start": 0.15,
+    "end": 0.286
+  },
+  {
+    "word": "impunidad",
+    "start": 0.286,
+    "end": 0.9
+  },
+  {
+    "word": "ante",
+    "start": 0.9,
+    "end": 1.173
+  },
+  {
+    "word": "el",
+    "start": 1.173,
+    "end": 1.309
+  },
+  {
+    "word": "error",
+    "start": 1.309,
+    "end": 1.65
+  },
+  {
+    "word": "sistemático",
+    "start": 1.65,
+    "end": 2.4
+  },
+  {
+    "word": "pudre",
+    "start": 2.4,
+    "end": 2.741
+  },
+  {
+    "word": "cualquier",
+    "start": 2.741,
+    "end": 3.355
+  },
+  {
+    "word": "organización",
+    "start": 3.355,
+    "end": 4.173
+  },
+  {
+    "word": "moderna",
+    "start": 4.173,
+    "end": 4.65
+  }
+]

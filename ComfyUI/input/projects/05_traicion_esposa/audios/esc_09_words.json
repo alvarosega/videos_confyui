@@ -1,0 +1,122 @@
+[
+  {
+    "word": "Al",
+    "start": 0.15,
+    "end": 0.284
+  },
+  {
+    "word": "día",
+    "start": 0.284,
+    "end": 0.485
+  },
+  {
+    "word": "siguiente",
+    "start": 0.485,
+    "end": 1.089
+  },
+  {
+    "word": "presenté",
+    "start": 1.089,
+    "end": 1.626
+  },
+  {
+    "word": "ante",
+    "start": 1.626,
+    "end": 1.894
+  },
+  {
+    "word": "el",
+    "start": 1.894,
+    "end": 2.029
+  },
+  {
+    "word": "tribunal",
+    "start": 2.029,
+    "end": 2.565
+  },
+  {
+    "word": "mercantil",
+    "start": 2.565,
+    "end": 3.169
+  },
+  {
+    "word": "los",
+    "start": 3.169,
+    "end": 3.371
+  },
+  {
+    "word": "pagarés",
+    "start": 3.371,
+    "end": 3.84
+  },
+  {
+    "word": "originales",
+    "start": 3.84,
+    "end": 4.511
+  },
+  {
+    "word": "de",
+    "start": 4.511,
+    "end": 4.645
+  },
+  {
+    "word": "las",
+    "start": 4.645,
+    "end": 4.847
+  },
+  {
+    "word": "fianzas",
+    "start": 4.847,
+    "end": 5.316
+  },
+  {
+    "word": "que",
+    "start": 5.316,
+    "end": 5.518
+  },
+  {
+    "word": "pagué",
+    "start": 5.518,
+    "end": 5.853
+  },
+  {
+    "word": "por",
+    "start": 5.853,
+    "end": 6.054
+  },
+  {
+    "word": "él",
+    "start": 6.054,
+    "end": 6.189
+  },
+  {
+    "word": "exigiendo",
+    "start": 6.189,
+    "end": 6.792
+  },
+  {
+    "word": "ejecución",
+    "start": 6.792,
+    "end": 7.396
+  },
+  {
+    "word": "forzosa",
+    "start": 7.396,
+    "end": 7.866
+  },
+  {
+    "word": "e",
+    "start": 7.866,
+    "end": 8.0
+  },
+  {
+    "word": "intereses",
+    "start": 8.0,
+    "end": 8.604
+  },
+  {
+    "word": "acumulados",
+    "start": 8.604,
+    "end": 9.275
+  }
+]

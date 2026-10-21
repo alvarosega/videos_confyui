@@ -1,0 +1,62 @@
+[
+  {
+    "word": "Quien",
+    "start": 0.1,
+    "end": 0.554
+  },
+  {
+    "word": "no",
+    "start": 0.554,
+    "end": 0.736
+  },
+  {
+    "word": "sabe",
+    "start": 0.736,
+    "end": 1.099
+  },
+  {
+    "word": "dominar",
+    "start": 1.099,
+    "end": 1.734
+  },
+  {
+    "word": "su",
+    "start": 1.734,
+    "end": 1.916
+  },
+  {
+    "word": "propia",
+    "start": 1.916,
+    "end": 2.461
+  },
+  {
+    "word": "lengua",
+    "start": 2.461,
+    "end": 3.005
+  },
+  {
+    "word": "jamás",
+    "start": 3.005,
+    "end": 3.459
+  },
+  {
+    "word": "podrá",
+    "start": 3.459,
+    "end": 3.913
+  },
+  {
+    "word": "gobernar",
+    "start": 3.913,
+    "end": 4.639
+  },
+  {
+    "word": "a",
+    "start": 4.639,
+    "end": 4.821
+  },
+  {
+    "word": "nadie",
+    "start": 4.821,
+    "end": 5.275
+  }
+]

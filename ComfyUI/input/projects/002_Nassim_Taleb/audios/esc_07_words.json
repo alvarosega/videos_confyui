@@ -1,0 +1,52 @@
+[
+  {
+    "word": "Quien",
+    "start": 0.15,
+    "end": 0.478
+  },
+  {
+    "word": "sostiene",
+    "start": 0.478,
+    "end": 1.003
+  },
+  {
+    "word": "una",
+    "start": 1.003,
+    "end": 1.199
+  },
+  {
+    "word": "postura",
+    "start": 1.199,
+    "end": 1.658
+  },
+  {
+    "word": "innegociable",
+    "start": 1.658,
+    "end": 2.445
+  },
+  {
+    "word": "termina",
+    "start": 2.445,
+    "end": 2.905
+  },
+  {
+    "word": "dominando",
+    "start": 2.905,
+    "end": 3.495
+  },
+  {
+    "word": "cualquier",
+    "start": 3.495,
+    "end": 4.085
+  },
+  {
+    "word": "debate",
+    "start": 4.085,
+    "end": 4.479
+  },
+  {
+    "word": "estratégico",
+    "start": 4.479,
+    "end": 5.2
+  }
+]

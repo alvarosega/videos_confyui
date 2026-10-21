@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Las",
+    "start": 0.12,
+    "end": 0.336
+  },
+  {
+    "word": "tradiciones",
+    "start": 0.336,
+    "end": 1.128
+  },
+  {
+    "word": "nacen",
+    "start": 1.128,
+    "end": 1.488
+  },
+  {
+    "word": "para",
+    "start": 1.488,
+    "end": 1.776
+  },
+  {
+    "word": "evitar",
+    "start": 1.776,
+    "end": 2.208
+  },
+  {
+    "word": "problemas",
+    "start": 2.208,
+    "end": 2.855
+  },
+  {
+    "word": "graves",
+    "start": 2.855,
+    "end": 3.287
+  },
+  {
+    "word": "que",
+    "start": 3.287,
+    "end": 3.503
+  },
+  {
+    "word": "tú",
+    "start": 3.503,
+    "end": 3.647
+  },
+  {
+    "word": "no",
+    "start": 3.647,
+    "end": 3.791
+  },
+  {
+    "word": "conoces",
+    "start": 3.791,
+    "end": 4.295
+  }
+]

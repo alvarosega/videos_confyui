@@ -1,0 +1,125 @@
+{
+  "id_proyecto": "018",
+  "preset_usado": "analog_horror",
+  "estilo_global": "cinematic 3D animation render, League of Legends high-end CGI aesthetic, stylized digital sculpture, detailed Physically Based Rendering (PBR), soft even studio ring lighting, flat diffused key lighting on face, completely shadowless facial features, sharp ambient occlusion in background, intricate clothing micro-textures, octane render lighting, standard perspective, cinematic corporate thriller color grading",
+  "prompt_negativo_global": "harsh shadows, deep facial shadows, side lighting, half face in shadow, dark shadows, chiaroscuro, high contrast shadows on face, smooth skin, plastic texture, clay render, photorealistic, raw photo, photograph, real human face, skin pores, simple shading, flat lighting, in-game graphics, mobile game style, low poly cgi, 2d drawing, anime, flat art, deformed face, open mouth, teeth, asymmetric lips, bad eyes, text, words, letters, typography, watermark, logo, blurry, bokeh, elongated face, long face, stretched face, long chin, high forehead, long neck, giraffe neck, vertically stretched, aspect ratio distortion, wide angle distortion, fish-eye, looking away, side glance, averted gaze, multiple people, background people, duplicate character, deformed body, bad anatomy",
+  "personajes": {
+    "adrian": {
+      "nombre": "Adrián",
+      "voz_tts": "em_alex",
+      "prompt_positivo_base": "detailed 3D digital model of a single solo 38-year-old strategic corporate man, high-end CGI aesthetic, stylized 3D digital sculpture, detailed Physically Based Rendering (PBR), complex PBR skin shader with subsurface scattering, defined European-Mediterranean facial features, standard symmetrical facial proportions, compact skull geometry, short neat dark hair with subtle grey temples, completely clean-shaven sharp angular jawline, intense focused steel-grey eyes looking dead straight into camera lens, strictly closed neutral mouth, distinct clean lip contour, relaxed jaw, natural standard neck length, anatomically correct symmetrical shoulders and upper torso, centered frontal chest-up composition, prominent bust portrait occupying 70% of vertical frame with generous headroom and visible shoulders, direct frontal eye contact, eye-level framing, balanced studio portrait lighting",
+      "prompt_negativo_base": "photorealistic, real skin pores, real human photo, photograph, raw photo, open mouth, teeth visible, smiling, laughing, screaming, angry expression, head turned, side view, profile, 3/4 view, elongated face, long face, stretched face, tall head, long chin, extended forehead, long neck, giraffe neck, vertically stretched, distorted proportions, looking away, looking sideways, averted gaze, misaligned pupils, side-eye, deformed face, bad eyes, female, woman, girl, beard, stubble, facial hair, smooth plastic skin, clay render, 2d illustration, flat render, cropped head, cropped face, cropped chin, cut off, out of frame, foreground obstacles, duplicate character, multiple bodies, multiple people, 2people, second person, background person, crowd, silhouette behind, deformed body, bad anatomy, extra limbs, asymmetrical shoulders",
+      "avatar": "man.png"
+    }
+  },
+  "escenas": [
+    {
+      "id": "esc_01",
+      "tipo": "personaje",
+      "personaje_id": "adrian",
+      "dialogo": "En el momento en que persigues a alguien, regalas todo tu poder.",
+      "accion_prompt": "1man, strictly single isolated solo male, only one person in entire frame, perfectly centered, compact balanced facial proportions, standard natural face shape, locked direct frontal gaze straight into camera lens, normal neck length, anatomically correct symmetrical shoulders and upper torso, wearing a tailored charcoal-black heavy knit mock-neck sweater with distinct yarn micro-textures over a dark base layer. Background is an empty completely plain flat solid dark basalt stone wall strictly behind the lone subject in sharp volumetric focus with zero extra people or human silhouettes, completely clear unobstructed foreground. Centered frontal chest-up bust portrait occupying 70% of vertical frame with generous headroom and fully visible symmetrical shoulders, soft balanced studio ring light, strictly frontal eye-level view.",
+      "prompt_negativo_escena": "multiple people, 2people, second person, background people, duplicate character, body in background, crowd, silhouette behind, duo, pair, twin, extra human, bystander, companion, female, woman, girl, elongated face, long face, stretched face, tall forehead, long chin, long neck, giraffe neck, vertically stretched, wide angle distortion, fish-eye, looking away, side-eye, averted gaze, wandering eyes, deformed body, mutated anatomy, bad anatomy, deformed shoulders, twisted torso, extra limbs, blurry background, bokeh, depth of field blur, out of focus, cropped head, cropped face, cropped chin, cut off, out of frame, foreground objects, props blocking view, obstacles, desk, table, partitions in front, harsh shadows, deep facial shadows, split lighting, chiaroscuro, suit, tie, blazer",
+      "duracion_audio": 3.94
+    },
+    {
+      "id": "esc_02",
+      "tipo": "personaje",
+      "personaje_id": "adrian",
+      "dialogo": "Rogar atención o insistir desesperadamente destruye tu posición en una negociación estratégica.",
+      "accion_prompt": "1man, strictly single isolated solo male, only one person in entire frame, perfectly centered, compact balanced facial proportions, standard natural face shape, locked direct frontal gaze straight into camera lens, normal neck length, anatomically correct symmetrical shoulders and upper torso, wearing a tailored charcoal-black heavy knit mock-neck sweater with distinct yarn micro-textures over a dark base layer. Background is an empty completely plain flat solid dark basalt stone wall strictly behind the lone subject in sharp volumetric focus with zero extra people or human silhouettes, completely clear unobstructed foreground. Centered frontal chest-up bust portrait occupying 70% of vertical frame with generous headroom and fully visible symmetrical shoulders, soft balanced studio ring light, strictly frontal eye-level view.",
+      "prompt_negativo_escena": "multiple people, 2people, second person, background people, duplicate character, body in background, crowd, silhouette behind, duo, pair, twin, extra human, bystander, companion, female, woman, girl, elongated face, long face, stretched face, tall forehead, long chin, long neck, giraffe neck, vertically stretched, wide angle distortion, fish-eye, looking away, side-eye, averted gaze, wandering eyes, deformed body, mutated anatomy, bad anatomy, deformed shoulders, twisted torso, extra limbs, blurry background, bokeh, depth of field blur, out of focus, cropped head, cropped face, cropped chin, cut off, out of frame, foreground objects, props blocking view, obstacles, desk, table, partitions in front, harsh shadows, deep facial shadows, split lighting, chiaroscuro, suit, tie, blazer",
+      "duracion_audio": 6.22
+    },
+    {
+      "id": "esc_03",
+      "tipo": "personaje",
+      "personaje_id": "adrian",
+      "dialogo": "Napoleón esperó con paciencia en Elba mientras la monarquía francesa colapsaba sola.",
+      "accion_prompt": "1man, strictly single isolated solo male, only one person in entire frame, compact proportional face, normal head length, locked direct eye contact fixed on camera lens, standard neck and anatomically correct stable shoulders, wearing a structured deep slate-navy overshirt in textured micro-twill over a plain black Supima t-shirt. Background is an empty completely plain solid dark matte studio wall strictly behind the lone character in sharp volumetric focus with zero background humans, completely empty foreground space. Centered frontal chest-up bust portrait occupying 70% of vertical frame with generous headroom and visible stable shoulders, soft diffused studio ring illumination, strictly frontal eye-level view.",
+      "prompt_negativo_escena": "multiple people, 2people, second person, background people, duplicate character, body in background, silhouette, duo, pair, twin, extra human, bystander, companion, female, woman, girl, elongated face, long face, stretched face, tall forehead, long chin, long neck, giraffe neck, vertically stretched, deformed body, mutated anatomy, bad anatomy, asymmetrical shoulders, deformed torso, hunched neck, twisted body, extra limbs, looking away, side gaze, averted gaze, blurry background, bokeh, depth of field blur, out of focus, cropped head, cropped face, cropped chin, cut off, out of frame, foreground objects, island, boat, ocean, soldiers, props blocking subject, harsh shadows, deep facial shadows, split lighting, chiaroscuro, suit, tie, casual hoodie",
+      "duracion_audio": 5.42
+    },
+    {
+      "id": "esc_04",
+      "tipo": "personaje",
+      "personaje_id": "adrian",
+      "dialogo": "No buscó a los soldados enviados por París para arrestarlo y capturarlo.",
+      "accion_prompt": "1man, strictly single isolated solo male, only one person in entire frame, compact proportional face, normal head length, locked direct eye contact fixed on camera lens, standard neck and anatomically correct stable shoulders, wearing a structured deep slate-navy overshirt in textured micro-twill over a plain black Supima t-shirt. Background is an empty completely plain solid dark matte studio wall strictly behind the lone character in sharp volumetric focus with zero background humans, completely empty foreground space. Centered frontal chest-up bust portrait occupying 70% of vertical frame with generous headroom and visible stable shoulders, soft diffused studio ring illumination, strictly frontal eye-level view.",
+      "prompt_negativo_escena": "multiple people, 2people, second person, background people, duplicate character, body in background, silhouette, duo, pair, twin, extra human, bystander, companion, female, woman, girl, elongated face, long face, stretched face, tall forehead, long chin, long neck, giraffe neck, vertically stretched, deformed body, mutated anatomy, bad anatomy, asymmetrical shoulders, deformed torso, hunched neck, twisted body, extra limbs, looking away, side gaze, averted gaze, blurry background, bokeh, depth of field blur, out of focus, cropped head, cropped face, cropped chin, cut off, out of frame, foreground objects, soldiers, military, uniforms, guns, props blocking subject, harsh shadows, deep facial shadows, split lighting, chiaroscuro, suit, tie, casual hoodie",
+      "duracion_audio": 4.37
+    },
+    {
+      "id": "esc_05",
+      "tipo": "personaje",
+      "personaje_id": "adrian",
+      "dialogo": "Dejó que ellos llegaran a su terreno y se plantó desarmado.",
+      "accion_prompt": "1man, strictly single solo man, natural facial symmetry, compact head proportions, direct centered gaze locked onto camera lens, standard neck length and structurally sound symmetrical shoulders, wearing a structured dark moss-green canvas utility jacket with matte hardware over a black modal t-shirt. Background is an empty flat architectural backdrop with dark bronze geometric panels strictly behind the subject in sharp volumetric focus, completely clear unobstructed foreground. Centered frontal chest-up bust portrait occupying 70% of vertical frame with generous headroom and clearly defined upper torso, soft uniform studio key lighting, strictly frontal eye-level view.",
+      "prompt_negativo_escena": "multiple people, 2people, second person, background people, duplicate character, silhouette, female, woman, girl, elongated face, long face, stretched face, tall forehead, long chin, long neck, giraffe neck, vertically stretched, deformed body, mutated anatomy, bad anatomy, deformed shoulders, twisted torso, disjointed neck, extra limbs, mangled body, looking away, side eye, averted gaze, blurry background, bokeh, depth of field blur, out of focus, cropped head, cropped face, cropped chin, cut off, out of frame, foreground objects, weapons, battlefield, army, obstacles, harsh shadows, deep facial shadows, split lighting, chiaroscuro, suit, tie, blazer",
+      "duracion_audio": 3.97
+    },
+    {
+      "id": "esc_06",
+      "tipo": "personaje",
+      "personaje_id": "adrian",
+      "dialogo": "Logró que marcharan bajo sus órdenes para recuperar el trono imperial.",
+      "accion_prompt": "1man, strictly single solo man, natural facial symmetry, compact head proportions, direct centered gaze locked onto camera lens, standard neck length and structurally sound symmetrical shoulders, wearing a structured dark moss-green canvas utility jacket with matte hardware over a black modal t-shirt. Background is an empty flat architectural backdrop with dark bronze geometric panels strictly behind the subject in sharp volumetric focus, completely clear unobstructed foreground. Centered frontal chest-up bust portrait occupying 70% of vertical frame with generous headroom and clearly defined upper torso, soft uniform studio key lighting, strictly frontal eye-level view.",
+      "prompt_negativo_escena": "multiple people, 2people, second person, background people, duplicate character, silhouette, female, woman, girl, elongated face, long face, stretched face, tall forehead, long chin, long neck, giraffe neck, vertically stretched, deformed body, mutated anatomy, bad anatomy, deformed shoulders, twisted torso, disjointed neck, extra limbs, mangled body, looking away, side eye, averted gaze, blurry background, bokeh, depth of field blur, out of focus, cropped head, cropped face, cropped chin, cut off, out of frame, foreground objects, throne, crown, marching soldiers, obstacles, harsh shadows, deep facial shadows, split lighting, chiaroscuro, suit, tie, blazer",
+      "duracion_audio": 4.29
+    },
+    {
+      "id": "esc_07",
+      "tipo": "personaje",
+      "personaje_id": "adrian",
+      "dialogo": "Quien toma la iniciativa de perseguir siempre demuestra una clara necesidad.",
+      "accion_prompt": "1man, strictly single isolated solo male, only one person in entire frame, standard balanced facial ratio, compact natural face shape, direct centered gaze locked onto camera lens, clean anatomically correct shoulders and chest-up framing, wearing a refined graphite-grey waffle-knit zip cardigan with dense ribbing over an obsidian crewneck. Background is an empty completely plain solid dark bronze architectural wall strictly behind the lone subject in sharp volumetric focus without human silhouettes, completely clear foreground without reflections or obstacles. Centered frontal chest-up bust portrait occupying 70% of vertical frame with generous headroom and defined shoulders, soft balanced studio key light, strictly frontal eye-level view.",
+      "prompt_negativo_escena": "multiple people, 2people, second person, background people, duplicate character, body in background, duo, pair, twin, extra human, bystander, companion, female, woman, girl, elongated face, long face, stretched face, tall forehead, long chin, long neck, giraffe neck, vertically stretched, deformed body, mutated anatomy, bad anatomy, deformed shoulders, asymmetrical upper body, disjointed torso, extra limbs, looking away, side glance, averted gaze, blurry background, bokeh, depth of field blur, out of focus, cropped head, cropped face, cropped chin, cut off, out of frame, foreground objects, glass reflection, reflection of person, podium, desk, obstacles, harsh shadows, deep facial shadows, split lighting, chiaroscuro, tie, bowtie, suit, blazer",
+      "duracion_audio": 4.87
+    },
+    {
+      "id": "esc_08",
+      "tipo": "personaje",
+      "personaje_id": "adrian",
+      "dialogo": "Quien espera controlando un recurso valioso domina por completo el juego.",
+      "accion_prompt": "1man, strictly single isolated solo male, only one person in entire frame, standard balanced facial ratio, compact natural face shape, direct centered gaze locked onto camera lens, clean anatomically correct shoulders and chest-up framing, wearing a refined graphite-grey waffle-knit zip cardigan with dense ribbing over an obsidian crewneck. Background is an empty completely plain solid dark bronze architectural wall strictly behind the lone subject in sharp volumetric focus without human silhouettes, completely clear foreground without reflections or obstacles. Centered frontal chest-up bust portrait occupying 70% of vertical frame with generous headroom and defined shoulders, soft balanced studio key light, strictly frontal eye-level view.",
+      "prompt_negativo_escena": "multiple people, 2people, second person, background people, duplicate character, body in background, duo, pair, twin, extra human, bystander, companion, female, woman, girl, elongated face, long face, stretched face, tall forehead, long chin, long neck, giraffe neck, vertically stretched, deformed body, mutated anatomy, bad anatomy, deformed shoulders, asymmetrical upper body, disjointed torso, extra limbs, looking away, side glance, averted gaze, blurry background, bokeh, depth of field blur, out of focus, cropped head, cropped face, cropped chin, cut off, out of frame, foreground objects, glass reflection, reflection of person, podium, desk, obstacles, harsh shadows, deep facial shadows, split lighting, chiaroscuro, tie, bowtie, suit, blazer",
+      "duracion_audio": 4.57
+    },
+    {
+      "id": "esc_09",
+      "tipo": "personaje",
+      "personaje_id": "adrian",
+      "dialogo": "Obligar a la otra parte a desplazarse desgasta toda su energía mental.",
+      "accion_prompt": "1man, strictly single solo man, anatomically correct human body structure, perfectly balanced facial proportions, standard compact skull geometry, locked direct eye contact with camera lens, natural standard neck length, level symmetrical shoulders, stable chest-up framing, wearing a simple structured anthracite-grey technical overshirt over a dark slate base shirt. Background is an empty flat solid dark titanium studio backdrop strictly behind the character in sharp volumetric focus, empty foreground space. Centered frontal chest-up bust portrait occupying 70% of vertical frame with generous headroom and visible shoulders, balanced soft studio key lighting, strictly frontal eye-level view.",
+      "prompt_negativo_escena": "deformed body, mutated anatomy, bad anatomy, deformed shoulders, twisted torso, asymmetrical body, hunchback, disjointed neck, long neck, giraffe neck, extra limbs, extra arms, malformed limbs, distorted proportions, elongated face, long face, stretched face, tall forehead, long chin, vertically stretched, multiple people, 2people, second person, background people, duplicate character, female, woman, girl, looking away, side gaze, wandering eyes, blurry background, bokeh, depth of field blur, out of focus, cropped head, cropped face, cropped chin, cut off, out of frame, foreground objects, props blocking view, furniture in front, desk, table, harsh shadows, deep facial shadows, split lighting, chiaroscuro, suit, tie, tuxedo, blazer",
+      "duracion_audio": 4.64
+    },
+    {
+      "id": "esc_10",
+      "tipo": "personaje",
+      "personaje_id": "adrian",
+      "dialogo": "Al forzarlos a moverse, aceptarán tus términos sin oponer ninguna resistencia.",
+      "accion_prompt": "1man, strictly single solo man, anatomically correct human body structure, perfectly balanced facial proportions, standard compact skull geometry, locked direct eye contact with camera lens, natural standard neck length, level symmetrical shoulders, stable chest-up framing, wearing a simple structured anthracite-grey technical overshirt over a dark slate base shirt. Background is an empty flat solid dark titanium studio backdrop strictly behind the character in sharp volumetric focus, empty foreground space. Centered frontal chest-up bust portrait occupying 70% of vertical frame with generous headroom and visible shoulders, balanced soft studio key lighting, strictly frontal eye-level view.",
+      "prompt_negativo_escena": "deformed body, mutated anatomy, bad anatomy, deformed shoulders, twisted torso, asymmetrical body, hunchback, disjointed neck, long neck, giraffe neck, extra limbs, extra arms, malformed limbs, distorted proportions, elongated face, long face, stretched face, tall forehead, long chin, vertically stretched, multiple people, 2people, second person, background people, duplicate character, female, woman, girl, looking away, side gaze, wandering eyes, blurry background, bokeh, depth of field blur, out of focus, cropped head, cropped face, cropped chin, cut off, out of frame, foreground objects, props blocking view, furniture in front, desk, table, harsh shadows, deep facial shadows, split lighting, chiaroscuro, suit, tie, tuxedo, blazer",
+      "duracion_audio": 5.22
+    },
+    {
+      "id": "esc_11",
+      "tipo": "personaje",
+      "personaje_id": "adrian",
+      "dialogo": "Coloca el cebo, domina el terreno y guarda un silencio absoluto.",
+      "accion_prompt": "1man, strictly single isolated solo man, anatomically correct natural human structure, standard symmetrical facial geometry, compact natural head length, direct frontal eye contact locked dead straight at camera lens, natural standard neck length, level symmetrical shoulders and stable upright chest-up posture, wearing a clean tailored obsidian-black structured utility coat with matte horn buttons over a dark base shirt. Background is an empty flat completely plain solid dark slate studio backdrop strictly behind the subject in sharp volumetric focus with zero extra people, completely clear unobstructed foreground. Centered frontal chest-up bust portrait occupying 70% of vertical frame with generous headroom and clearly defined upper torso, flat diffused studio key lighting, strictly frontal eye-level view.",
+      "prompt_negativo_escena": "deformed body, mutated anatomy, bad anatomy, deformed shoulders, twisted torso, hunchback, disjointed neck, long neck, giraffe neck, extra limbs, extra arms, malformed limbs, mangled posture, asymmetrical torso, distorted geometry, elongated face, long face, stretched face, tall forehead, long chin, vertically stretched, multiple people, 2people, second person, background people, duplicate body, reflection of person, female, woman, girl, looking away, side-eye, averted gaze, blurry background, bokeh, depth of field blur, out of focus, cropped head, cropped face, cropped chin, cut off, out of frame, foreground objects, glass partitions, window frames in front, obstacles, harsh shadows, deep facial shadows, split lighting, chiaroscuro, bright colors, casual clothes",
+      "duracion_audio": 4.29
+    },
+    {
+      "id": "esc_12",
+      "tipo": "personaje",
+      "personaje_id": "adrian",
+      "dialogo": "Quien muestra hambre en la mesa termina pagando la cuenta completa.",
+      "accion_prompt": "1man, strictly single isolated solo man, anatomically correct natural human structure, standard symmetrical facial geometry, compact natural head length, direct frontal eye contact locked dead straight at camera lens, natural standard neck length, level symmetrical shoulders and stable upright chest-up posture, wearing a clean tailored obsidian-black structured utility coat with matte horn buttons over a dark base shirt. Background is an empty flat completely plain solid dark slate studio backdrop strictly behind the subject in sharp volumetric focus with zero extra people, completely clear unobstructed foreground. Centered frontal chest-up bust portrait occupying 70% of vertical frame with generous headroom and clearly defined upper torso, flat diffused studio key lighting, strictly frontal eye-level view.",
+      "prompt_negativo_escena": "deformed body, mutated anatomy, bad anatomy, deformed shoulders, twisted torso, hunchback, disjointed neck, long neck, giraffe neck, extra limbs, extra arms, malformed limbs, mangled posture, asymmetrical torso, distorted geometry, elongated face, long face, stretched face, tall forehead, long chin, vertically stretched, multiple people, 2people, second person, background people, duplicate body, reflection of person, female, woman, girl, looking away, side-eye, averted gaze, blurry background, bokeh, depth of field blur, out of focus, cropped head, cropped face, cropped chin, cut off, out of frame, foreground objects, glass partitions, window frames in front, obstacles, harsh shadows, deep facial shadows, split lighting, chiaroscuro, bright colors, casual clothes",
+      "duracion_audio": 3.97
+    }
+  ]
+}

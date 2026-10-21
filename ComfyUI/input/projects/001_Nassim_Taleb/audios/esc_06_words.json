@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Pagamos",
+    "start": 0.15,
+    "end": 0.651
+  },
+  {
+    "word": "por",
+    "start": 0.651,
+    "end": 0.866
+  },
+  {
+    "word": "opiniones",
+    "start": 0.866,
+    "end": 1.511
+  },
+  {
+    "word": "de",
+    "start": 1.511,
+    "end": 1.654
+  },
+  {
+    "word": "personas",
+    "start": 1.654,
+    "end": 2.227
+  },
+  {
+    "word": "que",
+    "start": 2.227,
+    "end": 2.442
+  },
+  {
+    "word": "jamás",
+    "start": 2.442,
+    "end": 2.8
+  },
+  {
+    "word": "arriesgan",
+    "start": 2.8,
+    "end": 3.444
+  },
+  {
+    "word": "un",
+    "start": 3.444,
+    "end": 3.587
+  },
+  {
+    "word": "solo",
+    "start": 3.587,
+    "end": 3.874
+  },
+  {
+    "word": "centavo",
+    "start": 3.874,
+    "end": 4.375
+  }
+]

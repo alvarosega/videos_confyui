@@ -1,0 +1,62 @@
+[
+  {
+    "word": "Ser",
+    "start": 0.12,
+    "end": 0.333
+  },
+  {
+    "word": "modesto",
+    "start": 0.333,
+    "end": 0.828
+  },
+  {
+    "word": "es",
+    "start": 0.828,
+    "end": 0.97
+  },
+  {
+    "word": "una",
+    "start": 0.97,
+    "end": 1.182
+  },
+  {
+    "word": "condena",
+    "start": 1.182,
+    "end": 1.678
+  },
+  {
+    "word": "directa",
+    "start": 1.678,
+    "end": 2.174
+  },
+  {
+    "word": "a",
+    "start": 2.174,
+    "end": 2.316
+  },
+  {
+    "word": "la",
+    "start": 2.316,
+    "end": 2.457
+  },
+  {
+    "word": "mediocridad",
+    "start": 2.457,
+    "end": 3.237
+  },
+  {
+    "word": "y",
+    "start": 3.237,
+    "end": 3.378
+  },
+  {
+    "word": "el",
+    "start": 3.378,
+    "end": 3.52
+  },
+  {
+    "word": "olvido",
+    "start": 3.52,
+    "end": 3.945
+  }
+]

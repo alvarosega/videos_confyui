@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Quien",
+    "start": 0.12,
+    "end": 0.453
+  },
+  {
+    "word": "trabaja",
+    "start": 0.453,
+    "end": 0.92
+  },
+  {
+    "word": "callado",
+    "start": 0.92,
+    "end": 1.387
+  },
+  {
+    "word": "esperando",
+    "start": 1.387,
+    "end": 1.987
+  },
+  {
+    "word": "reconocimiento",
+    "start": 1.987,
+    "end": 2.92
+  },
+  {
+    "word": "termina",
+    "start": 2.92,
+    "end": 3.387
+  },
+  {
+    "word": "siendo",
+    "start": 3.387,
+    "end": 3.787
+  },
+  {
+    "word": "explotado",
+    "start": 3.787,
+    "end": 4.387
+  },
+  {
+    "word": "por",
+    "start": 4.387,
+    "end": 4.587
+  },
+  {
+    "word": "los",
+    "start": 4.587,
+    "end": 4.787
+  },
+  {
+    "word": "demás",
+    "start": 4.787,
+    "end": 5.12
+  }
+]

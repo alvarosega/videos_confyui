@@ -1,0 +1,37 @@
+[
+  {
+    "word": "Dijo",
+    "start": 0.15,
+    "end": 0.459
+  },
+  {
+    "word": "que",
+    "start": 0.459,
+    "end": 0.691
+  },
+  {
+    "word": "un",
+    "start": 0.691,
+    "end": 0.846
+  },
+  {
+    "word": "obrero",
+    "start": 0.846,
+    "end": 1.31
+  },
+  {
+    "word": "arruinaba",
+    "start": 1.31,
+    "end": 2.006
+  },
+  {
+    "word": "su",
+    "start": 2.006,
+    "end": 2.161
+  },
+  {
+    "word": "imagen",
+    "start": 2.161,
+    "end": 2.625
+  }
+]

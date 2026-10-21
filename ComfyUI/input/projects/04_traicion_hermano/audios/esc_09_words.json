@@ -1,0 +1,122 @@
+[
+  {
+    "word": "Esta",
+    "start": 0.15,
+    "end": 0.411
+  },
+  {
+    "word": "mañana",
+    "start": 0.411,
+    "end": 0.803
+  },
+  {
+    "word": "entré",
+    "start": 0.803,
+    "end": 1.13
+  },
+  {
+    "word": "a",
+    "start": 1.13,
+    "end": 1.261
+  },
+  {
+    "word": "la",
+    "start": 1.261,
+    "end": 1.391
+  },
+  {
+    "word": "junta",
+    "start": 1.391,
+    "end": 1.718
+  },
+  {
+    "word": "de",
+    "start": 1.718,
+    "end": 1.849
+  },
+  {
+    "word": "accionistas",
+    "start": 1.849,
+    "end": 2.567
+  },
+  {
+    "word": "justo",
+    "start": 2.567,
+    "end": 2.894
+  },
+  {
+    "word": "cuando",
+    "start": 2.894,
+    "end": 3.286
+  },
+  {
+    "word": "el",
+    "start": 3.286,
+    "end": 3.417
+  },
+  {
+    "word": "fondo",
+    "start": 3.417,
+    "end": 3.743
+  },
+  {
+    "word": "de",
+    "start": 3.743,
+    "end": 3.874
+  },
+  {
+    "word": "inversión",
+    "start": 3.874,
+    "end": 4.462
+  },
+  {
+    "word": "iba",
+    "start": 4.462,
+    "end": 4.658
+  },
+  {
+    "word": "a",
+    "start": 4.658,
+    "end": 4.789
+  },
+  {
+    "word": "transferir",
+    "start": 4.789,
+    "end": 5.442
+  },
+  {
+    "word": "los",
+    "start": 5.442,
+    "end": 5.638
+  },
+  {
+    "word": "cincuenta",
+    "start": 5.638,
+    "end": 6.226
+  },
+  {
+    "word": "millones",
+    "start": 6.226,
+    "end": 6.749
+  },
+  {
+    "word": "a",
+    "start": 6.749,
+    "end": 6.88
+  },
+  {
+    "word": "su",
+    "start": 6.88,
+    "end": 7.01
+  },
+  {
+    "word": "cuenta",
+    "start": 7.01,
+    "end": 7.402
+  },
+  {
+    "word": "personal",
+    "start": 7.402,
+    "end": 7.925
+  }
+]

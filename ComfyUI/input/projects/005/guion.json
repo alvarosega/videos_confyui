@@ -1,0 +1,111 @@
+{
+  "estilo_global": "cinematic 3D animation render, League of Legends high-end CGI aesthetic, stylized digital sculpture, detailed Physically Based Rendering (PBR), soft even studio ring lighting, flat diffused key lighting on face, completely shadowless facial features, sharp ambient occlusion in background, intricate clothing micro-textures, octane render lighting, sharp volumetric depth, cinematic corporate thriller color grading",
+  "prompt_negativo_global": "harsh shadows, deep facial shadows, side lighting, half face in shadow, dark shadows, chiaroscuro, high contrast shadows on face, smooth skin, plastic texture, clay render, photorealistic, raw photo, photograph, real human face, skin pores, simple shading, flat lighting, in-game graphics, mobile game style, low poly cgi, 2d drawing, anime, flat art, deformed face, open mouth, teeth, asymmetric lips, bad eyes, text, words, letters, typography, watermark, logo, blurry, bokeh, elongated face, long face, stretched face, looking away, side glance, averted gaze, multiple people, background people, duplicate character, deformed body, bad anatomy",
+  "personajes": {
+    "diego": {
+      "nombre": "Diego",
+      "voz_tts": "es-ES-AlvaroNeural",
+      "prompt_positivo_base": "detailed 3D digital model of a single solo 40-year-old executive man, high-end CGI aesthetic, stylized 3D digital sculpture, detailed Physically Based Rendering (PBR), complex PBR skin shader with subsurface scattering, defined European-Mediterranean facial features, standard symmetrical facial proportions, short textured dark hair with subtle silver temples, completely clean-shaven sharp angular jawline, intense focused steel-grey eyes looking dead straight into camera lens, strictly closed neutral mouth, distinct clean lip contour, relaxed jaw, anatomically correct natural neck and symmetrical shoulders, centered frontal chest-up composition, prominent portrait occupying 75% of vertical frame with generous headroom and visible shoulders, direct frontal eye contact, eye-level framing, balanced studio portrait lighting",
+      "prompt_negativo_base": "photorealistic, real skin pores, real human photo, photograph, raw photo, open mouth, teeth visible, smiling, laughing, screaming, angry expression, head turned, side view, profile, 3/4 view, elongated face, long face, stretched face, looking away, looking sideways, averted gaze, misaligned pupils, side-eye, deformed face, bad eyes, female, woman, girl, beard, stubble, facial hair, smooth plastic skin, clay render, 2d illustration, flat render, cropped head, cropped face, cropped chin, cut off, out of frame, foreground obstacles, duplicate character, multiple bodies, multiple people, 2people, second person, background person, crowd, silhouette behind, deformed body, bad anatomy, extra limbs, asymmetrical shoulders",
+      "avatar": "man.png"
+    }
+  },
+  "escenas": [
+    {
+      "id": "esc_01",
+      "tipo": "personaje",
+      "personaje_id": "diego",
+      "dialogo": "¿Qué se usará en cien años: la red de moda o libros?",
+      "accion_prompt": "single solo man, standard symmetrical facial geometry, locked direct frontal gaze dead straight into camera lens, anatomically correct natural shoulders and stable upper chest, wearing a heavy dark petrol-blue ribbed knit sweater with distinct micro-textures over a charcoal base layer. Background is an empty solid brutalist architectural wall with dark basalt stone blocks strictly positioned behind the subject in sharp volumetric focus with zero other individuals, completely clear unobstructed foreground. Centered frontal chest-up portrait occupying 75% of vertical frame with generous headroom and fully visible symmetrical shoulders, soft balanced studio ring light, strictly frontal eye-level view.",
+      "prompt_negativo_escena": "female, woman, girl, multiple people, 2people, second person, background people, duplicate character, body in background, crowd, silhouette behind, elongated face, long face, stretched face, looking away, side-eye, averted gaze, wandering eyes, deformed body, mutated anatomy, bad anatomy, deformed shoulders, twisted torso, extra limbs, blurry background, bokeh, depth of field blur, out of focus, cropped head, cropped face, cropped chin, cut off, out of frame, foreground objects, books, social media icons, phones in front, props blocking view, obstacles, desk, table, partitions in front, harsh shadows, deep facial shadows, split lighting, chiaroscuro, suit, tie, blazer"
+    },
+    {
+      "id": "esc_02",
+      "tipo": "personaje",
+      "personaje_id": "diego",
+      "dialogo": "Las ideas y las herramientas no envejecen como los seres humanos.",
+      "accion_prompt": "single solo man, standard symmetrical facial geometry, locked direct frontal gaze dead straight into camera lens, anatomically correct natural shoulders and stable upper chest, wearing a heavy dark petrol-blue ribbed knit sweater with distinct micro-textures over a charcoal base layer. Background is an empty solid brutalist architectural wall with dark basalt stone blocks strictly positioned behind the subject in sharp volumetric focus with zero other individuals, completely clear unobstructed foreground. Centered frontal chest-up portrait occupying 75% of vertical frame with generous headroom and fully visible symmetrical shoulders, soft balanced studio ring light, strictly frontal eye-level view.",
+      "prompt_negativo_escena": "female, woman, girl, multiple people, 2people, second person, background people, duplicate character, body in background, crowd, silhouette behind, elongated face, long face, stretched face, looking away, side-eye, averted gaze, wandering eyes, deformed body, mutated anatomy, bad anatomy, deformed shoulders, twisted torso, extra limbs, blurry background, bokeh, depth of field blur, out of focus, cropped head, cropped face, cropped chin, cut off, out of frame, foreground objects, books, social media icons, phones in front, props blocking view, obstacles, desk, table, partitions in front, harsh shadows, deep facial shadows, split lighting, chiaroscuro, suit, tie, blazer"
+    },
+    {
+      "id": "esc_03",
+      "tipo": "personaje",
+      "personaje_id": "diego",
+      "dialogo": "Según el Efecto Lindy expuesto en Jugarse la piel, el tiempo juzga todo.",
+      "accion_prompt": "single solo subject, balanced facial proportions, locked direct eye contact fixed on camera lens, anatomically correct stable shoulders and chest-up posture, wearing a structured deep slate-grey overshirt with micro-twill weave over a black Supima crewneck shirt. Background is an empty minimalist architectural wall with vertical dark walnut louvers strictly behind the character in sharp volumetric focus with no background humans, completely empty foreground space. Centered frontal chest-up portrait occupying 75% of vertical frame with generous headroom and visible stable shoulders, soft diffused studio ring illumination, strictly frontal eye-level view.",
+      "prompt_negativo_escena": "female, woman, girl, multiple people, 2people, second person, background people, duplicate character, body in background, silhouette, deformed body, mutated anatomy, bad anatomy, asymmetrical shoulders, deformed torso, hunched neck, twisted body, extra limbs, elongated face, long face, stretched face, looking away, side gaze, averted gaze, blurry background, bokeh, depth of field blur, out of focus, cropped head, cropped face, cropped chin, cut off, out of frame, foreground objects, clocks, hourglasses, table, desk, props blocking subject, harsh shadows, deep facial shadows, split lighting, chiaroscuro, suit, tie, casual hoodie"
+    },
+    {
+      "id": "esc_04",
+      "tipo": "personaje",
+      "personaje_id": "diego",
+      "dialogo": "Cada año extra que una idea sobrevive, duplica su expectativa futura.",
+      "accion_prompt": "single solo subject, balanced facial proportions, locked direct eye contact fixed on camera lens, anatomically correct stable shoulders and chest-up posture, wearing a structured deep slate-grey overshirt with micro-twill weave over a black Supima crewneck shirt. Background is an empty minimalist architectural wall with vertical dark walnut louvers strictly behind the character in sharp volumetric focus with no background humans, completely empty foreground space. Centered frontal chest-up portrait occupying 75% of vertical frame with generous headroom and visible stable shoulders, soft diffused studio ring illumination, strictly frontal eye-level view.",
+      "prompt_negativo_escena": "female, woman, girl, multiple people, 2people, second person, background people, duplicate character, body in background, silhouette, deformed body, mutated anatomy, bad anatomy, asymmetrical shoulders, deformed torso, hunched neck, twisted body, extra limbs, elongated face, long face, stretched face, looking away, side gaze, averted gaze, blurry background, bokeh, depth of field blur, out of focus, cropped head, cropped face, cropped chin, cut off, out of frame, foreground objects, clocks, hourglasses, table, desk, props blocking subject, harsh shadows, deep facial shadows, split lighting, chiaroscuro, suit, tie, casual hoodie"
+    },
+    {
+      "id": "esc_05",
+      "tipo": "personaje",
+      "personaje_id": "diego",
+      "dialogo": "Lo que ha resistido varios siglos ya pagó su derecho a existir.",
+      "accion_prompt": "single solo man, natural facial symmetry, direct centered gaze locked onto camera lens, structurally sound symmetrical shoulders and upright posture, wearing a tailored forest-green canvas utility jacket with matte hardware over a dark graphite t-shirt. Background is an empty architectural backdrop with dark bronze geometric panels strictly behind the subject in sharp volumetric focus, completely clear unobstructed foreground. Centered frontal chest-up portrait occupying 75% of vertical frame with generous headroom and clearly defined upper torso, soft uniform studio key lighting, strictly frontal eye-level view.",
+      "prompt_negativo_escena": "female, woman, girl, multiple people, 2people, second person, background people, duplicate character, silhouette, deformed body, mutated anatomy, bad anatomy, deformed shoulders, twisted torso, disjointed neck, extra limbs, mangled body, elongated face, long face, stretched face, looking away, side eye, averted gaze, blurry background, bokeh, depth of field blur, out of focus, cropped head, cropped face, cropped chin, cut off, out of frame, foreground objects, artifacts, ancient statues, conference desk, obstacles, harsh shadows, deep facial shadows, split lighting, chiaroscuro, suit, tie, blazer"
+    },
+    {
+      "id": "esc_06",
+      "tipo": "personaje",
+      "personaje_id": "diego",
+      "dialogo": "El tiempo es el único juez implacable que destruye lo superficial.",
+      "accion_prompt": "single solo man, natural facial symmetry, direct centered gaze locked onto camera lens, structurally sound symmetrical shoulders and upright posture, wearing a tailored forest-green canvas utility jacket with matte hardware over a dark graphite t-shirt. Background is an empty architectural backdrop with dark bronze geometric panels strictly behind the subject in sharp volumetric focus, completely clear unobstructed foreground. Centered frontal chest-up portrait occupying 75% of vertical frame with generous headroom and clearly defined upper torso, soft uniform studio key lighting, strictly frontal eye-level view.",
+      "prompt_negativo_escena": "female, woman, girl, multiple people, 2people, second person, background people, duplicate character, silhouette, deformed body, mutated anatomy, bad anatomy, deformed shoulders, twisted torso, disjointed neck, extra limbs, mangled body, elongated face, long face, stretched face, looking away, side eye, averted gaze, blurry background, bokeh, depth of field blur, out of focus, cropped head, cropped face, cropped chin, cut off, out of frame, foreground objects, artifacts, ancient statues, conference desk, obstacles, harsh shadows, deep facial shadows, split lighting, chiaroscuro, suit, tie, blazer"
+    },
+    {
+      "id": "esc_07",
+      "tipo": "personaje",
+      "personaje_id": "diego",
+      "dialogo": "Vivimos obsesionados con la última tendencia pasajera e inútil de la semana.",
+      "accion_prompt": "single solo subject, standard facial ratio, direct centered gaze locked onto camera lens, clean anatomically correct shoulders and chest-up framing, wearing a textured matte black knit cardigan with dense stitch detail over an obsidian crewneck top. Background is an empty solid industrial wall with dark geometric concrete slabs strictly behind the subject in sharp volumetric focus, completely clear foreground without reflections or obstacles. Centered frontal chest-up portrait occupying 75% of vertical frame with generous headroom and defined shoulders, soft balanced studio key light, strictly frontal eye-level view.",
+      "prompt_negativo_escena": "female, woman, girl, multiple people, 2people, second person, background people, duplicate character, body in background, deformed body, mutated anatomy, bad anatomy, deformed shoulders, asymmetrical upper body, disjointed torso, extra limbs, elongated face, long face, stretched face, looking away, side glance, averted gaze, blurry background, bokeh, depth of field blur, out of focus, cropped head, cropped face, cropped chin, cut off, out of frame, foreground objects, glowing tech, screens in front, podium, desk, obstacles, harsh shadows, deep facial shadows, split lighting, chiaroscuro, tie, bowtie, casual t-shirt"
+    },
+    {
+      "id": "esc_08",
+      "tipo": "personaje",
+      "personaje_id": "diego",
+      "dialogo": "Desechando conocimientos sólidos que llevan funcionando trescientos años sin fallar jamás.",
+      "accion_prompt": "single solo subject, standard facial ratio, direct centered gaze locked onto camera lens, clean anatomically correct shoulders and chest-up framing, wearing a textured matte black knit cardigan with dense stitch detail over an obsidian crewneck top. Background is an empty solid industrial wall with dark geometric concrete slabs strictly behind the subject in sharp volumetric focus, completely clear foreground without reflections or obstacles. Centered frontal chest-up portrait occupying 75% of vertical frame with generous headroom and defined shoulders, soft balanced studio key light, strictly frontal eye-level view.",
+      "prompt_negativo_escena": "female, woman, girl, multiple people, 2people, second person, background people, duplicate character, body in background, deformed body, mutated anatomy, bad anatomy, deformed shoulders, asymmetrical upper body, disjointed torso, extra limbs, elongated face, long face, stretched face, looking away, side glance, averted gaze, blurry background, bokeh, depth of field blur, out of focus, cropped head, cropped face, cropped chin, cut off, out of frame, foreground objects, glowing tech, screens in front, podium, desk, obstacles, harsh shadows, deep facial shadows, split lighting, chiaroscuro, tie, bowtie, casual t-shirt"
+    },
+    {
+      "id": "esc_09",
+      "tipo": "personaje",
+      "personaje_id": "diego",
+      "dialogo": "Las tecnologías perecederas mueren rápido ante la primera crisis del mercado.",
+      "accion_prompt": "single solo subject, balanced facial proportions, locked direct eye contact with camera lens, stable anatomically correct torso and symmetrical shoulders, wearing a tailored charcoal-tinted bomber jacket with clean seamlines over a dark slate t-shirt. Background is an empty minimalist wall with brushed dark titanium panels strictly behind the character in sharp volumetric focus, empty foreground space. Centered frontal chest-up portrait occupying 75% of vertical frame with generous headroom and visible shoulders, balanced soft studio key lighting, strictly frontal eye-level view.",
+      "prompt_negativo_escena": "female, woman, girl, multiple people, 2people, second person, background people, duplicate character, deformed body, mutated anatomy, bad anatomy, deformed chest, asymmetrical shoulders, twisted spine, extra limbs, elongated face, long face, stretched face, looking away, side gaze, wandering eyes, blurry background, bokeh, depth of field blur, out of focus, cropped head, cropped face, cropped chin, cut off, out of frame, foreground objects, props blocking view, furniture in front, desk, table, harsh shadows, deep facial shadows, split lighting, chiaroscuro, suit, tie, tuxedo"
+    },
+    {
+      "id": "esc_10",
+      "tipo": "personaje",
+      "personaje_id": "diego",
+      "dialogo": "No cambies principios fundamentales por modas que desaparecerán muy pronto.",
+      "accion_prompt": "single solo subject, balanced facial proportions, locked direct eye contact with camera lens, stable anatomically correct torso and symmetrical shoulders, wearing a tailored charcoal-tinted bomber jacket with clean seamlines over a dark slate t-shirt. Background is an empty minimalist wall with brushed dark titanium panels strictly behind the character in sharp volumetric focus, empty foreground space. Centered frontal chest-up portrait occupying 75% of vertical frame with generous headroom and visible shoulders, balanced soft studio key lighting, strictly frontal eye-level view.",
+      "prompt_negativo_escena": "female, woman, girl, multiple people, 2people, second person, background people, duplicate character, deformed body, mutated anatomy, bad anatomy, deformed chest, asymmetrical shoulders, twisted spine, extra limbs, elongated face, long face, stretched face, looking away, side gaze, wandering eyes, blurry background, bokeh, depth of field blur, out of focus, cropped head, cropped face, cropped chin, cut off, out of frame, foreground objects, props blocking view, furniture in front, desk, table, harsh shadows, deep facial shadows, split lighting, chiaroscuro, suit, tie, tuxedo"
+    },
+    {
+      "id": "esc_11",
+      "tipo": "personaje",
+      "personaje_id": "diego",
+      "dialogo": "Dedica tu energía a dominar habilidades con décadas de vigencia comprobada.",
+      "accion_prompt": "single solo man, symmetrical standard facial geometry, direct frontal eye contact locked dead straight at camera lens, anatomically correct natural shoulders and stable upper torso structure, wearing a sharp tailored obsidian-black structured utility coat with matte horn buttons over a dark base shirt. Background is an empty flat architectural backdrop with dark matte basalt stone panels strictly positioned behind the subject in sharp volumetric focus with zero other individuals, completely clear unobstructed foreground. Centered frontal chest-up portrait occupying 75% of vertical frame with generous headroom and clearly defined upper torso, flat diffused studio key lighting, strictly frontal eye-level view.",
+      "prompt_negativo_escena": "female, woman, girl, multiple people, 2people, second person, background people, duplicate body, reflection of person, deformed body, mutated anatomy, bad anatomy, deformed shoulders, twisted torso, hunchback, disjointed neck, extra limbs, mangled posture, elongated face, long face, stretched face, looking away, side-eye, averted gaze, blurry background, bokeh, depth of field blur, out of focus, cropped head, cropped face, cropped chin, cut off, out of frame, foreground objects, glass partitions, window frames in front, obstacles, harsh shadows, deep facial shadows, split lighting, chiaroscuro, bright colors, casual clothes"
+    },
+    {
+      "id": "esc_12",
+      "tipo": "personaje",
+      "personaje_id": "diego",
+      "dialogo": "Lo que sobrevive al paso del tiempo siempre será tu mayor ventaja.",
+      "accion_prompt": "single solo man, symmetrical standard facial geometry, direct frontal eye contact locked dead straight at camera lens, anatomically correct natural shoulders and stable upper torso structure, wearing a sharp tailored obsidian-black structured utility coat with matte horn buttons over a dark base shirt. Background is an empty flat architectural backdrop with dark matte basalt stone panels strictly positioned behind the subject in sharp volumetric focus with zero other individuals, completely clear unobstructed foreground. Centered frontal chest-up portrait occupying 75% of vertical frame with generous headroom and clearly defined upper torso, flat diffused studio key lighting, strictly frontal eye-level view.",
+      "prompt_negativo_escena": "female, woman, girl, multiple people, 2people, second person, background people, duplicate body, reflection of person, deformed body, mutated anatomy, bad anatomy, deformed shoulders, twisted torso, hunchback, disjointed neck, extra limbs, mangled posture, elongated face, long face, stretched face, looking away, side-eye, averted gaze, blurry background, bokeh, depth of field blur, out of focus, cropped head, cropped face, cropped chin, cut off, out of frame, foreground objects, glass partitions, window frames in front, obstacles, harsh shadows, deep facial shadows, split lighting, chiaroscuro, bright colors, casual clothes"
+    }
+  ]
+}

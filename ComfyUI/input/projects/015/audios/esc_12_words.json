@@ -1,0 +1,52 @@
+[
+  {
+    "word": "Si",
+    "start": 0.12,
+    "end": 0.265
+  },
+  {
+    "word": "descuidas",
+    "start": 0.265,
+    "end": 0.915
+  },
+  {
+    "word": "tu",
+    "start": 0.915,
+    "end": 1.06
+  },
+  {
+    "word": "imagen",
+    "start": 1.06,
+    "end": 1.493
+  },
+  {
+    "word": "pública",
+    "start": 1.493,
+    "end": 1.999
+  },
+  {
+    "word": "otros",
+    "start": 1.999,
+    "end": 2.36
+  },
+  {
+    "word": "se",
+    "start": 2.36,
+    "end": 2.505
+  },
+  {
+    "word": "encargarán",
+    "start": 2.505,
+    "end": 3.228
+  },
+  {
+    "word": "de",
+    "start": 3.228,
+    "end": 3.372
+  },
+  {
+    "word": "destruirla",
+    "start": 3.372,
+    "end": 4.095
+  }
+]

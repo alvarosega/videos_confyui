@@ -1,0 +1,57 @@
+[
+  {
+    "word": "El",
+    "start": 0.12,
+    "end": 0.264
+  },
+  {
+    "word": "escultor",
+    "start": 0.264,
+    "end": 0.84
+  },
+  {
+    "word": "no",
+    "start": 0.84,
+    "end": 0.984
+  },
+  {
+    "word": "discutió",
+    "start": 0.984,
+    "end": 1.56
+  },
+  {
+    "word": "ni",
+    "start": 1.56,
+    "end": 1.704
+  },
+  {
+    "word": "perdió",
+    "start": 1.704,
+    "end": 2.136
+  },
+  {
+    "word": "un",
+    "start": 2.136,
+    "end": 2.279
+  },
+  {
+    "word": "solo",
+    "start": 2.279,
+    "end": 2.567
+  },
+  {
+    "word": "segundo",
+    "start": 2.567,
+    "end": 3.071
+  },
+  {
+    "word": "debatiendo",
+    "start": 3.071,
+    "end": 3.791
+  },
+  {
+    "word": "errores",
+    "start": 3.791,
+    "end": 4.295
+  }
+]

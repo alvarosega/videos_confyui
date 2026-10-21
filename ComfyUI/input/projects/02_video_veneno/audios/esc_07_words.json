@@ -1,0 +1,122 @@
+[
+  {
+    "word": "Esta",
+    "start": 0.15,
+    "end": 0.45
+  },
+  {
+    "word": "mañana",
+    "start": 0.45,
+    "end": 0.9
+  },
+  {
+    "word": "bajé",
+    "start": 0.9,
+    "end": 1.2
+  },
+  {
+    "word": "a",
+    "start": 1.2,
+    "end": 1.35
+  },
+  {
+    "word": "desayunar",
+    "start": 1.35,
+    "end": 2.025
+  },
+  {
+    "word": "como",
+    "start": 2.025,
+    "end": 2.325
+  },
+  {
+    "word": "si",
+    "start": 2.325,
+    "end": 2.475
+  },
+  {
+    "word": "no",
+    "start": 2.475,
+    "end": 2.625
+  },
+  {
+    "word": "supiera",
+    "start": 2.625,
+    "end": 3.15
+  },
+  {
+    "word": "nada",
+    "start": 3.15,
+    "end": 3.45
+  },
+  {
+    "word": "Ella",
+    "start": 3.75,
+    "end": 4.032
+  },
+  {
+    "word": "me",
+    "start": 4.032,
+    "end": 4.173
+  },
+  {
+    "word": "sirvió",
+    "start": 4.173,
+    "end": 4.595
+  },
+  {
+    "word": "la",
+    "start": 4.595,
+    "end": 4.736
+  },
+  {
+    "word": "taza",
+    "start": 4.736,
+    "end": 5.018
+  },
+  {
+    "word": "sonriendo",
+    "start": 5.018,
+    "end": 5.652
+  },
+  {
+    "word": "diciendo",
+    "start": 5.652,
+    "end": 6.216
+  },
+  {
+    "word": "que",
+    "start": 6.216,
+    "end": 6.427
+  },
+  {
+    "word": "me",
+    "start": 6.427,
+    "end": 6.568
+  },
+  {
+    "word": "veía",
+    "start": 6.568,
+    "end": 6.85
+  },
+  {
+    "word": "pálido",
+    "start": 6.85,
+    "end": 7.273
+  },
+  {
+    "word": "y",
+    "start": 7.273,
+    "end": 7.414
+  },
+  {
+    "word": "debía",
+    "start": 7.414,
+    "end": 7.766
+  },
+  {
+    "word": "descansar",
+    "start": 7.766,
+    "end": 8.4
+  }
+]

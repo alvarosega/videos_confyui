@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Acapara",
+    "start": 0.12,
+    "end": 0.639
+  },
+  {
+    "word": "siempre",
+    "start": 0.639,
+    "end": 1.157
+  },
+  {
+    "word": "la",
+    "start": 1.157,
+    "end": 1.305
+  },
+  {
+    "word": "atención",
+    "start": 1.305,
+    "end": 1.898
+  },
+  {
+    "word": "antes",
+    "start": 1.898,
+    "end": 2.268
+  },
+  {
+    "word": "de",
+    "start": 2.268,
+    "end": 2.416
+  },
+  {
+    "word": "que",
+    "start": 2.416,
+    "end": 2.639
+  },
+  {
+    "word": "otros",
+    "start": 2.639,
+    "end": 3.009
+  },
+  {
+    "word": "reclamen",
+    "start": 3.009,
+    "end": 3.601
+  },
+  {
+    "word": "tu",
+    "start": 3.601,
+    "end": 3.75
+  },
+  {
+    "word": "valor",
+    "start": 3.75,
+    "end": 4.12
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "word": "Luis",
+    "start": 0.1,
+    "end": 0.466
+  },
+  {
+    "word": "Catorce",
+    "start": 0.466,
+    "end": 1.107
+  },
+  {
+    "word": "controlaba",
+    "start": 1.107,
+    "end": 2.022
+  },
+  {
+    "word": "a",
+    "start": 2.022,
+    "end": 2.205
+  },
+  {
+    "word": "sus",
+    "start": 2.205,
+    "end": 2.48
+  },
+  {
+    "word": "cortesanos",
+    "start": 2.48,
+    "end": 3.395
+  },
+  {
+    "word": "respondiendo",
+    "start": 3.395,
+    "end": 4.494
+  },
+  {
+    "word": "con",
+    "start": 4.494,
+    "end": 4.768
+  },
+  {
+    "word": "una",
+    "start": 4.768,
+    "end": 5.043
+  },
+  {
+    "word": "frase",
+    "start": 5.043,
+    "end": 5.501
+  },
+  {
+    "word": "Ya",
+    "start": 5.501,
+    "end": 5.684
+  },
+  {
+    "word": "veré",
+    "start": 5.684,
+    "end": 6.05
+  }
+]

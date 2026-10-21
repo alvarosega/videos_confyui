@@ -1,0 +1,143 @@
+{
+  "id_proyecto": "05_traicion_esposa",
+  "preset_usado": "stylized_3d_animation",
+  "estilo_global": "cinematic 3D animation render, League of Legends high-end CGI aesthetic, stylized digital sculpture, detailed Physically Based Rendering (PBR), soft even studio ring lighting, flat diffused key lighting on face, completely shadowless facial features, sharp ambient occlusion in background, intricate clothing micro-textures, octane render lighting, clean depth of field, cinematic corporate thriller color grading",
+  "prompt_negativo_global": "harsh shadows, deep facial shadows, side lighting, half face in shadow, dark shadows, chiaroscuro, high contrast shadows on face, smooth skin, plastic texture, clay render, photorealistic, raw photo, photograph, real human face, skin pores, simple shading, flat lighting, in-game graphics, mobile game style, low poly cgi, 2d drawing, anime, flat art, deformed face, open mouth, teeth, asymmetric lips, bad eyes, text, words, letters, typography, watermark, logo, blurry",
+  "personajes": {
+    "marcos": {
+      "nombre": "Marcos",
+      "voz_tts": "em_santa",
+      "prompt_positivo_base": "detailed 3D digital model of a distinguished 45-year-old Latino man, complex PBR skin shader with subtle subsurface scattering, sharp angular jawline, neat dark hair with elegant salt-and-pepper temples, groomed short grey-flecked stylized beard, distinct clean lip contour, strictly closed neutral mouth, relaxed jaw, large centered prominent face occupying 75% of vertical frame height, perfectly flat uniform studio illumination on face, shadowless eyes and cheeks, direct frontal eye contact",
+      "prompt_negativo_base": "deep shadows on face, harsh side light, split lighting, dark eye sockets, photorealistic, real skin pores, real human photo, photograph, 2d illustration, flat render, smooth plastic skin, open mouth, teeth visible, smiling, laughing, angry expression, head turned, side view, 3/4 view, cropped head",
+      "avatar": "man.png"
+    }
+  },
+  "escenas": [
+    {
+      "id": "esc_01",
+      "tipo": "personaje",
+      "personaje_id": "marcos",
+      "dialogo": "Pagué trescientos mil dólares para salvar a mi hermano de prisión. Cuando mamá murió, él y mi esposa me quitaron toda la herencia familiar.",
+      "accion_prompt": "wearing a tailored charcoal grey Italian wool suit jacket with crisp white collar, flat diffused key lighting on torso and face. Background is a private legal library with dark mahogany panels in sharp focus",
+      "prompt_negativo_escena": "multiple people, bright sunlight, casual clothing, smooth textures, floor, harsh shadows",
+      "duracion_audio": 8.53
+    },
+    {
+      "id": "esc_02",
+      "tipo": "b_roll",
+      "personaje_id": "marcos",
+      "dialogo": "El testamento me dejaba un dólar simbólico.",
+      "accion_prompt": "cinematic 3D vertical macro render of an antique legal testament folio closed with a cracked crimson wax seal, resting on a dark polished obsidian desk, dramatic studio rim lighting, physically based rendering",
+      "prompt_negativo_escena": "hand, person, modern computer, blurry stamps, text, words, letters, signatures, plastic texture, photograph",
+      "duracion_audio": 3.5
+    },
+    {
+      "id": "esc_03",
+      "tipo": "personaje",
+      "personaje_id": "marcos",
+      "dialogo": "Llevaban dos años siéndome infieles en secreto. Aprovecharon el Alzheimer de mi madre para hacerle firmar un testamento fraudulento ante un notario corrupto.",
+      "accion_prompt": "wearing a tailored charcoal grey Italian suit, perfectly even front studio illumination. Background is a modern luxury penthouse office with clean dark glass walls in sharp focus",
+      "prompt_negativo_escena": "multiple people, floor, night storm, rain on glass, casual clothes, smooth textures, deep shadows",
+      "duracion_audio": 10.15
+    },
+    {
+      "id": "esc_04",
+      "tipo": "personaje",
+      "personaje_id": "marcos",
+      "dialogo": "En el juzgado, mi hermano se burló en mi cara junto a mi esposa. Me dieron cuarenta y ocho horas para desalojar la mansión.",
+      "accion_prompt": "wearing a tailored charcoal grey Italian wool suit, soft ring lighting illuminating face and shoulders. Background is an imposing dark marble corporate boardroom wall in sharp focus",
+      "prompt_negativo_escena": "multiple people, crowd, meeting table, investors, floor, casual wear, side shadows",
+      "duracion_audio": 8.0
+    },
+    {
+      "id": "esc_05",
+      "tipo": "b_roll",
+      "personaje_id": "marcos",
+      "dialogo": "Ella me dijo: es la vida, supéralo.",
+      "accion_prompt": "cinematic 3D vertical macro shot of a single platinum wedding band abandoned on a reflective black glass table, surrounded by cold blue ambient lighting, sharp geometric reflections",
+      "prompt_negativo_escena": "hand, finger, person, face, jewelry box, text, letters, blurry metal, photograph",
+      "duracion_audio": 3.0
+    },
+    {
+      "id": "esc_06",
+      "tipo": "personaje",
+      "personaje_id": "marcos",
+      "dialogo": "No grité ni contraté abogados para impugnar el documento. Dejé que mi hermano firmara la aceptación universal de la herencia sin beneficio de inventario.",
+      "accion_prompt": "wearing a tailored charcoal grey Italian suit jacket, diffused flat studio light. Background is a minimalist executive boardroom wall with vertical dark walnut fins in sharp focus",
+      "prompt_negativo_escena": "multiple people, 2men, audience, casual clothes, floor, harsh face shadows",
+      "duracion_audio": 9.68
+    },
+    {
+      "id": "esc_07",
+      "tipo": "personaje",
+      "personaje_id": "marcos",
+      "dialogo": "En su codicia, no investigaron que la mansión arrastraba ochocientos mil dólares en pasivos fiscales e hipotecas impagas que solo yo sostenía en privado.",
+      "accion_prompt": "wearing a tailored charcoal grey Italian suit, shadowless frontal key light on face. Background is a sleek executive office with dark architectural acoustic slats in sharp focus",
+      "prompt_negativo_escena": "multiple people, casual wear, bright sunlight, floor, deep eye shadows",
+      "duracion_audio": 9.6
+    },
+    {
+      "id": "esc_08",
+      "tipo": "b_roll",
+      "personaje_id": "marcos",
+      "dialogo": "Al firmar, absorbió la deuda total automáticamente.",
+      "accion_prompt": "cinematic 3D macro render of heavy judicial mortgage execution binders bound with red archive ribbons, resting beside a heavy brass notary stamp, sharp studio lighting, physically based rendering",
+      "prompt_negativo_escena": "hand holding stamp, face, body, casual desk, text, letters, words, alphabet, flat render, photograph",
+      "duracion_audio": 3.88
+    },
+    {
+      "id": "esc_09",
+      "tipo": "personaje",
+      "personaje_id": "marcos",
+      "dialogo": "Al día siguiente presenté ante el tribunal mercantil los pagarés originales de las fianzas que pagué por él, exigiendo ejecución forzosa e intereses acumulados.",
+      "accion_prompt": "wearing a tailored charcoal grey Italian suit jacket, soft uniform studio illumination. Background is a luxury corporate hallway with brushed titanium panels in sharp focus",
+      "prompt_negativo_escena": "multiple people, floor, harsh side light, simple textures, casual clothes",
+      "duracion_audio": 9.82
+    },
+    {
+      "id": "esc_10",
+      "tipo": "personaje",
+      "personaje_id": "marcos",
+      "dialogo": "Ayer por la mañana los bancos congelaron sus cuentas y la policía judicial llegó a la mansión con camiones de mudanza para el embargo.",
+      "accion_prompt": "wearing a tailored charcoal grey Italian suit, perfectly flat front key lighting. Background is an executive conference room with dark matte walls in sharp focus",
+      "prompt_negativo_escena": "multiple people, police officers, struggle, motion blur, floor, dark shadows",
+      "duracion_audio": 8.18
+    },
+    {
+      "id": "esc_11",
+      "tipo": "b_roll",
+      "personaje_id": "marcos",
+      "dialogo": "Perdieron todo en menos de un mes.",
+      "accion_prompt": "cinematic 3D vertical macro shot of heavy iron estate gates secured by a heavy steel padlock and thick steel chains, cold morning daylight illuminating damp metal textures",
+      "prompt_negativo_escena": "person, cars, houses, trees, text, numbers, blurry metal, plastic texture, photograph",
+      "duracion_audio": 2.88
+    },
+    {
+      "id": "esc_12",
+      "tipo": "personaje",
+      "personaje_id": "marcos",
+      "dialogo": "Mi hermano enfrenta una nueva orden de captura por insolvencia fraudulenta, y mi exesposa quedó en la calle, atrapada en su propia trampa.",
+      "accion_prompt": "wearing a tailored charcoal grey Italian suit jacket, even studio ring light. Background is a private high-rise executive suite with dark wood paneling in sharp focus",
+      "prompt_negativo_escena": "multiple people, 2men, crying woman, floor, smooth walls, harsh shadows",
+      "duracion_audio": 8.43
+    },
+    {
+      "id": "esc_13",
+      "tipo": "personaje",
+      "personaje_id": "marcos",
+      "dialogo": "Me llamó llorando desesperada desde la acera, suplicando que retirara la demanda porque no tenían ni para pagar una noche de hotel.",
+      "accion_prompt": "wearing a tailored charcoal grey Italian suit, completely shadowless frontal portrait lighting. Background is a dark minimalist executive lounge with subtle geometric architectural depth in sharp focus",
+      "prompt_negativo_escena": "multiple people, phone in hand, crying face, casual clothes, floor, side light",
+      "duracion_audio": 8.07
+    },
+    {
+      "id": "esc_14",
+      "tipo": "personaje",
+      "personaje_id": "marcos",
+      "dialogo": "La escuché en silencio, le respondí: 'Así es la vida, supéralo', y le colgué para siempre.",
+      "accion_prompt": "wearing a tailored charcoal grey Italian suit jacket, balanced flat studio key light on face. Background is an executive elevator lobby with brushed dark gunmetal steel panels in sharp focus",
+      "prompt_negativo_escena": "smiling, open mouth, laughing, multiple people, luggage, floor, smooth walls, dark shadows",
+      "duracion_audio": 5.65
+    }
+  ]
+}

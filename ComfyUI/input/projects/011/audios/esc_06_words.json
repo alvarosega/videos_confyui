@@ -1,0 +1,52 @@
+[
+  {
+    "word": "Tres",
+    "start": 0.1,
+    "end": 0.479
+  },
+  {
+    "word": "semanas",
+    "start": 0.479,
+    "end": 1.142
+  },
+  {
+    "word": "después",
+    "start": 1.142,
+    "end": 1.805
+  },
+  {
+    "word": "fue",
+    "start": 1.805,
+    "end": 2.089
+  },
+  {
+    "word": "arrestado",
+    "start": 2.089,
+    "end": 2.941
+  },
+  {
+    "word": "y",
+    "start": 2.941,
+    "end": 3.131
+  },
+  {
+    "word": "encarcelado",
+    "start": 3.131,
+    "end": 4.173
+  },
+  {
+    "word": "de",
+    "start": 4.173,
+    "end": 4.362
+  },
+  {
+    "word": "por",
+    "start": 4.362,
+    "end": 4.646
+  },
+  {
+    "word": "vida",
+    "start": 4.646,
+    "end": 5.025
+  }
+]

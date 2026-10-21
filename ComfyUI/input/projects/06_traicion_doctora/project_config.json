@@ -1,0 +1,129 @@
+{
+  "id_proyecto": "06_traicion_doctora",
+  "preset_usado": "stylized_3d_animation",
+  "estilo_global": "cinematic 3D animation render, League of Legends high-end CGI aesthetic, stylized digital sculpture, detailed Physically Based Rendering (PBR), soft even studio ring lighting, flat diffused key lighting on face, completely shadowless facial features, sharp ambient occlusion in background, intricate clothing micro-textures, octane render lighting, clean depth of field, cinematic corporate thriller color grading",
+  "prompt_negativo_global": "harsh shadows, deep facial shadows, side lighting, half face in shadow, dark shadows, chiaroscuro, high contrast shadows on face, smooth skin, plastic texture, clay render, photorealistic, raw photo, photograph, real human face, skin pores, simple shading, flat lighting, in-game graphics, mobile game style, low poly cgi, 2d drawing, anime, flat art, deformed face, open mouth, teeth, asymmetric lips, bad eyes, text, words, letters, typography, watermark, logo, blurry",
+  "personajes": {
+    "gabriel": {
+      "nombre": "Gabriel",
+      "voz_tts": "es-ES-AlvaroNeural",
+      "prompt_positivo_base": "detailed 3D digital model of a 38-year-old Mediterranean-Latino tech entrepreneur, sharp textured dark crop hair with faded tapered temples, piercing hazel-amber eyes, sculpted wide square jawline, ultra-fine sharp designer stubble line, distinct clean lip contour, strictly closed neutral mouth, relaxed jaw, large centered prominent face occupying 75% of vertical frame height, perfectly flat uniform studio ring illumination on face, shadowless eyes and cheeks, direct frontal eye contact",
+      "prompt_negativo_base": "long hair, platinum hair, grey hair, thick heavy beard, clean shaven, deep shadows on face, harsh side light, split lighting, dark eye sockets, photorealistic, real skin pores, real human photo, photograph, 2d illustration, flat render, smooth plastic skin, open mouth, teeth visible, smiling, laughing, angry expression, head turned, side view, 3/4 view, cropped head",
+      "avatar": "man.png"
+    }
+  },
+  "escenas": [
+    {
+      "id": "esc_01",
+      "tipo": "personaje",
+      "personaje_id": "gabriel",
+      "dialogo": "Vendí la herencia de mi padre y trabajé catorce horas diarias durante siete años para pagarle la carrera y montarle su clínica de lujo.",
+      "accion_prompt": "wearing a tailored matte graphite structured blazer over a seamless black crewneck, flat diffused key lighting on torso and face. Background is a luxury private office with dark paneling in sharp focus",
+      "prompt_negativo_escena": "thick beard, grey hair, multiple people, bright sunlight, casual clothing, smooth textures, floor, harsh shadows"
+    },
+    {
+      "id": "esc_02",
+      "tipo": "b_roll",
+      "personaje_id": "gabriel",
+      "dialogo": "Invertí más de un millón de dólares.",
+      "accion_prompt": "cinematic 3D vertical macro render of sleek titanium surgical instruments and advanced cosmetic laser emitters resting on a pristine obsidian tray, cool blue medical ambient lighting, octane render",
+      "prompt_negativo_escena": "hand, person, blurry metal, blood, hospital chaos, text, words, letters, plastic texture, photograph"
+    },
+    {
+      "id": "esc_03",
+      "tipo": "personaje",
+      "personaje_id": "gabriel",
+      "dialogo": "Ayer fue la gran inauguración. Frente a la prensa y los inversores, me quitó el micrófono y me entregó la demanda de divorcio.",
+      "accion_prompt": "wearing a tailored matte graphite structured blazer, perfectly even front studio illumination. Background is a modern high-rise penthouse office with clean dark glass walls in sharp focus",
+      "prompt_negativo_escena": "thick beard, grey hair, multiple people, floor, night storm, rain on glass, casual clothes, smooth textures, deep shadows"
+    },
+    {
+      "id": "esc_04",
+      "tipo": "b_roll",
+      "personaje_id": "gabriel",
+      "dialogo": "Dijo que un obrero arruinaba su imagen.",
+      "accion_prompt": "cinematic 3D vertical macro shot of an official legal divorce dossier bound with a dark ribbon abandoned on a polished marble reception desk, dramatic rim lighting, shallow depth of field",
+      "prompt_negativo_escena": "hand, person, face, computer, messy papers, text, letters, blurry metal, photograph"
+    },
+    {
+      "id": "esc_05",
+      "tipo": "personaje",
+      "personaje_id": "gabriel",
+      "dialogo": "Se abrazó a su cirujano amante y ordenó a los guardias que me arrastraran a la calle como si fuera un mendigo.",
+      "accion_prompt": "wearing a tailored matte graphite structured blazer, soft ring lighting illuminating face and shoulders. Background is an imposing dark corporate boardroom wall in sharp focus",
+      "prompt_negativo_escena": "thick beard, grey hair, multiple people, crowd, meeting table, investors, floor, casual wear, side shadows"
+    },
+    {
+      "id": "esc_06",
+      "tipo": "personaje",
+      "personaje_id": "gabriel",
+      "dialogo": "Creían que me habían destruido porque el edificio y los títulos médicos estaban registrados a nombre de los dos.",
+      "accion_prompt": "wearing a tailored matte graphite blazer, diffused flat studio light. Background is a minimalist executive boardroom wall with vertical dark walnut fins in sharp focus",
+      "prompt_negativo_escena": "thick beard, grey hair, multiple people, 2men, audience, casual clothes, floor, harsh face shadows"
+    },
+    {
+      "id": "esc_07",
+      "tipo": "b_roll",
+      "personaje_id": "gabriel",
+      "dialogo": "Olvidaron quién compró cada máquina médica.",
+      "accion_prompt": "cinematic 3D macro render of heavy corporate leasing folders bearing a solid gold embossed seal, resting beside an obsidian fountain pen, dramatic studio lighting, physically based rendering",
+      "prompt_negativo_escena": "hand holding pen, face, body, casual desk, text, letters, words, alphabet, flat render, photograph"
+    },
+    {
+      "id": "esc_08",
+      "tipo": "personaje",
+      "personaje_id": "gabriel",
+      "dialogo": "Cada quirófano, láser y equipo de titanio fue adquirido mediante un contrato de leasing fiduciario que controlo exclusivamente yo.",
+      "accion_prompt": "wearing a tailored matte graphite structured blazer, shadowless frontal key light on face. Background is a sleek executive office with dark architectural acoustic slats in sharp focus",
+      "prompt_negativo_escena": "thick beard, grey hair, multiple people, casual wear, bright sunlight, floor, deep eye shadows"
+    },
+    {
+      "id": "esc_09",
+      "tipo": "b_roll",
+      "personaje_id": "gabriel",
+      "dialogo": "Esperé a que abrieran con agenda llena.",
+      "accion_prompt": "cinematic 3D vertical macro shot of a sleek modern luxury digital clock display showing 10:00 AM in crisp minimalist numerals on a frosted glass surface, cold morning architectural light",
+      "prompt_negativo_escena": "person, hand, desktop clutter, text, words, alphabet, blurry monitor, photograph"
+    },
+    {
+      "id": "esc_10",
+      "tipo": "personaje",
+      "personaje_id": "gabriel",
+      "dialogo": "A las diez de la mañana ingresaron los oficiales de justicia con camiones para confiscar y desmantelar cada equipo médico.",
+      "accion_prompt": "wearing a tailored matte graphite structured blazer, soft uniform studio illumination. Background is a luxury corporate hallway with brushed titanium panels in sharp focus",
+      "prompt_negativo_escena": "thick beard, grey hair, multiple people, floor, harsh side light, simple textures, casual clothes"
+    },
+    {
+      "id": "esc_11",
+      "tipo": "b_roll",
+      "personaje_id": "gabriel",
+      "dialogo": "Cancelamos las cirugías frente a sus pacientes.",
+      "accion_prompt": "cinematic 3D vertical macro shot of empty high-tech surgical rooms stripped of monitors, red industrial transport seals and warning locks placed on electrical wall mounts, moody atmospheric lighting",
+      "prompt_negativo_escena": "person, blood, doctor, patient, text, numbers, blurry metal, plastic texture, photograph"
+    },
+    {
+      "id": "esc_12",
+      "tipo": "personaje",
+      "personaje_id": "gabriel",
+      "dialogo": "Las aseguradoras congelaron sus cuentas y las clientas millonarias le interpusieron demandas penales por estafa médica inmediata.",
+      "accion_prompt": "wearing a tailored matte graphite structured blazer, perfectly flat front key lighting. Background is an executive conference room with dark matte walls in sharp focus",
+      "prompt_negativo_escena": "thick beard, grey hair, multiple people, police officers, struggle, motion blur, floor, dark shadows"
+    },
+    {
+      "id": "esc_13",
+      "tipo": "b_roll",
+      "personaje_id": "gabriel",
+      "dialogo": "La clínica quedó en ruina total.",
+      "accion_prompt": "cinematic 3D vertical macro shot of heavy frosted glass entrance doors locked by a solid steel judicial padlock, heavy red wax seal stamped across the central glass joint",
+      "prompt_negativo_escena": "person, cars, houses, street, text, numbers, blurry metal, photograph"
+    },
+    {
+      "id": "esc_14",
+      "tipo": "personaje",
+      "personaje_id": "gabriel",
+      "dialogo": "Me llamó llorando de rodillas, suplicando piedad. Le dije: 'Un obrero sin clase sabe cuándo retirar su inversión', y colgué.",
+      "accion_prompt": "wearing a tailored matte graphite structured blazer, balanced flat studio key light on face. Background is an executive elevator lobby with brushed dark gunmetal steel panels in sharp focus",
+      "prompt_negativo_escena": "thick beard, grey hair, smiling, open mouth, laughing, multiple people, luggage, floor, smooth walls, dark shadows"
+    }
+  ]
+}

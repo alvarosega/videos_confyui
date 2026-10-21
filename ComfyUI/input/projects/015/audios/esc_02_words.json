@@ -1,0 +1,62 @@
+[
+  {
+    "word": "Una",
+    "start": 0.12,
+    "end": 0.337
+  },
+  {
+    "word": "mentira",
+    "start": 0.337,
+    "end": 0.842
+  },
+  {
+    "word": "no",
+    "start": 0.842,
+    "end": 0.987
+  },
+  {
+    "word": "desmentida",
+    "start": 0.987,
+    "end": 1.709
+  },
+  {
+    "word": "a",
+    "start": 1.709,
+    "end": 1.853
+  },
+  {
+    "word": "tiempo",
+    "start": 1.853,
+    "end": 2.287
+  },
+  {
+    "word": "destruye",
+    "start": 2.287,
+    "end": 2.864
+  },
+  {
+    "word": "diez",
+    "start": 2.864,
+    "end": 3.153
+  },
+  {
+    "word": "años",
+    "start": 3.153,
+    "end": 3.442
+  },
+  {
+    "word": "de",
+    "start": 3.442,
+    "end": 3.587
+  },
+  {
+    "word": "esfuerzo",
+    "start": 3.587,
+    "end": 4.164
+  },
+  {
+    "word": "técnico",
+    "start": 4.164,
+    "end": 4.67
+  }
+]

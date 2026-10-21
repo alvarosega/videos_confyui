@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Cada",
+    "start": 0.12,
+    "end": 0.422
+  },
+  {
+    "word": "año",
+    "start": 0.422,
+    "end": 0.648
+  },
+  {
+    "word": "extra",
+    "start": 0.648,
+    "end": 1.025
+  },
+  {
+    "word": "que",
+    "start": 1.025,
+    "end": 1.252
+  },
+  {
+    "word": "una",
+    "start": 1.252,
+    "end": 1.478
+  },
+  {
+    "word": "idea",
+    "start": 1.478,
+    "end": 1.78
+  },
+  {
+    "word": "sobrevive",
+    "start": 1.78,
+    "end": 2.459
+  },
+  {
+    "word": "duplica",
+    "start": 2.459,
+    "end": 2.987
+  },
+  {
+    "word": "su",
+    "start": 2.987,
+    "end": 3.138
+  },
+  {
+    "word": "expectativa",
+    "start": 3.138,
+    "end": 3.967
+  },
+  {
+    "word": "futura",
+    "start": 3.967,
+    "end": 4.42
+  }
+]

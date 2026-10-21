@@ -1,0 +1,122 @@
+# ========================================================
+# REGLA DE ORO: CERO MULTIMEDIA (Imágenes, Videos, Audios)
+# ========================================================
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.bmp
+*.tiff
+*.svg
+*.ico
+
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+*.flv
+*.wmv
+
+*.wav
+*.mp3
+*.ogg
+*.flac
+*.m4a
+*.aac
+*.wma
+
+# ========================================================
+# MODELOS, PESOS IA Y CHECKPOINTS (Descargas pesadas)
+# ========================================================
+*.safetensors
+*.pth
+*.pt
+*.ckpt
+*.bin
+*.onnx
+*.gguf
+*.engine
+
+# Rutas de modelos específicas
+**/models/
+**/checkpoints/
+**/weights/
+**/gfpgan/weights/
+ComfyUI/models/
+ComfyUI/ComfyUI/
+SadTalker/checkpoints/
+SadTalker/gfpgan/
+
+# ========================================================
+# SALIDAS GENERADAS, RENDERS Y TEMPORALES
+# ========================================================
+**/output/
+**/temp/
+**/driving/
+**/ref_images/
+orquestador/audios/
+
+# ========================================================
+# NODOS Y CÓDIGO EXTERNO CLONADO / INSTALADO
+# ========================================================
+ComfyUI/custom_nodes/
+**/.git_origin_backup/
+
+# Core descargado de ComfyUI (solo versionar workflows y proyectos/requests)
+ComfyUI/comfy/
+ComfyUI/comfy_api/
+ComfyUI/comfy_api_nodes/
+ComfyUI/comfy_config/
+ComfyUI/comfy_execution/
+ComfyUI/comfy_extras/
+ComfyUI/web/
+ComfyUI/alembic_db/
+ComfyUI/api_server/
+ComfyUI/app/
+ComfyUI/blueprints/
+ComfyUI/middleware/
+ComfyUI/script_examples/
+ComfyUI/tests/
+ComfyUI/tests-unit/
+ComfyUI/user/
+ComfyUI/utils/
+ComfyUI/.ci/
+ComfyUI/.github/
+ComfyUI/server.py
+ComfyUI/main.py
+ComfyUI/execution.py
+ComfyUI/folder_paths.py
+ComfyUI/latent_preview.py
+ComfyUI/nodes.py
+ComfyUI/node_helpers.py
+ComfyUI/cuda_malloc.py
+ComfyUI/protocol.py
+ComfyUI/requirements.txt
+ComfyUI/comfyui_version.py
+ComfyUI/alembic.ini
+ComfyUI/extra_model_paths.yaml.example
+ComfyUI/openapi.yaml
+ComfyUI/manager_requirements.txt
+ComfyUI/hook_breaker_ac10a0.py
+
+# ========================================================
+# PYTHON, ENTORNOS VIRTUALES Y LOGS
+# ========================================================
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+
+# ========================================================
+# SISTEMA OPERATIVO Y HERRAMIENTAS
+# ========================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

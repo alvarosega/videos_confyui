@@ -1,0 +1,117 @@
+[
+  {
+    "word": "Me",
+    "start": 0.15,
+    "end": 0.297
+  },
+  {
+    "word": "llamó",
+    "start": 0.297,
+    "end": 0.664
+  },
+  {
+    "word": "llorando",
+    "start": 0.664,
+    "end": 1.251
+  },
+  {
+    "word": "bajo",
+    "start": 1.251,
+    "end": 1.545
+  },
+  {
+    "word": "la",
+    "start": 1.545,
+    "end": 1.691
+  },
+  {
+    "word": "lluvia",
+    "start": 1.691,
+    "end": 2.132
+  },
+  {
+    "word": "pidiendo",
+    "start": 2.132,
+    "end": 2.719
+  },
+  {
+    "word": "volver",
+    "start": 2.719,
+    "end": 3.16
+  },
+  {
+    "word": "a",
+    "start": 3.16,
+    "end": 3.306
+  },
+  {
+    "word": "casa",
+    "start": 3.306,
+    "end": 3.6
+  },
+  {
+    "word": "Le",
+    "start": 3.9,
+    "end": 4.029
+  },
+  {
+    "word": "respondí",
+    "start": 4.029,
+    "end": 4.545
+  },
+  {
+    "word": "Ese",
+    "start": 4.545,
+    "end": 4.739
+  },
+  {
+    "word": "ladrón",
+    "start": 4.739,
+    "end": 5.126
+  },
+  {
+    "word": "del",
+    "start": 5.126,
+    "end": 5.319
+  },
+  {
+    "word": "que",
+    "start": 5.319,
+    "end": 5.513
+  },
+  {
+    "word": "hablabas",
+    "start": 5.513,
+    "end": 6.029
+  },
+  {
+    "word": "ya",
+    "start": 6.029,
+    "end": 6.158
+  },
+  {
+    "word": "cambió",
+    "start": 6.158,
+    "end": 6.545
+  },
+  {
+    "word": "las",
+    "start": 6.545,
+    "end": 6.739
+  },
+  {
+    "word": "cerraduras",
+    "start": 6.739,
+    "end": 7.384
+  },
+  {
+    "word": "y",
+    "start": 7.384,
+    "end": 7.513
+  },
+  {
+    "word": "colgué",
+    "start": 7.513,
+    "end": 7.9
+  }
+]

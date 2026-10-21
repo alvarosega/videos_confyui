@@ -1,0 +1,32 @@
+[
+  {
+    "word": "La",
+    "start": 0.15,
+    "end": 0.323
+  },
+  {
+    "word": "clínica",
+    "start": 0.323,
+    "end": 0.929
+  },
+  {
+    "word": "quedó",
+    "start": 0.929,
+    "end": 1.362
+  },
+  {
+    "word": "en",
+    "start": 1.362,
+    "end": 1.535
+  },
+  {
+    "word": "ruina",
+    "start": 1.535,
+    "end": 1.967
+  },
+  {
+    "word": "total",
+    "start": 1.967,
+    "end": 2.4
+  }
+]

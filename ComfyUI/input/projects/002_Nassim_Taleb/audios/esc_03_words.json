@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Nassim",
+    "start": 0.15,
+    "end": 0.579
+  },
+  {
+    "word": "Taleb",
+    "start": 0.579,
+    "end": 0.937
+  },
+  {
+    "word": "explica",
+    "start": 0.937,
+    "end": 1.438
+  },
+  {
+    "word": "en",
+    "start": 1.438,
+    "end": 1.581
+  },
+  {
+    "word": "su",
+    "start": 1.581,
+    "end": 1.725
+  },
+  {
+    "word": "libro",
+    "start": 1.725,
+    "end": 2.082
+  },
+  {
+    "word": "cómo",
+    "start": 2.082,
+    "end": 2.369
+  },
+  {
+    "word": "la",
+    "start": 2.369,
+    "end": 2.512
+  },
+  {
+    "word": "mayoría",
+    "start": 2.512,
+    "end": 3.013
+  },
+  {
+    "word": "siempre",
+    "start": 3.013,
+    "end": 3.514
+  },
+  {
+    "word": "cede",
+    "start": 3.514,
+    "end": 3.8
+  }
+]

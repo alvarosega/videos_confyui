@@ -1,0 +1,57 @@
+[
+  {
+    "word": "La",
+    "start": 0.1,
+    "end": 0.259
+  },
+  {
+    "word": "negligencia",
+    "start": 0.259,
+    "end": 1.133
+  },
+  {
+    "word": "la",
+    "start": 1.133,
+    "end": 1.292
+  },
+  {
+    "word": "miseria",
+    "start": 1.292,
+    "end": 1.848
+  },
+  {
+    "word": "y",
+    "start": 1.848,
+    "end": 2.006
+  },
+  {
+    "word": "el",
+    "start": 2.006,
+    "end": 2.165
+  },
+  {
+    "word": "caos",
+    "start": 2.165,
+    "end": 2.483
+  },
+  {
+    "word": "emocional",
+    "start": 2.483,
+    "end": 3.198
+  },
+  {
+    "word": "son",
+    "start": 3.198,
+    "end": 3.436
+  },
+  {
+    "word": "altamente",
+    "start": 3.436,
+    "end": 4.151
+  },
+  {
+    "word": "contagiosos",
+    "start": 4.151,
+    "end": 5.025
+  }
+]

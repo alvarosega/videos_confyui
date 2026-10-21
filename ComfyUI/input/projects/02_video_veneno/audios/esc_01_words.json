@@ -1,0 +1,102 @@
+[
+  {
+    "word": "Durante",
+    "start": 0.15,
+    "end": 0.628
+  },
+  {
+    "word": "seis",
+    "start": 0.628,
+    "end": 0.901
+  },
+  {
+    "word": "meses",
+    "start": 0.901,
+    "end": 1.242
+  },
+  {
+    "word": "los",
+    "start": 1.242,
+    "end": 1.447
+  },
+  {
+    "word": "médicos",
+    "start": 1.447,
+    "end": 1.925
+  },
+  {
+    "word": "me",
+    "start": 1.925,
+    "end": 2.061
+  },
+  {
+    "word": "dijeron",
+    "start": 2.061,
+    "end": 2.539
+  },
+  {
+    "word": "que",
+    "start": 2.539,
+    "end": 2.744
+  },
+  {
+    "word": "tenía",
+    "start": 2.744,
+    "end": 3.085
+  },
+  {
+    "word": "principio",
+    "start": 3.085,
+    "end": 3.699
+  },
+  {
+    "word": "de",
+    "start": 3.699,
+    "end": 3.836
+  },
+  {
+    "word": "Alzheimer",
+    "start": 3.836,
+    "end": 4.45
+  },
+  {
+    "word": "Olvidaba",
+    "start": 4.75,
+    "end": 5.287
+  },
+  {
+    "word": "conversaciones",
+    "start": 5.287,
+    "end": 6.228
+  },
+  {
+    "word": "enteras",
+    "start": 6.228,
+    "end": 6.698
+  },
+  {
+    "word": "y",
+    "start": 6.698,
+    "end": 6.833
+  },
+  {
+    "word": "despertaba",
+    "start": 6.833,
+    "end": 7.505
+  },
+  {
+    "word": "con",
+    "start": 7.505,
+    "end": 7.706
+  },
+  {
+    "word": "taquicardias",
+    "start": 7.706,
+    "end": 8.512
+  },
+  {
+    "word": "brutales",
+    "start": 8.512,
+    "end": 9.05
+  }
+]

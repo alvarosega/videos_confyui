@@ -1,0 +1,112 @@
+[
+  {
+    "word": "Revisé",
+    "start": 0.15,
+    "end": 0.619
+  },
+  {
+    "word": "su",
+    "start": 0.619,
+    "end": 0.775
+  },
+  {
+    "word": "computadora",
+    "start": 0.775,
+    "end": 1.634
+  },
+  {
+    "word": "portátil",
+    "start": 1.634,
+    "end": 2.259
+  },
+  {
+    "word": "esa",
+    "start": 2.259,
+    "end": 2.494
+  },
+  {
+    "word": "misma",
+    "start": 2.494,
+    "end": 2.884
+  },
+  {
+    "word": "noche",
+    "start": 2.884,
+    "end": 3.275
+  },
+  {
+    "word": "Tenía",
+    "start": 3.575,
+    "end": 3.917
+  },
+  {
+    "word": "listo",
+    "start": 3.917,
+    "end": 4.259
+  },
+  {
+    "word": "el",
+    "start": 4.259,
+    "end": 4.396
+  },
+  {
+    "word": "trámite",
+    "start": 4.396,
+    "end": 4.874
+  },
+  {
+    "word": "de",
+    "start": 4.874,
+    "end": 5.011
+  },
+  {
+    "word": "cobro",
+    "start": 5.011,
+    "end": 5.353
+  },
+  {
+    "word": "de",
+    "start": 5.353,
+    "end": 5.49
+  },
+  {
+    "word": "mi",
+    "start": 5.49,
+    "end": 5.626
+  },
+  {
+    "word": "seguro",
+    "start": 5.626,
+    "end": 6.037
+  },
+  {
+    "word": "de",
+    "start": 6.037,
+    "end": 6.174
+  },
+  {
+    "word": "vida",
+    "start": 6.174,
+    "end": 6.447
+  },
+  {
+    "word": "por",
+    "start": 6.447,
+    "end": 6.652
+  },
+  {
+    "word": "muerte",
+    "start": 6.652,
+    "end": 7.062
+  },
+  {
+    "word": "natural",
+    "start": 7.062,
+    "end": 7.541
+  },
+  {
+    "word": "accidental",
+    "start": 7.541,
+    "end": 8.225
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Es",
+    "start": 0.15,
+    "end": 0.292
+  },
+  {
+    "word": "ignorar",
+    "start": 0.292,
+    "end": 0.789
+  },
+  {
+    "word": "que",
+    "start": 0.789,
+    "end": 1.002
+  },
+  {
+    "word": "un",
+    "start": 1.002,
+    "end": 1.144
+  },
+  {
+    "word": "solo",
+    "start": 1.144,
+    "end": 1.428
+  },
+  {
+    "word": "fallo",
+    "start": 1.428,
+    "end": 1.783
+  },
+  {
+    "word": "crítico",
+    "start": 1.783,
+    "end": 2.28
+  },
+  {
+    "word": "te",
+    "start": 2.28,
+    "end": 2.422
+  },
+  {
+    "word": "elimina",
+    "start": 2.422,
+    "end": 2.919
+  },
+  {
+    "word": "para",
+    "start": 2.919,
+    "end": 3.203
+  },
+  {
+    "word": "siempre",
+    "start": 3.203,
+    "end": 3.7
+  }
+]

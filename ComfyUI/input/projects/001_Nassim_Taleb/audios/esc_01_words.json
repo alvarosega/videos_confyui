@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Te",
+    "start": 0.15,
+    "end": 0.289
+  },
+  {
+    "word": "has",
+    "start": 0.289,
+    "end": 0.497
+  },
+  {
+    "word": "preguntado",
+    "start": 0.497,
+    "end": 1.19
+  },
+  {
+    "word": "por",
+    "start": 1.19,
+    "end": 1.398
+  },
+  {
+    "word": "qué",
+    "start": 1.398,
+    "end": 1.606
+  },
+  {
+    "word": "los",
+    "start": 1.606,
+    "end": 1.815
+  },
+  {
+    "word": "asesores",
+    "start": 1.815,
+    "end": 2.369
+  },
+  {
+    "word": "financieros",
+    "start": 2.369,
+    "end": 3.132
+  },
+  {
+    "word": "nunca",
+    "start": 3.132,
+    "end": 3.479
+  },
+  {
+    "word": "son",
+    "start": 3.479,
+    "end": 3.687
+  },
+  {
+    "word": "millonarios",
+    "start": 3.687,
+    "end": 4.45
+  }
+]

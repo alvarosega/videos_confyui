@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Quien",
+    "start": 0.1,
+    "end": 0.565
+  },
+  {
+    "word": "dice",
+    "start": 0.565,
+    "end": 0.936
+  },
+  {
+    "word": "menos",
+    "start": 0.936,
+    "end": 1.401
+  },
+  {
+    "word": "parece",
+    "start": 1.401,
+    "end": 1.958
+  },
+  {
+    "word": "más",
+    "start": 1.958,
+    "end": 2.237
+  },
+  {
+    "word": "profundo",
+    "start": 2.237,
+    "end": 2.98
+  },
+  {
+    "word": "peligroso",
+    "start": 2.98,
+    "end": 3.817
+  },
+  {
+    "word": "y",
+    "start": 3.817,
+    "end": 4.003
+  },
+  {
+    "word": "difícil",
+    "start": 4.003,
+    "end": 4.653
+  },
+  {
+    "word": "de",
+    "start": 4.653,
+    "end": 4.839
+  },
+  {
+    "word": "manipular",
+    "start": 4.839,
+    "end": 5.675
+  }
+]

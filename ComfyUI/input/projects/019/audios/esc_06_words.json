@@ -1,0 +1,57 @@
+[
+  {
+    "word": "El",
+    "start": 0.12,
+    "end": 0.265
+  },
+  {
+    "word": "funcionario",
+    "start": 0.265,
+    "end": 1.065
+  },
+  {
+    "word": "creyó",
+    "start": 1.065,
+    "end": 1.428
+  },
+  {
+    "word": "haber",
+    "start": 1.428,
+    "end": 1.791
+  },
+  {
+    "word": "mejorado",
+    "start": 1.791,
+    "end": 2.372
+  },
+  {
+    "word": "la",
+    "start": 2.372,
+    "end": 2.518
+  },
+  {
+    "word": "obra",
+    "start": 2.518,
+    "end": 2.808
+  },
+  {
+    "word": "y",
+    "start": 2.808,
+    "end": 2.954
+  },
+  {
+    "word": "quedó",
+    "start": 2.954,
+    "end": 3.317
+  },
+  {
+    "word": "totalmente",
+    "start": 3.317,
+    "end": 4.043
+  },
+  {
+    "word": "satisfecho",
+    "start": 4.043,
+    "end": 4.77
+  }
+]

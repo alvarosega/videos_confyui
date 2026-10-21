@@ -1,0 +1,52 @@
+[
+  {
+    "word": "No",
+    "start": 0.12,
+    "end": 0.266
+  },
+  {
+    "word": "agregues",
+    "start": 0.266,
+    "end": 0.851
+  },
+  {
+    "word": "nada",
+    "start": 0.851,
+    "end": 1.144
+  },
+  {
+    "word": "nuevo",
+    "start": 1.144,
+    "end": 1.51
+  },
+  {
+    "word": "hasta",
+    "start": 1.51,
+    "end": 1.876
+  },
+  {
+    "word": "haber",
+    "start": 1.876,
+    "end": 2.241
+  },
+  {
+    "word": "eliminado",
+    "start": 2.241,
+    "end": 2.9
+  },
+  {
+    "word": "esos",
+    "start": 2.9,
+    "end": 3.192
+  },
+  {
+    "word": "tres",
+    "start": 3.192,
+    "end": 3.485
+  },
+  {
+    "word": "factores",
+    "start": 3.485,
+    "end": 4.07
+  }
+]

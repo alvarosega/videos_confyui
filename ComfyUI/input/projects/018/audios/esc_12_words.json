@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Quien",
+    "start": 0.12,
+    "end": 0.446
+  },
+  {
+    "word": "muestra",
+    "start": 0.446,
+    "end": 0.902
+  },
+  {
+    "word": "hambre",
+    "start": 0.902,
+    "end": 1.293
+  },
+  {
+    "word": "en",
+    "start": 1.293,
+    "end": 1.424
+  },
+  {
+    "word": "la",
+    "start": 1.424,
+    "end": 1.554
+  },
+  {
+    "word": "mesa",
+    "start": 1.554,
+    "end": 1.815
+  },
+  {
+    "word": "termina",
+    "start": 1.815,
+    "end": 2.271
+  },
+  {
+    "word": "pagando",
+    "start": 2.271,
+    "end": 2.727
+  },
+  {
+    "word": "la",
+    "start": 2.727,
+    "end": 2.857
+  },
+  {
+    "word": "cuenta",
+    "start": 2.857,
+    "end": 3.249
+  },
+  {
+    "word": "completa",
+    "start": 3.249,
+    "end": 3.77
+  }
+]

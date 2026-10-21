@@ -1,0 +1,62 @@
+[
+  {
+    "word": "Subió",
+    "start": 0.12,
+    "end": 0.481
+  },
+  {
+    "word": "al",
+    "start": 0.481,
+    "end": 0.625
+  },
+  {
+    "word": "andamio",
+    "start": 0.625,
+    "end": 1.13
+  },
+  {
+    "word": "fingió",
+    "start": 1.13,
+    "end": 1.562
+  },
+  {
+    "word": "usar",
+    "start": 1.562,
+    "end": 1.851
+  },
+  {
+    "word": "el",
+    "start": 1.851,
+    "end": 1.995
+  },
+  {
+    "word": "cincel",
+    "start": 1.995,
+    "end": 2.428
+  },
+  {
+    "word": "y",
+    "start": 2.428,
+    "end": 2.572
+  },
+  {
+    "word": "soltó",
+    "start": 2.572,
+    "end": 2.932
+  },
+  {
+    "word": "polvo",
+    "start": 2.932,
+    "end": 3.293
+  },
+  {
+    "word": "de",
+    "start": 3.293,
+    "end": 3.437
+  },
+  {
+    "word": "mármol",
+    "start": 3.437,
+    "end": 3.87
+  }
+]

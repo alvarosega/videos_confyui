@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Solo",
+    "start": 0.12,
+    "end": 0.402
+  },
+  {
+    "word": "demuestra",
+    "start": 0.402,
+    "end": 1.037
+  },
+  {
+    "word": "que",
+    "start": 1.037,
+    "end": 1.249
+  },
+  {
+    "word": "eres",
+    "start": 1.249,
+    "end": 1.531
+  },
+  {
+    "word": "bueno",
+    "start": 1.531,
+    "end": 1.883
+  },
+  {
+    "word": "en",
+    "start": 1.883,
+    "end": 2.024
+  },
+  {
+    "word": "aulas",
+    "start": 2.024,
+    "end": 2.377
+  },
+  {
+    "word": "donde",
+    "start": 2.377,
+    "end": 2.73
+  },
+  {
+    "word": "equivocarse",
+    "start": 2.73,
+    "end": 3.506
+  },
+  {
+    "word": "es",
+    "start": 3.506,
+    "end": 3.647
+  },
+  {
+    "word": "gratis",
+    "start": 3.647,
+    "end": 4.07
+  }
+]

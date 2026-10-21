@@ -1,0 +1,57 @@
+[
+  {
+    "word": "El",
+    "start": 0.12,
+    "end": 0.269
+  },
+  {
+    "word": "tiempo",
+    "start": 0.269,
+    "end": 0.716
+  },
+  {
+    "word": "es",
+    "start": 0.716,
+    "end": 0.865
+  },
+  {
+    "word": "el",
+    "start": 0.865,
+    "end": 1.015
+  },
+  {
+    "word": "único",
+    "start": 1.015,
+    "end": 1.387
+  },
+  {
+    "word": "juez",
+    "start": 1.387,
+    "end": 1.685
+  },
+  {
+    "word": "implacable",
+    "start": 1.685,
+    "end": 2.431
+  },
+  {
+    "word": "que",
+    "start": 2.431,
+    "end": 2.655
+  },
+  {
+    "word": "destruye",
+    "start": 2.655,
+    "end": 3.251
+  },
+  {
+    "word": "lo",
+    "start": 3.251,
+    "end": 3.4
+  },
+  {
+    "word": "superficial",
+    "start": 3.4,
+    "end": 4.22
+  }
+]

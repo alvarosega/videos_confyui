@@ -1,0 +1,37 @@
+[
+  {
+    "word": "Lo",
+    "start": 0.15,
+    "end": 0.304
+  },
+  {
+    "word": "cuidé",
+    "start": 0.304,
+    "end": 0.688
+  },
+  {
+    "word": "como",
+    "start": 0.688,
+    "end": 0.995
+  },
+  {
+    "word": "a",
+    "start": 0.995,
+    "end": 1.149
+  },
+  {
+    "word": "mi",
+    "start": 1.149,
+    "end": 1.303
+  },
+  {
+    "word": "propia",
+    "start": 1.303,
+    "end": 1.764
+  },
+  {
+    "word": "sangre",
+    "start": 1.764,
+    "end": 2.225
+  }
+]

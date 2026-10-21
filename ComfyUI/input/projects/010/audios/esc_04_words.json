@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Quien",
+    "start": 0.15,
+    "end": 0.512
+  },
+  {
+    "word": "toma",
+    "start": 0.512,
+    "end": 0.802
+  },
+  {
+    "word": "la",
+    "start": 0.802,
+    "end": 0.947
+  },
+  {
+    "word": "decisión",
+    "start": 0.947,
+    "end": 1.527
+  },
+  {
+    "word": "debe",
+    "start": 1.527,
+    "end": 1.816
+  },
+  {
+    "word": "pagar",
+    "start": 1.816,
+    "end": 2.179
+  },
+  {
+    "word": "el",
+    "start": 2.179,
+    "end": 2.323
+  },
+  {
+    "word": "costo",
+    "start": 2.323,
+    "end": 2.686
+  },
+  {
+    "word": "exacto",
+    "start": 2.686,
+    "end": 3.12
+  },
+  {
+    "word": "del",
+    "start": 3.12,
+    "end": 3.338
+  },
+  {
+    "word": "fallo",
+    "start": 3.338,
+    "end": 3.7
+  }
+]

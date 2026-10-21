@@ -1,0 +1,57 @@
+[
+  {
+    "word": "En",
+    "start": 0.15,
+    "end": 0.287
+  },
+  {
+    "word": "tu",
+    "start": 0.287,
+    "end": 0.425
+  },
+  {
+    "word": "próxima",
+    "start": 0.425,
+    "end": 0.905
+  },
+  {
+    "word": "negociación",
+    "start": 0.905,
+    "end": 1.66
+  },
+  {
+    "word": "corporativa",
+    "start": 1.66,
+    "end": 2.416
+  },
+  {
+    "word": "no",
+    "start": 2.416,
+    "end": 2.553
+  },
+  {
+    "word": "busques",
+    "start": 2.553,
+    "end": 3.034
+  },
+  {
+    "word": "consensos",
+    "start": 3.034,
+    "end": 3.651
+  },
+  {
+    "word": "blandos",
+    "start": 3.651,
+    "end": 4.132
+  },
+  {
+    "word": "o",
+    "start": 4.132,
+    "end": 4.269
+  },
+  {
+    "word": "débiles",
+    "start": 4.269,
+    "end": 4.75
+  }
+]

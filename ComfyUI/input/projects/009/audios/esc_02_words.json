@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Y",
+    "start": 0.12,
+    "end": 0.263
+  },
+  {
+    "word": "te",
+    "start": 0.263,
+    "end": 0.405
+  },
+  {
+    "word": "traslada",
+    "start": 0.405,
+    "end": 0.976
+  },
+  {
+    "word": "todas",
+    "start": 0.976,
+    "end": 1.332
+  },
+  {
+    "word": "las",
+    "start": 1.332,
+    "end": 1.546
+  },
+  {
+    "word": "deudas",
+    "start": 1.546,
+    "end": 1.974
+  },
+  {
+    "word": "si",
+    "start": 1.974,
+    "end": 2.116
+  },
+  {
+    "word": "el",
+    "start": 2.116,
+    "end": 2.259
+  },
+  {
+    "word": "proyecto",
+    "start": 2.259,
+    "end": 2.829
+  },
+  {
+    "word": "termina",
+    "start": 2.829,
+    "end": 3.328
+  },
+  {
+    "word": "quebrando",
+    "start": 3.328,
+    "end": 3.97
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "word": "Le",
+    "start": 0.1,
+    "end": 0.285
+  },
+  {
+    "word": "entregas",
+    "start": 0.285,
+    "end": 1.024
+  },
+  {
+    "word": "a",
+    "start": 1.024,
+    "end": 1.209
+  },
+  {
+    "word": "tu",
+    "start": 1.209,
+    "end": 1.394
+  },
+  {
+    "word": "rival",
+    "start": 1.394,
+    "end": 1.856
+  },
+  {
+    "word": "el",
+    "start": 1.856,
+    "end": 2.041
+  },
+  {
+    "word": "arma",
+    "start": 2.041,
+    "end": 2.41
+  },
+  {
+    "word": "exacta",
+    "start": 2.41,
+    "end": 2.965
+  },
+  {
+    "word": "para",
+    "start": 2.965,
+    "end": 3.334
+  },
+  {
+    "word": "destruirte",
+    "start": 3.334,
+    "end": 4.258
+  },
+  {
+    "word": "por",
+    "start": 4.258,
+    "end": 4.536
+  },
+  {
+    "word": "completo",
+    "start": 4.536,
+    "end": 5.275
+  }
+]

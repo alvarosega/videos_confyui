@@ -1,0 +1,113 @@
+{
+  "id_proyecto": "020",
+  "preset_usado": "analog_horror",
+  "estilo_global": "cinematic 3D psychological horror film render, subtle found footage aesthetic, cold clinical lighting, harsh directional flashlight rim light, muted eerie green and desaturated cyan tones, disturbing stoic realism, detailed PBR shaders, analog sensor micro-grain, sharp background in focus, subtle atmospheric volumetric haze, Unreal Engine 5 dark narrative cinematography",
+  "prompt_negativo_global": "naked, shirtless, bare chest, topless, bare shoulders, cleavage, unclothed, nude, bright daylight, warm sunlight, oversaturated colors, vibrant, happy, warm golden lighting, smooth plastic skin, 2d, anime, cartoon, sketch, painting, oil painting, low poly, multiple people, 2people, two men, group, crowd, extra persons, duplicate, clone, full body, long shot, wide shot, distant view, legs, feet, shoes, lower body, open mouth, parted lips, visible teeth, tongue, smiling, laughing, screaming, grimacing, tilted head, looking away, looking up, looking down, low angle, high angle, side view, profile, back view, hands on face, touching face, pitch black eye sockets, pure black facial silhouette, shadows completely concealing mouth, obscured lip contour, blurry background, heavy bokeh, extreme depth of field, out of focus background, smudged details, deformed eyes, crossed eyes, bad facial anatomy, mutated face, elongated chin, stretched forehead, extra limbs, low resolution, artifacts",
+  "personajes": {
+    "adrian": {
+      "nombre": "Adrián",
+      "voz_tts": "am_adam",
+      "prompt_positivo_base": "detailed 3D digital model of a single solo 38-year-old man, sallow pale clinical skin texture, subtle dark circles under eyes, high-end CGI aesthetic, stylized 3D digital sculpture, detailed PBR shaders, short neat dark hair with subtle grey temples, completely clean-shaven sharp angular jawline, cold intense focused steel-grey eyes staring dead straight into camera lens, strictly closed neutral mouth, distinct clean lip contour, relaxed jaw, natural standard neck length, anatomically correct symmetrical shoulders, wearing a structured dark charcoal long-sleeve thermal crewneck shirt, fully clothed upper body, centered frontal bust composition occupying 70% of vertical frame with generous headroom, direct frontal eye contact, flat shadowless frontal flashlight illumination on face",
+      "prompt_negativo_base": "naked, shirtless, bare chest, topless, unclothed, nude, female, woman, girl, open mouth, teeth visible, smiling, laughing, screaming, grimacing, pitch black eye sockets, pure black silhouette, smooth plastic skin, warm lighting, deformed face, bad eyes, elongated chin, stretched forehead, extra limbs, multiple people, 2people, duplicate character, photorealistic photo, 2d render",
+      "avatar": "man.png"
+    }
+  },
+  "escenas": [
+    {
+      "id": "esc_01",
+      "tipo": "personaje",
+      "personaje_id": "adrian",
+      "dialogo": "Si intentas rescatar por compasión a quien vive en crisis permanente,",
+      "accion_prompt": "Subterranean concrete bunker with heavy rusted steel blast doors and exposed conduit wiring in sharp volumetric focus. Single fully clothed solo man in a structured dark charcoal thermal sweater. Centered frontal chest-up composition, prominent bust portrait occupying 70% of vertical frame with generous headroom, direct frontal gaze, completely clear unobstructed foreground without furniture or desks, harsh cold direct flashlight illumination with completely flat shadowless face.",
+      "prompt_negativo_escena": "naked, shirtless, bare chest, topless, bare shoulders, unclothed, multiple people, 2people, second person, duplicate, statues, mannequins, silhouettes, shadows on face, cropped head, cropped face, blurry background, bokeh, depth of field blur, out of focus, furniture in foreground, desk, table, podium, props in front, suit, tie, blazer, tuxedo"
+    },
+    {
+      "id": "esc_02",
+      "tipo": "personaje",
+      "personaje_id": "adrian",
+      "dialogo": "terminarás pagando todas sus deudas con tu propia ruina financiera.",
+      "accion_prompt": "Subterranean concrete bunker with heavy rusted steel blast doors and exposed conduit wiring in sharp volumetric focus. Single fully clothed solo man in a structured dark charcoal thermal sweater. Centered frontal chest-up composition, prominent bust portrait occupying 70% of vertical frame with generous headroom, direct frontal gaze, completely clear unobstructed foreground without furniture or desks, harsh cold direct flashlight illumination with completely flat shadowless face.",
+      "prompt_negativo_escena": "naked, shirtless, bare chest, topless, bare shoulders, unclothed, multiple people, 2people, second person, duplicate, statues, mannequins, silhouettes, shadows on face, cropped head, cropped face, blurry background, bokeh, depth of field blur, out of focus, furniture in foreground, desk, table, podium, props in front, suit, tie, blazer, tuxedo"
+    },
+    {
+      "id": "esc_03",
+      "tipo": "personaje",
+      "personaje_id": "adrian",
+      "dialogo": "Robert Greene documenta cómo ciertas personas atraen desastres de forma sistemática.",
+      "accion_prompt": "Cold clinical archive vault with rows of oxidized metal lockers and glowing terminal screens in sharp volumetric focus. Single fully clothed solo man in a heavy dark slate-navy ribbed technical sweater. Centered frontal chest-up composition, prominent bust portrait occupying 70% of vertical frame with generous headroom, direct frontal gaze, completely clear unobstructed foreground without furniture or desks, harsh cold direct flashlight illumination with completely flat shadowless face.",
+      "prompt_negativo_escena": "naked, shirtless, bare chest, topless, bare shoulders, unclothed, multiple people, 2people, second person, duplicate, statues, mannequins, silhouettes, shadows on face, cropped head, cropped face, blurry background, bokeh, depth of field blur, out of focus, furniture in foreground, desk, table, podium, props in front, suit, tie, blazer, tuxedo"
+    },
+    {
+      "id": "esc_04",
+      "tipo": "personaje",
+      "personaje_id": "adrian",
+      "dialogo": "Viven rodeadas de bancarrotas, demandas judiciales, traiciones y constante caos emocional.",
+      "accion_prompt": "Cold clinical archive vault with rows of oxidized metal lockers and glowing terminal screens in sharp volumetric focus. Single fully clothed solo man in a heavy dark slate-navy ribbed technical sweater. Centered frontal chest-up composition, prominent bust portrait occupying 70% of vertical frame with generous headroom, direct frontal gaze, completely clear unobstructed foreground without furniture or desks, harsh cold direct flashlight illumination with completely flat shadowless face.",
+      "prompt_negativo_escena": "naked, shirtless, bare chest, topless, bare shoulders, unclothed, multiple people, 2people, second person, duplicate, statues, mannequins, silhouettes, shadows on face, cropped head, cropped face, blurry background, bokeh, depth of field blur, out of focus, furniture in foreground, desk, table, podium, props in front, suit, tie, blazer, tuxedo"
+    },
+    {
+      "id": "esc_05",
+      "tipo": "personaje",
+      "personaje_id": "adrian",
+      "dialogo": "Disfrazan su incapacidad de mala suerte para manipular la empatía ajena.",
+      "accion_prompt": "Damp industrial drainage tunnel with weathered copper pipes, dripping valves, and moldy concrete walls in sharp volumetric focus. Single fully clothed solo man in a structured dark moss-green canvas utility jacket over a charcoal thermal base. Centered frontal chest-up composition, prominent bust portrait occupying 70% of vertical frame with generous headroom, direct frontal gaze, completely clear unobstructed foreground without furniture or desks, harsh cold direct flashlight illumination with completely flat shadowless face.",
+      "prompt_negativo_escena": "naked, shirtless, bare chest, topless, bare shoulders, unclothed, multiple people, 2people, second person, duplicate, statues, mannequins, silhouettes, shadows on face, cropped head, cropped face, blurry background, bokeh, depth of field blur, out of focus, furniture in foreground, desk, table, podium, props in front, suit, tie, blazer, tuxedo"
+    },
+    {
+      "id": "esc_06",
+      "tipo": "personaje",
+      "personaje_id": "adrian",
+      "dialogo": "Buscan personas nobles y productivas para usarlas como escudo financiero.",
+      "accion_prompt": "Damp industrial drainage tunnel with weathered copper pipes, dripping valves, and moldy concrete walls in sharp volumetric focus. Single fully clothed solo man in a structured dark moss-green canvas utility jacket over a charcoal thermal base. Centered frontal chest-up composition, prominent bust portrait occupying 70% of vertical frame with generous headroom, direct frontal gaze, completely clear unobstructed foreground without furniture or desks, harsh cold direct flashlight illumination with completely flat shadowless face.",
+      "prompt_negativo_escena": "naked, shirtless, bare chest, topless, bare shoulders, unclothed, multiple people, 2people, second person, duplicate, statues, mannequins, silhouettes, shadows on face, cropped head, cropped face, blurry background, bokeh, depth of field blur, out of focus, furniture in foreground, desk, table, podium, props in front, suit, tie, blazer, tuxedo"
+    },
+    {
+      "id": "esc_07",
+      "tipo": "personaje",
+      "personaje_id": "adrian",
+      "dialogo": "El fracaso crónico casi nunca es un simple accidente del destino.",
+      "accion_prompt": "Abandoned clinical laboratory with dark composite wall panels, ceiling conduits, and dormant medical apparatus in sharp volumetric focus. Single fully clothed solo man in a high-collar graphite-grey structured tactical cardigan. Centered frontal chest-up composition, prominent bust portrait occupying 70% of vertical frame with generous headroom, direct frontal gaze, completely clear unobstructed foreground without furniture or desks, harsh cold direct flashlight illumination with completely flat shadowless face.",
+      "prompt_negativo_escena": "naked, shirtless, bare chest, topless, bare shoulders, unclothed, multiple people, 2people, second person, duplicate, statues, mannequins, silhouettes, shadows on face, cropped head, cropped face, blurry background, bokeh, depth of field blur, out of focus, furniture in foreground, desk, table, podium, props in front, suit, tie, blazer, tuxedo"
+    },
+    {
+      "id": "esc_08",
+      "tipo": "personaje",
+      "personaje_id": "adrian",
+      "dialogo": "Es el síntoma evidente de un patrón mental autodestructivo muy profundo.",
+      "accion_prompt": "Abandoned clinical laboratory with dark composite wall panels, ceiling conduits, and dormant medical apparatus in sharp volumetric focus. Single fully clothed solo man in a high-collar graphite-grey structured tactical cardigan. Centered frontal chest-up composition, prominent bust portrait occupying 70% of vertical frame with generous headroom, direct frontal gaze, completely clear unobstructed foreground without furniture or desks, harsh cold direct flashlight illumination with completely flat shadowless face.",
+      "prompt_negativo_escena": "naked, shirtless, bare chest, topless, bare shoulders, unclothed, multiple people, 2people, second person, duplicate, statues, mannequins, silhouettes, shadows on face, cropped head, cropped face, blurry background, bokeh, depth of field blur, out of focus, furniture in foreground, desk, table, podium, props in front, suit, tie, blazer, tuxedo"
+    },
+    {
+      "id": "esc_09",
+      "tipo": "personaje",
+      "personaje_id": "adrian",
+      "dialogo": "La negligencia, la miseria y el caos emocional son altamente contagiosos.",
+      "accion_prompt": "Claustrophobic subterranean server corridor with blinking green status diodes and brushed steel racks in sharp volumetric focus. Single fully clothed solo man in a tailored anthracite-grey technical overshirt over a dark base layer. Centered frontal chest-up composition, prominent bust portrait occupying 70% of vertical frame with generous headroom, direct frontal gaze, completely clear unobstructed foreground without furniture or desks, harsh cold direct flashlight illumination with completely flat shadowless face.",
+      "prompt_negativo_escena": "naked, shirtless, bare chest, topless, bare shoulders, unclothed, multiple people, 2people, second person, duplicate, statues, mannequins, silhouettes, shadows on face, cropped head, cropped face, blurry background, bokeh, depth of field blur, out of focus, furniture in foreground, desk, table, podium, props in front, suit, tie, blazer, tuxedo"
+    },
+    {
+      "id": "esc_10",
+      "tipo": "personaje",
+      "personaje_id": "adrian",
+      "dialogo": "Quien no sabe gobernar su vida destruirá la tuya por completo.",
+      "accion_prompt": "Claustrophobic subterranean server corridor with blinking green status diodes and brushed steel racks in sharp volumetric focus. Single fully clothed solo man in a tailored anthracite-grey technical overshirt over a dark base layer. Centered frontal chest-up composition, prominent bust portrait occupying 70% of vertical frame with generous headroom, direct frontal gaze, completely clear unobstructed foreground without furniture or desks, harsh cold direct flashlight illumination with completely flat shadowless face.",
+      "prompt_negativo_escena": "naked, shirtless, bare chest, topless, bare shoulders, unclothed, multiple people, 2people, second person, duplicate, statues, mannequins, silhouettes, shadows on face, cropped head, cropped face, blurry background, bokeh, depth of field blur, out of focus, furniture in foreground, desk, table, podium, props in front, suit, tie, blazer, tuxedo"
+    },
+    {
+      "id": "esc_11",
+      "tipo": "personaje",
+      "personaje_id": "adrian",
+      "dialogo": "Corta de raíz el contacto con personas que viven quejándose siempre.",
+      "accion_prompt": "Brutalist concrete bunker security checkpoint with heavy hydraulic iron locks and industrial warning signs in sharp volumetric focus. Single fully clothed solo man in an obsidian-black structured heavy utility coat. Centered frontal chest-up composition, prominent bust portrait occupying 70% of vertical frame with generous headroom, direct frontal gaze, completely clear unobstructed foreground without furniture or desks, harsh cold direct flashlight illumination with completely flat shadowless face.",
+      "prompt_negativo_escena": "naked, shirtless, bare chest, topless, bare shoulders, unclothed, multiple people, 2people, second person, duplicate, statues, mannequins, silhouettes, shadows on face, cropped head, cropped face, blurry background, bokeh, depth of field blur, out of focus, furniture in foreground, desk, table, podium, props in front, suit, tie, blazer, tuxedo"
+    },
+    {
+      "id": "esc_12",
+      "tipo": "personaje",
+      "personaje_id": "adrian",
+      "dialogo": "Asóciate únicamente con personas disciplinadas, solventes y orientadas a resultados.",
+      "accion_prompt": "Brutalist concrete bunker security checkpoint with heavy hydraulic iron locks and industrial warning signs in sharp volumetric focus. Single fully clothed solo man in an obsidian-black structured heavy utility coat. Centered frontal chest-up composition, prominent bust portrait occupying 70% of vertical frame with generous headroom, direct frontal gaze, completely clear unobstructed foreground without furniture or desks, harsh cold direct flashlight illumination with completely flat shadowless face.",
+      "prompt_negativo_escena": "naked, shirtless, bare chest, topless, bare shoulders, unclothed, multiple people, 2people, second person, duplicate, statues, mannequins, silhouettes, shadows on face, cropped head, cropped face, blurry background, bokeh, depth of field blur, out of focus, furniture in foreground, desk, table, podium, props in front, suit, tie, blazer, tuxedo"
+    }
+  ]
+}

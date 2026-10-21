@@ -1,0 +1,57 @@
+[
+  {
+    "word": "En",
+    "start": 0.12,
+    "end": 0.26
+  },
+  {
+    "word": "Jugarse",
+    "start": 0.26,
+    "end": 0.752
+  },
+  {
+    "word": "la",
+    "start": 0.752,
+    "end": 0.892
+  },
+  {
+    "word": "piel",
+    "start": 0.892,
+    "end": 1.173
+  },
+  {
+    "word": "Taleb",
+    "start": 1.173,
+    "end": 1.524
+  },
+  {
+    "word": "demuestra",
+    "start": 1.524,
+    "end": 2.155
+  },
+  {
+    "word": "que",
+    "start": 2.155,
+    "end": 2.366
+  },
+  {
+    "word": "lo",
+    "start": 2.366,
+    "end": 2.506
+  },
+  {
+    "word": "superviviente",
+    "start": 2.506,
+    "end": 3.418
+  },
+  {
+    "word": "es",
+    "start": 3.418,
+    "end": 3.559
+  },
+  {
+    "word": "racional",
+    "start": 3.559,
+    "end": 4.12
+  }
+]

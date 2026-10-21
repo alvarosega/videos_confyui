@@ -1,0 +1,67 @@
+[
+  {
+    "word": "Me",
+    "start": 0.15,
+    "end": 0.295
+  },
+  {
+    "word": "sacó",
+    "start": 0.295,
+    "end": 0.584
+  },
+  {
+    "word": "con",
+    "start": 0.584,
+    "end": 0.801
+  },
+  {
+    "word": "guardias",
+    "start": 0.801,
+    "end": 1.379
+  },
+  {
+    "word": "y",
+    "start": 1.379,
+    "end": 1.524
+  },
+  {
+    "word": "vendió",
+    "start": 1.524,
+    "end": 1.958
+  },
+  {
+    "word": "el",
+    "start": 1.958,
+    "end": 2.103
+  },
+  {
+    "word": "sesenta",
+    "start": 2.103,
+    "end": 2.609
+  },
+  {
+    "word": "por",
+    "start": 2.609,
+    "end": 2.826
+  },
+  {
+    "word": "ciento",
+    "start": 2.826,
+    "end": 3.26
+  },
+  {
+    "word": "de",
+    "start": 3.26,
+    "end": 3.404
+  },
+  {
+    "word": "las",
+    "start": 3.404,
+    "end": 3.621
+  },
+  {
+    "word": "acciones",
+    "start": 3.621,
+    "end": 4.2
+  }
+]

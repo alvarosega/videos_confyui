@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Quien",
+    "start": 0.12,
+    "end": 0.473
+  },
+  {
+    "word": "no",
+    "start": 0.473,
+    "end": 0.614
+  },
+  {
+    "word": "arriesga",
+    "start": 0.614,
+    "end": 1.178
+  },
+  {
+    "word": "su",
+    "start": 1.178,
+    "end": 1.319
+  },
+  {
+    "word": "propio",
+    "start": 1.319,
+    "end": 1.742
+  },
+  {
+    "word": "capital",
+    "start": 1.742,
+    "end": 2.236
+  },
+  {
+    "word": "jamás",
+    "start": 2.236,
+    "end": 2.589
+  },
+  {
+    "word": "cuidará",
+    "start": 2.589,
+    "end": 3.083
+  },
+  {
+    "word": "de",
+    "start": 3.083,
+    "end": 3.224
+  },
+  {
+    "word": "tu",
+    "start": 3.224,
+    "end": 3.365
+  },
+  {
+    "word": "patrimonio",
+    "start": 3.365,
+    "end": 4.07
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Corta",
+    "start": 0.1,
+    "end": 0.479
+  },
+  {
+    "word": "de",
+    "start": 0.479,
+    "end": 0.631
+  },
+  {
+    "word": "raíz",
+    "start": 0.631,
+    "end": 0.935
+  },
+  {
+    "word": "el",
+    "start": 0.935,
+    "end": 1.086
+  },
+  {
+    "word": "contacto",
+    "start": 1.086,
+    "end": 1.693
+  },
+  {
+    "word": "con",
+    "start": 1.693,
+    "end": 1.921
+  },
+  {
+    "word": "personas",
+    "start": 1.921,
+    "end": 2.528
+  },
+  {
+    "word": "que",
+    "start": 2.528,
+    "end": 2.756
+  },
+  {
+    "word": "viven",
+    "start": 2.756,
+    "end": 3.135
+  },
+  {
+    "word": "quejándose",
+    "start": 3.135,
+    "end": 3.894
+  },
+  {
+    "word": "siempre",
+    "start": 3.894,
+    "end": 4.425
+  }
+]

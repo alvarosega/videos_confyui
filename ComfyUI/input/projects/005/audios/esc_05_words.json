@@ -1,0 +1,62 @@
+[
+  {
+    "word": "Lo",
+    "start": 0.12,
+    "end": 0.269
+  },
+  {
+    "word": "que",
+    "start": 0.269,
+    "end": 0.493
+  },
+  {
+    "word": "ha",
+    "start": 0.493,
+    "end": 0.642
+  },
+  {
+    "word": "resistido",
+    "start": 0.642,
+    "end": 1.312
+  },
+  {
+    "word": "varios",
+    "start": 1.312,
+    "end": 1.759
+  },
+  {
+    "word": "siglos",
+    "start": 1.759,
+    "end": 2.207
+  },
+  {
+    "word": "ya",
+    "start": 2.207,
+    "end": 2.356
+  },
+  {
+    "word": "pagó",
+    "start": 2.356,
+    "end": 2.654
+  },
+  {
+    "word": "su",
+    "start": 2.654,
+    "end": 2.803
+  },
+  {
+    "word": "derecho",
+    "start": 2.803,
+    "end": 3.324
+  },
+  {
+    "word": "a",
+    "start": 3.324,
+    "end": 3.473
+  },
+  {
+    "word": "existir",
+    "start": 3.473,
+    "end": 3.995
+  }
+]

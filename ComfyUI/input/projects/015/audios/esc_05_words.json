@@ -1,0 +1,57 @@
+[
+  {
+    "word": "La",
+    "start": 0.12,
+    "end": 0.276
+  },
+  {
+    "word": "gente",
+    "start": 0.276,
+    "end": 0.666
+  },
+  {
+    "word": "casi",
+    "start": 0.666,
+    "end": 0.979
+  },
+  {
+    "word": "nunca",
+    "start": 0.979,
+    "end": 1.369
+  },
+  {
+    "word": "audita",
+    "start": 1.369,
+    "end": 1.837
+  },
+  {
+    "word": "tu",
+    "start": 1.837,
+    "end": 1.993
+  },
+  {
+    "word": "calidad",
+    "start": 1.993,
+    "end": 2.54
+  },
+  {
+    "word": "técnica",
+    "start": 2.54,
+    "end": 3.086
+  },
+  {
+    "word": "ni",
+    "start": 3.086,
+    "end": 3.242
+  },
+  {
+    "word": "tu",
+    "start": 3.242,
+    "end": 3.399
+  },
+  {
+    "word": "entrega",
+    "start": 3.399,
+    "end": 3.945
+  }
+]

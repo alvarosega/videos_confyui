@@ -1,0 +1,52 @@
+[
+  {
+    "word": "Y",
+    "start": 0.1,
+    "end": 0.281
+  },
+  {
+    "word": "luego",
+    "start": 0.281,
+    "end": 0.734
+  },
+  {
+    "word": "golpea",
+    "start": 0.734,
+    "end": 1.277
+  },
+  {
+    "word": "con",
+    "start": 1.277,
+    "end": 1.549
+  },
+  {
+    "word": "fuerza",
+    "start": 1.549,
+    "end": 2.092
+  },
+  {
+    "word": "implacable",
+    "start": 2.092,
+    "end": 2.998
+  },
+  {
+    "word": "donde",
+    "start": 2.998,
+    "end": 3.451
+  },
+  {
+    "word": "nadie",
+    "start": 3.451,
+    "end": 3.904
+  },
+  {
+    "word": "está",
+    "start": 3.904,
+    "end": 4.266
+  },
+  {
+    "word": "mirando",
+    "start": 4.266,
+    "end": 4.9
+  }
+]

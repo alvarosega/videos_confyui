@@ -1,0 +1,57 @@
+[
+  {
+    "word": "El",
+    "start": 0.15,
+    "end": 0.285
+  },
+  {
+    "word": "negocio",
+    "start": 0.285,
+    "end": 0.759
+  },
+  {
+    "word": "de",
+    "start": 0.759,
+    "end": 0.895
+  },
+  {
+    "word": "las",
+    "start": 0.895,
+    "end": 1.098
+  },
+  {
+    "word": "inversiones",
+    "start": 1.098,
+    "end": 1.842
+  },
+  {
+    "word": "tradicionales",
+    "start": 1.842,
+    "end": 2.722
+  },
+  {
+    "word": "esconde",
+    "start": 2.722,
+    "end": 3.196
+  },
+  {
+    "word": "una",
+    "start": 3.196,
+    "end": 3.399
+  },
+  {
+    "word": "trampa",
+    "start": 3.399,
+    "end": 3.805
+  },
+  {
+    "word": "muy",
+    "start": 3.805,
+    "end": 4.008
+  },
+  {
+    "word": "perversa",
+    "start": 4.008,
+    "end": 4.55
+  }
+]

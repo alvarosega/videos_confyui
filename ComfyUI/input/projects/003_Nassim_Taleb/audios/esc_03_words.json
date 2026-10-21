@@ -1,0 +1,62 @@
+[
+  {
+    "word": "Los",
+    "start": 0.15,
+    "end": 0.385
+  },
+  {
+    "word": "promedios",
+    "start": 0.385,
+    "end": 1.089
+  },
+  {
+    "word": "estadísticos",
+    "start": 1.089,
+    "end": 2.027
+  },
+  {
+    "word": "engañan",
+    "start": 2.027,
+    "end": 2.575
+  },
+  {
+    "word": "La",
+    "start": 2.875,
+    "end": 3.041
+  },
+  {
+    "word": "vida",
+    "start": 3.041,
+    "end": 3.374
+  },
+  {
+    "word": "real",
+    "start": 3.374,
+    "end": 3.706
+  },
+  {
+    "word": "jamás",
+    "start": 3.706,
+    "end": 4.121
+  },
+  {
+    "word": "es",
+    "start": 4.121,
+    "end": 4.287
+  },
+  {
+    "word": "un",
+    "start": 4.287,
+    "end": 4.454
+  },
+  {
+    "word": "proceso",
+    "start": 4.454,
+    "end": 5.035
+  },
+  {
+    "word": "ergódico",
+    "start": 5.035,
+    "end": 5.7
+  }
+]

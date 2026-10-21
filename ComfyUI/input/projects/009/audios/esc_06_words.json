@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Ganar",
+    "start": 0.12,
+    "end": 0.473
+  },
+  {
+    "word": "dinero",
+    "start": 0.473,
+    "end": 0.897
+  },
+  {
+    "word": "en",
+    "start": 0.897,
+    "end": 1.038
+  },
+  {
+    "word": "la",
+    "start": 1.038,
+    "end": 1.18
+  },
+  {
+    "word": "victoria",
+    "start": 1.18,
+    "end": 1.745
+  },
+  {
+    "word": "y",
+    "start": 1.745,
+    "end": 1.886
+  },
+  {
+    "word": "desentenderse",
+    "start": 1.886,
+    "end": 2.804
+  },
+  {
+    "word": "del",
+    "start": 2.804,
+    "end": 3.016
+  },
+  {
+    "word": "fracaso",
+    "start": 3.016,
+    "end": 3.51
+  },
+  {
+    "word": "arruina",
+    "start": 3.51,
+    "end": 4.005
+  },
+  {
+    "word": "mercados",
+    "start": 4.005,
+    "end": 4.57
+  }
+]

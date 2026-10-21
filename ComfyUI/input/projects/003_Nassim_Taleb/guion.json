@@ -1,0 +1,111 @@
+{
+  "estilo_global": "cinematic 3D animation render, League of Legends high-end CGI aesthetic, stylized digital sculpture, detailed Physically Based Rendering (PBR), soft even studio ring lighting, flat diffused key lighting on face, completely shadowless facial features, sharp ambient occlusion in background, intricate clothing micro-textures, octane render lighting, sharp volumetric depth, cinematic corporate thriller color grading",
+  "prompt_negativo_global": "harsh shadows, deep facial shadows, side lighting, half face in shadow, dark shadows, chiaroscuro, high contrast shadows on face, smooth skin, plastic texture, clay render, photorealistic, raw photo, photograph, real human face, skin pores, simple shading, flat lighting, in-game graphics, mobile game style, low poly cgi, 2d drawing, anime, flat art, deformed face, open mouth, teeth, asymmetric lips, bad eyes, text, words, letters, typography, watermark, logo, blurry, bokeh, elongated face, long face, stretched face, looking away, side glance, averted gaze, multiple people, background people, duplicate character, deformed body, bad anatomy",
+  "personajes": {
+    "carlos": {
+      "nombre": "Carlos",
+      "voz_tts": "em_alex",
+      "prompt_positivo_base": "detailed 3D digital model of a single solo 35-year-old Colombian Latino man, high-end CGI aesthetic, stylized 3D digital sculpture, detailed Physically Based Rendering (PBR), complex PBR skin shader with subsurface scattering, defined Latin American facial features, standard symmetrical facial proportions, short styled dark brown hair, completely clean-shaven sharp angular jawline, intense focused amber-brown eyes looking dead straight into camera lens, strictly closed neutral mouth, distinct clean lip contour, relaxed jaw, anatomically correct natural neck and symmetrical shoulders, centered frontal chest-up composition, prominent portrait occupying 75% of vertical frame with generous headroom and visible shoulders, direct frontal eye contact, eye-level framing, balanced studio portrait lighting",
+      "prompt_negativo_base": "photorealistic, real skin pores, real human photo, photograph, raw photo, open mouth, teeth visible, smiling, laughing, screaming, angry expression, head turned, side view, profile, 3/4 view, elongated face, long face, stretched face, looking away, looking sideways, averted gaze, misaligned pupils, side-eye, deformed face, bad eyes, female, woman, girl, beard, stubble, facial hair, smooth plastic skin, clay render, 2d illustration, flat render, cropped head, cropped face, cropped chin, cut off, out of frame, foreground obstacles, duplicate character, multiple bodies, multiple people, 2people, second person, background person, crowd, silhouette behind, deformed body, bad anatomy, extra limbs, asymmetrical shoulders",
+      "avatar": "man.png"
+    }
+  },
+  "escenas": [
+    {
+      "id": "esc_01",
+      "tipo": "personaje",
+      "personaje_id": "carlos",
+      "dialogo": "Si seis personas juegan a la ruleta rusa, cinco ganan un millón.",
+      "accion_prompt": "single solo man, standard symmetrical facial geometry, locked direct frontal gaze dead straight into camera lens, anatomically correct natural shoulders and stable upper chest, wearing a matte oxblood-burgundy heavy knit sweater with distinct yarn micro-textures over a black base layer. Background is an empty solid brutalist wall with dark slate slabs strictly positioned behind the subject in sharp volumetric focus with zero other individuals, completely clear unobstructed foreground. Centered frontal chest-up portrait occupying 75% of vertical frame with generous headroom and fully visible symmetrical shoulders, soft balanced studio ring light, strictly frontal eye-level view.",
+      "prompt_negativo_escena": "female, woman, girl, multiple people, 2people, second person, background people, duplicate character, body in background, crowd, silhouette behind, elongated face, long face, stretched face, looking away, side-eye, averted gaze, wandering eyes, deformed body, mutated anatomy, bad anatomy, deformed shoulders, twisted torso, extra limbs, blurry background, bokeh, depth of field blur, out of focus, cropped head, cropped face, cropped chin, cut off, out of frame, foreground objects, props blocking view, obstacles, desk, table, gun, weapon, roulette, partitions in front, harsh shadows, deep facial shadows, split lighting, chiaroscuro, suit, tie, blazer"
+    },
+    {
+      "id": "esc_02",
+      "tipo": "personaje",
+      "personaje_id": "carlos",
+      "dialogo": "Pero si juegas tú seis veces seguidas, terminas completamente muerto.",
+      "accion_prompt": "single solo man, standard symmetrical facial geometry, locked direct frontal gaze dead straight into camera lens, anatomically correct natural shoulders and stable upper chest, wearing a matte oxblood-burgundy heavy knit sweater with distinct yarn micro-textures over a black base layer. Background is an empty solid brutalist wall with dark slate slabs strictly positioned behind the subject in sharp volumetric focus with zero other individuals, completely clear unobstructed foreground. Centered frontal chest-up portrait occupying 75% of vertical frame with generous headroom and fully visible symmetrical shoulders, soft balanced studio ring light, strictly frontal eye-level view.",
+      "prompt_negativo_escena": "female, woman, girl, multiple people, 2people, second person, background people, duplicate character, body in background, crowd, silhouette behind, elongated face, long face, stretched face, looking away, side-eye, averted gaze, wandering eyes, deformed body, mutated anatomy, bad anatomy, deformed shoulders, twisted torso, extra limbs, blurry background, bokeh, depth of field blur, out of focus, cropped head, cropped face, cropped chin, cut off, out of frame, foreground objects, props blocking view, obstacles, desk, table, gun, weapon, roulette, partitions in front, harsh shadows, deep facial shadows, split lighting, chiaroscuro, suit, tie, blazer"
+    },
+    {
+      "id": "esc_03",
+      "tipo": "personaje",
+      "personaje_id": "carlos",
+      "dialogo": "Los promedios estadísticos engañan. La vida real jamás es un proceso ergódico.",
+      "accion_prompt": "single solo subject, balanced facial proportions, locked direct eye contact fixed on camera lens, anatomically correct stable shoulders and chest-up posture, wearing a charcoal-grey minimalist structured overshirt with subtle twill texture over a fitted black crewneck. Background is an empty architectural wall with vertical matte bronze dividers strictly behind the character in sharp volumetric focus with no background humans, completely empty foreground space. Centered frontal chest-up portrait occupying 75% of vertical frame with generous headroom and visible stable shoulders, soft diffused studio ring illumination, strictly frontal eye-level view.",
+      "prompt_negativo_escena": "female, woman, girl, multiple people, 2people, second person, background people, duplicate character, body in background, silhouette, deformed body, mutated anatomy, bad anatomy, asymmetrical shoulders, deformed torso, hunched neck, twisted body, extra limbs, elongated face, long face, stretched face, looking away, side gaze, averted gaze, blurry background, bokeh, depth of field blur, out of focus, cropped head, cropped face, cropped chin, cut off, out of frame, foreground objects, charts, screens in front, table, desk, props blocking subject, harsh shadows, deep facial shadows, split lighting, chiaroscuro, suit, tie, casual hoodie"
+    },
+    {
+      "id": "esc_04",
+      "tipo": "personaje",
+      "personaje_id": "carlos",
+      "dialogo": "El riesgo individual nunca funciona igual que el promedio de un grupo.",
+      "accion_prompt": "single solo subject, balanced facial proportions, locked direct eye contact fixed on camera lens, anatomically correct stable shoulders and chest-up posture, wearing a charcoal-grey minimalist structured overshirt with subtle twill texture over a fitted black crewneck. Background is an empty architectural wall with vertical matte bronze dividers strictly behind the character in sharp volumetric focus with no background humans, completely empty foreground space. Centered frontal chest-up portrait occupying 75% of vertical frame with generous headroom and visible stable shoulders, soft diffused studio ring illumination, strictly frontal eye-level view.",
+      "prompt_negativo_escena": "female, woman, girl, multiple people, 2people, second person, background people, duplicate character, body in background, silhouette, deformed body, mutated anatomy, bad anatomy, asymmetrical shoulders, deformed torso, hunched neck, twisted body, extra limbs, elongated face, long face, stretched face, looking away, side gaze, averted gaze, blurry background, bokeh, depth of field blur, out of focus, cropped head, cropped face, cropped chin, cut off, out of frame, foreground objects, charts, screens in front, table, desk, props blocking subject, harsh shadows, deep facial shadows, split lighting, chiaroscuro, suit, tie, casual hoodie"
+    },
+    {
+      "id": "esc_05",
+      "tipo": "personaje",
+      "personaje_id": "carlos",
+      "dialogo": "Una sola mala decisión de quiebra borra todas tus victorias anteriores.",
+      "accion_prompt": "single solo man, natural facial symmetry, direct centered gaze locked onto camera lens, structurally sound symmetrical shoulders and upright posture, wearing a deep navy-blue structured mock-neck knit with dense ribbing texture. Background is an empty architectural backdrop with dark geometric concrete panels strictly behind the subject in sharp volumetric focus, completely clear unobstructed foreground. Centered frontal chest-up portrait occupying 75% of vertical frame with generous headroom and clearly defined upper torso, soft uniform studio key lighting, strictly frontal eye-level view.",
+      "prompt_negativo_escena": "female, woman, girl, multiple people, 2people, second person, background people, duplicate character, silhouette, deformed body, mutated anatomy, bad anatomy, deformed shoulders, twisted torso, disjointed neck, extra limbs, mangled body, elongated face, long face, stretched face, looking away, side eye, averted gaze, blurry background, bokeh, depth of field blur, out of focus, cropped head, cropped face, cropped chin, cut off, out of frame, foreground objects, money, coins, table, conference desk, obstacles, harsh shadows, deep facial shadows, split lighting, chiaroscuro, suit, tie, blazer"
+    },
+    {
+      "id": "esc_06",
+      "tipo": "personaje",
+      "personaje_id": "carlos",
+      "dialogo": "Puedes ganar cien veces seguidas y perderlo absolutamente todo en minutos.",
+      "accion_prompt": "single solo man, natural facial symmetry, direct centered gaze locked onto camera lens, structurally sound symmetrical shoulders and upright posture, wearing a deep navy-blue structured mock-neck knit with dense ribbing texture. Background is an empty architectural backdrop with dark geometric concrete panels strictly behind the subject in sharp volumetric focus, completely clear unobstructed foreground. Centered frontal chest-up portrait occupying 75% of vertical frame with generous headroom and clearly defined upper torso, soft uniform studio key lighting, strictly frontal eye-level view.",
+      "prompt_negativo_escena": "female, woman, girl, multiple people, 2people, second person, background people, duplicate character, silhouette, deformed body, mutated anatomy, bad anatomy, deformed shoulders, twisted torso, disjointed neck, extra limbs, mangled body, elongated face, long face, stretched face, looking away, side eye, averted gaze, blurry background, bokeh, depth of field blur, out of focus, cropped head, cropped face, cropped chin, cut off, out of frame, foreground objects, money, coins, table, conference desk, obstacles, harsh shadows, deep facial shadows, split lighting, chiaroscuro, suit, tie, blazer"
+    },
+    {
+      "id": "esc_07",
+      "tipo": "personaje",
+      "personaje_id": "carlos",
+      "dialogo": "Arriesgar todo tu capital en un negocio milagroso no es audacia.",
+      "accion_prompt": "single solo subject, standard facial ratio, direct centered gaze locked onto camera lens, clean anatomically correct shoulders and chest-up framing, wearing a textured volcanic graphite canvas utility jacket with matte hardware over a dark charcoal t-shirt. Background is an empty solid industrial wall with brushed dark titanium panels strictly behind the subject in sharp volumetric focus, completely clear foreground without reflections or obstacles. Centered frontal chest-up portrait occupying 75% of vertical frame with generous headroom and defined shoulders, soft balanced studio key light, strictly frontal eye-level view.",
+      "prompt_negativo_escena": "female, woman, girl, multiple people, 2people, second person, background people, duplicate character, body in background, deformed body, mutated anatomy, bad anatomy, deformed shoulders, asymmetrical upper body, disjointed torso, extra limbs, elongated face, long face, stretched face, looking away, side glance, averted gaze, blurry background, bokeh, depth of field blur, out of focus, cropped head, cropped face, cropped chin, cut off, out of frame, foreground objects, glass reflection, reflection of person, podium, desk, obstacles, harsh shadows, deep facial shadows, split lighting, chiaroscuro, tie, bowtie, casual t-shirt"
+    },
+    {
+      "id": "esc_08",
+      "tipo": "personaje",
+      "personaje_id": "carlos",
+      "dialogo": "Es ignorar que un solo fallo crítico te elimina para siempre.",
+      "accion_prompt": "single solo subject, standard facial ratio, direct centered gaze locked onto camera lens, clean anatomically correct shoulders and chest-up framing, wearing a textured volcanic graphite canvas utility jacket with matte hardware over a dark charcoal t-shirt. Background is an empty solid industrial wall with brushed dark titanium panels strictly behind the subject in sharp volumetric focus, completely clear foreground without reflections or obstacles. Centered frontal chest-up portrait occupying 75% of vertical frame with generous headroom and defined shoulders, soft balanced studio key light, strictly frontal eye-level view.",
+      "prompt_negativo_escena": "female, woman, girl, multiple people, 2people, second person, background people, duplicate character, body in background, deformed body, mutated anatomy, bad anatomy, deformed shoulders, asymmetrical upper body, disjointed torso, extra limbs, elongated face, long face, stretched face, looking away, side glance, averted gaze, blurry background, bokeh, depth of field blur, out of focus, cropped head, cropped face, cropped chin, cut off, out of frame, foreground objects, glass reflection, reflection of person, podium, desk, obstacles, harsh shadows, deep facial shadows, split lighting, chiaroscuro, tie, bowtie, casual t-shirt"
+    },
+    {
+      "id": "esc_09",
+      "tipo": "personaje",
+      "personaje_id": "carlos",
+      "dialogo": "El mercado está lleno de personas brillantes que quedaron completamente arruinadas.",
+      "accion_prompt": "single solo subject, balanced facial proportions, locked direct eye contact with camera lens, stable anatomically correct torso and symmetrical shoulders, wearing a matte black tailored utility shirt with reinforced collar over an obsidian base top. Background is an empty minimalist wall with dark matte walnut acoustic slats strictly behind the character in sharp volumetric focus, empty foreground space. Centered frontal chest-up portrait occupying 75% of vertical frame with generous headroom and visible shoulders, balanced soft studio key lighting, strictly frontal eye-level view.",
+      "prompt_negativo_escena": "female, woman, girl, multiple people, 2people, second person, background people, duplicate character, deformed body, mutated anatomy, bad anatomy, deformed chest, asymmetrical shoulders, twisted spine, extra limbs, elongated face, long face, stretched face, looking away, side gaze, wandering eyes, blurry background, bokeh, depth of field blur, out of focus, cropped head, cropped face, cropped chin, cut off, out of frame, foreground objects, props blocking view, furniture in front, desk, table, harsh shadows, deep facial shadows, split lighting, chiaroscuro, suit, tie, tuxedo"
+    },
+    {
+      "id": "esc_10",
+      "tipo": "personaje",
+      "personaje_id": "carlos",
+      "dialogo": "La regla de oro para tu supervivencia financiera es muy simple:",
+      "accion_prompt": "single solo subject, balanced facial proportions, locked direct eye contact with camera lens, stable anatomically correct torso and symmetrical shoulders, wearing a matte black tailored utility shirt with reinforced collar over an obsidian base top. Background is an empty minimalist wall with dark matte walnut acoustic slats strictly behind the character in sharp volumetric focus, empty foreground space. Centered frontal chest-up portrait occupying 75% of vertical frame with generous headroom and visible shoulders, balanced soft studio key lighting, strictly frontal eye-level view.",
+      "prompt_negativo_escena": "female, woman, girl, multiple people, 2people, second person, background people, duplicate character, deformed body, mutated anatomy, bad anatomy, deformed chest, asymmetrical shoulders, twisted spine, extra limbs, elongated face, long face, stretched face, looking away, side gaze, wandering eyes, blurry background, bokeh, depth of field blur, out of focus, cropped head, cropped face, cropped chin, cut off, out of frame, foreground objects, props blocking view, furniture in front, desk, table, harsh shadows, deep facial shadows, split lighting, chiaroscuro, suit, tie, tuxedo"
+    },
+    {
+      "id": "esc_11",
+      "tipo": "personaje",
+      "personaje_id": "carlos",
+      "dialogo": "Jamás tomes decisiones donde el peor escenario sea la ruina total.",
+      "accion_prompt": "single solo man, symmetrical standard facial geometry, direct frontal eye contact locked dead straight at camera lens, anatomically correct natural shoulders and stable upper torso structure, wearing a tailored charcoal-black structured coat with clean minimal seams over a dark base shirt. Background is an empty flat architectural backdrop with dark matte basalt stone panels strictly positioned behind the subject in sharp volumetric focus with zero other individuals, completely clear unobstructed foreground. Centered frontal chest-up portrait occupying 75% of vertical frame with generous headroom and clearly defined upper torso, flat diffused studio key lighting, strictly frontal eye-level view.",
+      "prompt_negativo_escena": "female, woman, girl, multiple people, 2people, second person, background people, duplicate body, reflection of person, deformed body, mutated anatomy, bad anatomy, deformed shoulders, twisted torso, hunchback, disjointed neck, extra limbs, mangled posture, elongated face, long face, stretched face, looking away, side-eye, averted gaze, blurry background, bokeh, depth of field blur, out of focus, cropped head, cropped face, cropped chin, cut off, out of frame, foreground objects, glass partitions, window frames in front, obstacles, harsh shadows, deep facial shadows, split lighting, chiaroscuro, bright colors, casual clothes"
+    },
+    {
+      "id": "esc_12",
+      "tipo": "personaje",
+      "personaje_id": "carlos",
+      "dialogo": "Protege siempre tu permanencia en el juego antes de buscar beneficios.",
+      "accion_prompt": "single solo man, symmetrical standard facial geometry, direct frontal eye contact locked dead straight at camera lens, anatomically correct natural shoulders and stable upper torso structure, wearing a tailored charcoal-black structured coat with clean minimal seams over a dark base shirt. Background is an empty flat architectural backdrop with dark matte basalt stone panels strictly positioned behind the subject in sharp volumetric focus with zero other individuals, completely clear unobstructed foreground. Centered frontal chest-up portrait occupying 75% of vertical frame with generous headroom and clearly defined upper torso, flat diffused studio key lighting, strictly frontal eye-level view.",
+      "prompt_negativo_escena": "female, woman, girl, multiple people, 2people, second person, background people, duplicate body, reflection of person, deformed body, mutated anatomy, bad anatomy, deformed shoulders, twisted torso, hunchback, disjointed neck, extra limbs, mangled posture, elongated face, long face, stretched face, looking away, side-eye, averted gaze, blurry background, bokeh, depth of field blur, out of focus, cropped head, cropped face, cropped chin, cut off, out of frame, foreground objects, glass partitions, window frames in front, obstacles, harsh shadows, deep facial shadows, split lighting, chiaroscuro, bright colors, casual clothes"
+    }
+  ]
+}

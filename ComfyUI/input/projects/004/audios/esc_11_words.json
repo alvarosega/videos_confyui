@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Si",
+    "start": 0.12,
+    "end": 0.274
+  },
+  {
+    "word": "jamás",
+    "start": 0.274,
+    "end": 0.658
+  },
+  {
+    "word": "arriesgó",
+    "start": 0.658,
+    "end": 1.274
+  },
+  {
+    "word": "nada",
+    "start": 1.274,
+    "end": 1.582
+  },
+  {
+    "word": "de",
+    "start": 1.582,
+    "end": 1.735
+  },
+  {
+    "word": "su",
+    "start": 1.735,
+    "end": 1.889
+  },
+  {
+    "word": "bolsillo",
+    "start": 1.889,
+    "end": 2.505
+  },
+  {
+    "word": "descarta",
+    "start": 2.505,
+    "end": 3.12
+  },
+  {
+    "word": "toda",
+    "start": 3.12,
+    "end": 3.428
+  },
+  {
+    "word": "su",
+    "start": 3.428,
+    "end": 3.582
+  },
+  {
+    "word": "opinión",
+    "start": 3.582,
+    "end": 4.12
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "word": "Si",
+    "start": 0.1,
+    "end": 0.303
+  },
+  {
+    "word": "la",
+    "start": 0.303,
+    "end": 0.506
+  },
+  {
+    "word": "gente",
+    "start": 0.506,
+    "end": 1.014
+  },
+  {
+    "word": "sabe",
+    "start": 1.014,
+    "end": 1.42
+  },
+  {
+    "word": "cuál",
+    "start": 1.42,
+    "end": 1.827
+  },
+  {
+    "word": "es",
+    "start": 1.827,
+    "end": 2.03
+  },
+  {
+    "word": "tu",
+    "start": 2.03,
+    "end": 2.233
+  },
+  {
+    "word": "próximo",
+    "start": 2.233,
+    "end": 2.944
+  },
+  {
+    "word": "paso",
+    "start": 2.944,
+    "end": 3.35
+  },
+  {
+    "word": "ya",
+    "start": 3.35,
+    "end": 3.553
+  },
+  {
+    "word": "estás",
+    "start": 3.553,
+    "end": 4.061
+  },
+  {
+    "word": "perdiendo",
+    "start": 4.061,
+    "end": 4.975
+  }
+]

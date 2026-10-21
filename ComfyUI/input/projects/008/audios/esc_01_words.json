@@ -1,0 +1,62 @@
+[
+  {
+    "word": "Una",
+    "start": 0.12,
+    "end": 0.334
+  },
+  {
+    "word": "costumbre",
+    "start": 0.334,
+    "end": 0.974
+  },
+  {
+    "word": "no",
+    "start": 0.974,
+    "end": 1.117
+  },
+  {
+    "word": "es",
+    "start": 1.117,
+    "end": 1.259
+  },
+  {
+    "word": "absurda",
+    "start": 1.259,
+    "end": 1.757
+  },
+  {
+    "word": "si",
+    "start": 1.757,
+    "end": 1.9
+  },
+  {
+    "word": "ha",
+    "start": 1.9,
+    "end": 2.042
+  },
+  {
+    "word": "protegido",
+    "start": 2.042,
+    "end": 2.683
+  },
+  {
+    "word": "tu",
+    "start": 2.683,
+    "end": 2.825
+  },
+  {
+    "word": "negocio",
+    "start": 2.825,
+    "end": 3.323
+  },
+  {
+    "word": "durante",
+    "start": 3.323,
+    "end": 3.822
+  },
+  {
+    "word": "décadas",
+    "start": 3.822,
+    "end": 4.32
+  }
+]

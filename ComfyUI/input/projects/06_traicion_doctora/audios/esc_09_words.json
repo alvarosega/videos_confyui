@@ -1,0 +1,37 @@
+[
+  {
+    "word": "Esperé",
+    "start": 0.15,
+    "end": 0.573
+  },
+  {
+    "word": "a",
+    "start": 0.573,
+    "end": 0.714
+  },
+  {
+    "word": "que",
+    "start": 0.714,
+    "end": 0.925
+  },
+  {
+    "word": "abrieran",
+    "start": 0.925,
+    "end": 1.489
+  },
+  {
+    "word": "con",
+    "start": 1.489,
+    "end": 1.7
+  },
+  {
+    "word": "agenda",
+    "start": 1.7,
+    "end": 2.123
+  },
+  {
+    "word": "llena",
+    "start": 2.123,
+    "end": 2.475
+  }
+]

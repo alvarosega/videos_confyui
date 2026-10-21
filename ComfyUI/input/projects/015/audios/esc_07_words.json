@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Un",
+    "start": 0.12,
+    "end": 0.259
+  },
+  {
+    "word": "prestigio",
+    "start": 0.259,
+    "end": 0.884
+  },
+  {
+    "word": "imponente",
+    "start": 0.884,
+    "end": 1.509
+  },
+  {
+    "word": "cierra",
+    "start": 1.509,
+    "end": 1.926
+  },
+  {
+    "word": "acuerdos",
+    "start": 1.926,
+    "end": 2.481
+  },
+  {
+    "word": "mucho",
+    "start": 2.481,
+    "end": 2.828
+  },
+  {
+    "word": "antes",
+    "start": 2.828,
+    "end": 3.176
+  },
+  {
+    "word": "de",
+    "start": 3.176,
+    "end": 3.314
+  },
+  {
+    "word": "empezar",
+    "start": 3.314,
+    "end": 3.801
+  },
+  {
+    "word": "a",
+    "start": 3.801,
+    "end": 3.939
+  },
+  {
+    "word": "negociar",
+    "start": 3.939,
+    "end": 4.495
+  }
+]

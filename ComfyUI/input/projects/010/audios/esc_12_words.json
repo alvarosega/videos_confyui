@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Si",
+    "start": 0.15,
+    "end": 0.3
+  },
+  {
+    "word": "la",
+    "start": 0.3,
+    "end": 0.45
+  },
+  {
+    "word": "otra",
+    "start": 0.45,
+    "end": 0.75
+  },
+  {
+    "word": "parte",
+    "start": 0.75,
+    "end": 1.125
+  },
+  {
+    "word": "no",
+    "start": 1.125,
+    "end": 1.275
+  },
+  {
+    "word": "arriesga",
+    "start": 1.275,
+    "end": 1.875
+  },
+  {
+    "word": "nada",
+    "start": 1.875,
+    "end": 2.175
+  },
+  {
+    "word": "no",
+    "start": 2.175,
+    "end": 2.325
+  },
+  {
+    "word": "firmes",
+    "start": 2.325,
+    "end": 2.775
+  },
+  {
+    "word": "absolutamente",
+    "start": 2.775,
+    "end": 3.75
+  },
+  {
+    "word": "nada",
+    "start": 3.75,
+    "end": 4.05
+  }
+]

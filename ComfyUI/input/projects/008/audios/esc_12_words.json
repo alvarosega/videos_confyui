@@ -1,0 +1,57 @@
+[
+  {
+    "word": "El",
+    "start": 0.12,
+    "end": 0.264
+  },
+  {
+    "word": "respeto",
+    "start": 0.264,
+    "end": 0.767
+  },
+  {
+    "word": "por",
+    "start": 0.767,
+    "end": 0.983
+  },
+  {
+    "word": "la",
+    "start": 0.983,
+    "end": 1.127
+  },
+  {
+    "word": "supervivencia",
+    "start": 1.127,
+    "end": 2.062
+  },
+  {
+    "word": "siempre",
+    "start": 2.062,
+    "end": 2.566
+  },
+  {
+    "word": "supera",
+    "start": 2.566,
+    "end": 2.997
+  },
+  {
+    "word": "a",
+    "start": 2.997,
+    "end": 3.141
+  },
+  {
+    "word": "la",
+    "start": 3.141,
+    "end": 3.285
+  },
+  {
+    "word": "lógica",
+    "start": 3.285,
+    "end": 3.716
+  },
+  {
+    "word": "teórica",
+    "start": 3.716,
+    "end": 4.22
+  }
+]

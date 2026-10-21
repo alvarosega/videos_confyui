@@ -1,0 +1,27 @@
+[
+  {
+    "word": "El",
+    "start": 0.15,
+    "end": 0.317
+  },
+  {
+    "word": "tribunal",
+    "start": 0.317,
+    "end": 0.983
+  },
+  {
+    "word": "anuló",
+    "start": 0.983,
+    "end": 1.4
+  },
+  {
+    "word": "la",
+    "start": 1.4,
+    "end": 1.567
+  },
+  {
+    "word": "demanda",
+    "start": 1.567,
+    "end": 2.15
+  }
+]

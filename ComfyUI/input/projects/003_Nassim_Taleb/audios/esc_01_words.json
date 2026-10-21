@@ -1,0 +1,62 @@
+[
+  {
+    "word": "Si",
+    "start": 0.15,
+    "end": 0.3
+  },
+  {
+    "word": "seis",
+    "start": 0.3,
+    "end": 0.6
+  },
+  {
+    "word": "personas",
+    "start": 0.6,
+    "end": 1.2
+  },
+  {
+    "word": "juegan",
+    "start": 1.2,
+    "end": 1.65
+  },
+  {
+    "word": "a",
+    "start": 1.65,
+    "end": 1.8
+  },
+  {
+    "word": "la",
+    "start": 1.8,
+    "end": 1.95
+  },
+  {
+    "word": "ruleta",
+    "start": 1.95,
+    "end": 2.4
+  },
+  {
+    "word": "rusa",
+    "start": 2.4,
+    "end": 2.7
+  },
+  {
+    "word": "cinco",
+    "start": 2.7,
+    "end": 3.075
+  },
+  {
+    "word": "ganan",
+    "start": 3.075,
+    "end": 3.45
+  },
+  {
+    "word": "un",
+    "start": 3.45,
+    "end": 3.6
+  },
+  {
+    "word": "millón",
+    "start": 3.6,
+    "end": 4.05
+  }
+]

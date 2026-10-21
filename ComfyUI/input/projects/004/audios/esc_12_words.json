@@ -1,0 +1,52 @@
+[
+  {
+    "word": "La",
+    "start": 0.12,
+    "end": 0.264
+  },
+  {
+    "word": "experiencia",
+    "start": 0.264,
+    "end": 1.059
+  },
+  {
+    "word": "real",
+    "start": 1.059,
+    "end": 1.348
+  },
+  {
+    "word": "solo",
+    "start": 1.348,
+    "end": 1.637
+  },
+  {
+    "word": "se",
+    "start": 1.637,
+    "end": 1.781
+  },
+  {
+    "word": "forja",
+    "start": 1.781,
+    "end": 2.142
+  },
+  {
+    "word": "arriesgando",
+    "start": 2.142,
+    "end": 2.937
+  },
+  {
+    "word": "tu",
+    "start": 2.937,
+    "end": 3.081
+  },
+  {
+    "word": "propio",
+    "start": 3.081,
+    "end": 3.514
+  },
+  {
+    "word": "pellejo",
+    "start": 3.514,
+    "end": 4.02
+  }
+]

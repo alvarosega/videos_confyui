@@ -1,0 +1,37 @@
+[
+  {
+    "word": "Al",
+    "start": 0.15,
+    "end": 0.298
+  },
+  {
+    "word": "firmar",
+    "start": 0.298,
+    "end": 0.741
+  },
+  {
+    "word": "absorbió",
+    "start": 0.741,
+    "end": 1.331
+  },
+  {
+    "word": "la",
+    "start": 1.331,
+    "end": 1.479
+  },
+  {
+    "word": "deuda",
+    "start": 1.479,
+    "end": 1.848
+  },
+  {
+    "word": "total",
+    "start": 1.848,
+    "end": 2.217
+  },
+  {
+    "word": "automáticamente",
+    "start": 2.217,
+    "end": 3.325
+  }
+]

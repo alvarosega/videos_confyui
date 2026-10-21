@@ -1,0 +1,62 @@
+[
+  {
+    "word": "El",
+    "start": 0.15,
+    "end": 0.285
+  },
+  {
+    "word": "riesgo",
+    "start": 0.285,
+    "end": 0.691
+  },
+  {
+    "word": "individual",
+    "start": 0.691,
+    "end": 1.368
+  },
+  {
+    "word": "nunca",
+    "start": 1.368,
+    "end": 1.706
+  },
+  {
+    "word": "funciona",
+    "start": 1.706,
+    "end": 2.248
+  },
+  {
+    "word": "igual",
+    "start": 2.248,
+    "end": 2.586
+  },
+  {
+    "word": "que",
+    "start": 2.586,
+    "end": 2.789
+  },
+  {
+    "word": "el",
+    "start": 2.789,
+    "end": 2.925
+  },
+  {
+    "word": "promedio",
+    "start": 2.925,
+    "end": 3.466
+  },
+  {
+    "word": "de",
+    "start": 3.466,
+    "end": 3.601
+  },
+  {
+    "word": "un",
+    "start": 3.601,
+    "end": 3.737
+  },
+  {
+    "word": "grupo",
+    "start": 3.737,
+    "end": 4.075
+  }
+]

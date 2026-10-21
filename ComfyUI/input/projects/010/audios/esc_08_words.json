@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Cuando",
+    "start": 0.15,
+    "end": 0.579
+  },
+  {
+    "word": "eliminas",
+    "start": 0.579,
+    "end": 1.15
+  },
+  {
+    "word": "el",
+    "start": 1.15,
+    "end": 1.293
+  },
+  {
+    "word": "castigo",
+    "start": 1.293,
+    "end": 1.793
+  },
+  {
+    "word": "personal",
+    "start": 1.793,
+    "end": 2.364
+  },
+  {
+    "word": "el",
+    "start": 2.364,
+    "end": 2.507
+  },
+  {
+    "word": "sistema",
+    "start": 2.507,
+    "end": 3.007
+  },
+  {
+    "word": "entero",
+    "start": 3.007,
+    "end": 3.436
+  },
+  {
+    "word": "colapsa",
+    "start": 3.436,
+    "end": 3.936
+  },
+  {
+    "word": "sin",
+    "start": 3.936,
+    "end": 4.15
+  },
+  {
+    "word": "remedio",
+    "start": 4.15,
+    "end": 4.65
+  }
+]

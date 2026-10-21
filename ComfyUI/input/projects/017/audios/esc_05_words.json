@@ -1,0 +1,62 @@
+[
+  {
+    "word": "El",
+    "start": 0.12,
+    "end": 0.273
+  },
+  {
+    "word": "poder",
+    "start": 0.273,
+    "end": 0.655
+  },
+  {
+    "word": "jamás",
+    "start": 0.655,
+    "end": 1.036
+  },
+  {
+    "word": "recompensa",
+    "start": 1.036,
+    "end": 1.8
+  },
+  {
+    "word": "el",
+    "start": 1.8,
+    "end": 1.953
+  },
+  {
+    "word": "desgaste",
+    "start": 1.953,
+    "end": 2.564
+  },
+  {
+    "word": "físico",
+    "start": 2.564,
+    "end": 3.022
+  },
+  {
+    "word": "ni",
+    "start": 3.022,
+    "end": 3.175
+  },
+  {
+    "word": "las",
+    "start": 3.175,
+    "end": 3.404
+  },
+  {
+    "word": "horas",
+    "start": 3.404,
+    "end": 3.785
+  },
+  {
+    "word": "de",
+    "start": 3.785,
+    "end": 3.938
+  },
+  {
+    "word": "sudor",
+    "start": 3.938,
+    "end": 4.32
+  }
+]

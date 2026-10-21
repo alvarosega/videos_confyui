@@ -1,0 +1,37 @@
+[
+  {
+    "word": "Perdieron",
+    "start": 0.15,
+    "end": 0.875
+  },
+  {
+    "word": "todo",
+    "start": 0.875,
+    "end": 1.197
+  },
+  {
+    "word": "en",
+    "start": 1.197,
+    "end": 1.358
+  },
+  {
+    "word": "menos",
+    "start": 1.358,
+    "end": 1.761
+  },
+  {
+    "word": "de",
+    "start": 1.761,
+    "end": 1.922
+  },
+  {
+    "word": "un",
+    "start": 1.922,
+    "end": 2.083
+  },
+  {
+    "word": "mes",
+    "start": 2.083,
+    "end": 2.325
+  }
+]

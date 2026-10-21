@@ -1,0 +1,62 @@
+[
+  {
+    "word": "Robert",
+    "start": 0.1,
+    "end": 0.629
+  },
+  {
+    "word": "Greene",
+    "start": 0.629,
+    "end": 1.158
+  },
+  {
+    "word": "advierte",
+    "start": 1.158,
+    "end": 1.863
+  },
+  {
+    "word": "esto",
+    "start": 1.863,
+    "end": 2.215
+  },
+  {
+    "word": "con",
+    "start": 2.215,
+    "end": 2.48
+  },
+  {
+    "word": "frialdad",
+    "start": 2.48,
+    "end": 3.185
+  },
+  {
+    "word": "en",
+    "start": 3.185,
+    "end": 3.361
+  },
+  {
+    "word": "Las",
+    "start": 3.361,
+    "end": 3.625
+  },
+  {
+    "word": "cuarenta",
+    "start": 3.625,
+    "end": 4.331
+  },
+  {
+    "word": "y",
+    "start": 4.331,
+    "end": 4.507
+  },
+  {
+    "word": "ocho",
+    "start": 4.507,
+    "end": 4.859
+  },
+  {
+    "word": "leyes",
+    "start": 4.859,
+    "end": 5.3
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "word": "Muchos",
+    "start": 0.12,
+    "end": 0.551
+  },
+  {
+    "word": "ejecutivos",
+    "start": 0.551,
+    "end": 1.269
+  },
+  {
+    "word": "asumen",
+    "start": 1.269,
+    "end": 1.7
+  },
+  {
+    "word": "riesgos",
+    "start": 1.7,
+    "end": 2.203
+  },
+  {
+    "word": "desmedidos",
+    "start": 2.203,
+    "end": 2.921
+  },
+  {
+    "word": "por",
+    "start": 2.921,
+    "end": 3.137
+  },
+  {
+    "word": "cobrar",
+    "start": 3.137,
+    "end": 3.568
+  },
+  {
+    "word": "un",
+    "start": 3.568,
+    "end": 3.711
+  },
+  {
+    "word": "bono",
+    "start": 3.711,
+    "end": 3.999
+  },
+  {
+    "word": "inmediato",
+    "start": 3.999,
+    "end": 4.645
+  }
+]

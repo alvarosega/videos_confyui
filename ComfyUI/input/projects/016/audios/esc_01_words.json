@@ -1,0 +1,57 @@
+[
+  {
+    "word": "En",
+    "start": 0.12,
+    "end": 0.271
+  },
+  {
+    "word": "el",
+    "start": 0.271,
+    "end": 0.422
+  },
+  {
+    "word": "mundo",
+    "start": 0.422,
+    "end": 0.799
+  },
+  {
+    "word": "profesional",
+    "start": 0.799,
+    "end": 1.629
+  },
+  {
+    "word": "moderno",
+    "start": 1.629,
+    "end": 2.158
+  },
+  {
+    "word": "la",
+    "start": 2.158,
+    "end": 2.309
+  },
+  {
+    "word": "modestia",
+    "start": 2.309,
+    "end": 2.912
+  },
+  {
+    "word": "nunca",
+    "start": 2.912,
+    "end": 3.29
+  },
+  {
+    "word": "es",
+    "start": 3.29,
+    "end": 3.441
+  },
+  {
+    "word": "una",
+    "start": 3.441,
+    "end": 3.667
+  },
+  {
+    "word": "virtud",
+    "start": 3.667,
+    "end": 4.12
+  }
+]

@@ -1,0 +1,87 @@
+{
+"estilo_global": "cinematic 3D animation render, League of Legends high-end CGI aesthetic, stylized digital sculpture, detailed Physically Based Rendering (PBR), dramatic volumetric studio lighting, subsurface scattering, sharp ambient occlusion, complex shadowed background in sharp focus, intricate clothing micro-textures, octane render lighting, shallow depth of field, cinematic corporate thriller color grading",
+"prompt_negativo_global": "smooth skin, plastic texture, clay render, photorealistic, raw photo, photograph, real human face, skin pores, simple shading, flat lighting, in-game graphics, mobile game style, low poly cgi, 2d drawing, anime, flat art, deformed face, open mouth, teeth, asymmetric lips, bad eyes, text, words, letters, typography, watermark, logo, blurry",
+"personajes": {
+"julian": {
+"nombre": "Julián",
+"voz_tts": "es-ES-AlvaroNeural",
+"prompt_positivo_base": "detailed 3D digital model of a distinguished 42-year-old Latino corporate strategist, complex PBR skin shader with subtle subsurface scattering, sharp angular jawline, neat dark hair with elegant salt-and-pepper temples, groomed short grey-flecked stylized beard, distinct clean lip contour, strictly closed neutral mouth, relaxed jaw",
+"prompt_negativo_base": "photorealistic, real skin pores, real human photo, photograph, 2d illustration, flat render, smooth plastic skin, simple lighting, open mouth, teeth visible, smiling, laughing, angry expression, head turned, side view",
+"avatar": "man.png"
+}
+},
+"escenas": [
+{
+"id": "esc_01",
+"tipo": "personaje",
+"personaje_id": "julian",
+"dialogo": "¿Alguna vez te has preguntado por qué los asesores de inversión nunca son las personas más ricas del banco?",
+"accion_prompt": "wearing a tailored charcoal black Italian wool suit jacket with crisp white collar. Background is a luxury executive office with dark walnut wood paneling and volumetric shadowed depth in sharp focus",
+"prompt_negativo_escena": "multiple people, 2men, bright sunlight, modern windows, casual clothing, smooth textures, floor"
+},
+{
+"id": "esc_02",
+"tipo": "b_roll",
+"personaje_id": "julian",
+"dialogo": "Si su recomendación te hace ganar dinero, ellos cobran una comisión.",
+"accion_prompt": "cinematic 3D vertical macro shot of financial portfolio contracts stamped with gold foil emblems resting on dark mahogany desk, cool blue studio lighting, shallow depth of field",
+"prompt_negativo_escena": "hand, person, face, text, readable letters, messy desk, flat lighting, photograph"
+},
+{
+"id": "esc_03",
+"tipo": "personaje",
+"personaje_id": "julian",
+"dialogo": "Pero si te hace perder los ahorros de tu vida, ellos siguen cobrando su sueldo intacto.",
+"accion_prompt": "wearing a tailored charcoal black Italian suit. Background is a high-rise penthouse office interior with floor-to-ceiling glass revealing a stylized distant city skyline in sharp volumetric focus",
+"prompt_negativo_escena": "multiple people, floor, night storm, rain on glass, casual clothes, smooth textures"
+},
+{
+"id": "esc_04",
+"tipo": "b_roll",
+"personaje_id": "julian",
+"dialogo": "Nassim Taleb explica en su libro Jugarse la piel que esto se llama la asimetría de agencia.",
+"accion_prompt": "cinematic 3D macro render of a leather-bound edition of Nassim Taleb book resting beside a solid brass fountain pen on polished black marble, dramatic side key light",
+"prompt_negativo_escena": "hand holding pen, person, body, open book, messy desk, flat render, photograph"
+},
+{
+"id": "esc_05",
+"tipo": "personaje",
+"personaje_id": "julian",
+"dialogo": "Pagamos por opiniones de personas que no arriesgan ni un solo centavo de su propio bolsillo.",
+"accion_prompt": "wearing a tailored charcoal black Italian suit jacket. Background is a sleek corporate conference room with brushed metallic accents and geometric architectural lines in sharp focus",
+"prompt_negativo_escena": "multiple people, audience, projector screen, whiteboard, floor, simple textures"
+},
+{
+"id": "esc_06",
+"tipo": "b_roll",
+"personaje_id": "julian",
+"dialogo": "Cuando el barco se hunde, el capitán se va en su bote salvavidas privado mientras tú te ahogas.",
+"accion_prompt": "cinematic 3D vertical macro render of a miniature gold ship hull fracturing over a dark obsidian surface, dramatic red and blue atmospheric rim lighting, deep ambient occlusion",
+"prompt_negativo_escena": "person, water splash, real sea, cartoon, blurry metal, plastic, photograph"
+},
+{
+"id": "esc_07",
+"tipo": "personaje",
+"personaje_id": "julian",
+"dialogo": "Antes de pagar por cualquier asesoría o curso, haz una sola pregunta:",
+"accion_prompt": "wearing a tailored charcoal black Italian suit. Background is a minimalist executive boardroom wall with subtle acoustic slat panels and dark architectural lighting in sharp focus",
+"prompt_negativo_escena": "multiple people, 2men, casual clothes, floor, bright outdoor light, smooth wall"
+},
+{
+"id": "esc_08",
+"tipo": "b_roll",
+"personaje_id": "julian",
+"dialogo": "Muéstrame exactamente cuánto dinero propio tienes invertido en esto hoy.",
+"accion_prompt": "cinematic 3D macro render of heavy gold bullion bars stacked neatly inside an open dark steel vault, glowing volumetric white lighting reflecting on brushed metal textures",
+"prompt_negativo_escena": "hand holding gold, person, dollar bills, readable numbers, messy floor, photograph"
+},
+{
+"id": "esc_09",
+"tipo": "personaje",
+"personaje_id": "julian",
+"dialogo": "Si no lo demuestra con pruebas reales, date la vuelta y vete.",
+"accion_prompt": "wearing a tailored charcoal black Italian suit jacket. Background is an executive high-rise elevator lobby with brushed gunmetal steel panels in sharp volumetric focus",
+"prompt_negativo_escena": "multiple people, smiling, open mouth, luggage, floor, smooth walls"
+}
+]
+}

@@ -1,0 +1,57 @@
+[
+  {
+    "word": "En",
+    "start": 0.1,
+    "end": 0.273
+  },
+  {
+    "word": "cualquier",
+    "start": 0.273,
+    "end": 1.054
+  },
+  {
+    "word": "reunión",
+    "start": 1.054,
+    "end": 1.661
+  },
+  {
+    "word": "importante",
+    "start": 1.661,
+    "end": 2.528
+  },
+  {
+    "word": "de",
+    "start": 2.528,
+    "end": 2.702
+  },
+  {
+    "word": "negocios",
+    "start": 2.702,
+    "end": 3.395
+  },
+  {
+    "word": "mantén",
+    "start": 3.395,
+    "end": 3.916
+  },
+  {
+    "word": "siempre",
+    "start": 3.916,
+    "end": 4.523
+  },
+  {
+    "word": "la",
+    "start": 4.523,
+    "end": 4.696
+  },
+  {
+    "word": "boca",
+    "start": 4.696,
+    "end": 5.043
+  },
+  {
+    "word": "cerrada",
+    "start": 5.043,
+    "end": 5.65
+  }
+]

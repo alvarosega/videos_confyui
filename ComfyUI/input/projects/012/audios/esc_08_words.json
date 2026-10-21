@@ -1,0 +1,52 @@
+[
+  {
+    "word": "Un",
+    "start": 0.1,
+    "end": 0.299
+  },
+  {
+    "word": "antiguo",
+    "start": 0.299,
+    "end": 0.996
+  },
+  {
+    "word": "rival",
+    "start": 0.996,
+    "end": 1.494
+  },
+  {
+    "word": "contratado",
+    "start": 1.494,
+    "end": 2.489
+  },
+  {
+    "word": "trabajará",
+    "start": 2.489,
+    "end": 3.386
+  },
+  {
+    "word": "el",
+    "start": 3.386,
+    "end": 3.585
+  },
+  {
+    "word": "doble",
+    "start": 3.585,
+    "end": 4.082
+  },
+  {
+    "word": "por",
+    "start": 4.082,
+    "end": 4.381
+  },
+  {
+    "word": "ganarse",
+    "start": 4.381,
+    "end": 5.078
+  },
+  {
+    "word": "respeto",
+    "start": 5.078,
+    "end": 5.775
+  }
+]

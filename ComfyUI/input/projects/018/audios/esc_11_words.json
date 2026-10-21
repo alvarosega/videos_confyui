@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Coloca",
+    "start": 0.12,
+    "end": 0.57
+  },
+  {
+    "word": "el",
+    "start": 0.57,
+    "end": 0.72
+  },
+  {
+    "word": "cebo",
+    "start": 0.72,
+    "end": 1.02
+  },
+  {
+    "word": "domina",
+    "start": 1.02,
+    "end": 1.47
+  },
+  {
+    "word": "el",
+    "start": 1.47,
+    "end": 1.62
+  },
+  {
+    "word": "terreno",
+    "start": 1.62,
+    "end": 2.145
+  },
+  {
+    "word": "y",
+    "start": 2.145,
+    "end": 2.295
+  },
+  {
+    "word": "guarda",
+    "start": 2.295,
+    "end": 2.745
+  },
+  {
+    "word": "un",
+    "start": 2.745,
+    "end": 2.895
+  },
+  {
+    "word": "silencio",
+    "start": 2.895,
+    "end": 3.495
+  },
+  {
+    "word": "absoluto",
+    "start": 3.495,
+    "end": 4.095
+  }
+]

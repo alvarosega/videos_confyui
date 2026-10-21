@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Nassim",
+    "start": 0.15,
+    "end": 0.574
+  },
+  {
+    "word": "Taleb",
+    "start": 0.574,
+    "end": 0.928
+  },
+  {
+    "word": "llama",
+    "start": 0.928,
+    "end": 1.281
+  },
+  {
+    "word": "a",
+    "start": 1.281,
+    "end": 1.422
+  },
+  {
+    "word": "esta",
+    "start": 1.422,
+    "end": 1.705
+  },
+  {
+    "word": "injusticia",
+    "start": 1.705,
+    "end": 2.412
+  },
+  {
+    "word": "una",
+    "start": 2.412,
+    "end": 2.624
+  },
+  {
+    "word": "clara",
+    "start": 2.624,
+    "end": 2.978
+  },
+  {
+    "word": "asimetría",
+    "start": 2.978,
+    "end": 3.614
+  },
+  {
+    "word": "de",
+    "start": 3.614,
+    "end": 3.755
+  },
+  {
+    "word": "agencia",
+    "start": 3.755,
+    "end": 4.25
+  }
+]

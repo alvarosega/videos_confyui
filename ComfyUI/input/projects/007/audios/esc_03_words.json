@@ -1,0 +1,52 @@
+[
+  {
+    "word": "La",
+    "start": 0.12,
+    "end": 0.26
+  },
+  {
+    "word": "industria",
+    "start": 0.26,
+    "end": 0.893
+  },
+  {
+    "word": "gana",
+    "start": 0.893,
+    "end": 1.174
+  },
+  {
+    "word": "dinero",
+    "start": 1.174,
+    "end": 1.595
+  },
+  {
+    "word": "vendiéndote",
+    "start": 1.595,
+    "end": 2.368
+  },
+  {
+    "word": "soluciones",
+    "start": 2.368,
+    "end": 3.07
+  },
+  {
+    "word": "complejas",
+    "start": 3.07,
+    "end": 3.702
+  },
+  {
+    "word": "todo",
+    "start": 3.702,
+    "end": 3.983
+  },
+  {
+    "word": "el",
+    "start": 3.983,
+    "end": 4.124
+  },
+  {
+    "word": "tiempo",
+    "start": 4.124,
+    "end": 4.545
+  }
+]

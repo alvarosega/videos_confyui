@@ -1,0 +1,52 @@
+[
+  {
+    "word": "Pero",
+    "start": 0.15,
+    "end": 0.434
+  },
+  {
+    "word": "si",
+    "start": 0.434,
+    "end": 0.577
+  },
+  {
+    "word": "juegas",
+    "start": 0.577,
+    "end": 1.003
+  },
+  {
+    "word": "tú",
+    "start": 1.003,
+    "end": 1.146
+  },
+  {
+    "word": "seis",
+    "start": 1.146,
+    "end": 1.43
+  },
+  {
+    "word": "veces",
+    "start": 1.43,
+    "end": 1.786
+  },
+  {
+    "word": "seguidas",
+    "start": 1.786,
+    "end": 2.355
+  },
+  {
+    "word": "terminas",
+    "start": 2.355,
+    "end": 2.924
+  },
+  {
+    "word": "completamente",
+    "start": 2.924,
+    "end": 3.848
+  },
+  {
+    "word": "muerto",
+    "start": 3.848,
+    "end": 4.275
+  }
+]

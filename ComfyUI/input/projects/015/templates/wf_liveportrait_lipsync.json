@@ -1,0 +1,156 @@
+{
+  "1": {
+    "inputs": {
+      "image": "projects/temp/ref_images/esc_02_personaje_00001_.png"
+    },
+    "class_type": "LoadImage",
+    "_meta": {
+      "title": "Cargar Imagen HD"
+    }
+  },
+  "2": {
+    "inputs": {
+      "video": "projects/temp/driving/esc_02_driving.mp4",
+      "force_rate": 0,
+      "custom_nom": 0,
+      "custom_den": 0,
+      "frame_load_cap": 0,
+      "skip_first_frames": 0,
+      "select_every_nth": 1,
+      "custom_width": 0,
+      "custom_height": 0
+    },
+    "class_type": "VHS_LoadVideo",
+    "_meta": {
+      "title": "Cargar Video Driving (SadTalker)"
+    }
+  },
+  "3": {
+    "inputs": {
+      "precision": "fp16",
+      "mode": "human"
+    },
+    "class_type": "DownloadAndLoadLivePortraitModels",
+    "_meta": {
+      "title": "Cargar Modelos LivePortrait"
+    }
+  },
+  "7": {
+    "inputs": {
+      "onnx_device": "CUDA",
+      "keep_model_loaded": false,
+      "mode": "human"
+    },
+    "class_type": "LivePortraitLoadCropper",
+    "_meta": {
+      "title": "Cargar Cropper LivePortrait"
+    }
+  },
+  "6": {
+    "inputs": {
+      "pipeline": [
+        "3",
+        0
+      ],
+      "cropper": [
+        "7",
+        0
+      ],
+      "source_image": [
+        "1",
+        0
+      ],
+      "dsize": 512,
+      "scale": 1.75,
+      "vx_ratio": 0.0,
+      "vy_ratio": -0.02,
+      "face_index": 0,
+      "face_index_order": "large-small",
+      "rotate": false
+    },
+    "class_type": "LivePortraitCropper",
+    "_meta": {
+      "title": "Recorte Cefálico Estricto (Scale 1.75 - Cuello Excluido)"
+    }
+  },
+  "4": {
+    "inputs": {
+      "pipeline": [
+        "3",
+        0
+      ],
+      "crop_info": [
+        "6",
+        1
+      ],
+      "source_image": [
+        "1",
+        0
+      ],
+      "driving_images": [
+        "2",
+        0
+      ],
+      "lip_zero": true,
+      "lip_zero_threshold": 0.03,
+      "stitching": true,
+      "delta_multiplier": 1.0,
+      "mismatch_method": "constant",
+      "relative_motion_mode": "relative",
+      "driving_smooth_observation_variance": 0.000003,
+      "expression_friendly": true,
+      "expression_friendly_multiplier": 1.0
+    },
+    "class_type": "LivePortraitProcess",
+    "_meta": {
+      "title": "Procesar LivePortrait (Expresión Limpia)"
+    }
+  },
+  "8": {
+    "inputs": {
+      "source_image": [
+        "1",
+        0
+      ],
+      "cropped_image": [
+        "4",
+        0
+      ],
+      "liveportrait_out": [
+        "4",
+        1
+      ]
+    },
+    "class_type": "LivePortraitComposite",
+    "_meta": {
+      "title": "Cosido LivePortrait (Composite)"
+    }
+  },
+  "5": {
+    "inputs": {
+      "images": [
+        "8",
+        0
+      ],
+      "audio": [
+        "2",
+        2
+      ],
+      "frame_rate": 25.0,
+      "loop_count": 0,
+      "filename_prefix": "projects/temp/renders/escena_liveportrait",
+      "format": "video/h264-mp4",
+      "pix_fmt": "yuv420p",
+      "crf": 14,
+      "save_metadata": true,
+      "trim_frame_start": 0,
+      "trim_frame_end": 0,
+      "save_output": true,
+      "pingpong": false
+    },
+    "class_type": "VHS_VideoCombine",
+    "_meta": {
+      "title": "Exportar Master Intermedio (CRF 14)"
+    }
+  }
+}

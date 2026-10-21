@@ -1,0 +1,32 @@
+[
+  {
+    "word": "Me",
+    "start": 0.15,
+    "end": 0.305
+  },
+  {
+    "word": "exigían",
+    "start": 0.305,
+    "end": 0.847
+  },
+  {
+    "word": "cinco",
+    "start": 0.847,
+    "end": 1.234
+  },
+  {
+    "word": "millones",
+    "start": 1.234,
+    "end": 1.853
+  },
+  {
+    "word": "de",
+    "start": 1.853,
+    "end": 2.008
+  },
+  {
+    "word": "dólares",
+    "start": 2.008,
+    "end": 2.55
+  }
+]

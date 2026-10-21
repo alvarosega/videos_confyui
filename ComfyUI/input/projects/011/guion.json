@@ -1,0 +1,112 @@
+{
+  "preset_usado": "psychological_horror",
+  "estilo_global": "cinematic 3D psychological horror film render, subtle found footage aesthetic, cold clinical lighting, harsh directional flashlight rim light, muted eerie green and desaturated cyan tones, disturbing stoic realism, detailed PBR shaders, analog sensor micro-grain, sharp background in focus, subtle atmospheric volumetric haze, Unreal Engine 5 dark narrative cinematography",
+  "prompt_negativo_global": "naked, shirtless, bare chest, topless, bare shoulders, cleavage, unclothed, nude, bright daylight, warm sunlight, oversaturated colors, vibrant, happy, warm golden lighting, smooth plastic skin, 2d, anime, cartoon, sketch, painting, oil painting, low poly, multiple people, 2people, two men, group, crowd, extra persons, duplicate, clone, full body, long shot, wide shot, distant view, legs, feet, shoes, lower body, open mouth, parted lips, visible teeth, tongue, smiling, laughing, screaming, grimacing, tilted head, looking away, looking up, looking down, low angle, high angle, side view, profile, back view, hands on face, touching face, pitch black eye sockets, pure black facial silhouette, shadows completely concealing mouth, obscured lip contour, blurry background, heavy bokeh, extreme depth of field, out of focus background, smudged details, deformed eyes, crossed eyes, bad facial anatomy, mutated face, elongated chin, stretched forehead, extra limbs, low resolution, artifacts",
+  "personajes": {
+    "adrian": {
+      "nombre": "Adrián",
+      "voz_tts": "am_adam",
+      "prompt_positivo_base": "detailed 3D digital model of a single solo 38-year-old strategic corporate man, disturbing calm stoic expression, piercing unblinking dark eyes staring directly into camera, sickly pale desaturated waxy skin, dark under-eye pigmentation, gaunt sharp jawline, short neat dark hair with subtle grey temples, distinct clean lip contour, strictly closed neutral mouth, relaxed jaw, wearing a structured dark charcoal long-sleeve thermal crewneck shirt with realistic fabric micro-weave, fully clothed upper body, centered frontal chest-up composition, prominent bust portrait occupying 70% of vertical frame with generous headroom and visible clothed shoulders, harsh direct on-camera flashlight, completely flat shadowless illumination on face",
+      "prompt_negativo_base": "naked, shirtless, bare chest, topless, bare shoulders, unclothed, nude, female, woman, girl, open mouth, teeth visible, smiling, laughing, screaming, angry expression, head turned, side view, profile, 3/4 view, cropped forehead, cropped chin, pitch black eye sockets, pure black silhouette, 3d cartoon, smooth plastic skin, warm lighting",
+      "avatar": "man.png"
+    }
+  },
+  "escenas": [
+    {
+      "id": "esc_01",
+      "tipo": "personaje",
+      "personaje_id": "adrian",
+      "dialogo": "Ser el más inteligente de la sala arruinará tu carrera rápidamente.",
+      "accion_prompt": "inside a massive underground archive vault, background filled with towering rusted metal shelving units, classified storage boxes and dangling thick electrical conduits illuminated by faint eerie green emergency lights, fully clothed in a heavy charcoal mock-neck knit sweater, centered frontal chest-up composition with direct frontal gaze",
+      "prompt_negativo_escena": "naked, shirtless, multiple people, 2people, second person, duplicate, statues, mannequins, cropped head, blurry background, bokeh, desk in foreground, suit, tie, blazer"
+    },
+    {
+      "id": "esc_02",
+      "tipo": "personaje",
+      "personaje_id": "adrian",
+      "dialogo": "Demostrar superioridad intelectual frente a tu jefe es un grave error.",
+      "accion_prompt": "inside a massive underground archive vault, background filled with towering rusted metal shelving units, classified storage boxes and dangling thick electrical conduits illuminated by faint eerie green emergency lights, fully clothed in a heavy charcoal mock-neck knit sweater, centered frontal chest-up composition with direct frontal gaze",
+      "prompt_negativo_escena": "naked, shirtless, multiple people, 2people, second person, duplicate, statues, mannequins, cropped head, blurry background, bokeh, desk in foreground, suit, tie, blazer"
+    },
+    {
+      "id": "esc_03",
+      "tipo": "personaje",
+      "personaje_id": "adrian",
+      "dialogo": "En Francia, el ministro Nicolas Fouquet organizó un banquete deslumbrante.",
+      "accion_prompt": "inside a decaying brutalist records facility, background with weathered concrete columns, exposed industrial ventilation shafts and rows of dark steel filing lockers with stencil labels, wearing a structured deep slate-navy overshirt over a black shirt, centered frontal bust portrait with direct eye contact",
+      "prompt_negativo_escena": "naked, shirtless, multiple people, 2people, second person, duplicate, statues, mannequins, cropped head, banquet, food, castle, furniture in front, suit, tie"
+    },
+    {
+      "id": "esc_04",
+      "tipo": "personaje",
+      "personaje_id": "adrian",
+      "dialogo": "Quería impresionar al rey Luis Catorce con banquetes y fuegos artificiales.",
+      "accion_prompt": "inside a decaying brutalist records facility, background with weathered concrete columns, exposed industrial ventilation shafts and rows of dark steel filing lockers with stencil labels, wearing a structured deep slate-navy overshirt over a black shirt, centered frontal bust portrait with direct eye contact",
+      "prompt_negativo_escena": "naked, shirtless, multiple people, 2people, second person, duplicate, statues, mannequins, cropped head, fireworks, castle, king, furniture in front, suit, tie"
+    },
+    {
+      "id": "esc_05",
+      "tipo": "personaje",
+      "personaje_id": "adrian",
+      "dialogo": "Creía que exhibir su enorme riqueza le otorgaría mayor poder político.",
+      "accion_prompt": "inside an analog surveillance server room, background filled with vintage tall computer server racks, glowing cyan analog indicator dials and hanging patch cables on steel mesh walls, wearing a dark moss-green canvas utility jacket over a black shirt, centered frontal chest-up view with piercing direct stare",
+      "prompt_negativo_escena": "naked, shirtless, multiple people, 2people, second person, duplicate, statues, mannequins, cropped head, crown, money, desk in front, suit, tie, blazer"
+    },
+    {
+      "id": "esc_06",
+      "tipo": "personaje",
+      "personaje_id": "adrian",
+      "dialogo": "Tres semanas después fue arrestado y encarcelado de por vida.",
+      "accion_prompt": "inside an analog surveillance server room, background filled with vintage tall computer server racks, glowing cyan analog indicator dials and hanging patch cables on steel mesh walls, wearing a dark moss-green canvas utility jacket over a black shirt, centered frontal chest-up view with piercing direct stare",
+      "prompt_negativo_escena": "naked, shirtless, multiple people, 2people, second person, duplicate, statues, mannequins, cropped head, prison bars, handcuffs, guards, suit, tie, blazer"
+    },
+    {
+      "id": "esc_07",
+      "tipo": "personaje",
+      "personaje_id": "adrian",
+      "dialogo": "Tu superior jerárquico nunca busca talento puro, sino seguridad de estatus.",
+      "accion_prompt": "inside a damp industrial substation, background featuring massive high-voltage ceramic transformers, rusty metal catwalks and wet concrete walls with peeling paint, wearing a graphite-grey waffle-knit zip cardigan over a dark crewneck, centered frontal chest-up posture",
+      "prompt_negativo_escena": "naked, shirtless, multiple people, 2people, second person, duplicate, statues, mannequins, cropped head, podium, desk, suit, blazer"
+    },
+    {
+      "id": "esc_08",
+      "tipo": "personaje",
+      "personaje_id": "adrian",
+      "dialogo": "Si tu brillo expone su mediocridad, te considerará una amenaza directa.",
+      "accion_prompt": "inside a damp industrial substation, background featuring massive high-voltage ceramic transformers, rusty metal catwalks and wet concrete walls with peeling paint, wearing a graphite-grey waffle-knit zip cardigan over a dark crewneck, centered frontal chest-up posture",
+      "prompt_negativo_escena": "naked, shirtless, multiple people, 2people, second person, duplicate, statues, mannequins, cropped head, podium, desk, suit, blazer"
+    },
+    {
+      "id": "esc_09",
+      "tipo": "personaje",
+      "personaje_id": "adrian",
+      "dialogo": "Nadie asciende a quien hace sentir inseguro al líder del equipo.",
+      "accion_prompt": "inside a cold concrete bunker, background dominated by a massive reinforced steel blast door with heavy locking wheel, bolted steel bulkheads and industrial pipe manifolds, wearing an anthracite-grey technical overshirt over a dark shirt, locked centered direct gaze",
+      "prompt_negativo_escena": "naked, shirtless, multiple people, 2people, second person, duplicate, statues, mannequins, cropped head, desk in front, suit, tie, blazer"
+    },
+    {
+      "id": "esc_10",
+      "tipo": "personaje",
+      "personaje_id": "adrian",
+      "dialogo": "Robert Greene advierte esto con frialdad en Las cuarenta y ocho leyes.",
+      "accion_prompt": "inside a cold concrete bunker, background dominated by a massive reinforced steel blast door with heavy locking wheel, bolted steel bulkheads and industrial pipe manifolds, wearing an anthracite-grey technical overshirt over a dark shirt, locked centered direct gaze",
+      "prompt_negativo_escena": "naked, shirtless, multiple people, 2people, second person, duplicate, statues, mannequins, cropped head, book, desk in front, suit, tie, blazer"
+    },
+    {
+      "id": "esc_11",
+      "tipo": "personaje",
+      "personaje_id": "adrian",
+      "dialogo": "Si quieres ascender con éxito, disimula tu genialidad ante los demás.",
+      "accion_prompt": "inside a sterile subterranean corridor, background displaying structural concrete ribs, metal perimeter trench grates and overhead emergency sprinkler piping catching cold rim light, wearing a tailored obsidian-black utility coat, centered frontal chest-up composition",
+      "prompt_negativo_escena": "naked, shirtless, multiple people, 2people, second person, duplicate, silhouettes, cropped head, obstacles in front, bright colors"
+    },
+    {
+      "id": "esc_12",
+      "tipo": "personaje",
+      "personaje_id": "adrian",
+      "dialogo": "Haz que tus mejores victorias parezcan ideas de quien está arriba.",
+      "accion_prompt": "inside a sterile subterranean corridor, background displaying structural concrete ribs, metal perimeter trench grates and overhead emergency sprinkler piping catching cold rim light, wearing a tailored obsidian-black utility coat, centered frontal chest-up composition",
+      "prompt_negativo_escena": "naked, shirtless, multiple people, 2people, second person, duplicate, silhouettes, cropped head, obstacles in front, bright colors"
+    }
+  ]
+}

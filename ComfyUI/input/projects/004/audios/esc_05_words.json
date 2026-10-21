@@ -1,0 +1,52 @@
+[
+  {
+    "word": "Nassim",
+    "start": 0.12,
+    "end": 0.547
+  },
+  {
+    "word": "Taleb",
+    "start": 0.547,
+    "end": 0.903
+  },
+  {
+    "word": "advierte",
+    "start": 0.903,
+    "end": 1.473
+  },
+  {
+    "word": "sobre",
+    "start": 1.473,
+    "end": 1.828
+  },
+  {
+    "word": "el",
+    "start": 1.828,
+    "end": 1.971
+  },
+  {
+    "word": "peligro",
+    "start": 1.971,
+    "end": 2.469
+  },
+  {
+    "word": "de",
+    "start": 2.469,
+    "end": 2.612
+  },
+  {
+    "word": "los",
+    "start": 2.612,
+    "end": 2.825
+  },
+  {
+    "word": "intelectuales",
+    "start": 2.825,
+    "end": 3.751
+  },
+  {
+    "word": "teóricos",
+    "start": 3.751,
+    "end": 4.32
+  }
+]

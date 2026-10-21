@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Las",
+    "start": 0.12,
+    "end": 0.333
+  },
+  {
+    "word": "tecnologías",
+    "start": 0.333,
+    "end": 1.112
+  },
+  {
+    "word": "perecederas",
+    "start": 1.112,
+    "end": 1.891
+  },
+  {
+    "word": "mueren",
+    "start": 1.891,
+    "end": 2.316
+  },
+  {
+    "word": "rápido",
+    "start": 2.316,
+    "end": 2.741
+  },
+  {
+    "word": "ante",
+    "start": 2.741,
+    "end": 3.024
+  },
+  {
+    "word": "la",
+    "start": 3.024,
+    "end": 3.166
+  },
+  {
+    "word": "primera",
+    "start": 3.166,
+    "end": 3.662
+  },
+  {
+    "word": "crisis",
+    "start": 3.662,
+    "end": 4.087
+  },
+  {
+    "word": "del",
+    "start": 4.087,
+    "end": 4.299
+  },
+  {
+    "word": "mercado",
+    "start": 4.299,
+    "end": 4.795
+  }
+]

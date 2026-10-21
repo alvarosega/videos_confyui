@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Es",
+    "start": 0.12,
+    "end": 0.263
+  },
+  {
+    "word": "infinitamente",
+    "start": 0.263,
+    "end": 1.192
+  },
+  {
+    "word": "mejor",
+    "start": 1.192,
+    "end": 1.55
+  },
+  {
+    "word": "ser",
+    "start": 1.55,
+    "end": 1.764
+  },
+  {
+    "word": "criticado",
+    "start": 1.764,
+    "end": 2.407
+  },
+  {
+    "word": "que",
+    "start": 2.407,
+    "end": 2.622
+  },
+  {
+    "word": "ser",
+    "start": 2.622,
+    "end": 2.836
+  },
+  {
+    "word": "un",
+    "start": 2.836,
+    "end": 2.979
+  },
+  {
+    "word": "espectador",
+    "start": 2.979,
+    "end": 3.694
+  },
+  {
+    "word": "completamente",
+    "start": 3.694,
+    "end": 4.623
+  },
+  {
+    "word": "ignorado",
+    "start": 4.623,
+    "end": 5.195
+  }
+]

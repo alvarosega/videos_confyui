@@ -1,0 +1,52 @@
+[
+  {
+    "word": "Hace",
+    "start": 0.12,
+    "end": 0.408
+  },
+  {
+    "word": "que",
+    "start": 0.408,
+    "end": 0.623
+  },
+  {
+    "word": "una",
+    "start": 0.623,
+    "end": 0.839
+  },
+  {
+    "word": "persona",
+    "start": 0.839,
+    "end": 1.342
+  },
+  {
+    "word": "inteligente",
+    "start": 1.342,
+    "end": 2.133
+  },
+  {
+    "word": "acepte",
+    "start": 2.133,
+    "end": 2.564
+  },
+  {
+    "word": "vivir",
+    "start": 2.564,
+    "end": 2.923
+  },
+  {
+    "word": "con",
+    "start": 2.923,
+    "end": 3.139
+  },
+  {
+    "word": "miedo",
+    "start": 3.139,
+    "end": 3.498
+  },
+  {
+    "word": "constante",
+    "start": 3.498,
+    "end": 4.145
+  }
+]

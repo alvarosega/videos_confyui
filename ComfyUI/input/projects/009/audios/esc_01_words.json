@@ -1,0 +1,57 @@
+[
+  {
+    "word": "El",
+    "start": 0.12,
+    "end": 0.27
+  },
+  {
+    "word": "peor",
+    "start": 0.27,
+    "end": 0.57
+  },
+  {
+    "word": "negocio",
+    "start": 0.57,
+    "end": 1.095
+  },
+  {
+    "word": "es",
+    "start": 1.095,
+    "end": 1.245
+  },
+  {
+    "word": "asociarte",
+    "start": 1.245,
+    "end": 1.92
+  },
+  {
+    "word": "con",
+    "start": 1.92,
+    "end": 2.145
+  },
+  {
+    "word": "quien",
+    "start": 2.145,
+    "end": 2.52
+  },
+  {
+    "word": "se",
+    "start": 2.52,
+    "end": 2.67
+  },
+  {
+    "word": "queda",
+    "start": 2.67,
+    "end": 3.045
+  },
+  {
+    "word": "las",
+    "start": 3.045,
+    "end": 3.27
+  },
+  {
+    "word": "ganancias",
+    "start": 3.27,
+    "end": 3.945
+  }
+]

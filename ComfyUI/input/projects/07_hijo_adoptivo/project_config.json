@@ -1,0 +1,143 @@
+{
+  "id_proyecto": "07_hijo_adoptivo",
+  "preset_usado": "stylized_3d_animation",
+  "estilo_global": "cinematic 3D animation render, League of Legends high-end CGI aesthetic, stylized digital sculpture, detailed Physically Based Rendering (PBR), soft even studio ring lighting, flat diffused key lighting on face, completely shadowless facial features, sharp ambient occlusion in background, intricate clothing micro-textures, octane render lighting, clean depth of field, cinematic corporate thriller color grading",
+  "prompt_negativo_global": "harsh shadows, deep facial shadows, side lighting, half face in shadow, dark shadows, chiaroscuro, high contrast shadows on face, smooth skin, plastic texture, clay render, photorealistic, raw photo, photograph, real human face, skin pores, simple shading, flat lighting, in-game graphics, mobile game style, low poly cgi, 2d drawing, anime, flat art, deformed face, open mouth, teeth, asymmetric lips, bad eyes, text, words, letters, typography, watermark, logo, blurry",
+  "personajes": {
+    "esteban": {
+      "nombre": "Esteban",
+      "voz_tts": "es-ES-AlvaroNeural",
+      "prompt_positivo_base": "detailed 3D digital model of a 42-year-old executive man, slicked-back platinum silver hair, completely clean-shaven sharp angular jawline, intense focused steel-grey eyes, high defined cheekbones, distinct clean lip contour, strictly closed neutral mouth, relaxed jaw, large centered prominent face occupying 75% of vertical frame height, perfectly flat uniform studio ring illumination on face, shadowless eyes and cheeks, direct frontal eye contact",
+      "prompt_negativo_base": "beard, stubble, facial hair, dark hair, deep shadows on face, harsh side light, split lighting, dark eye sockets, photorealistic, real skin pores, real human photo, photograph, 2d illustration, flat render, smooth plastic skin, open mouth, teeth visible, smiling, laughing, angry expression, head turned, side view, 3/4 view, cropped head",
+      "avatar": "man.png"
+    }
+  },
+  "escenas": [
+    {
+      "id": "esc_01",
+      "tipo": "personaje",
+      "personaje_id": "esteban",
+      "dialogo": "Crié al hijo huérfano de mi hermana durante quince años. Postergué tener hijos propios y vendí mi primera empresa para pagar sus cirugías y su educación.",
+      "accion_prompt": "wearing a tailored midnight-navy high-collar structured coat with matte black buttons over a charcoal silk shirt, flat diffused key lighting on torso and face. Background is a private luxury study with dark walnut paneling in sharp focus",
+      "prompt_negativo_escena": "beard, stubble, multiple people, bright sunlight, casual clothing, smooth textures, floor, harsh shadows",
+      "duracion_audio": 10.12
+    },
+    {
+      "id": "esc_02",
+      "tipo": "b_roll",
+      "personaje_id": "esteban",
+      "dialogo": "Lo cuidé como a mi propia sangre.",
+      "accion_prompt": "cinematic 3D vertical macro render of a vintage silver pediatric medical medal resting beside a velvet ribbon on a dark mahogany surface, soft volumetric studio lighting, physically based rendering",
+      "prompt_negativo_escena": "hand, person, child, hospital, blurry metal, blood, text, words, letters, plastic texture, photograph",
+      "duracion_audio": 2.77
+    },
+    {
+      "id": "esc_03",
+      "tipo": "personaje",
+      "personaje_id": "esteban",
+      "dialogo": "El día de su cumpleaños dieciocho, frente a todos los invitados, me entregó una demanda judicial junto a mi esposa y mi propio hermano.",
+      "accion_prompt": "wearing a tailored midnight-navy high-collar coat, perfectly even front studio illumination. Background is a modern high-rise penthouse office with clean dark glass walls in sharp focus",
+      "prompt_negativo_escena": "beard, stubble, multiple people, floor, night storm, rain on glass, casual clothes, smooth textures, deep shadows",
+      "duracion_audio": 8.18
+    },
+    {
+      "id": "esc_04",
+      "tipo": "b_roll",
+      "personaje_id": "esteban",
+      "dialogo": "Me exigían cinco millones de dólares.",
+      "accion_prompt": "cinematic 3D vertical macro shot of heavy judicial lawsuit binders stamped with an embossed red court wax seal on dark obsidian glass, dramatic rim lighting, shallow depth of field",
+      "prompt_negativo_escena": "hand, person, face, computer, messy papers, text, letters, blurry metal, photograph",
+      "duracion_audio": 3.1
+    },
+    {
+      "id": "esc_05",
+      "tipo": "personaje",
+      "personaje_id": "esteban",
+      "dialogo": "Me llamó ladrón en público, asegurando que oculté la supuesta fortuna de su madre, mientras mi esposa y mi hermano sonreían triunfantes a su lado.",
+      "accion_prompt": "wearing a tailored midnight-navy structured coat, soft ring lighting illuminating face and shoulders. Background is an imposing dark corporate boardroom wall in sharp focus",
+      "prompt_negativo_escena": "beard, stubble, multiple people, crowd, meeting table, investors, floor, casual wear, side shadows",
+      "duracion_audio": 9.18
+    },
+    {
+      "id": "esc_06",
+      "tipo": "b_roll",
+      "personaje_id": "esteban",
+      "dialogo": "Querían liquidar todo mi patrimonio.",
+      "accion_prompt": "cinematic 3D macro shot of an abandoned gold family crest signet ring lying on a cold marble conference desk, sharp reflection, deep ambient occlusion",
+      "prompt_negativo_escena": "hand, finger, person, face, jewelry box, text, letters, blurry metal, photograph",
+      "duracion_audio": 2.92
+    },
+    {
+      "id": "esc_07",
+      "tipo": "personaje",
+      "personaje_id": "esteban",
+      "dialogo": "En su codicia jamás investigaron la verdad. Mi hermana murió en bancarrota absoluta y no dejó ni una sola moneda de herencia.",
+      "accion_prompt": "wearing a tailored midnight-navy high-collar coat, diffused flat studio light. Background is a minimalist executive boardroom wall with vertical dark walnut fins in sharp focus",
+      "prompt_negativo_escena": "beard, stubble, multiple people, 2men, audience, casual clothes, floor, harsh face shadows",
+      "duracion_audio": 8.45
+    },
+    {
+      "id": "esc_08",
+      "tipo": "b_roll",
+      "personaje_id": "esteban",
+      "dialogo": "El fideicomiso lo creé únicamente yo.",
+      "accion_prompt": "cinematic 3D macro render of official private revocable trust parchment folders bearing a heavy gold notary medallion, resting beside a solid brass fountain pen on dark slate",
+      "prompt_negativo_escena": "hand holding pen, face, body, casual desk, text, letters, words, alphabet, flat render, photograph",
+      "duracion_audio": 3.33
+    },
+    {
+      "id": "esc_09",
+      "tipo": "personaje",
+      "personaje_id": "esteban",
+      "dialogo": "Cada centavo de ese fondo multimillonario provino de mis cuentas privadas, blindado bajo una cláusula fiduciaria revocable por ingratitud manifiesta y fraude procesal.",
+      "accion_prompt": "wearing a tailored midnight-navy high-collar structured coat, shadowless frontal key light on face. Background is a sleek executive office with dark architectural acoustic slats in sharp focus",
+      "prompt_negativo_escena": "beard, stubble, multiple people, casual wear, bright sunlight, floor, deep eye shadows",
+      "duracion_audio": 10.43
+    },
+    {
+      "id": "esc_10",
+      "tipo": "b_roll",
+      "personaje_id": "esteban",
+      "dialogo": "El tribunal anuló la demanda.",
+      "accion_prompt": "cinematic 3D vertical macro shot of a heavy judicial decree binder bound with crimson cords resting on polished black marble, sharp studio lighting, physically based rendering",
+      "prompt_negativo_escena": "hand, person, gavel, court chaos, text, words, alphabet, blurry monitor, photograph",
+      "duracion_audio": 2.7
+    },
+    {
+      "id": "esc_11",
+      "tipo": "personaje",
+      "personaje_id": "esteban",
+      "dialogo": "En la audiencia presenté la auditoría forense. El juez disolvió el fideicomiso de inmediato y ordenó transferir todo el dinero de vuelta a mi capital personal.",
+      "accion_prompt": "wearing a tailored midnight-navy high-collar coat, soft uniform studio illumination. Background is a luxury corporate hallway with brushed titanium panels in sharp focus",
+      "prompt_negativo_escena": "beard, stubble, multiple people, floor, harsh side light, simple textures, casual clothes",
+      "duracion_audio": 10.3
+    },
+    {
+      "id": "esc_12",
+      "tipo": "b_roll",
+      "personaje_id": "esteban",
+      "dialogo": "Los condenaron a pagar las costas.",
+      "accion_prompt": "cinematic 3D vertical macro shot of an empty luxury keycard and severed black credit cards scattered on a dark glass table surface, cold volumetric blue ambient lighting",
+      "prompt_negativo_escena": "person, hand, wallet, money, text, numbers, blurry metal, plastic texture, photograph",
+      "duracion_audio": 2.9
+    },
+    {
+      "id": "esc_13",
+      "tipo": "personaje",
+      "personaje_id": "esteban",
+      "dialogo": "Al descubrir que el muchacho no tenía ni un dólar, mi esposa y mi hermano hicieron sus maletas y lo dejaron abandonado en la calle esa misma noche.",
+      "accion_prompt": "wearing a tailored midnight-navy structured coat, perfectly flat front key lighting. Background is an executive conference room with dark matte walls in sharp focus",
+      "prompt_negativo_escena": "beard, stubble, multiple people, struggle, motion blur, floor, dark shadows",
+      "duracion_audio": 8.78
+    },
+    {
+      "id": "esc_14",
+      "tipo": "personaje",
+      "personaje_id": "esteban",
+      "dialogo": "Me llamó llorando bajo la lluvia pidiendo volver a casa. Le respondí: 'Ese ladrón del que hablabas ya cambió las cerraduras', y colgué.",
+      "accion_prompt": "wearing a tailored midnight-navy high-collar structured coat, balanced flat studio key light on face. Background is an executive elevator lobby with brushed dark gunmetal steel panels in sharp focus",
+      "prompt_negativo_escena": "beard, stubble, smiling, open mouth, laughing, multiple people, luggage, floor, smooth walls, dark shadows",
+      "duracion_audio": 8.45
+    }
+  ]
+}

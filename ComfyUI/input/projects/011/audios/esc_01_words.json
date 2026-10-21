@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Ser",
+    "start": 0.1,
+    "end": 0.372
+  },
+  {
+    "word": "el",
+    "start": 0.372,
+    "end": 0.553
+  },
+  {
+    "word": "más",
+    "start": 0.553,
+    "end": 0.825
+  },
+  {
+    "word": "inteligente",
+    "start": 0.825,
+    "end": 1.822
+  },
+  {
+    "word": "de",
+    "start": 1.822,
+    "end": 2.003
+  },
+  {
+    "word": "la",
+    "start": 2.003,
+    "end": 2.184
+  },
+  {
+    "word": "sala",
+    "start": 2.184,
+    "end": 2.547
+  },
+  {
+    "word": "arruinará",
+    "start": 2.547,
+    "end": 3.362
+  },
+  {
+    "word": "tu",
+    "start": 3.362,
+    "end": 3.544
+  },
+  {
+    "word": "carrera",
+    "start": 3.544,
+    "end": 4.178
+  },
+  {
+    "word": "rápidamente",
+    "start": 4.178,
+    "end": 5.175
+  }
+]

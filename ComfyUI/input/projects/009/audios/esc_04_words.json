@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Si",
+    "start": 0.12,
+    "end": 0.275
+  },
+  {
+    "word": "todo",
+    "start": 0.275,
+    "end": 0.586
+  },
+  {
+    "word": "explota",
+    "start": 0.586,
+    "end": 1.13
+  },
+  {
+    "word": "la",
+    "start": 1.13,
+    "end": 1.285
+  },
+  {
+    "word": "empresa",
+    "start": 1.285,
+    "end": 1.829
+  },
+  {
+    "word": "cae",
+    "start": 1.829,
+    "end": 2.061
+  },
+  {
+    "word": "y",
+    "start": 2.061,
+    "end": 2.217
+  },
+  {
+    "word": "ellos",
+    "start": 2.217,
+    "end": 2.605
+  },
+  {
+    "word": "no",
+    "start": 2.605,
+    "end": 2.76
+  },
+  {
+    "word": "devuelven",
+    "start": 2.76,
+    "end": 3.459
+  },
+  {
+    "word": "nada",
+    "start": 3.459,
+    "end": 3.77
+  }
+]

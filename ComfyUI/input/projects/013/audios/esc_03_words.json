@@ -1,0 +1,62 @@
+[
+  {
+    "word": "Otto",
+    "start": 0.1,
+    "end": 0.465
+  },
+  {
+    "word": "von",
+    "start": 0.465,
+    "end": 0.738
+  },
+  {
+    "word": "Bismarck",
+    "start": 0.738,
+    "end": 1.467
+  },
+  {
+    "word": "fingió",
+    "start": 1.467,
+    "end": 2.014
+  },
+  {
+    "word": "durante",
+    "start": 2.014,
+    "end": 2.652
+  },
+  {
+    "word": "años",
+    "start": 2.652,
+    "end": 3.016
+  },
+  {
+    "word": "ser",
+    "start": 3.016,
+    "end": 3.29
+  },
+  {
+    "word": "un",
+    "start": 3.29,
+    "end": 3.472
+  },
+  {
+    "word": "político",
+    "start": 3.472,
+    "end": 4.201
+  },
+  {
+    "word": "torpe",
+    "start": 4.201,
+    "end": 4.656
+  },
+  {
+    "word": "e",
+    "start": 4.656,
+    "end": 4.839
+  },
+  {
+    "word": "inofensivo",
+    "start": 4.839,
+    "end": 5.75
+  }
+]

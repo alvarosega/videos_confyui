@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Nadie",
+    "start": 0.12,
+    "end": 0.476
+  },
+  {
+    "word": "recuerda",
+    "start": 0.476,
+    "end": 1.045
+  },
+  {
+    "word": "el",
+    "start": 1.045,
+    "end": 1.187
+  },
+  {
+    "word": "nombre",
+    "start": 1.187,
+    "end": 1.614
+  },
+  {
+    "word": "del",
+    "start": 1.614,
+    "end": 1.827
+  },
+  {
+    "word": "soldado",
+    "start": 1.827,
+    "end": 2.325
+  },
+  {
+    "word": "que",
+    "start": 2.325,
+    "end": 2.538
+  },
+  {
+    "word": "cavó",
+    "start": 2.538,
+    "end": 2.823
+  },
+  {
+    "word": "la",
+    "start": 2.823,
+    "end": 2.965
+  },
+  {
+    "word": "trinchera",
+    "start": 2.965,
+    "end": 3.605
+  },
+  {
+    "word": "solitaria",
+    "start": 3.605,
+    "end": 4.245
+  }
+]

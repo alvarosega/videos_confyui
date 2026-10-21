@@ -1,0 +1,57 @@
+[
+  {
+    "word": "La",
+    "start": 0.15,
+    "end": 0.295
+  },
+  {
+    "word": "vi",
+    "start": 0.295,
+    "end": 0.44
+  },
+  {
+    "word": "verter",
+    "start": 0.44,
+    "end": 0.875
+  },
+  {
+    "word": "un",
+    "start": 0.875,
+    "end": 1.02
+  },
+  {
+    "word": "frasco",
+    "start": 1.02,
+    "end": 1.455
+  },
+  {
+    "word": "químico",
+    "start": 1.455,
+    "end": 1.962
+  },
+  {
+    "word": "en",
+    "start": 1.962,
+    "end": 2.107
+  },
+  {
+    "word": "mi",
+    "start": 2.107,
+    "end": 2.252
+  },
+  {
+    "word": "termo",
+    "start": 2.252,
+    "end": 2.615
+  },
+  {
+    "word": "de",
+    "start": 2.615,
+    "end": 2.76
+  },
+  {
+    "word": "café",
+    "start": 2.76,
+    "end": 3.05
+  }
+]

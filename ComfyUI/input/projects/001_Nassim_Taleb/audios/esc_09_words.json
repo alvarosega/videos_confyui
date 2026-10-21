@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Antes",
+    "start": 0.15,
+    "end": 0.521
+  },
+  {
+    "word": "de",
+    "start": 0.521,
+    "end": 0.669
+  },
+  {
+    "word": "pagar",
+    "start": 0.669,
+    "end": 1.039
+  },
+  {
+    "word": "por",
+    "start": 1.039,
+    "end": 1.262
+  },
+  {
+    "word": "una",
+    "start": 1.262,
+    "end": 1.484
+  },
+  {
+    "word": "asesoría",
+    "start": 1.484,
+    "end": 2.077
+  },
+  {
+    "word": "financiera",
+    "start": 2.077,
+    "end": 2.818
+  },
+  {
+    "word": "haz",
+    "start": 2.818,
+    "end": 3.04
+  },
+  {
+    "word": "esta",
+    "start": 3.04,
+    "end": 3.337
+  },
+  {
+    "word": "única",
+    "start": 3.337,
+    "end": 3.707
+  },
+  {
+    "word": "pregunta",
+    "start": 3.707,
+    "end": 4.3
+  }
+]

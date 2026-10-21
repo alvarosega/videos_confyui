@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Si",
+    "start": 0.12,
+    "end": 0.274
+  },
+  {
+    "word": "sus",
+    "start": 0.274,
+    "end": 0.504
+  },
+  {
+    "word": "errores",
+    "start": 0.504,
+    "end": 1.041
+  },
+  {
+    "word": "no",
+    "start": 1.041,
+    "end": 1.195
+  },
+  {
+    "word": "tienen",
+    "start": 1.195,
+    "end": 1.656
+  },
+  {
+    "word": "consecuencias",
+    "start": 1.656,
+    "end": 2.654
+  },
+  {
+    "word": "sus",
+    "start": 2.654,
+    "end": 2.884
+  },
+  {
+    "word": "opiniones",
+    "start": 2.884,
+    "end": 3.575
+  },
+  {
+    "word": "no",
+    "start": 3.575,
+    "end": 3.729
+  },
+  {
+    "word": "valen",
+    "start": 3.729,
+    "end": 4.113
+  },
+  {
+    "word": "nada",
+    "start": 4.113,
+    "end": 4.42
+  }
+]

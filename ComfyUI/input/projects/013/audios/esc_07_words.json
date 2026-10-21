@@ -1,0 +1,57 @@
+[
+  {
+    "word": "La",
+    "start": 0.1,
+    "end": 0.277
+  },
+  {
+    "word": "transparencia",
+    "start": 0.277,
+    "end": 1.43
+  },
+  {
+    "word": "total",
+    "start": 1.43,
+    "end": 1.873
+  },
+  {
+    "word": "no",
+    "start": 1.873,
+    "end": 2.051
+  },
+  {
+    "word": "te",
+    "start": 2.051,
+    "end": 2.228
+  },
+  {
+    "word": "hace",
+    "start": 2.228,
+    "end": 2.583
+  },
+  {
+    "word": "noble",
+    "start": 2.583,
+    "end": 3.026
+  },
+  {
+    "word": "te",
+    "start": 3.026,
+    "end": 3.204
+  },
+  {
+    "word": "vuelve",
+    "start": 3.204,
+    "end": 3.736
+  },
+  {
+    "word": "completamente",
+    "start": 3.736,
+    "end": 4.888
+  },
+  {
+    "word": "predecible",
+    "start": 4.888,
+    "end": 5.775
+  }
+]

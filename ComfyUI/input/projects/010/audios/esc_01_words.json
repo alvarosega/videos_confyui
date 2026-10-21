@@ -1,0 +1,52 @@
+[
+  {
+    "word": "Si",
+    "start": 0.15,
+    "end": 0.3
+  },
+  {
+    "word": "un",
+    "start": 0.3,
+    "end": 0.45
+  },
+  {
+    "word": "albañil",
+    "start": 0.45,
+    "end": 0.975
+  },
+  {
+    "word": "construía",
+    "start": 0.975,
+    "end": 1.65
+  },
+  {
+    "word": "una",
+    "start": 1.65,
+    "end": 1.875
+  },
+  {
+    "word": "casa",
+    "start": 1.875,
+    "end": 2.175
+  },
+  {
+    "word": "que",
+    "start": 2.175,
+    "end": 2.4
+  },
+  {
+    "word": "caía",
+    "start": 2.4,
+    "end": 2.7
+  },
+  {
+    "word": "moría",
+    "start": 2.7,
+    "end": 3.075
+  },
+  {
+    "word": "ejecutado",
+    "start": 3.075,
+    "end": 3.75
+  }
+]

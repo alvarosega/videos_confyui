@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Las",
+    "start": 0.12,
+    "end": 0.331
+  },
+  {
+    "word": "ideas",
+    "start": 0.331,
+    "end": 0.684
+  },
+  {
+    "word": "y",
+    "start": 0.684,
+    "end": 0.825
+  },
+  {
+    "word": "las",
+    "start": 0.825,
+    "end": 1.036
+  },
+  {
+    "word": "herramientas",
+    "start": 1.036,
+    "end": 1.881
+  },
+  {
+    "word": "no",
+    "start": 1.881,
+    "end": 2.022
+  },
+  {
+    "word": "envejecen",
+    "start": 2.022,
+    "end": 2.656
+  },
+  {
+    "word": "como",
+    "start": 2.656,
+    "end": 2.938
+  },
+  {
+    "word": "los",
+    "start": 2.938,
+    "end": 3.15
+  },
+  {
+    "word": "seres",
+    "start": 3.15,
+    "end": 3.502
+  },
+  {
+    "word": "humanos",
+    "start": 3.502,
+    "end": 3.995
+  }
+]

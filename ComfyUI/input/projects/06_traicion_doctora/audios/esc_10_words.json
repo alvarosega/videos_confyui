@@ -1,0 +1,102 @@
+[
+  {
+    "word": "A",
+    "start": 0.15,
+    "end": 0.285
+  },
+  {
+    "word": "las",
+    "start": 0.285,
+    "end": 0.488
+  },
+  {
+    "word": "diez",
+    "start": 0.488,
+    "end": 0.758
+  },
+  {
+    "word": "de",
+    "start": 0.758,
+    "end": 0.893
+  },
+  {
+    "word": "la",
+    "start": 0.893,
+    "end": 1.028
+  },
+  {
+    "word": "mañana",
+    "start": 1.028,
+    "end": 1.433
+  },
+  {
+    "word": "ingresaron",
+    "start": 1.433,
+    "end": 2.109
+  },
+  {
+    "word": "los",
+    "start": 2.109,
+    "end": 2.312
+  },
+  {
+    "word": "oficiales",
+    "start": 2.312,
+    "end": 2.919
+  },
+  {
+    "word": "de",
+    "start": 2.919,
+    "end": 3.055
+  },
+  {
+    "word": "justicia",
+    "start": 3.055,
+    "end": 3.595
+  },
+  {
+    "word": "con",
+    "start": 3.595,
+    "end": 3.798
+  },
+  {
+    "word": "camiones",
+    "start": 3.798,
+    "end": 4.338
+  },
+  {
+    "word": "para",
+    "start": 4.338,
+    "end": 4.608
+  },
+  {
+    "word": "confiscar",
+    "start": 4.608,
+    "end": 5.216
+  },
+  {
+    "word": "y",
+    "start": 5.216,
+    "end": 5.351
+  },
+  {
+    "word": "desmantelar",
+    "start": 5.351,
+    "end": 6.094
+  },
+  {
+    "word": "cada",
+    "start": 6.094,
+    "end": 6.364
+  },
+  {
+    "word": "equipo",
+    "start": 6.364,
+    "end": 6.77
+  },
+  {
+    "word": "médico",
+    "start": 6.77,
+    "end": 7.175
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "word": "En",
+    "start": 0.15,
+    "end": 0.281
+  },
+  {
+    "word": "cualquier",
+    "start": 0.281,
+    "end": 0.872
+  },
+  {
+    "word": "acuerdo",
+    "start": 0.872,
+    "end": 1.332
+  },
+  {
+    "word": "exige",
+    "start": 1.332,
+    "end": 1.66
+  },
+  {
+    "word": "siempre",
+    "start": 1.66,
+    "end": 2.12
+  },
+  {
+    "word": "una",
+    "start": 2.12,
+    "end": 2.317
+  },
+  {
+    "word": "cláusula",
+    "start": 2.317,
+    "end": 2.843
+  },
+  {
+    "word": "de",
+    "start": 2.843,
+    "end": 2.974
+  },
+  {
+    "word": "responsabilidad",
+    "start": 2.974,
+    "end": 3.959
+  },
+  {
+    "word": "simétrica",
+    "start": 3.959,
+    "end": 4.55
+  }
+]

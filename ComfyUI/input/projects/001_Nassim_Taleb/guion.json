@@ -1,0 +1,111 @@
+{
+  "estilo_global": "cinematic 3D animation render, League of Legends high-end CGI aesthetic, stylized digital sculpture, detailed Physically Based Rendering (PBR), soft even studio ring lighting, flat diffused key lighting on face, completely shadowless facial features, sharp ambient occlusion in background, intricate clothing micro-textures, octane render lighting, sharp volumetric depth, cinematic corporate thriller color grading",
+  "prompt_negativo_global": "harsh shadows, deep facial shadows, side lighting, half face in shadow, dark shadows, chiaroscuro, high contrast shadows on face, smooth skin, plastic texture, clay render, photorealistic, raw photo, photograph, real human face, skin pores, simple shading, flat lighting, in-game graphics, mobile game style, low poly cgi, 2d drawing, anime, flat art, deformed face, open mouth, teeth, asymmetric lips, bad eyes, text, words, letters, typography, watermark, logo, blurry, bokeh",
+  "personajes": {
+    "carlos": {
+      "nombre": "Carlos",
+      "voz_tts": "em_alex",
+      "prompt_positivo_base": "detailed 3D digital model of a 35-year-old Colombian Latino man, high-end CGI aesthetic, stylized 3D digital sculpture, detailed Physically Based Rendering (PBR), complex PBR skin shader with subsurface scattering, defined Latin American facial features, short styled dark brown hair, completely clean-shaven sharp angular jawline, intense focused amber-brown eyes, strictly closed neutral mouth, distinct clean lip contour, relaxed jaw, centered frontal chest-up composition, prominent portrait occupying 70% of vertical frame, direct eye contact with camera, eye-level framing, balanced studio portrait lighting",
+      "prompt_negativo_base": "photorealistic, real skin pores, real human photo, photograph, raw photo, open mouth, teeth visible, smiling, laughing, screaming, angry expression, head turned, side view, profile, 3/4 view, deformed face, bad eyes, female, woman, girl, beard, stubble, facial hair, smooth plastic skin, clay render, 2d illustration, flat render",
+      "avatar": "man.png"
+    }
+  },
+  "escenas": [
+    {
+      "id": "esc_01",
+      "tipo": "personaje",
+      "personaje_id": "carlos",
+      "dialogo": "¿Te has preguntado por qué los asesores financieros nunca son millonarios?",
+      "accion_prompt": "wearing a charcoal grey textured wool crewneck sweater with distinct fiber weave. Background is a minimalist modern financial district plaza with sharp geometric concrete columns and dark glass facades in sharp volumetric focus. Centered frontal portrait framing with soft dramatic studio lighting, strictly frontal eye-level view.",
+      "prompt_negativo_escena": "female, woman, girl, blurry background, bokeh, depth of field blur, cropped head, cropped forehead, cropped chin, wide shot, full body, harsh shadows, deep facial shadows, suit, tie, blazer"
+    },
+    {
+      "id": "esc_02",
+      "tipo": "personaje",
+      "personaje_id": "carlos",
+      "dialogo": "El negocio de las inversiones tradicionales esconde una trampa muy perversa.",
+      "accion_prompt": "wearing a charcoal grey textured wool crewneck sweater with distinct fiber weave. Background is a minimalist modern financial district plaza with sharp geometric concrete columns and dark glass facades in sharp volumetric focus. Centered frontal portrait framing with soft dramatic studio lighting, strictly frontal eye-level view.",
+      "prompt_negativo_escena": "female, woman, girl, blurry background, bokeh, depth of field blur, cropped head, cropped forehead, cropped chin, wide shot, full body, harsh shadows, deep facial shadows, suit, tie, blazer"
+    },
+    {
+      "id": "esc_03",
+      "tipo": "personaje",
+      "personaje_id": "carlos",
+      "dialogo": "Si su recomendación te genera ganancias, ellos cobran una comisión fija.",
+      "accion_prompt": "wearing a tailored matte navy-blue overshirt over a fitted slate grey t-shirt with subtle fabric texture. Background is a sleek executive conference room with vertical dark wood acoustic slats and frosted architectural glass in sharp volumetric focus. Centered frontal portrait framing with cinematic rim lighting with soft frontal fill, strictly frontal eye-level view.",
+      "prompt_negativo_escena": "female, woman, girl, blurry background, bokeh, depth of field blur, cropped head, cropped forehead, cropped chin, wide shot, full body, harsh shadows, deep facial shadows, split lighting, suit, tie"
+    },
+    {
+      "id": "esc_04",
+      "tipo": "personaje",
+      "personaje_id": "carlos",
+      "dialogo": "Pero si pierdes todos tus ahorros, su sueldo sigue completamente intacto.",
+      "accion_prompt": "wearing a tailored matte navy-blue overshirt over a fitted slate grey t-shirt with subtle fabric texture. Background is a sleek executive conference room with vertical dark wood acoustic slats and frosted architectural glass in sharp volumetric focus. Centered frontal portrait framing with cinematic rim lighting with soft frontal fill, strictly frontal eye-level view.",
+      "prompt_negativo_escena": "female, woman, girl, blurry background, bokeh, depth of field blur, cropped head, cropped forehead, cropped chin, wide shot, full body, harsh shadows, deep facial shadows, split lighting, suit, tie"
+    },
+{
+    "id": "esc_05",
+    "tipo": "personaje",
+    "personaje_id": "carlos",
+    "dialogo": "Nassim Taleb llama a esta injusticia una clara asimetría de agencia.",
+    "accion_prompt": "wearing a tailored deep olive-green structured canvas utility jacket over a black ribbed mock-neck shirt. Background is a solid minimalist studio wall with dark matte vertical panels strictly behind the subject in sharp volumetric focus, completely clear unobstructed foreground. Centered frontal chest-up portrait occupying 75% of vertical frame with generous headroom and visible shoulders, balanced soft studio ring illumination, strictly frontal eye-level view.",
+    "prompt_negativo_escena": "female, woman, girl, blurry background, bokeh, depth of field blur, cropped head, cropped face, cropped chin, cut off, out of frame, foreground objects, objects in front, props blocking view, obstacles, table, desk, shelves in foreground, deformed body, mutated anatomy, bad anatomy, extra limbs, multiple bodies, background people, duplicate character, body in background, harsh shadows, deep facial shadows, suit, tie, formal tuxedo"
+  },
+    {
+      "id": "esc_06",
+      "tipo": "personaje",
+      "personaje_id": "carlos",
+      "dialogo": "Pagamos por opiniones de personas que jamás arriesgan un solo centavo.",
+      "accion_prompt": "wearing a deep olive-green structured canvas utility jacket over a black ribbed mock-neck shirt. Background is a high-end minimalist library studio with dark matte shelves and geometric bronze architectural elements in sharp volumetric focus. Centered frontal portrait framing with balanced soft studio key lighting, strictly frontal eye-level view.",
+      "prompt_negativo_escena": "female, woman, girl, blurry background, bokeh, depth of field blur, cropped head, cropped forehead, cropped chin, wide shot, full body, harsh shadows, deep facial shadows, suit, tie, formal tuxedo"
+    },
+{
+    "id": "esc_07",
+    "tipo": "personaje",
+    "personaje_id": "carlos",
+    "dialogo": "Cuando la nave se hunde, el consultor se marcha tranquilo a casa.",
+    "accion_prompt": "wearing a matte black technical zip-up track jacket with subtle geometric seam lines over a dark grey base shirt. Background is a flat architectural wall with minimalist geometric brushed steel panels positioned strictly behind the character in sharp volumetric focus, empty foreground space. Centered frontal chest-up portrait occupying 75% of vertical frame with generous headroom and fully visible upper torso, soft diffused frontal key lighting, strictly frontal eye-level view.",
+    "prompt_negativo_escena": "female, woman, girl, blurry background, bokeh, depth of field blur, cropped head, cropped face, cropped chin, cut off, out of frame, foreground objects, computer, monitors, screens in foreground, desk, control console, table, props blocking subject, deformed body, mutated anatomy, bad anatomy, extra limbs, multiple bodies, background people, duplicate character, harsh shadows, deep facial shadows, split lighting, suit, tie"
+  },
+    {
+      "id": "esc_08",
+      "tipo": "personaje",
+      "personaje_id": "carlos",
+      "dialogo": "Tú asumes todo el riesgo mientras ellos cobran sin ninguna consecuencia.",
+      "accion_prompt": "wearing a matte black technical zip-up track jacket with subtle geometric seam lines. Background is a dark fintech control center with clean geometric LED wall panels and brushed dark steel walls in sharp volumetric focus. Centered frontal portrait framing with soft volumetric rim light and neutral front fill, strictly frontal eye-level view.",
+      "prompt_negativo_escena": "female, woman, girl, blurry background, bokeh, depth of field blur, cropped head, cropped forehead, cropped chin, wide shot, full body, harsh shadows, deep facial shadows, split lighting, suit, tie"
+    },
+    {
+      "id": "esc_09",
+      "tipo": "personaje",
+      "personaje_id": "carlos",
+      "dialogo": "Antes de pagar por una asesoría financiera, haz esta única pregunta:",
+      "accion_prompt": "wearing a textured graphite-grey heavy knit cardigan over a fitted black crewneck shirt. Background is a raw architectural brutalist interior with textured dark grey concrete slabs in sharp volumetric focus. Centered frontal portrait framing with soft dramatic studio lighting, strictly frontal eye-level view.",
+      "prompt_negativo_escena": "female, woman, girl, blurry background, bokeh, depth of field blur, cropped head, cropped forehead, cropped chin, wide shot, full body, harsh shadows, deep facial shadows, suit, tie"
+    },
+    {
+      "id": "esc_10",
+      "tipo": "personaje",
+      "personaje_id": "carlos",
+      "dialogo": "Muéstrame exactamente cuánto dinero propio tienes invertido en esta propuesta hoy.",
+      "accion_prompt": "wearing a textured graphite-grey heavy knit cardigan over a fitted black crewneck shirt. Background is a raw architectural brutalist interior with textured dark grey concrete slabs in sharp volumetric focus. Centered frontal portrait framing with soft dramatic studio lighting, strictly frontal eye-level view.",
+      "prompt_negativo_escena": "female, woman, girl, blurry background, bokeh, depth of field blur, cropped head, cropped forehead, cropped chin, wide shot, full body, harsh shadows, deep facial shadows, suit, tie"
+    },
+{
+    "id": "esc_11",
+    "tipo": "personaje",
+    "personaje_id": "carlos",
+    "dialogo": "Si no puede demostrarlo con números reales, date la vuelta inmediatamente.",
+    "accion_prompt": "wearing a tailored charcoal-black structured utility jacket over a fitted matte black crewneck shirt. Background is a flat executive wall with dark matte vertical acoustic fins strictly behind the subject in sharp volumetric focus, completely clear foreground with no glass layers. Centered frontal chest-up portrait occupying 75% of vertical frame with generous headroom and clearly defined shoulders, soft uniform studio ring lighting, strictly frontal eye-level view.",
+    "prompt_negativo_escena": "female, woman, girl, blurry background, bokeh, depth of field blur, cropped head, cropped face, cropped chin, cut off, out of frame, foreground objects, glass reflection, reflection of person, duplicate body, body in background, transparent overlay, partitions in front, deformed body, mutated anatomy, bad anatomy, extra limbs, multiple people, background people, harsh shadows, deep facial shadows, split lighting, tie, bowtie"
+  },
+  {
+    "id": "esc_12",
+    "tipo": "personaje",
+    "personaje_id": "carlos",
+    "dialogo": "Jamás aceptes consejos sobre tu dinero de quien no arriesga nada.",
+    "accion_prompt": "wearing a tailored charcoal-black structured utility jacket over a fitted matte black crewneck shirt. Background is a flat executive wall with dark matte vertical acoustic fins strictly behind the subject in sharp volumetric focus, completely clear foreground with no glass layers. Centered frontal chest-up portrait occupying 75% of vertical frame with generous headroom and clearly defined shoulders, soft uniform studio ring lighting, strictly frontal eye-level view.",
+    "prompt_negativo_escena": "female, woman, girl, blurry background, bokeh, depth of field blur, cropped head, cropped face, cropped chin, cut off, out of frame, foreground objects, glass reflection, reflection of person, duplicate body, body in background, transparent overlay, partitions in front, deformed body, mutated anatomy, bad anatomy, extra limbs, multiple people, background people, harsh shadows, deep facial shadows, split lighting, tie, bowtie"
+  }
+  ]
+}

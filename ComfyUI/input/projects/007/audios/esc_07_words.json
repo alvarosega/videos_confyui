@@ -1,0 +1,52 @@
+[
+  {
+    "word": "Si",
+    "start": 0.12,
+    "end": 0.279
+  },
+  {
+    "word": "estás",
+    "start": 0.279,
+    "end": 0.677
+  },
+  {
+    "word": "agotado",
+    "start": 0.677,
+    "end": 1.234
+  },
+  {
+    "word": "la",
+    "start": 1.234,
+    "end": 1.393
+  },
+  {
+    "word": "solución",
+    "start": 1.393,
+    "end": 2.029
+  },
+  {
+    "word": "no",
+    "start": 2.029,
+    "end": 2.188
+  },
+  {
+    "word": "es",
+    "start": 2.188,
+    "end": 2.347
+  },
+  {
+    "word": "otra",
+    "start": 2.347,
+    "end": 2.665
+  },
+  {
+    "word": "app",
+    "start": 2.665,
+    "end": 2.904
+  },
+  {
+    "word": "milagrosa",
+    "start": 2.904,
+    "end": 3.62
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "word": "No",
+    "start": 0.12,
+    "end": 0.251
+  },
+  {
+    "word": "buscó",
+    "start": 0.251,
+    "end": 0.577
+  },
+  {
+    "word": "a",
+    "start": 0.577,
+    "end": 0.708
+  },
+  {
+    "word": "los",
+    "start": 0.708,
+    "end": 0.904
+  },
+  {
+    "word": "soldados",
+    "start": 0.904,
+    "end": 1.426
+  },
+  {
+    "word": "enviados",
+    "start": 1.426,
+    "end": 1.949
+  },
+  {
+    "word": "por",
+    "start": 1.949,
+    "end": 2.145
+  },
+  {
+    "word": "París",
+    "start": 2.145,
+    "end": 2.472
+  },
+  {
+    "word": "para",
+    "start": 2.472,
+    "end": 2.733
+  },
+  {
+    "word": "arrestarlo",
+    "start": 2.733,
+    "end": 3.386
+  },
+  {
+    "word": "y",
+    "start": 3.386,
+    "end": 3.517
+  },
+  {
+    "word": "capturarlo",
+    "start": 3.517,
+    "end": 4.17
+  }
+]

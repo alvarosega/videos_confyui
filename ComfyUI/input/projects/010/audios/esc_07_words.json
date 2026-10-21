@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Cobran",
+    "start": 0.15,
+    "end": 0.571
+  },
+  {
+    "word": "millones",
+    "start": 0.571,
+    "end": 1.132
+  },
+  {
+    "word": "mientras",
+    "start": 1.132,
+    "end": 1.694
+  },
+  {
+    "word": "dejan",
+    "start": 1.694,
+    "end": 2.045
+  },
+  {
+    "word": "la",
+    "start": 2.045,
+    "end": 2.185
+  },
+  {
+    "word": "factura",
+    "start": 2.185,
+    "end": 2.676
+  },
+  {
+    "word": "del",
+    "start": 2.676,
+    "end": 2.887
+  },
+  {
+    "word": "desastre",
+    "start": 2.887,
+    "end": 3.448
+  },
+  {
+    "word": "a",
+    "start": 3.448,
+    "end": 3.589
+  },
+  {
+    "word": "los",
+    "start": 3.589,
+    "end": 3.799
+  },
+  {
+    "word": "demás",
+    "start": 3.799,
+    "end": 4.15
+  }
+]

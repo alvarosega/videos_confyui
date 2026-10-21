@@ -1,0 +1,57 @@
+[
+  {
+    "word": "El",
+    "start": 0.15,
+    "end": 0.289
+  },
+  {
+    "word": "grupo",
+    "start": 0.289,
+    "end": 0.638
+  },
+  {
+    "word": "flexible",
+    "start": 0.638,
+    "end": 1.196
+  },
+  {
+    "word": "siempre",
+    "start": 1.196,
+    "end": 1.684
+  },
+  {
+    "word": "se",
+    "start": 1.684,
+    "end": 1.824
+  },
+  {
+    "word": "adapta",
+    "start": 1.824,
+    "end": 2.242
+  },
+  {
+    "word": "a",
+    "start": 2.242,
+    "end": 2.382
+  },
+  {
+    "word": "quien",
+    "start": 2.382,
+    "end": 2.73
+  },
+  {
+    "word": "tiene",
+    "start": 2.73,
+    "end": 3.079
+  },
+  {
+    "word": "reglas",
+    "start": 3.079,
+    "end": 3.497
+  },
+  {
+    "word": "estrictas",
+    "start": 3.497,
+    "end": 4.125
+  }
+]

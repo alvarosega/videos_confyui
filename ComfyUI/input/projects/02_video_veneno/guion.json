@@ -1,0 +1,127 @@
+{
+  "estilo_global": "cinematic 3D animation render, League of Legends high-end CGI aesthetic, stylized digital sculpture, detailed Physically Based Rendering (PBR), dramatic volumetric studio lighting, subsurface scattering, sharp ambient occlusion, complex shadowed background in sharp focus, intricate clothing micro-textures, octane render lighting, shallow depth of field, cinematic psychological thriller color grading",
+  "prompt_negativo_global": "smooth skin, plastic texture, clay render, photorealistic, raw photo, photograph, real human face, skin pores, simple shading, flat lighting, in-game graphics, mobile game style, low poly cgi, 2d drawing, anime, flat art, deformed face, open mouth, teeth, asymmetric lips, bad eyes, text, words, letters, typography, watermark, logo, blurry",
+  "personajes": {
+    "carlos": {
+      "nombre": "Carlos",
+      "voz_tts": "es-AR-SantiagoNeural",
+      "prompt_positivo_base": "detailed 3D digital model of a 34-year-old Latino man, complex PBR skin shader with subtle subsurface scattering, sharp angular jawline, messy dark brown sculpted hair, subtle stylized stubble, distinct clean lip contour, strictly closed neutral mouth, relaxed jaw",
+      "prompt_negativo_base": "photorealistic, real skin pores, real human photo, photograph, 2d illustration, flat render, smooth plastic skin, simple lighting, open mouth, teeth visible, smiling, laughing, angry expression, head turned, side view",
+      "avatar": "man.png"
+    }
+  },
+  "escenas": [
+    {
+      "id": "esc_01",
+      "tipo": "personaje",
+      "personaje_id": "carlos",
+      "dialogo": "Durante seis meses los médicos me dijeron que tenía principio de Alzheimer. Olvidaba conversaciones enteras y despertaba con taquicardias brutales.",
+      "accion_prompt": "wearing a dark navy wool textured sweater with fine weave. Background is a modern master bedroom wall with textured dark acoustic wood slats in sharp volumetric focus with deep shadows",
+      "prompt_negativo_escena": "multiple people, 2men, bright sunlight, modern windows, casual clothing, smooth textures, floor"
+    },
+    {
+      "id": "esc_02",
+      "tipo": "b_roll",
+      "personaje_id": "carlos",
+      "dialogo": "Revisé mi reloj inteligente. El ritmo cardíaco colapsaba justo tras desayunar.",
+      "accion_prompt": "cinematic 3D vertical macro shot of a sleek matte black titanium smartwatch resting on a dark polished oak nightstand, dark sapphire glass dome reflecting subtle red ambient illumination, detailed wood grain with physically based rendering, dramatic key lighting, shallow depth of field",
+      "prompt_negativo_escena": "person, hand, arm, readable numbers, digital text, alphabet, clock hands, blurry glass, photograph"
+    },
+    {
+      "id": "esc_03",
+      "tipo": "personaje",
+      "personaje_id": "carlos",
+      "dialogo": "Ayer fingí salir a trabajar y esperé escondido en el garaje. La vi por las cámaras de seguridad entrar a la cocina con guantes de látex.",
+      "accion_prompt": "wearing a charcoal grey canvas work jacket with detailed rugged fabric weave. Background is a dimly lit workshop garage with organized dark metallic tool cabinets in sharp volumetric focus",
+      "prompt_negativo_escena": "multiple people, 2men, cars, open garage doors, daylight, smooth plastic walls, floor"
+    },
+    {
+      "id": "esc_04",
+      "tipo": "b_roll",
+      "personaje_id": "carlos",
+      "dialogo": "La vi verter un frasco químico en mi termo de café.",
+      "accion_prompt": "cinematic 3D macro render of an amber apothecary glass dropper bottle resting beside a textured matte black steel tumbler on a dark polished granite countertop, glistening fluid meniscus inside glass, physically based metal and granite shaders, dramatic overhead spotlight",
+      "prompt_negativo_escena": "hand holding bottle, floating bottle, pouring liquid, person, kitchen mess, text, labels, photograph"
+    },
+    {
+      "id": "esc_05",
+      "tipo": "personaje",
+      "personaje_id": "carlos",
+      "dialogo": "Revisé su computadora portátil esa misma noche. Tenía listo el trámite de cobro de mi seguro de vida por muerte natural accidental.",
+      "accion_prompt": "wearing a dark fitted long sleeve shirt with ribbed collar. Background is an executive home study wall with dark walnut bookshelves in sharp focus under soft warm desk lamp illumination",
+      "prompt_negativo_escena": "multiple people, bright windows, computer screen in face, laptop glare, smooth walls, floor"
+    },
+    {
+      "id": "esc_06",
+      "tipo": "b_roll",
+      "personaje_id": "carlos",
+      "dialogo": "La póliza de seguro millonaria estaba lista para ejecutarse.",
+      "accion_prompt": "cinematic 3D vertical macro shot of a heavy dark leather life insurance folio binder bound with a crimson archive ribbon, embossed red notary wax seal in sharp relief, resting on a dark wooden desk beside a closed sleek aluminum laptop chassis, dramatic rim lighting",
+      "prompt_negativo_escena": "person, hand, readable numbers, dollar sign, text, words, alphabet, open screen, photograph"
+    },
+    {
+      "id": "esc_07",
+      "tipo": "personaje",
+      "personaje_id": "carlos",
+      "dialogo": "Esta mañana bajé a desayunar como si no supiera nada. Ella me sirvió la taza sonriendo, diciendo que me veía pálido y debía descansar.",
+      "accion_prompt": "wearing a heather grey textured crewneck sweater. Background is a modern dark slate kitchen backsplash in sharp volumetric focus with crisp ambient shadows",
+      "prompt_negativo_escena": "multiple people, 2men, woman, wife, smiling, bright white kitchen, dining table, floor"
+    },
+    {
+      "id": "esc_08",
+      "tipo": "b_roll",
+      "personaje_id": "carlos",
+      "dialogo": "Puso la taza frente a mí, esperando ver el espectáculo.",
+      "accion_prompt": "cinematic 3D vertical shot across a dark textured wooden dining table, a matte black thermal mug and an ornate porcelain teacup with rising wisps of steam, moody morning chiaroscuro lighting, deep ambient occlusion, physically based ceramic and wood shaders",
+      "prompt_negativo_escena": "person, hands, woman, face, table clutter, colorful cups, flat lighting, photograph"
+    },
+    {
+      "id": "esc_09",
+      "tipo": "personaje",
+      "personaje_id": "carlos",
+      "dialogo": "La miré fijamente a los ojos, tomé la taza con ambas manos y le di tres tragos largos sin apartar la vista.",
+      "accion_prompt": "wearing a heather grey textured sweater. Background is a sleek dark kitchen interior wall with subtle brushed bronze accents in sharp volumetric focus",
+      "prompt_negativo_escena": "multiple people, cups in hand, hands on face, open mouth, motion blur, floor"
+    },
+    {
+      "id": "esc_10",
+      "tipo": "personaje",
+      "personaje_id": "carlos",
+      "dialogo": "Su sonrisa se congeló cuando pasaron cinco minutos y no me caí al suelo. Empezó a temblar cuando saqué mi teléfono y lo puse sobre la mesa.",
+      "accion_prompt": "wearing a heather grey textured sweater. Background is a luxury dark charcoal kitchen interior wall in sharp focus, intense psychological thriller lighting",
+      "prompt_negativo_escena": "multiple people, woman, phone in hand, shaking hands, table, chairs, floor, smooth walls"
+    },
+    {
+      "id": "esc_11",
+      "tipo": "b_roll",
+      "personaje_id": "carlos",
+      "dialogo": "Mi teléfono transmitía en vivo todas las grabaciones a la policía.",
+      "accion_prompt": "cinematic 3D macro shot of a sleek modern black glass smartphone resting flat on dark polished granite, glowing holographic blue broadcast wave symbol on the dark screen chassis, subtle glass reflections, dramatic cinematic chiaroscuro, physically based rendering",
+      "prompt_negativo_escena": "person, hands, video player interface, readable text, letters, messy desk, photograph"
+    },
+    {
+      "id": "esc_12",
+      "tipo": "personaje",
+      "personaje_id": "carlos",
+      "dialogo": "Le dije: Sé que cambiaste el frasco ayer. Lo que no sabes es que anoche cambié el veneno por agua con azúcar... en mi termo.",
+      "accion_prompt": "wearing a charcoal grey canvas jacket with dark collar. Background is a dark textured kitchen wall in sharp volumetric focus with dramatic side rim light",
+      "prompt_negativo_escena": "multiple people, 2men, woman, open mouth, smiling with teeth, flask, bottles, floor"
+    },
+    {
+      "id": "esc_13",
+      "tipo": "b_roll",
+      "personaje_id": "carlos",
+      "dialogo": "Las luces de las patrullas policiales comenzaron a iluminar las persianas.",
+      "accion_prompt": "cinematic 3D vertical shot of closed luxury dark wooden window blinds, cast with intense flashing crimson and deep cobalt blue emergency siren reflections across the textured walls, atmospheric volumetric shadows and dust motes",
+      "prompt_negativo_escena": "police cars, officers, persons, open windows, bright daylight, flat lighting, photograph"
+    },
+    {
+      "id": "esc_14",
+      "tipo": "personaje",
+      "personaje_id": "carlos",
+      "dialogo": "Y antes de abrir la puerta a los oficiales, la miré una última vez y le dije: Buen viaje, cariño.",
+      "accion_prompt": "wearing a dark navy wool textured sweater. Background is an executive house entrance foyer with a dark solid walnut front door in sharp volumetric focus, cold cinematic thriller grading",
+      "prompt_negativo_escena": "multiple people, police officers, woman, open door, outdoor sunlight, luggage, floor"
+    }
+  ]
+}

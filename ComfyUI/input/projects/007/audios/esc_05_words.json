@@ -1,0 +1,52 @@
+[
+  {
+    "word": "El",
+    "start": 0.12,
+    "end": 0.265
+  },
+  {
+    "word": "concepto",
+    "start": 0.265,
+    "end": 0.843
+  },
+  {
+    "word": "de",
+    "start": 0.843,
+    "end": 0.988
+  },
+  {
+    "word": "Vía",
+    "start": 0.988,
+    "end": 1.205
+  },
+  {
+    "word": "Negativa",
+    "start": 1.205,
+    "end": 1.784
+  },
+  {
+    "word": "demuestra",
+    "start": 1.784,
+    "end": 2.435
+  },
+  {
+    "word": "el",
+    "start": 2.435,
+    "end": 2.58
+  },
+  {
+    "word": "poder",
+    "start": 2.58,
+    "end": 2.941
+  },
+  {
+    "word": "de",
+    "start": 2.941,
+    "end": 3.086
+  },
+  {
+    "word": "quitar",
+    "start": 3.086,
+    "end": 3.52
+  }
+]

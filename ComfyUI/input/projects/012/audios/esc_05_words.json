@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Poco",
+    "start": 0.1,
+    "end": 0.471
+  },
+  {
+    "word": "después",
+    "start": 0.471,
+    "end": 1.121
+  },
+  {
+    "word": "Basilio",
+    "start": 1.121,
+    "end": 1.771
+  },
+  {
+    "word": "lo",
+    "start": 1.771,
+    "end": 1.957
+  },
+  {
+    "word": "traicionó",
+    "start": 1.957,
+    "end": 2.793
+  },
+  {
+    "word": "y",
+    "start": 2.793,
+    "end": 2.979
+  },
+  {
+    "word": "asesinó",
+    "start": 2.979,
+    "end": 3.629
+  },
+  {
+    "word": "para",
+    "start": 3.629,
+    "end": 4.0
+  },
+  {
+    "word": "usurpar",
+    "start": 4.0,
+    "end": 4.65
+  },
+  {
+    "word": "el",
+    "start": 4.65,
+    "end": 4.836
+  },
+  {
+    "word": "trono",
+    "start": 4.836,
+    "end": 5.3
+  }
+]

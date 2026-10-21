@@ -1,0 +1,53 @@
+{
+  "3": {
+    "inputs": {
+      "seed": 42,
+      "steps": 30,
+      "cfg": 7.0,
+      "sampler_name": "dpmpp_2m_sde_gpu",
+      "scheduler": "karras",
+      "denoise": 1.0,
+      "model": ["4", 0],
+      "positive": ["6", 0],
+      "negative": ["7", 0],
+      "latent_image": ["5", 0]
+    },
+    "class_type": "KSampler",
+    "_meta": { "title": "KSampler Master Cinematic Stylized PBR" }
+  },
+  "4": {
+    "inputs": { "ckpt_name": "sd_xl_base_1.0.safetensors" },
+    "class_type": "CheckpointLoaderSimple"
+  },
+  "5": {
+    "inputs": { "width": 1024, "height": 1024, "batch_size": 1 },
+    "class_type": "EmptyLatentImage"
+  },
+  "6": {
+    "inputs": {
+      "text": "cinematic 3D portrait, League of Legends cinematic style, stylized character model of a 32-year-old Latino corporate executive, detailed digital sculpture, intricate skin texture with subsurface scattering, defined dramatic volumetric studio lighting, rich deep shadows, ambient occlusion, sharp focus, octane render lighting, shallow depth of field, messy sculpted dark brown hair, distinct lip contour, strictly closed mouth, neutral calm expression, looking directly at camera, 8k cgi render, Unreal Engine 5 aesthetic, physically based rendering (PBR)",
+      "clip": ["4", 1]
+    },
+    "class_type": "CLIPTextEncode",
+    "_meta": { "title": "Prompt Positivo Master Cinematográfico UE5" }
+  },
+  "7": {
+    "inputs": {
+      "text": "photorealistic, real photo, photograph, real skin pores, smooth skin, plastic texture, clay render, flat lighting, simple shading, clean render, cartoon, anime, 2d illustration, sketch, low poly, bad anatomy, deformed face, open mouth, teeth visible, side view, back view",
+      "clip": ["4", 1]
+    },
+    "class_type": "CLIPTextEncode",
+    "_meta": { "title": "Prompt Negativo Master Anti-Plástico" }
+  },
+  "8": {
+    "inputs": { "samples": ["3", 0], "vae": ["4", 2] },
+    "class_type": "VAEDecode"
+  },
+  "9": {
+    "inputs": {
+      "filename_prefix": "projects/temp/ref_images/master_personaje",
+      "images": ["8", 0]
+    },
+    "class_type": "SaveImage"
+  }
+}

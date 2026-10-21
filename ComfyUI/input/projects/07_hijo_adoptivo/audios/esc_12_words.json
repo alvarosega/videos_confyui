@@ -1,0 +1,32 @@
+[
+  {
+    "word": "Los",
+    "start": 0.15,
+    "end": 0.378
+  },
+  {
+    "word": "condenaron",
+    "start": 0.378,
+    "end": 1.136
+  },
+  {
+    "word": "a",
+    "start": 1.136,
+    "end": 1.288
+  },
+  {
+    "word": "pagar",
+    "start": 1.288,
+    "end": 1.667
+  },
+  {
+    "word": "las",
+    "start": 1.667,
+    "end": 1.895
+  },
+  {
+    "word": "costas",
+    "start": 1.895,
+    "end": 2.35
+  }
+]

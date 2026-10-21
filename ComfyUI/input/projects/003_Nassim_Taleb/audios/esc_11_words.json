@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Jamás",
+    "start": 0.15,
+    "end": 0.511
+  },
+  {
+    "word": "tomes",
+    "start": 0.511,
+    "end": 0.873
+  },
+  {
+    "word": "decisiones",
+    "start": 0.873,
+    "end": 1.595
+  },
+  {
+    "word": "donde",
+    "start": 1.595,
+    "end": 1.957
+  },
+  {
+    "word": "el",
+    "start": 1.957,
+    "end": 2.101
+  },
+  {
+    "word": "peor",
+    "start": 2.101,
+    "end": 2.39
+  },
+  {
+    "word": "escenario",
+    "start": 2.39,
+    "end": 3.041
+  },
+  {
+    "word": "sea",
+    "start": 3.041,
+    "end": 3.258
+  },
+  {
+    "word": "la",
+    "start": 3.258,
+    "end": 3.402
+  },
+  {
+    "word": "ruina",
+    "start": 3.402,
+    "end": 3.764
+  },
+  {
+    "word": "total",
+    "start": 3.764,
+    "end": 4.125
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Barnum",
+    "start": 0.12,
+    "end": 0.558
+  },
+  {
+    "word": "prefería",
+    "start": 0.558,
+    "end": 1.142
+  },
+  {
+    "word": "ser",
+    "start": 1.142,
+    "end": 1.361
+  },
+  {
+    "word": "llamado",
+    "start": 1.361,
+    "end": 1.872
+  },
+  {
+    "word": "farsante",
+    "start": 1.872,
+    "end": 2.455
+  },
+  {
+    "word": "antes",
+    "start": 2.455,
+    "end": 2.82
+  },
+  {
+    "word": "que",
+    "start": 2.82,
+    "end": 3.039
+  },
+  {
+    "word": "ser",
+    "start": 3.039,
+    "end": 3.258
+  },
+  {
+    "word": "ignorado",
+    "start": 3.258,
+    "end": 3.842
+  },
+  {
+    "word": "por",
+    "start": 3.842,
+    "end": 4.061
+  },
+  {
+    "word": "completo",
+    "start": 4.061,
+    "end": 4.645
+  }
+]

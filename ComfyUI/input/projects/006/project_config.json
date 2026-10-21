@@ -1,0 +1,125 @@
+{
+  "id_proyecto": "006",
+  "preset_usado": "stylized_3d_animation",
+  "estilo_global": "cinematic 3D animation render, League of Legends high-end CGI aesthetic, stylized digital sculpture, detailed Physically Based Rendering (PBR), soft even studio ring lighting, flat diffused key lighting on face, completely shadowless facial features, sharp ambient occlusion in background, intricate clothing micro-textures, octane render lighting, sharp volumetric depth, cinematic corporate thriller color grading",
+  "prompt_negativo_global": "harsh shadows, deep facial shadows, side lighting, half face in shadow, dark shadows, chiaroscuro, high contrast shadows on face, smooth skin, plastic texture, clay render, photorealistic, raw photo, photograph, real human face, skin pores, simple shading, flat lighting, in-game graphics, mobile game style, low poly cgi, 2d drawing, anime, flat art, deformed face, open mouth, teeth, asymmetric lips, bad eyes, text, words, letters, typography, watermark, logo, blurry, bokeh, elongated face, long face, stretched face, looking away, side glance, averted gaze, multiple people, background people, duplicate character, deformed body, bad anatomy, suit, tie, blazer, tuxedo, formal clothes",
+  "personajes": {
+    "lucas": {
+      "nombre": "Lucas",
+      "voz_tts": "es-ES-AlvaroNeural",
+      "prompt_positivo_base": "detailed 3D digital model of a single solo 30-year-old intellectual man, high-end CGI aesthetic, stylized 3D digital sculpture, detailed Physically Based Rendering (PBR), complex PBR skin shader with subsurface scattering, sharp observant hazel eyes behind thin minimalist matte black wireframe glasses, tousled modern dark hair, completely clean-shaven sharp jawline, modest intelligent friendly facial features, standard symmetrical facial proportions, strictly closed neutral mouth, distinct clean lip contour, relaxed jaw, anatomically correct natural neck and symmetrical shoulders, centered frontal chest-up composition, prominent portrait occupying 75% of vertical frame with generous headroom and visible shoulders, direct frontal eye contact looking dead straight at camera, eye-level framing, balanced studio portrait lighting",
+      "prompt_negativo_base": "photorealistic, real skin pores, real human photo, photograph, raw photo, open mouth, teeth visible, smiling, laughing, screaming, angry expression, head turned, side view, profile, 3/4 view, elongated face, long face, stretched face, looking away, looking sideways, averted gaze, misaligned pupils, side-eye, deformed face, bad eyes, female, woman, girl, beard, stubble, facial hair, smooth plastic skin, clay render, 2d illustration, flat render, cropped head, cropped face, cropped chin, cut off, out of frame, foreground obstacles, duplicate character, multiple bodies, multiple people, 2people, second person, background person, crowd, silhouette behind, deformed body, bad anatomy, extra limbs, asymmetrical shoulders, suit, tie, blazer, tuxedo, formal attire, business clothing",
+      "avatar": "man.png"
+    }
+  },
+  "escenas": [
+    {
+      "id": "esc_01",
+      "tipo": "personaje",
+      "personaje_id": "lucas",
+      "dialogo": "Un salario fijo mensual es el anestésico más potente del mundo.",
+      "accion_prompt": "single solo man, standard symmetrical facial geometry, locked direct frontal gaze dead straight into camera lens, anatomically correct natural shoulders and stable upper chest, wearing an oversized heavyweight washed charcoal cotton hoodie with realistic fabric folds over a plain crewneck. Background is an empty minimalist loft studio wall with dark matte geometric acoustic felt panels strictly behind the subject in sharp volumetric focus with zero other individuals, completely clear unobstructed foreground. Centered frontal chest-up portrait occupying 75% of vertical frame with generous headroom and fully visible symmetrical shoulders, soft balanced studio ring light, strictly frontal eye-level view.",
+      "prompt_negativo_escena": "female, woman, girl, multiple people, 2people, second person, background people, duplicate character, body in background, crowd, silhouette behind, elongated face, long face, stretched face, looking away, side-eye, averted gaze, wandering eyes, deformed body, mutated anatomy, bad anatomy, deformed shoulders, twisted torso, extra limbs, blurry background, bokeh, depth of field blur, out of focus, cropped head, cropped face, cropped chin, cut off, out of frame, foreground objects, props blocking view, obstacles, desk, table, partitions in front, harsh shadows, deep facial shadows, split lighting, chiaroscuro, suit, tie, blazer, tuxedo, formal clothes, dress shirt",
+      "duracion_audio": 4.47
+    },
+    {
+      "id": "esc_02",
+      "tipo": "personaje",
+      "personaje_id": "lucas",
+      "dialogo": "Hace que una persona inteligente acepte vivir con miedo constante.",
+      "accion_prompt": "single solo man, standard symmetrical facial geometry, locked direct frontal gaze dead straight into camera lens, anatomically correct natural shoulders and stable upper chest, wearing an oversized heavyweight washed charcoal cotton hoodie with realistic fabric folds over a plain crewneck. Background is an empty minimalist loft studio wall with dark matte geometric acoustic felt panels strictly behind the subject in sharp volumetric focus with zero other individuals, completely clear unobstructed foreground. Centered frontal chest-up portrait occupying 75% of vertical frame with generous headroom and fully visible symmetrical shoulders, soft balanced studio ring light, strictly frontal eye-level view.",
+      "prompt_negativo_escena": "female, woman, girl, multiple people, 2people, second person, background people, duplicate character, body in background, crowd, silhouette behind, elongated face, long face, stretched face, looking away, side-eye, averted gaze, wandering eyes, deformed body, mutated anatomy, bad anatomy, deformed shoulders, twisted torso, extra limbs, blurry background, bokeh, depth of field blur, out of focus, cropped head, cropped face, cropped chin, cut off, out of frame, foreground objects, props blocking view, obstacles, desk, table, partitions in front, harsh shadows, deep facial shadows, split lighting, chiaroscuro, suit, tie, blazer, tuxedo, formal clothes, dress shirt",
+      "duracion_audio": 4.34
+    },
+    {
+      "id": "esc_03",
+      "tipo": "personaje",
+      "personaje_id": "lucas",
+      "dialogo": "El sistema corporativo jamás paga por tu genialidad o talento.",
+      "accion_prompt": "single solo subject, balanced facial proportions, locked direct eye contact fixed on camera lens, anatomically correct stable shoulders and chest-up posture, wearing a relaxed slate-blue waffle-knit thermal long-sleeve shirt with distinct micro-textured weave. Background is an empty tech workshop interior wall with dark matte vertical slats and brushed gunmetal panels strictly behind the character in sharp volumetric focus with no background humans, completely empty foreground space. Centered frontal chest-up portrait occupying 75% of vertical frame with generous headroom and visible stable shoulders, soft diffused studio ring illumination, strictly frontal eye-level view.",
+      "prompt_negativo_escena": "female, woman, girl, multiple people, 2people, second person, background people, duplicate character, body in background, silhouette, deformed body, mutated anatomy, bad anatomy, asymmetrical shoulders, deformed torso, hunched neck, twisted body, extra limbs, elongated face, long face, stretched face, looking away, side gaze, averted gaze, blurry background, bokeh, depth of field blur, out of focus, cropped head, cropped face, cropped chin, cut off, out of frame, foreground objects, computer, monitors, desk, table, props blocking subject, harsh shadows, deep facial shadows, split lighting, chiaroscuro, suit, tie, blazer, tuxedo, formal collar",
+      "duracion_audio": 4.2
+    },
+    {
+      "id": "esc_04",
+      "tipo": "personaje",
+      "personaje_id": "lucas",
+      "dialogo": "Paga únicamente para comprar tu predictibilidad y tu obediencia absoluta.",
+      "accion_prompt": "single solo subject, balanced facial proportions, locked direct eye contact fixed on camera lens, anatomically correct stable shoulders and chest-up posture, wearing a relaxed slate-blue waffle-knit thermal long-sleeve shirt with distinct micro-textured weave. Background is an empty tech workshop interior wall with dark matte vertical slats and brushed gunmetal panels strictly behind the character in sharp volumetric focus with no background humans, completely empty foreground space. Centered frontal chest-up portrait occupying 75% of vertical frame with generous headroom and visible stable shoulders, soft diffused studio ring illumination, strictly frontal eye-level view.",
+      "prompt_negativo_escena": "female, woman, girl, multiple people, 2people, second person, background people, duplicate character, body in background, silhouette, deformed body, mutated anatomy, bad anatomy, asymmetrical shoulders, deformed torso, hunched neck, twisted body, extra limbs, elongated face, long face, stretched face, looking away, side gaze, averted gaze, blurry background, bokeh, depth of field blur, out of focus, cropped head, cropped face, cropped chin, cut off, out of frame, foreground objects, computer, monitors, desk, table, props blocking subject, harsh shadows, deep facial shadows, split lighting, chiaroscuro, suit, tie, blazer, tuxedo, formal collar",
+      "duracion_audio": 4.82
+    },
+    {
+      "id": "esc_05",
+      "tipo": "personaje",
+      "personaje_id": "lucas",
+      "dialogo": "En Jugarse la piel, Taleb advierte sobre acumular gastos fijos.",
+      "accion_prompt": "single solo man, natural facial symmetry, direct centered gaze locked onto camera lens, structurally sound symmetrical shoulders and upright posture, wearing a casual faded black denim jacket with subtle distressing over a minimalist heather-grey t-shirt. Background is an empty raw concrete architectural wall with subtle geometric seams strictly behind the subject in sharp volumetric focus, completely clear unobstructed foreground. Centered frontal chest-up portrait occupying 75% of vertical frame with generous headroom and clearly defined upper torso, soft uniform studio key lighting, strictly frontal eye-level view.",
+      "prompt_negativo_escena": "female, woman, girl, multiple people, 2people, second person, background people, duplicate character, silhouette, deformed body, mutated anatomy, bad anatomy, deformed shoulders, twisted torso, disjointed neck, extra limbs, mangled body, elongated face, long face, stretched face, looking away, side eye, averted gaze, blurry background, bokeh, depth of field blur, out of focus, cropped head, cropped face, cropped chin, cut off, out of frame, foreground objects, bills, money, credit cards, desk, obstacles, harsh shadows, deep facial shadows, split lighting, chiaroscuro, suit, tie, blazer, tuxedo",
+      "duracion_audio": 4.27
+    },
+    {
+      "id": "esc_06",
+      "tipo": "personaje",
+      "personaje_id": "lucas",
+      "dialogo": "Cuando te endeudas al límite, pierdes toda tu libertad para hablar.",
+      "accion_prompt": "single solo man, natural facial symmetry, direct centered gaze locked onto camera lens, structurally sound symmetrical shoulders and upright posture, wearing a casual faded black denim jacket with subtle distressing over a minimalist heather-grey t-shirt. Background is an empty raw concrete architectural wall with subtle geometric seams strictly behind the subject in sharp volumetric focus, completely clear unobstructed foreground. Centered frontal chest-up portrait occupying 75% of vertical frame with generous headroom and clearly defined upper torso, soft uniform studio key lighting, strictly frontal eye-level view.",
+      "prompt_negativo_escena": "female, woman, girl, multiple people, 2people, second person, background people, duplicate character, silhouette, deformed body, mutated anatomy, bad anatomy, deformed shoulders, twisted torso, disjointed neck, extra limbs, mangled body, elongated face, long face, stretched face, looking away, side eye, averted gaze, blurry background, bokeh, depth of field blur, out of focus, cropped head, cropped face, cropped chin, cut off, out of frame, foreground objects, bills, money, credit cards, desk, obstacles, harsh shadows, deep facial shadows, split lighting, chiaroscuro, suit, tie, blazer, tuxedo",
+      "duracion_audio": 4.14
+    },
+    {
+      "id": "esc_07",
+      "tipo": "personaje",
+      "personaje_id": "lucas",
+      "dialogo": "Depender de un cheque mensual paraliza cualquier decisión audaz y libre.",
+      "accion_prompt": "single solo subject, standard facial ratio, direct centered gaze locked onto camera lens, clean anatomically correct shoulders and chest-up framing, wearing a comfortable deep forest-green relaxed crewneck sweatshirt with dense cotton ribbing texture. Background is an empty minimalist maker-space wall with dark oak pegboard geometry strictly behind the subject in sharp volumetric focus, completely clear foreground without reflections or obstacles. Centered frontal chest-up portrait occupying 75% of vertical frame with generous headroom and defined shoulders, soft balanced studio key light, strictly frontal eye-level view.",
+      "prompt_negativo_escena": "female, woman, girl, multiple people, 2people, second person, background people, duplicate character, body in background, deformed body, mutated anatomy, bad anatomy, deformed shoulders, asymmetrical upper body, disjointed torso, extra limbs, elongated face, long face, stretched face, looking away, side glance, averted gaze, blurry background, bokeh, depth of field blur, out of focus, cropped head, cropped face, cropped chin, cut off, out of frame, foreground objects, glass reflection, reflection of person, tools, desk, obstacles, harsh shadows, deep facial shadows, split lighting, chiaroscuro, tie, bowtie, suit, blazer",
+      "duracion_audio": 4.72
+    },
+    {
+      "id": "esc_08",
+      "tipo": "personaje",
+      "personaje_id": "lucas",
+      "dialogo": "La verdadera independencia no se mide por lo que ganas hoy.",
+      "accion_prompt": "single solo subject, standard facial ratio, direct centered gaze locked onto camera lens, clean anatomically correct shoulders and chest-up framing, wearing a comfortable deep forest-green relaxed crewneck sweatshirt with dense cotton ribbing texture. Background is an empty minimalist maker-space wall with dark oak pegboard geometry strictly behind the subject in sharp volumetric focus, completely clear foreground without reflections or obstacles. Centered frontal chest-up portrait occupying 75% of vertical frame with generous headroom and defined shoulders, soft balanced studio key light, strictly frontal eye-level view.",
+      "prompt_negativo_escena": "female, woman, girl, multiple people, 2people, second person, background people, duplicate character, body in background, deformed body, mutated anatomy, bad anatomy, deformed shoulders, asymmetrical upper body, disjointed torso, extra limbs, elongated face, long face, stretched face, looking away, side glance, averted gaze, blurry background, bokeh, depth of field blur, out of focus, cropped head, cropped face, cropped chin, cut off, out of frame, foreground objects, glass reflection, reflection of person, tools, desk, obstacles, harsh shadows, deep facial shadows, split lighting, chiaroscuro, tie, bowtie, suit, blazer",
+      "duracion_audio": 3.85
+    },
+    {
+      "id": "esc_09",
+      "tipo": "personaje",
+      "personaje_id": "lucas",
+      "dialogo": "Mide tu verdadera riqueza calculando una sola métrica muy simple:",
+      "accion_prompt": "single solo subject, balanced facial proportions, locked direct eye contact with camera lens, stable anatomically correct torso and symmetrical shoulders, wearing a textured oatmeal-grey oversized knit sweater with soft yarn detail over a dark graphite undershirt. Background is an empty modern creative studio wall with dark matte composite panels strictly behind the character in sharp volumetric focus, empty foreground space. Centered frontal chest-up portrait occupying 75% of vertical frame with generous headroom and visible shoulders, balanced soft studio key lighting, strictly frontal eye-level view.",
+      "prompt_negativo_escena": "female, woman, girl, multiple people, 2people, second person, background people, duplicate character, deformed body, mutated anatomy, bad anatomy, deformed chest, asymmetrical shoulders, twisted spine, extra limbs, elongated face, long face, stretched face, looking away, side gaze, wandering eyes, blurry background, bokeh, depth of field blur, out of focus, cropped head, cropped face, cropped chin, cut off, out of frame, foreground objects, props blocking view, furniture in front, desk, table, harsh shadows, deep facial shadows, split lighting, chiaroscuro, suit, tie, tuxedo, blazer",
+      "duracion_audio": 4.37
+    },
+    {
+      "id": "esc_10",
+      "tipo": "personaje",
+      "personaje_id": "lucas",
+      "dialogo": "¿Cuántos meses puedes vivir hoy sin recibir órdenes de nadie?",
+      "accion_prompt": "single solo subject, balanced facial proportions, locked direct eye contact with camera lens, stable anatomically correct torso and symmetrical shoulders, wearing a textured oatmeal-grey oversized knit sweater with soft yarn detail over a dark graphite undershirt. Background is an empty modern creative studio wall with dark matte composite panels strictly behind the character in sharp volumetric focus, empty foreground space. Centered frontal chest-up portrait occupying 75% of vertical frame with generous headroom and visible shoulders, balanced soft studio key lighting, strictly frontal eye-level view.",
+      "prompt_negativo_escena": "female, woman, girl, multiple people, 2people, second person, background people, duplicate character, deformed body, mutated anatomy, bad anatomy, deformed chest, asymmetrical shoulders, twisted spine, extra limbs, elongated face, long face, stretched face, looking away, side gaze, wandering eyes, blurry background, bokeh, depth of field blur, out of focus, cropped head, cropped face, cropped chin, cut off, out of frame, foreground objects, props blocking view, furniture in front, desk, table, harsh shadows, deep facial shadows, split lighting, chiaroscuro, suit, tie, tuxedo, blazer",
+      "duracion_audio": 3.94
+    },
+    {
+      "id": "esc_11",
+      "tipo": "personaje",
+      "personaje_id": "lucas",
+      "dialogo": "Si la respuesta es cero, eres esclavo de tu propio ingreso.",
+      "accion_prompt": "single solo man, symmetrical standard facial geometry, direct frontal eye contact locked dead straight at camera lens, anatomically correct natural shoulders and stable upper torso structure, wearing an ultra-casual dark obsidian zip hoodie over a soft washed-black premium cotton t-shirt. Background is an empty architectural brutalist wall with matte graphite stone blocks strictly positioned behind the subject in sharp volumetric focus with zero other individuals, completely clear unobstructed foreground. Centered frontal chest-up portrait occupying 75% of vertical frame with generous headroom and clearly defined upper torso, flat diffused studio key lighting, strictly frontal eye-level view.",
+      "prompt_negativo_escena": "female, woman, girl, multiple people, 2people, second person, background people, duplicate body, reflection of person, deformed body, mutated anatomy, bad anatomy, deformed shoulders, twisted torso, hunchback, disjointed neck, extra limbs, mangled posture, elongated face, long face, stretched face, looking away, side-eye, averted gaze, blurry background, bokeh, depth of field blur, out of focus, cropped head, cropped face, cropped chin, cut off, out of frame, foreground objects, glass partitions, window frames in front, obstacles, harsh shadows, deep facial shadows, split lighting, chiaroscuro, bright colors, formal suit, tie, blazer",
+      "duracion_audio": 3.9
+    },
+    {
+      "id": "esc_12",
+      "tipo": "personaje",
+      "personaje_id": "lucas",
+      "dialogo": "Reduce tus costos fijos y compra tu libertad antes que lujos.",
+      "accion_prompt": "single solo man, symmetrical standard facial geometry, direct frontal eye contact locked dead straight at camera lens, anatomically correct natural shoulders and stable upper torso structure, wearing an ultra-casual dark obsidian zip hoodie over a soft washed-black premium cotton t-shirt. Background is an empty architectural brutalist wall with matte graphite stone blocks strictly positioned behind the subject in sharp volumetric focus with zero other individuals, completely clear unobstructed foreground. Centered frontal chest-up portrait occupying 75% of vertical frame with generous headroom and clearly defined upper torso, flat diffused studio key lighting, strictly frontal eye-level view.",
+      "prompt_negativo_escena": "female, woman, girl, multiple people, 2people, second person, background people, duplicate body, reflection of person, deformed body, mutated anatomy, bad anatomy, deformed shoulders, twisted torso, hunchback, disjointed neck, extra limbs, mangled posture, elongated face, long face, stretched face, looking away, side-eye, averted gaze, blurry background, bokeh, depth of field blur, out of focus, cropped head, cropped face, cropped chin, cut off, out of frame, foreground objects, glass partitions, window frames in front, obstacles, harsh shadows, deep facial shadows, split lighting, chiaroscuro, bright colors, formal suit, tie, blazer",
+      "duracion_audio": 4.22
+    }
+  ]
+}

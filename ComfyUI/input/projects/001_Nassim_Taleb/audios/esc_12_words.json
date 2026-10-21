@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Jamás",
+    "start": 0.15,
+    "end": 0.511
+  },
+  {
+    "word": "aceptes",
+    "start": 0.511,
+    "end": 1.017
+  },
+  {
+    "word": "consejos",
+    "start": 1.017,
+    "end": 1.594
+  },
+  {
+    "word": "sobre",
+    "start": 1.594,
+    "end": 1.956
+  },
+  {
+    "word": "tu",
+    "start": 1.956,
+    "end": 2.1
+  },
+  {
+    "word": "dinero",
+    "start": 2.1,
+    "end": 2.533
+  },
+  {
+    "word": "de",
+    "start": 2.533,
+    "end": 2.678
+  },
+  {
+    "word": "quien",
+    "start": 2.678,
+    "end": 3.039
+  },
+  {
+    "word": "no",
+    "start": 3.039,
+    "end": 3.183
+  },
+  {
+    "word": "arriesga",
+    "start": 3.183,
+    "end": 3.761
+  },
+  {
+    "word": "nada",
+    "start": 3.761,
+    "end": 4.05
+  }
+]

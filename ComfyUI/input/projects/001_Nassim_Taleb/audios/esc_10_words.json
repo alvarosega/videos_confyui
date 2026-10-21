@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Muéstrame",
+    "start": 0.15,
+    "end": 0.755
+  },
+  {
+    "word": "exactamente",
+    "start": 0.755,
+    "end": 1.495
+  },
+  {
+    "word": "cuánto",
+    "start": 1.495,
+    "end": 1.899
+  },
+  {
+    "word": "dinero",
+    "start": 1.899,
+    "end": 2.302
+  },
+  {
+    "word": "propio",
+    "start": 2.302,
+    "end": 2.706
+  },
+  {
+    "word": "tienes",
+    "start": 2.706,
+    "end": 3.109
+  },
+  {
+    "word": "invertido",
+    "start": 3.109,
+    "end": 3.714
+  },
+  {
+    "word": "en",
+    "start": 3.714,
+    "end": 3.849
+  },
+  {
+    "word": "esta",
+    "start": 3.849,
+    "end": 4.118
+  },
+  {
+    "word": "propuesta",
+    "start": 4.118,
+    "end": 4.723
+  },
+  {
+    "word": "hoy",
+    "start": 4.723,
+    "end": 4.925
+  }
+]

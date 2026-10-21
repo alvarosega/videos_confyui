@@ -1,0 +1,62 @@
+[
+  {
+    "word": "El",
+    "start": 0.12,
+    "end": 0.262
+  },
+  {
+    "word": "comisionado",
+    "start": 0.262,
+    "end": 1.045
+  },
+  {
+    "word": "de",
+    "start": 1.045,
+    "end": 1.188
+  },
+  {
+    "word": "Florencia",
+    "start": 1.188,
+    "end": 1.828
+  },
+  {
+    "word": "criticó",
+    "start": 1.828,
+    "end": 2.327
+  },
+  {
+    "word": "la",
+    "start": 2.327,
+    "end": 2.469
+  },
+  {
+    "word": "nariz",
+    "start": 2.469,
+    "end": 2.825
+  },
+  {
+    "word": "del",
+    "start": 2.825,
+    "end": 3.039
+  },
+  {
+    "word": "David",
+    "start": 3.039,
+    "end": 3.395
+  },
+  {
+    "word": "de",
+    "start": 3.395,
+    "end": 3.537
+  },
+  {
+    "word": "Miguel",
+    "start": 3.537,
+    "end": 3.964
+  },
+  {
+    "word": "Ángel",
+    "start": 3.964,
+    "end": 4.32
+  }
+]

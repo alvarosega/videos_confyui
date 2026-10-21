@@ -1,0 +1,62 @@
+[
+  {
+    "word": "En",
+    "start": 0.12,
+    "end": 0.274
+  },
+  {
+    "word": "el",
+    "start": 0.274,
+    "end": 0.428
+  },
+  {
+    "word": "mundo",
+    "start": 0.428,
+    "end": 0.813
+  },
+  {
+    "word": "real",
+    "start": 0.813,
+    "end": 1.122
+  },
+  {
+    "word": "solo",
+    "start": 1.122,
+    "end": 1.43
+  },
+  {
+    "word": "ganas",
+    "start": 1.43,
+    "end": 1.815
+  },
+  {
+    "word": "si",
+    "start": 1.815,
+    "end": 1.969
+  },
+  {
+    "word": "tu",
+    "start": 1.969,
+    "end": 2.123
+  },
+  {
+    "word": "sistema",
+    "start": 2.123,
+    "end": 2.662
+  },
+  {
+    "word": "sobrevive",
+    "start": 2.662,
+    "end": 3.356
+  },
+  {
+    "word": "al",
+    "start": 3.356,
+    "end": 3.51
+  },
+  {
+    "word": "error",
+    "start": 3.51,
+    "end": 3.895
+  }
+]

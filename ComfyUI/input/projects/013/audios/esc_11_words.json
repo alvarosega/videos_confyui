@@ -1,0 +1,52 @@
+[
+  {
+    "word": "Deja",
+    "start": 0.1,
+    "end": 0.467
+  },
+  {
+    "word": "que",
+    "start": 0.467,
+    "end": 0.743
+  },
+  {
+    "word": "gasten",
+    "start": 0.743,
+    "end": 1.294
+  },
+  {
+    "word": "tiempo",
+    "start": 1.294,
+    "end": 1.845
+  },
+  {
+    "word": "y",
+    "start": 1.845,
+    "end": 2.028
+  },
+  {
+    "word": "recursos",
+    "start": 2.028,
+    "end": 2.763
+  },
+  {
+    "word": "vigilando",
+    "start": 2.763,
+    "end": 3.589
+  },
+  {
+    "word": "el",
+    "start": 3.589,
+    "end": 3.773
+  },
+  {
+    "word": "lugar",
+    "start": 3.773,
+    "end": 4.232
+  },
+  {
+    "word": "equivocado",
+    "start": 4.232,
+    "end": 5.15
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "word": "Trabajar",
+    "start": 0.12,
+    "end": 0.703
+  },
+  {
+    "word": "toda",
+    "start": 0.703,
+    "end": 0.994
+  },
+  {
+    "word": "la",
+    "start": 0.994,
+    "end": 1.14
+  },
+  {
+    "word": "noche",
+    "start": 1.14,
+    "end": 1.504
+  },
+  {
+    "word": "con",
+    "start": 1.504,
+    "end": 1.723
+  },
+  {
+    "word": "tus",
+    "start": 1.723,
+    "end": 1.941
+  },
+  {
+    "word": "manos",
+    "start": 1.941,
+    "end": 2.305
+  },
+  {
+    "word": "no",
+    "start": 2.305,
+    "end": 2.451
+  },
+  {
+    "word": "construye",
+    "start": 2.451,
+    "end": 3.107
+  },
+  {
+    "word": "un",
+    "start": 3.107,
+    "end": 3.252
+  },
+  {
+    "word": "imperio",
+    "start": 3.252,
+    "end": 3.762
+  },
+  {
+    "word": "rentable",
+    "start": 3.762,
+    "end": 4.345
+  }
+]

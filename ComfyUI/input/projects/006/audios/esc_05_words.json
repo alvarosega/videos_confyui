@@ -1,0 +1,52 @@
+[
+  {
+    "word": "En",
+    "start": 0.12,
+    "end": 0.272
+  },
+  {
+    "word": "Jugarse",
+    "start": 0.272,
+    "end": 0.804
+  },
+  {
+    "word": "la",
+    "start": 0.804,
+    "end": 0.956
+  },
+  {
+    "word": "piel",
+    "start": 0.956,
+    "end": 1.259
+  },
+  {
+    "word": "Taleb",
+    "start": 1.259,
+    "end": 1.639
+  },
+  {
+    "word": "advierte",
+    "start": 1.639,
+    "end": 2.247
+  },
+  {
+    "word": "sobre",
+    "start": 2.247,
+    "end": 2.627
+  },
+  {
+    "word": "acumular",
+    "start": 2.627,
+    "end": 3.234
+  },
+  {
+    "word": "gastos",
+    "start": 3.234,
+    "end": 3.69
+  },
+  {
+    "word": "fijos",
+    "start": 3.69,
+    "end": 4.07
+  }
+]

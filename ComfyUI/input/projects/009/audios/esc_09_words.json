@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Aplica",
+    "start": 0.12,
+    "end": 0.549
+  },
+  {
+    "word": "esta",
+    "start": 0.549,
+    "end": 0.835
+  },
+  {
+    "word": "regla",
+    "start": 0.835,
+    "end": 1.193
+  },
+  {
+    "word": "de",
+    "start": 1.193,
+    "end": 1.336
+  },
+  {
+    "word": "blindaje",
+    "start": 1.336,
+    "end": 1.908
+  },
+  {
+    "word": "financiero",
+    "start": 1.908,
+    "end": 2.624
+  },
+  {
+    "word": "en",
+    "start": 2.624,
+    "end": 2.767
+  },
+  {
+    "word": "todos",
+    "start": 2.767,
+    "end": 3.125
+  },
+  {
+    "word": "tus",
+    "start": 3.125,
+    "end": 3.339
+  },
+  {
+    "word": "contratos",
+    "start": 3.339,
+    "end": 3.983
+  },
+  {
+    "word": "comerciales",
+    "start": 3.983,
+    "end": 4.77
+  }
+]

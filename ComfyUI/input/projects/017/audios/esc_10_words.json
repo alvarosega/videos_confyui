@@ -1,0 +1,57 @@
+[
+  {
+    "word": "El",
+    "start": 0.12,
+    "end": 0.265
+  },
+  {
+    "word": "valor",
+    "start": 0.265,
+    "end": 0.627
+  },
+  {
+    "word": "no",
+    "start": 0.627,
+    "end": 0.772
+  },
+  {
+    "word": "está",
+    "start": 0.772,
+    "end": 1.061
+  },
+  {
+    "word": "en",
+    "start": 1.061,
+    "end": 1.206
+  },
+  {
+    "word": "ejecutar",
+    "start": 1.206,
+    "end": 1.786
+  },
+  {
+    "word": "tareas",
+    "start": 1.786,
+    "end": 2.22
+  },
+  {
+    "word": "sino",
+    "start": 2.22,
+    "end": 2.51
+  },
+  {
+    "word": "en",
+    "start": 2.51,
+    "end": 2.654
+  },
+  {
+    "word": "dirigirlas",
+    "start": 2.654,
+    "end": 3.379
+  },
+  {
+    "word": "correctamente",
+    "start": 3.379,
+    "end": 4.32
+  }
+]

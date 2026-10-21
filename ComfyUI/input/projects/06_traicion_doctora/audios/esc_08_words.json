@@ -1,0 +1,97 @@
+[
+  {
+    "word": "Cada",
+    "start": 0.15,
+    "end": 0.417
+  },
+  {
+    "word": "quirófano",
+    "start": 0.417,
+    "end": 1.017
+  },
+  {
+    "word": "láser",
+    "start": 1.017,
+    "end": 1.35
+  },
+  {
+    "word": "y",
+    "start": 1.35,
+    "end": 1.483
+  },
+  {
+    "word": "equipo",
+    "start": 1.483,
+    "end": 1.883
+  },
+  {
+    "word": "de",
+    "start": 1.883,
+    "end": 2.017
+  },
+  {
+    "word": "titanio",
+    "start": 2.017,
+    "end": 2.483
+  },
+  {
+    "word": "fue",
+    "start": 2.483,
+    "end": 2.683
+  },
+  {
+    "word": "adquirido",
+    "start": 2.683,
+    "end": 3.283
+  },
+  {
+    "word": "mediante",
+    "start": 3.283,
+    "end": 3.817
+  },
+  {
+    "word": "un",
+    "start": 3.817,
+    "end": 3.95
+  },
+  {
+    "word": "contrato",
+    "start": 3.95,
+    "end": 4.483
+  },
+  {
+    "word": "de",
+    "start": 4.483,
+    "end": 4.617
+  },
+  {
+    "word": "leasing",
+    "start": 4.617,
+    "end": 5.083
+  },
+  {
+    "word": "fiduciario",
+    "start": 5.083,
+    "end": 5.75
+  },
+  {
+    "word": "que",
+    "start": 5.75,
+    "end": 5.95
+  },
+  {
+    "word": "controlo",
+    "start": 5.95,
+    "end": 6.483
+  },
+  {
+    "word": "exclusivamente",
+    "start": 6.483,
+    "end": 7.417
+  },
+  {
+    "word": "yo",
+    "start": 7.417,
+    "end": 7.55
+  }
+]

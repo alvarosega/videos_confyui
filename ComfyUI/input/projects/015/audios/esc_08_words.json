@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Pero",
+    "start": 0.12,
+    "end": 0.43
+  },
+  {
+    "word": "una",
+    "start": 0.43,
+    "end": 0.663
+  },
+  {
+    "word": "sola",
+    "start": 0.663,
+    "end": 0.973
+  },
+  {
+    "word": "grieta",
+    "start": 0.973,
+    "end": 1.438
+  },
+  {
+    "word": "en",
+    "start": 1.438,
+    "end": 1.593
+  },
+  {
+    "word": "tu",
+    "start": 1.593,
+    "end": 1.749
+  },
+  {
+    "word": "imagen",
+    "start": 1.749,
+    "end": 2.214
+  },
+  {
+    "word": "invita",
+    "start": 2.214,
+    "end": 2.679
+  },
+  {
+    "word": "ataques",
+    "start": 2.679,
+    "end": 3.222
+  },
+  {
+    "word": "de",
+    "start": 3.222,
+    "end": 3.377
+  },
+  {
+    "word": "rivales",
+    "start": 3.377,
+    "end": 3.92
+  }
+]

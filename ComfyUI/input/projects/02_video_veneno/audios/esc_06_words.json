@@ -1,0 +1,47 @@
+[
+  {
+    "word": "La",
+    "start": 0.15,
+    "end": 0.297
+  },
+  {
+    "word": "póliza",
+    "start": 0.297,
+    "end": 0.738
+  },
+  {
+    "word": "de",
+    "start": 0.738,
+    "end": 0.885
+  },
+  {
+    "word": "seguro",
+    "start": 0.885,
+    "end": 1.326
+  },
+  {
+    "word": "millonaria",
+    "start": 1.326,
+    "end": 2.062
+  },
+  {
+    "word": "estaba",
+    "start": 2.062,
+    "end": 2.503
+  },
+  {
+    "word": "lista",
+    "start": 2.503,
+    "end": 2.871
+  },
+  {
+    "word": "para",
+    "start": 2.871,
+    "end": 3.165
+  },
+  {
+    "word": "ejecutarse",
+    "start": 3.165,
+    "end": 3.9
+  }
+]

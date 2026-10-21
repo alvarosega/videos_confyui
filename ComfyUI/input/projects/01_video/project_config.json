@@ -1,0 +1,122 @@
+{
+  "id_proyecto": "01_video",
+  "preset_usado": "dark_concept",
+  "estilo_global": "dark concept art, cinematic moody lighting, stylized digital painting, unreal engine 5 render, high contrast, atmospheric depth, muted color palette, highly detailed, 8k resolution, masterpiece",
+  "prompt_negativo_global": "worst quality, distorted, bad anatomy, deformed, oversaturated",
+  "personajes": {
+    "mateo": {
+      "nombre": "Mateo",
+      "voz_tts": "es-AR-SantiagoNeural",
+      "prompt_positivo_base": "front view close-up portrait of a 34 years old latino man, face perfectly centered in frame, both eyes clearly visible looking directly at camera, messy dark brown hair, three-day stubble, deep haunted sad eyes with heavy dark circles, sweaty forehead and glistening skin, wearing a wrinkled dark grey hoodie, desperate paranoid expression, dramatic cinematic chiaroscuro lighting, key light directly illuminating his entire face with soft evenly distributed light, no shadows covering the eyes or chin, 8k photorealistic, visible pores and sweat drops, intense psychological distress, upper body shot, sharp focus on facial features, neutral background, full frontal facial symmetry",
+      "prompt_negativo_base": "side profile, profile view, looking away from camera, cropped face, partial face, face cut off, face out of frame, tilted head, extreme angle, smiling, happy, bright daylight, cartoon, 3d render, illustration, blurry, bad anatomy, extra fingers, mutant, face in total shadow, pitch black face, distorted features, wide shot, full body, low angle, high angle, over-the-shoulder",
+      "avatar": "man.png"
+    },
+    "dr_varga": {
+      "nombre": "Dr. Varga",
+      "voz_tts": "es-ES-AlvaroNeural",
+      "prompt_positivo_base": "front view close-up portrait of a 60 years old gaunt skeletal man, face perfectly centered in frame, both eyes clearly visible looking directly at camera, receding slicked-back grey hair, thick round vintage glasses, pale sickly yellowish skin, hollow cheekbones, thin pressed lips with a creepy cold smirk, wearing a dirty oversized white lab coat over a wrinkled vest, calculating menacing eyes, key light directly illuminating his entire face with soft evenly distributed light, no shadows covering the eyes or chin, 8k photorealistic, detailed wrinkles and aged skin, intense menacing villain expression, upper body shot, sharp focus on facial features, neutral background, full frontal facial symmetry",
+      "prompt_negativo_base": "side profile, profile view, looking away from camera, cropped face, partial face, face cut off, face out of frame, tilted head, extreme angle, kind expression, cheerful, young, modern clean clothes, bright sunlight, anime, cartoon, blurry, bad anatomy, face fully lit without shadows, distorted features, wide shot, full body, low angle, high angle, over-the-shoulder",
+      "avatar": "man.png"
+    },
+    "valentina": {
+      "nombre": "Valentina",
+      "voz_tts": "es-MX-DaliaNeural",
+      "prompt_positivo_base": "front view close-up portrait of a 28 years old beautiful nurse, face perfectly centered in frame, closed eyes, long dark wavy hair, pale blueish grey dead skin, serene but tragic expression, wearing a torn and stained white nurse uniform, key light directly illuminating her entire pale face with soft evenly distributed light, no shadows covering the face, 8k photorealistic, detailed eyelashes and skin texture, tragic horror aesthetic, upper body shot, sharp focus on facial features, neutral background, full frontal facial symmetry",
+      "prompt_negativo_base": "side profile, profile view, looking away from camera, cropped face, partial face, face cut off, face out of frame, tilted head, extreme angle, alive and smiling, open eyes, modern clothes, bright colors, cartoon, 3d render, illustration, blurry, bad anatomy, face in total shadow, distorted features, wide shot, full body, low angle, high angle, over-the-shoulder",
+      "avatar": "woman.png"
+    }
+  },
+  "escenas": [
+    {
+      "id": "esc_01",
+      "tipo": "personaje",
+      "personaje_id": "mateo",
+      "dialogo": "Mi novia, Valentina, me pidió 'un tiempo' en la relación hace un mes. Me destrozó el alma. Pero anoche recibí una carta suya... 'Ven al sótano del sanatorio, antes de que sea tarde'. Esto no tiene sentido, pero tengo que saber por qué.",
+      "accion_prompt": "standing in the middle of a dark damp basement clinic, holding a crumpled letter in trembling hands, looking around confused and scared, flickering fluorescent light behind him, rusty gurney in the background, key light from his flashlight illuminating his desperate face, close up shot, photorealistic"
+    },
+    {
+      "id": "esc_02",
+      "tipo": "b_roll",
+      "personaje_id": "",
+      "dialogo": "Expediente 304... ¿Este es mi nombre? ¿Mateo Rodríguez? ¿Diez años internado? Eso es imposible, yo nunca he estado aquí.",
+      "accion_prompt": "extreme close up of a dusty yellowed medical file labeled 'EXPEDIENTE 304 - MATEO RODRÍGUEZ' on a wooden desk, handwritten notes and a faded photograph of Mateo visible, flickering light casting shadows on the papers, vintage paper texture, macro photography, 8k"
+    },
+    {
+      "id": "esc_03",
+      "tipo": "personaje",
+      "personaje_id": "mateo",
+      "dialogo": "Ella siempre decía que yo confundía la realidad con mis recuerdos. Que vivía en mi propia cabeza... ¿Y si tenía razón? No, no puede ser. Ella me pidió tiempo, no que la olvidara.",
+      "accion_prompt": "walking slowly down a narrow corridor with peeling green tiles and broken pipes, holding his head in confusion and pain, sweating heavily, flashlight beam casting long shadows, distressed anguished expression, front key light revealing his tears, medium shot, cinematic"
+    },
+    {
+      "id": "esc_04",
+      "tipo": "b_roll",
+      "personaje_id": "",
+      "dialogo": "Tengo sus fotos en mi teléfono. Su risa. Su perfume. Eso no puede ser falso. ¿Por qué el doctor querría hacerme creer que estoy loco?",
+      "accion_prompt": "close up of an old cracked smartphone screen displaying a blurred photo of a woman (Valentina) smiling, the screen flickering with static interference, lying on a dusty floor next to a broken syringe, eerie blue light reflecting on the screen, shallow depth of field"
+    },
+    {
+      "id": "esc_05",
+      "tipo": "personaje",
+      "personaje_id": "dr_varga",
+      "dialogo": "Mateo, otra vez con la misma historia. Valentina no era tu novia, era tu psiquiatra. La atacaste cuando te recetó el alta. Llevas diez años encerrado aquí, encerrado en tu propio cuento de hadas.",
+      "accion_prompt": "appearing suddenly from the darkness of the corridor, backlit by a dim red emergency exit sign, calm sinister smile on his gaunt face, hands behind his back, harsh overhead spotlight revealing his pale sickly skin, menacing and calm posture, medium wide shot"
+    },
+    {
+      "id": "esc_06",
+      "tipo": "b_roll",
+      "personaje_id": "",
+      "dialogo": "Atacarla... ¿Cómo podría atacar a Valentina? Ella era mi refugio, no mi enemiga. Este tipo está mintiendo para tenerme aquí atrapado.",
+      "accion_prompt": "extreme close up of an old newspaper clipping on the floor, headline in red ink: 'PSIQUIATRA AGREDIDA EN SANATORIO - PACIENTE HUYE', the edges of the paper are torn and stained with dark dried spots, dramatic shadow across the headline, macro photography"
+    },
+    {
+      "id": "esc_07",
+      "tipo": "personaje",
+      "personaje_id": "mateo",
+      "dialogo": "¡Mientes! ¡Ella me besó en el parque, recuerdo su perfume a flores! ¡Dame una prueba real de que estoy loco!",
+      "accion_prompt": "backing away in terror, pointing the flashlight directly at the doctor, tears streaming down his face, furious and terrified expression, intense key light from the flashlight reflecting on his face, extreme close up portrait, photorealistic"
+    },
+    {
+      "id": "esc_08",
+      "tipo": "b_roll",
+      "personaje_id": "",
+      "dialogo": "Todas las pruebas están ahí. Tus cartas, tus expedientes, las grabaciones de seguridad. ¿Por qué no puedes aceptar que ella te pidió ayuda y tú le diste la espalda?",
+      "accion_prompt": "rack focus shot of a rusty metal shelf filled with old audio cassette tapes labeled 'TERAPIA MATEO - AÑO 2016', a vintage tape recorder with its reels spinning, floating dust particles in the light beam, creepy detailed close up, cinematic"
+    },
+    {
+      "id": "esc_09",
+      "tipo": "personaje",
+      "personaje_id": "mateo",
+      "dialogo": "¡NO! ¡Valentina! ¿Dónde está ella? ¡Dime dónde la escondiste, maldito!",
+      "accion_prompt": "running desperately towards a heavy rusty metal door, banging his fists violently against it, motion blur, absolute desperation, sweat flying off his face, intense dramatic red and white flashing lights, wide angle shot showing the cramped basement"
+    },
+    {
+      "id": "esc_10",
+      "tipo": "b_roll",
+      "personaje_id": "",
+      "dialogo": "La puerta se abre... y ahí está ella. Tumbada en una camilla. No se mueve. Su piel está gris. Esto... esto no puede estar pasando.",
+      "accion_prompt": "slow push-in through a half-open rusty door, revealing a dimly lit hidden room with a rusted metal gurney in the center, a pale corpse of a woman (Valentina) with long dark hair lying on it, a single soft spotlight illuminating her tragic face, ethereal and horrifying atmosphere, wide shot"
+    },
+    {
+      "id": "esc_11",
+      "tipo": "personaje",
+      "personaje_id": "dr_varga",
+      "dialogo": "No la escondí, Mateo. Tú la trajiste aquí. La noche que te pidió que dejaras las pastillas, te enloqueciste. La estrangulaste con tus propias manos. Ella no pidió tiempo... pidió ayuda, y tú le diste la muerte.",
+      "accion_prompt": "standing at the doorway, looking at the scene with cold professional detachment, adjusting his glasses, harsh overhead light casting deep shadows on his hollow cheekbones, cruel satisfied expression, medium close up"
+    },
+    {
+      "id": "esc_12",
+      "tipo": "b_roll",
+      "personaje_id": "",
+      "dialogo": "Mi letra... esto está escrito con mi puño y letra. 'Hoy es mi cumpleaños. Ella quería irse. Le pedí tiempo... y le di la eternidad.' Dios mío... yo... yo escribí esto. ¿Cuándo? ¿Cómo?",
+      "accion_prompt": "extreme close up of an open leather diary on the floor, showing handwritten text in red ink, the final sentence highlighted: 'LE PEDÍ TIEMPO... Y LE DI LA ETERNIDAD', a vintage photograph of Mateo and Valentina sticking out of the pages, tears falling on the paper, macro photography, dramatic side lighting"
+    },
+    {
+      "id": "esc_13",
+      "tipo": "personaje",
+      "personaje_id": "mateo",
+      "dialogo": "¡NOOOOO! ¡NO PUEDO HABER HECHO ESO! ¡ELLA ERA MI VIDA! ¡DÉJAME SALIR, MALDITO!",
+      "accion_prompt": "mateo screaming at the top of his lungs directly to camera, lights suddenly flickering and shutting off completely, pitch black background swallowing the frame, last frame shows only his terrified illuminated face contorted in a scream, freeze frame effect, horror climax, 8k photorealistic"
+    }
+  ]
+}

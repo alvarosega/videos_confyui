@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Cuando",
+    "start": 0.12,
+    "end": 0.537
+  },
+  {
+    "word": "te",
+    "start": 0.537,
+    "end": 0.676
+  },
+  {
+    "word": "endeudas",
+    "start": 0.676,
+    "end": 1.233
+  },
+  {
+    "word": "al",
+    "start": 1.233,
+    "end": 1.372
+  },
+  {
+    "word": "límite",
+    "start": 1.372,
+    "end": 1.789
+  },
+  {
+    "word": "pierdes",
+    "start": 1.789,
+    "end": 2.276
+  },
+  {
+    "word": "toda",
+    "start": 2.276,
+    "end": 2.554
+  },
+  {
+    "word": "tu",
+    "start": 2.554,
+    "end": 2.693
+  },
+  {
+    "word": "libertad",
+    "start": 2.693,
+    "end": 3.25
+  },
+  {
+    "word": "para",
+    "start": 3.25,
+    "end": 3.528
+  },
+  {
+    "word": "hablar",
+    "start": 3.528,
+    "end": 3.945
+  }
+]
