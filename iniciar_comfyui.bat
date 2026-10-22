@@ -1,17 +1,21 @@
 @echo off
 title ComfyUI Server (Pipeline Videos)
 echo ========================================================
-echo  Iniciando ComfyUI Server para Pipeline de Video
-echo  Optimizacion: 8GB VRAM (NVIDIA RTX 4070 Laptop)
+echo  Iniciando ComfyUI Server con Entorno Conda: env_comfyui
+echo  Aceleracion: NVIDIA GeForce RTX 4070 Laptop GPU (CUDA 12.1)
 echo  Endpoint: http://127.0.0.1:8188
 echo ========================================================
 
 cd /d "%~dp0ComfyUI"
 
-:: Argumentos recomendados para 8GB VRAM:
-:: --listen 127.0.0.1 : Escucha local en el puerto del orquestador
-:: --port 8188        : Puerto por defecto esperado por conector y core
-:: --preview-method auto : Previsualizacion eficiente
-python main.py --listen 127.0.0.1 --port 8188 --preview-method auto
+set "PYTHON_EXE=C:\Users\SEGA\miniconda3\envs\env_comfyui\python.exe"
+
+if exist "%PYTHON_EXE%" (
+    echo [INFO] Detectado entorno dedicado: env_comfyui
+    "%PYTHON_EXE%" main.py --listen 127.0.0.1 --port 8188 --preview-method auto
+) else (
+    echo [ADVERTENCIA] No se encontro %PYTHON_EXE%. Intentando con python del PATH...
+    python main.py --listen 127.0.0.1 --port 8188 --preview-method auto
+)
 
 pause
