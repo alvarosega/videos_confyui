@@ -1,16 +1,16 @@
-import os
+﻿import os
 import subprocess
 import wave
 import re
 from pathlib import Path
-from config import INPUT_DIR
+from config import INPUT_DIR, BASE_DIR
 
 
 class TTSEngine:
     """
-    Fase 2: Generación de audio mediante Kokoro-82M (Local).
-    Soporta todo el catálogo nativo y cross-language de Kokoro, así como
-    fórmulas de Voice Blending (mezcla de tensores de voz) definidas en guion.json.
+    Fase 2: GeneraciÃ³n de audio mediante Kokoro-82M (Local).
+    Soporta todo el catÃ¡logo nativo y cross-language de Kokoro, asÃ­ como
+    fÃ³rmulas de Voice Blending (mezcla de tensores de voz) definidas en guion.json.
     """
 
     VOZ_FALLBACK_HOMBRE = "em_alex"
@@ -18,25 +18,25 @@ class TTSEngine:
 
     # Biblioteca completa de voces disponibles en Kokoro-82M
     VOCES_DISPONIBLES = {
-        # Español (Nativas)
+        # EspaÃ±ol (Nativas)
         "espanol": {
-            "em_alex": "Español Masculino Neutro / Estándar",
-            "em_santa": "Español Masculino Maduro / Grave",
-            "ef_dora": "Español Femenino Neutro / Natural",
+            "em_alex": "EspaÃ±ol Masculino Neutro / EstÃ¡ndar",
+            "em_santa": "EspaÃ±ol Masculino Maduro / Grave",
+            "ef_dora": "EspaÃ±ol Femenino Neutro / Natural",
         },
-        # Inglés Americano (Cross-Language recomendado para tonos profundos/oscuros)
+        # InglÃ©s Americano (Cross-Language recomendado para tonos profundos/oscuros)
         "ingles_americano": {
             "am_fenrir": "Masculino Grave / Autoritario / Frio (Ideal Terror)",
             "am_onyx": "Masculino Oscuro / Sobrio / Denso",
             "am_michael": "Masculino Profesional / Seco / Corporativo",
-            "am_eric": "Masculino Táctico / Institucional",
+            "am_eric": "Masculino TÃ¡ctico / Institucional",
             "am_adam": "Masculino Directo / Equilibrado",
             "am_echo": "Masculino Articulado",
             "am_liam": "Masculino Joven / Neutro",
-            "am_puck": "Masculino Enérgico / Dinámico",
-            "am_santa": "Masculino Cálido / Profundo",
-            "af_heart": "Femenino Cálido / Principal",
-            "af_nicole": "Femenino Serio / Analítico / Controlado",
+            "am_puck": "Masculino EnÃ©rgico / DinÃ¡mico",
+            "am_santa": "Masculino CÃ¡lido / Profundo",
+            "af_heart": "Femenino CÃ¡lido / Principal",
+            "af_nicole": "Femenino Serio / AnalÃ­tico / Controlado",
             "af_bella": "Femenino Natural / Expresivo",
             "af_sarah": "Femenino Firme / Corporativo",
             "af_sky": "Femenino Suave / Aireado",
@@ -44,55 +44,55 @@ class TTSEngine:
             "af_aoede": "Femenino Resonante",
             "af_jessica": "Femenino Claro",
             "af_kore": "Femenino Maduro",
-            "af_nova": "Femenino Dinámico",
+            "af_nova": "Femenino DinÃ¡mico",
             "af_river": "Femenino Calmo",
         },
-        # Inglés Británico (Cross-Language formal / distante)
+        # InglÃ©s BritÃ¡nico (Cross-Language formal / distante)
         "ingles_britanico": {
-            "bm_george": "Masculino Formal / Distante / Aristocrático",
-            "bm_daniel": "Masculino Serio / Periodístico",
+            "bm_george": "Masculino Formal / Distante / AristocrÃ¡tico",
+            "bm_daniel": "Masculino Serio / PeriodÃ­stico",
             "bm_fable": "Masculino Narrativo",
             "bm_lewis": "Masculino Articulado",
             "bf_alice": "Femenino Formal / Educado",
-            "bf_emma": "Femenino Distante / Analítico",
-            "bf_isabella": "Femenino Cálido",
+            "bf_emma": "Femenino Distante / AnalÃ­tico",
+            "bf_isabella": "Femenino CÃ¡lido",
             "bf_lily": "Femenino Joven",
         },
-        # Italiano (Alta compatibilidad fonética con español)
+        # Italiano (Alta compatibilidad fonÃ©tica con espaÃ±ol)
         "italiano": {
-            "im_nicola": "Italiano Masculino / Cadencia Rápida",
-            "if_sara": "Italiano Femenino / Melódico",
+            "im_nicola": "Italiano Masculino / Cadencia RÃ¡pida",
+            "if_sara": "Italiano Femenino / MelÃ³dico",
         },
-        # Portugués
+        # PortuguÃ©s
         "portugues": {
-            "pm_alex": "Portugués Masculino Neutro",
-            "pm_santa": "Portugués Masculino Grave",
-            "pf_dora": "Portugués Femenino Neutro",
+            "pm_alex": "PortuguÃ©s Masculino Neutro",
+            "pm_santa": "PortuguÃ©s Masculino Grave",
+            "pf_dora": "PortuguÃ©s Femenino Neutro",
         },
-        # Francés
+        # FrancÃ©s
         "frances": {
-            "ff_siwis": "Francés Femenino / Articulado",
+            "ff_siwis": "FrancÃ©s Femenino / Articulado",
         },
         # Hindi
         "hindi": {
             "hm_omega": "Hindi Masculino Profundo",
-            "hm_psi": "Hindi Masculino Estándar",
+            "hm_psi": "Hindi Masculino EstÃ¡ndar",
             "hf_alpha": "Hindi Femenino",
             "hf_beta": "Hindi Femenino Expresivo",
         },
-        # Japonés
+        # JaponÃ©s
         "japones": {
-            "jm_kumo": "Japonés Masculino",
-            "jf_alpha": "Japonés Femenino",
-            "jf_gongitsune": "Japonés Femenino Tradicional",
-            "jf_nezumi": "Japonés Femenino Rápido",
-            "jf_tebukuro": "Japonés Femenino Suave",
+            "jm_kumo": "JaponÃ©s Masculino",
+            "jf_alpha": "JaponÃ©s Femenino",
+            "jf_gongitsune": "JaponÃ©s Femenino Tradicional",
+            "jf_nezumi": "JaponÃ©s Femenino RÃ¡pido",
+            "jf_tebukuro": "JaponÃ©s Femenino Suave",
         },
-        # Chino Mandarín
+        # Chino MandarÃ­n
         "chino": {
             "zm_yunjian": "Chino Masculino Firme",
             "zm_yunxi": "Chino Masculino Calmo",
-            "zm_yunxia": "Chino Masculino Enérgico",
+            "zm_yunxia": "Chino Masculino EnÃ©rgico",
             "zm_yunyang": "Chino Masculino Noticioso",
             "zf_xiaobei": "Chino Femenino Expresivo",
             "zf_xiaoni": "Chino Femenino",
@@ -108,7 +108,7 @@ class TTSEngine:
         self.audios_dir = INPUT_DIR / proyecto_id / "audios"
         self.audios_dir.mkdir(parents=True, exist_ok=True)
 
-        self.kokoro_script_path = Path("C:/ia-video/Kokoro/generador_kokoro.py")
+        self.kokoro_script_path = BASE_DIR / "Kokoro" / "generador_kokoro.py"
         self.python_ejecutable = Path(r"C:\Users\SEGA\miniconda3\envs\kokoro_env\python.exe")
 
     def _preprocesar_texto(self, texto: str) -> str:
@@ -116,12 +116,12 @@ class TTSEngine:
         texto = re.sub(r'\s+', ' ', texto).strip()
         
         # 2. Normalizar comillas y caracteres conflictivos
-        texto = texto.replace('"', '').replace("'", '').replace('«', '').replace('»', '')
+        texto = texto.replace('"', '').replace("'", '').replace('Â«', '').replace('Â»', '')
         
         # 3. Evitar repeticiones descontroladas de caracteres
-        texto = re.sub(r'([a-zA-ZáéíóúÁÉÍÓÚñÑ])\1{2,}', r'\1\1', texto)
+        texto = re.sub(r'([a-zA-ZÃ¡Ã©Ã­Ã³ÃºÃÃ‰ÃÃ“ÃšÃ±Ã‘])\1{2,}', r'\1\1', texto)
         
-        # 4. Asegurar puntuación suave
+        # 4. Asegurar puntuaciÃ³n suave
         texto = texto.replace('...', ', ')
         
         return texto.strip()
@@ -160,7 +160,7 @@ class TTSEngine:
             print(f"[KOKORO CLI ERROR] Fallo al ejecutar el script:\n{e.stderr}\n{e.stdout}")
             return False
         except FileNotFoundError as e:
-            print(f"[KOKORO CLI ERROR] No se encontró el ejecutable o script: {e}")
+            print(f"[KOKORO CLI ERROR] No se encontrÃ³ el ejecutable o script: {e}")
             return False
 
     def procesar_escena(self, escena_id: str) -> tuple[str, float]:
@@ -169,7 +169,7 @@ class TTSEngine:
 
         escena = next((e for e in config.get("escenas", []) if e["id"] == escena_id), None)
         if not escena:
-            raise ValueError(f"Escena '{escena_id}' no encontrada en la configuración.")
+            raise ValueError(f"Escena '{escena_id}' no encontrada en la configuraciÃ³n.")
 
         dialogo = escena.get("dialogo", "").strip()
 
@@ -179,7 +179,7 @@ class TTSEngine:
                     e["duracion_audio"] = 0.0
                     break
             self.storage.guardar_config(self.proyecto_id, config)
-            print(f"[TTS] Escena {escena_id} sin diálogo. Omitida (0.0s).")
+            print(f"[TTS] Escena {escena_id} sin diÃ¡logo. Omitida (0.0s).")
             return None, 0.0
 
         # Resolver voz directamente desde personajes en guion/config sin traducciones
@@ -207,7 +207,7 @@ class TTSEngine:
         exito = self._ejecutar_kokoro_cli(dialogo_optimizado, voz_final, ruta_salida)
 
         if not exito or not ruta_salida.exists():
-            raise RuntimeError(f"Fallo crítico generando audio para {escena_id} con Kokoro.")
+            raise RuntimeError(f"Fallo crÃ­tico generando audio para {escena_id} con Kokoro.")
 
         duracion = self._obtener_duracion_wav(ruta_salida)
 

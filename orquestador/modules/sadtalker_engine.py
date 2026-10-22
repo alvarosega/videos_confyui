@@ -1,12 +1,12 @@
-import shutil
+﻿import shutil
 import subprocess
 from pathlib import Path
-from config import INPUT_DIR, OUTPUT_DIR
+from config import INPUT_DIR, OUTPUT_DIR, BASE_DIR, COMFYUI_DIR
 
 
 class SadTalkerEngine:
     """
-    Fase 4: Generador de driving video con morfología 1:1.
+    Fase 4: Generador de driving video con morfologÃ­a 1:1.
     Utiliza como source la imagen renderizada real del personaje en lugar de un avatar externo,
     garantizando coincidencia exacta de landmarks y anulando traslaciones espaciales con --still.
     """
@@ -31,9 +31,9 @@ class SadTalkerEngine:
     def __init__(self, proyecto_id: str):
         self.proyecto_id = proyecto_id
         self.python_sadtalker = Path(r"C:\Users\SEGA\miniconda3\envs\sadtalker\python.exe")
-        self.sadtalker_dir = Path(r"C:\ia-video\SadTalker")
+        self.sadtalker_dir = BASE_DIR / "SadTalker"
 
-        self.ref_base_dir = Path(r"C:\ia-video\ComfyUI\output\ref")
+        self.ref_base_dir = COMFYUI_DIR / "output" / "ref"
         self.project_input_dir = INPUT_DIR / proyecto_id
         self.input_ref_dir = self.project_input_dir / "ref_images"
         self.output_ref_dir = OUTPUT_DIR / proyecto_id / "ref_images"
@@ -53,7 +53,7 @@ class SadTalkerEngine:
         return self.ARQUETIPOS_ESCENA[idx]
 
     def _resolver_imagen_fuente(self, escena_id: str, avatar_nombre: str) -> Path:
-        """Prioriza la imagen real de la escena o el master para garantizar coincidencia morfométrica."""
+        """Prioriza la imagen real de la escena o el master para garantizar coincidencia morfomÃ©trica."""
         # 1. Imagen renderizada de la escena
         candidatos_escena = list(self.input_ref_dir.glob(f"{escena_id}_personaje*.png"))
         if not candidatos_escena:
@@ -75,7 +75,7 @@ class SadTalkerEngine:
             return self.ref_base_dir / avatar_nombre
 
         raise FileNotFoundError(
-            f"No se encontró imagen base para '{escena_id}'. Renderice la Fase 3 primero."
+            f"No se encontrÃ³ imagen base para '{escena_id}'. Renderice la Fase 3 primero."
         )
 
     def generar_video_borrador(
@@ -125,7 +125,7 @@ class SadTalkerEngine:
 
         print(
             f"\n[SadTalker CLI] {escena_id} -> Source: {source_image.name} | "
-            f"Exp: {exp_final} | Lock Spatial: [0°, 0°, 0°]"
+            f"Exp: {exp_final} | Lock Spatial: [0Â°, 0Â°, 0Â°]"
         )
 
         result = subprocess.run(
@@ -150,5 +150,5 @@ class SadTalkerEngine:
         shutil.move(str(candidatos[0]), str(target_video))
         shutil.rmtree(escena_temp_dir, ignore_errors=True)
 
-        print(f"[SadTalker CLI] [ÉXITO] Video driving morfométrico listo: {target_video.name}")
+        print(f"[SadTalker CLI] [Ã‰XITO] Video driving morfomÃ©trico listo: {target_video.name}")
         return target_video
