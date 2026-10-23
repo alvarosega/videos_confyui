@@ -19,19 +19,26 @@ class EnhancerEngine:
     def _verificar_ffmpeg(self) -> str:
         """Comprueba la disponibilidad del ejecutable de FFmpeg en el sistema."""
         ffmpeg_bin = shutil.which("ffmpeg")
-        if not ffmpeg_bin:
-            # Ruta de fallback común en entornos Conda
-            fallback_conda = Path(r"C:\Users\SEGA\miniconda3\envs\sadtalker\Library\bin\ffmpeg.exe")
-            if fallback_conda.exists():
-                return str(fallback_conda)
-            raise FileNotFoundError(
-                "FFmpeg no está disponible en el PATH ni en el entorno de Conda."
-            )
-        return ffmpeg_bin
+        if ffmpeg_bin:
+            return ffmpeg_bin
+
+        rutas_fallback = [
+            Path(r"C:\ffmpeg\bin\ffmpeg.exe"),
+            Path(r"C:\Users\SEGA\anaconda3\Library\bin\ffmpeg.exe"),
+            Path(r"C:\Users\SEGA\miniconda3\Library\bin\ffmpeg.exe"),
+            Path(r"C:\Users\SEGA\miniconda3\envs\sadtalker\Library\bin\ffmpeg.exe"),
+            Path(r"C:\Users\SEGA\AppData\Local\ffmpegio\ffmpeg-downloader\ffmpeg\bin\ffmpeg.exe"),
+        ]
+
+        for ruta in rutas_fallback:
+            if ruta.exists():
+                return str(ruta)
+
+        raise FileNotFoundError("FFmpeg no está disponible en el PATH ni en las rutas del sistema.")
 
     def mejorar_escena(self, escena_id: str, forzar: bool = False) -> Path:
         """
-        Toma el archivo {escena_id}_final.mp4 generado por LivePortrait y
+        Toma el archivo {escena_id}_final.mp4 generado por LivePortrait o B-Roll y
         produce {escena_id}_enhanced.mp4 con calidad de masterizado HD.
         """
         video_input = self.renders_dir / f"{escena_id}_final.mp4"

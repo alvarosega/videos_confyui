@@ -1,4 +1,4 @@
-﻿import sys
+import sys
 import winsound
 from pathlib import Path
 
@@ -11,20 +11,20 @@ from modules.video_engine import VideoEngine
 from modules.broll_engine import BRollAnimationEngine
 from modules.sadtalker_engine import SadTalkerEngine
 from modules.subtitle_engine import SubtitleEngine
+from modules.assembly_engine import AssemblyEngine
 
 
 class OrchestratorCLI:
     def _emitir_alerta_sonora(self, exito: bool = True):
-        """Emite un sonido de notificaciÃ³n del sistema segÃºn el resultado."""
+        """Emite un sonido de notificación del sistema según el resultado."""
         try:
             if exito:
-                # Sonido de notificaciÃ³n de Windows (Beep positivo)
                 winsound.MessageBeep(winsound.MB_ICONASTERISK)
             else:
-                # Sonido de error del sistema
                 winsound.MessageBeep(winsound.MB_ICONHAND)
         except Exception:
             pass
+
     def __init__(self):
         self.storage = StorageEngine()
         self.api_client = ComfyAPIClient()
@@ -59,32 +59,33 @@ class OrchestratorCLI:
                         seleccionados.append(item)
 
         if not seleccionados:
-            print("[ERROR] SelecciÃ³n invÃ¡lida.")
+            print("[ERROR] Selección inválida.")
         return seleccionados
 
     def iniciar(self):
         while True:
-            print("\n" + "=" * 50)
-            print(" ORQUESTADOR DE VIDEO IA - CLI MODULAR")
-            print("=" * 50)
+            print("\n" + "=" * 55)
+            print(" ORQUESTADOR DE VIDEO IA - PIPELINE MODULAR HD")
+            print("=" * 55)
             if self.proyecto_activo:
                 print(f"Proyecto actual: [{self.proyecto_activo}]")
-                print("1. Fase 1: Registrar Personaje / Escena (Guion)")
-                print("2. Fase 2: Generar Audios TTS (Kokoro)")
-                print("3. Fase 3: Renderizar ImÃ¡genes HD (Native SDXL)")
+                print("1. Fase 1: Registrar Personaje / Escena (Guion JSON)")
+                print("2. Fase 2: Generar Audios TTS (Kokoro-82M)")
+                print("3. Fase 3: Renderizar Imágenes HD (SDXL + IP-Adapter)")
                 print("4. Fase 4: Generar Video Driving Borrador (SadTalker CLI)")
-                print("5. Fase 4b: AnimaciÃ³n CinematogrÃ¡fica B-Roll (SVD / ComfyUI)")
-                print("6. Fase 5: Renderizar LivePortrait HD (ComfyUI)")
-                print("7. Fase 6: Generar SubtÃ­tulos SRT (DaVinci Resolve)")
-                print("8. EJECUTAR PIPELINE AUTOMATIZADO (Fases 1 a 6)")
-                print("9. Cambiar / Cerrar Proyecto Activo")
-                print("10. Salir")
+                print("5. Fase 4b: Animación Cinematográfica B-Roll (SVD / ComfyUI)")
+                print("6. Fase 5: Renderizar LivePortrait HD (ComfyUI Lipsync)")
+                print("7. Fase 6: Generar Subtítulos SRT (DaVinci Resolve)")
+                print("8. Fase 7: Ensamblar Película Completa MP4 (Assembly)")
+                print("9. EJECUTAR PIPELINE COMPLETO AUTOMATIZADO (Fases 1 a 8)")
+                print("10. Cambiar / Cerrar Proyecto Activo")
+                print("11. Salir")
             else:
                 print("1. Crear Nuevo Proyecto")
                 print("2. Cargar Proyecto Existente")
                 print("3. Salir")
 
-            opcion = input("\nSeleccione una opciÃ³n: ").strip()
+            opcion = input("\nSeleccione una opción: ").strip()
 
             if not self.proyecto_activo:
                 if opcion == "1":
@@ -94,7 +95,7 @@ class OrchestratorCLI:
                 elif opcion == "3":
                     sys.exit(0)
                 else:
-                    print("[ERROR] OpciÃ³n invÃ¡lida.")
+                    print("[ERROR] Opción inválida.")
             else:
                 if opcion == "1":
                     self.fase_1_guion()
@@ -111,19 +112,21 @@ class OrchestratorCLI:
                 elif opcion == "7":
                     self.fase_6_subtitulos()
                 elif opcion == "8":
-                    self.ejecutar_pipeline_automatico()
+                    self.fase_7_ensamblaje()
                 elif opcion == "9":
+                    self.ejecutar_pipeline_automatico()
+                elif opcion == "10":
                     self.proyecto_activo = None
                     self.config_activa = None
-                elif opcion == "10":
+                elif opcion == "11":
                     sys.exit(0)
                 else:
-                    print("[ERROR] OpciÃ³n invÃ¡lida.")
+                    print("[ERROR] Opción inválida.")
 
     def menu_crear_proyecto(self):
         nombre = input("ID/Nombre del proyecto (ej: 03_video_herencia): ").strip()
         if not nombre:
-            print("[ERROR] Nombre vacÃ­o.")
+            print("[ERROR] Nombre vacío.")
             return
 
         presets = list(self.storage.ESTILOS_PRESETS.items())
@@ -131,7 +134,7 @@ class OrchestratorCLI:
         for idx, (k, v) in enumerate(presets, 1):
             print(f"{idx}. {k}: {v['nombre']}")
 
-        sel = input("Seleccione el nÃºmero del preset base: ").strip()
+        sel = input("Seleccione el número del preset base: ").strip()
         if sel.isdigit() and 1 <= int(sel) <= len(presets):
             preset_key, preset_data = presets[int(sel) - 1]
             estilo = preset_data["estilo_global"]
@@ -146,7 +149,7 @@ class OrchestratorCLI:
         try:
             self.config_activa = self.storage.crear_proyecto(nombre, preset_key, estilo, negativo)
             self.proyecto_activo = nombre
-            print(f"\n[Ã‰XITO] Proyecto '{nombre}' inicializado.")
+            print(f"\n[ÉXITO] Proyecto '{nombre}' inicializado.")
         except Exception as e:
             print(f"[ERROR] No se pudo crear el proyecto: {e}")
 
@@ -160,24 +163,24 @@ class OrchestratorCLI:
         for idx, p in enumerate(proyectos, 1):
             print(f"{idx}. {p}")
 
-        sel = input("Seleccione el nÃºmero de proyecto: ").strip()
+        sel = input("Seleccione el número de proyecto: ").strip()
         if sel.isdigit() and 1 <= int(sel) <= len(proyectos):
             nombre = proyectos[int(sel) - 1]
             try:
                 self.config_activa = self.storage.cargar_config(nombre)
                 self.proyecto_activo = nombre
-                print(f"[Ã‰XITO] Proyecto '{nombre}' cargado.")
+                print(f"[ÉXITO] Proyecto '{nombre}' cargado.")
             except Exception as e:
                 print(f"[ERROR] {e}")
         else:
-            print("[ERROR] SelecciÃ³n invÃ¡lida.")
+            print("[ERROR] Selección inválida.")
 
     def fase_1_guion(self):
         gm = GuionManager(self.storage, self.proyecto_activo)
         print("\n--- FASE 1: GUION ---")
-        print("1. Cargar 'guion.json' automÃ¡tico (Recomendado)")
-        print("2. Volver al menÃº principal")
-        sub = input("Seleccione opciÃ³n (1-2): ").strip()
+        print("1. Cargar 'guion.json' automático (Recomendado)")
+        print("2. Volver al menú principal")
+        sub = input("Seleccione opción (1-2): ").strip()
 
         if sub == "1":
             try:
@@ -214,13 +217,13 @@ class OrchestratorCLI:
         img_engine = ImageEngine(self.storage, self.api_client, self.proyecto_activo)
 
         while True:
-            print("\n--- FASE 3: RENDERIZADO DE IMÃGENES ---")
-            print("1. Gestionar ImÃ¡genes Maestras (Personajes)")
+            print("\n--- FASE 3: RENDERIZADO DE IMÁGENES ---")
+            print("1. Gestionar Imágenes Maestras (Personajes)")
             print("2. Renderizar Escenas de Personaje (SDXL)")
             print("3. Renderizar Escenas B-Roll (Entorno)")
-            print("4. Volver al menÃº principal")
+            print("4. Volver al menú principal")
 
-            op = input("Seleccione una opciÃ³n (1-4): ").strip()
+            op = input("Seleccione una opción (1-4): ").strip()
 
             if op == "1":
                 self._menu_maestras(img_engine)
@@ -231,7 +234,7 @@ class OrchestratorCLI:
             elif op == "4":
                 break
             else:
-                print("[ERROR] OpciÃ³n invÃ¡lida.")
+                print("[ERROR] Opción inválida.")
         self._emitir_alerta_sonora(exito=True)
 
     def _menu_maestras(self, img_engine):
@@ -244,7 +247,7 @@ class OrchestratorCLI:
         seleccionados = self._seleccionar_elementos(
             p_items,
             lambda p: f"{p[0]} (Nombre: {p[1].get('nombre', p[0])})",
-            "ImÃ¡genes Maestras de Personaje",
+            "Imágenes Maestras de Personaje",
         )
 
         for p_id, p_data in seleccionados:
@@ -253,6 +256,7 @@ class OrchestratorCLI:
             except Exception as e:
                 print(f"[ERROR en {p_id}]: {e}")
         self._emitir_alerta_sonora(exito=True)
+
     def _menu_personajes_individual(self, img_engine):
         escenas_p = [e for e in self.config_activa.get("escenas", []) if e.get("tipo") == "personaje"]
         if not escenas_p:
@@ -284,7 +288,11 @@ class OrchestratorCLI:
             except Exception as e:
                 print(f"[ERROR en {esc['id']}]: {e}")
         self._emitir_alerta_sonora(exito=True)
+
     def fase_4_sadtalker(self):
+        # Optimización: liberar VRAM de ComfyUI antes de que SadTalker use la GPU
+        self.api_client.liberar_memoria()
+
         sadtalker = SadTalkerEngine(self.proyecto_activo)
         personajes = self.config_activa.get("personajes", {})
         escenas_p = [e for e in self.config_activa.get("escenas", []) if e.get("tipo") == "personaje"]
@@ -321,7 +329,7 @@ class OrchestratorCLI:
             print("[INFO] No hay escenas B-Roll registradas.")
             return
 
-        escenas_sel = self._seleccionar_elementos(escenas_broll, lambda e: f"{e['id']} (B-Roll)", "AnimaciÃ³n SVD B-Roll")
+        escenas_sel = self._seleccionar_elementos(escenas_broll, lambda e: f"{e['id']} (B-Roll)", "Animación SVD B-Roll")
 
         for esc in escenas_sel:
             e_id = esc["id"]
@@ -362,16 +370,16 @@ class OrchestratorCLI:
         escenas = self.config_activa.get("escenas", [])
 
         if not escenas:
-            print("[INFO] No hay escenas registradas para generar subtÃ­tulos.")
+            print("[INFO] No hay escenas registradas para generar subtítulos.")
             return
 
         while True:
-            print("\n--- FASE 6: SUBTÃTULOS SRT (DAVINCI RESOLVE) ---")
+            print("\n--- FASE 6: SUBTÍTULOS SRT (DAVINCI RESOLVE) ---")
             print("1. Generar Timeline Maestro (.SRT Completo Acumulado)")
-            print("2. Generar SubtÃ­tulos Individuales por Escena")
-            print("3. Volver al menÃº principal")
+            print("2. Generar Subtítulos Individuales por Escena")
+            print("3. Volver al menú principal")
 
-            op = input("Seleccione una opciÃ³n (1-3): ").strip()
+            op = input("Seleccione una opción (1-3): ").strip()
 
             if op == "1":
                 try:
@@ -392,16 +400,31 @@ class OrchestratorCLI:
             elif op == "3":
                 break
             else:
-                print("[ERROR] OpciÃ³n invÃ¡lida.")
+                print("[ERROR] Opción inválida.")
         self._emitir_alerta_sonora(exito=True)
 
+    def fase_7_ensamblaje(self):
+        print("\n--- FASE 7: ENSAMBLAJE FINAL DE PELÍCULA (ASSEMBLY) ---")
+        assembly = AssemblyEngine(self.proyecto_activo, self.storage)
+        try:
+            nombre = input("Nombre del archivo de salida (Enter para 'pelicula_final.mp4'): ").strip()
+            if not nombre:
+                nombre = "pelicula_final.mp4"
+            if not nombre.endswith(".mp4"):
+                nombre += ".mp4"
+            assembly.ensamblar_pelicula(nombre_salida=nombre)
+            self._emitir_alerta_sonora(exito=True)
+        except Exception as e:
+            print(f"[ERROR Ensamblaje]: {e}")
+            self._emitir_alerta_sonora(exito=False)
+
     def ejecutar_pipeline_automatico(self):
-        print("\n" + "=" * 60)
-        print(f" INICIANDO PIPELINE AUTOMATIZADO (FASES 1 A 6): {self.proyecto_activo}")
-        print("=" * 60)
+        print("\n" + "=" * 65)
+        print(f" INICIANDO PIPELINE AUTOMATIZADO COMPLETO: {self.proyecto_activo}")
+        print("=" * 65)
 
         # FASE 1: Carga de guion
-        print("\n--- [AUTO 1/6] Carga de Guion JSON ---")
+        print("\n--- [AUTO 1/7] Carga de Guion JSON ---")
         gm = GuionManager(self.storage, self.proyecto_activo)
         try:
             gm.cargar_guion_desde_json()
@@ -411,7 +434,7 @@ class OrchestratorCLI:
             return
 
         # FASE 2: Audio TTS
-        print("\n--- [AUTO 2/6] GeneraciÃ³n de Audios TTS ---")
+        print("\n--- [AUTO 2/7] Generación de Audios TTS (Kokoro-82M) ---")
         tts = TTSEngine(self.storage, self.proyecto_activo)
         for esc in self.config_activa.get("escenas", []):
             try:
@@ -419,8 +442,8 @@ class OrchestratorCLI:
             except Exception as e:
                 print(f"[ERROR TTS {esc['id']}]: {e}")
 
-        # FASE 3: Renderizado de ImÃ¡genes HD
-        print("\n--- [AUTO 3/6] Renderizado de ImÃ¡genes HD (SDXL) ---")
+        # FASE 3: Renderizado de Imágenes HD
+        print("\n--- [AUTO 3/7] Renderizado de Imágenes HD (SDXL + IP-Adapter) ---")
         img_engine = ImageEngine(self.storage, self.api_client, self.proyecto_activo)
         personajes = self.config_activa.get("personajes", {})
         escenas = self.config_activa.get("escenas", [])
@@ -442,8 +465,12 @@ class OrchestratorCLI:
             except Exception as e:
                 print(f"[ERROR Imagen {e_id}]: {e}")
 
+        # Optimización de VRAM: Liberar modelos de ComfyUI antes de arrancar SadTalker
+        print("\n[VRAM Optimización] Liberando memoria GPU de ComfyUI para SadTalker...")
+        self.api_client.liberar_memoria()
+
         # FASE 4: SadTalker CLI
-        print("\n--- [AUTO 4/6] GeneraciÃ³n Video Driving (SadTalker) ---")
+        print("\n--- [AUTO 4/7] Generación Video Driving Morfométrico (SadTalker) ---")
         sadtalker = SadTalkerEngine(self.proyecto_activo)
         for esc in escenas:
             e_id = esc["id"]
@@ -457,8 +484,8 @@ class OrchestratorCLI:
                 except Exception as e:
                     print(f"[ERROR SadTalker {e_id}]: {e}")
 
-        # FASE 4b: AnimaciÃ³n B-Roll (SVD)
-        print("\n--- [AUTO 4b/6] AnimaciÃ³n B-Roll (SVD) ---")
+        # FASE 4b: Animación B-Roll (SVD)
+        print("\n--- [AUTO 5/7] Animación B-Roll (SVD + RIFE 4x) ---")
         broll_engine = BRollAnimationEngine(self.storage, self.api_client, self.proyecto_activo)
         for esc in escenas:
             if esc.get("tipo") == "b_roll":
@@ -466,10 +493,10 @@ class OrchestratorCLI:
                 try:
                     broll_engine.animar_escena_broll(e_id)
                 except Exception as e:
-                    print(f"[ERROR AnimaciÃ³n B-Roll {e_id}]: {e}")
+                    print(f"[ERROR Animación B-Roll {e_id}]: {e}")
 
         # FASE 5: LivePortrait HD
-        print("\n--- [AUTO 5/6] LivePortrait HD (ComfyUI) ---")
+        print("\n--- [AUTO 6/7] LivePortrait HD + Masterizado (ComfyUI Lipsync) ---")
         vid_engine = VideoEngine(self.storage, self.api_client, self.proyecto_activo)
         for esc in escenas:
             if esc.get("tipo") == "personaje":
@@ -481,18 +508,27 @@ class OrchestratorCLI:
                 except Exception as e:
                     print(f"[ERROR LivePortrait {e_id}]: {e}")
 
-        # FASE 6: GeneraciÃ³n de SubtÃ­tulos SRT
-        print("\n--- [AUTO 6/6] GeneraciÃ³n de SubtÃ­tulos SRT ---")
+        # FASE 6: Generación de Subtítulos SRT
+        print("\n--- [AUTO 7/7] Generación de Subtítulos SRT (DaVinci Resolve) ---")
         sub_engine = SubtitleEngine(self.storage, self.proyecto_activo)
         try:
             sub_engine.generar_subtitulos_timeline_completo()
         except Exception as e:
-            print(f"[ERROR SubtÃ­tulos Timeline]: {e}")
+            print(f"[ERROR Subtítulos Timeline]: {e}")
 
-        print("\n" + "=" * 60)
-        print(" PIPELINE AUTOMATIZADO COMPLETO (FASES 1 A 6 FINALIZADAS)")
-        print("=" * 60)
+        # FASE 7: Ensamblaje Final de Película
+        print("\n--- [FINAL] Ensamblado Automático de Película ---")
+        assembly = AssemblyEngine(self.proyecto_activo, self.storage)
+        try:
+            assembly.ensamblar_pelicula(nombre_salida="pelicula_completa.mp4")
+        except Exception as e:
+            print(f"[AVISO Ensamblaje Automático]: {e}")
+
+        print("\n" + "=" * 65)
+        print(" PIPELINE AUTOMATIZADO COMPLETO FINALIZADO CON ÉXITO")
+        print("=" * 65)
         self._emitir_alerta_sonora(exito=True)
+
 
 if __name__ == "__main__":
     app = OrchestratorCLI()

@@ -88,3 +88,22 @@ class ComfyAPIClient:
             ws.close()
 
         return prompt_id, archivos_generados
+    def liberar_memoria(self, unload_models: bool = True, free_memory: bool = True) -> bool:
+        """Solicita a ComfyUI descargar modelos de la VRAM y liberar memoria GPU mediante /free."""
+        url = f"http://{self.server_address}/free"
+        payload = json.dumps({
+            "unload_models": unload_models,
+            "free_memory": free_memory
+        }).encode("utf-8")
+
+        req = urllib.request.Request(
+            url,
+            data=payload,
+            headers={"Content-Type": "application/json"}
+        )
+
+        try:
+            with urllib.request.urlopen(req) as response:
+                return response.status == 200
+        except Exception:
+            return False
