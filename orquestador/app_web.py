@@ -1,5 +1,6 @@
 import os
 import sys
+import json
 from pathlib import Path
 
 SCRIPT_DIR = Path(__file__).resolve().parent
@@ -33,14 +34,55 @@ def obtener_proyectos():
     return projs if projs else ["(Sin proyectos)"]
 
 
+def leer_guion_raw(proyecto_id: str) -> str:
+    if not proyecto_id or proyecto_id == "(Sin proyectos)":
+        return ""
+    ruta_guion = INPUT_DIR / proyecto_id / "guion.json"
+    if not ruta_guion.exists():
+        return json.dumps({
+            "estilo_global": "",
+            "prompt_negativo_global": "",
+            "personajes": {},
+            "escenas": []
+        }, indent=2, ensure_ascii=False)
+    try:
+        with open(ruta_guion, "r", encoding="utf-8") as f:
+            datos = json.load(f)
+            return json.dumps(datos, indent=2, ensure_ascii=False)
+    except Exception as e:
+        return f"Error al leer guion.json: {e}"
+
+
+def guardar_guion_raw(proyecto_id: str, contenido_json: str) -> str:
+    if not proyecto_id or proyecto_id == "(Sin proyectos)":
+        return "[ERROR] Seleccione un proyecto valido."
+    ruta_guion = INPUT_DIR / proyecto_id / "guion.json"
+    try:
+        datos = json.loads(contenido_json)
+        with open(ruta_guion, "w", encoding="utf-8") as f:
+            json.dump(datos, f, indent=2, ensure_ascii=False)
+
+        # Sincronizar inmediatamente con project_config.json del proyecto
+        gm = GuionManager(storage, proyecto_id)
+        gm.cargar_guion_desde_json()
+
+        escenas_cnt = len(datos.get("escenas", []))
+        pers_cnt = len(datos.get("personajes", {}))
+        return f"[EXITO] Guion guardado y sincronizado ({escenas_cnt} escenas, {pers_cnt} personajes)."
+    except json.JSONDecodeError as e:
+        return f"[ERROR JSON] Sintaxis invalida: {e}"
+    except Exception as e:
+        return f"[ERROR] Fallo al guardar guion: {e}"
+
+
 def obtener_estado_proyecto(proyecto_id: str):
     if not proyecto_id or proyecto_id == "(Sin proyectos)":
-        return "Seleccione un proyecto para visualizar metricas.", "", None
+        return "Seleccione un proyecto para visualizar metricas.", "", None, ""
 
     try:
         config = storage.cargar_config(proyecto_id)
     except Exception as e:
-        return f"Error leyendo configuracion: {e}", "", None
+        return f"Error leyendo configuracion: {e}", "", None, ""
 
     input_dir = INPUT_DIR / proyecto_id
     output_dir = OUTPUT_DIR / proyecto_id
@@ -103,7 +145,8 @@ def obtener_estado_proyecto(proyecto_id: str):
 **Preset:** `{config.get('preset_usado', 'N/A')}` | **Resolucion:** `{config.get('resolucion', '512x768')}`
 """
     guion_preview = f"Proyecto: {proyecto_id} | Escenas: {len(escenas)} | Entidades: {len(personajes)}"
-    return resumen, guion_preview, video_pelicula
+    guion_json_text = leer_guion_raw(proyecto_id)
+    return resumen, guion_preview, video_pelicula, guion_json_text
 
 
 def resolver_voz_seleccionada(voz_str: str, voz_manual: str) -> str:
@@ -317,7 +360,7 @@ def run_pipeline_completo(proyecto_id: str, voz_sel: str, voz_manual: str):
 
 
 # ========================================================
-# CONSTRUCCION DE INTERFAZ GRADIO (DISENO PROFESIONAL Y LIMPIO)
+# CONSTRUCCION DE INTERFAZ GRADIO (STUDIO WEB CON EDITOR)
 # ========================================================
 
 with gr.Blocks(title="Orquestador de Video IA - Studio Web") as demo:
@@ -335,7 +378,7 @@ with gr.Blocks(title="Orquestador de Video IA - Studio Web") as demo:
                     choices=obtener_proyectos(),
                     value=obtener_proyectos()[0] if obtener_proyectos() else "(Sin proyectos)"
                 )
-                btn_recargar_proyectos = gr.Button("Actualizar Proyectos", size="sm")
+                btn_recargar_proyectos = gr.Button("Actualizar Lista de Proyectos", size="sm")
 
             with gr.Group():
                 gr.Markdown("### Configuracion de Audio (Kokoro-82M)")
@@ -356,6 +399,20 @@ with gr.Blocks(title="Orquestador de Video IA - Studio Web") as demo:
             video_preview = gr.Video(label="Previsualizacion de Video Final", interactive=False)
 
     with gr.Tabs():
+        with gr.TabItem("Editor de Guion (JSON)"):
+            gr.Markdown("Visualice, edite y guarde directamente el archivo `guion.json` del proyecto activo.")
+            with gr.Row():
+                btn_recargar_guion = gr.Button("Recargar del Disco", size="sm")
+                btn_guardar_guion = gr.Button("Guardar y Sincronizar Guion", variant="primary", size="sm")
+            editor_guion = gr.Code(
+                label="Contenido de guion.json",
+                language="json",
+                lines=22,
+                max_lines=35,
+                value=leer_guion_raw(obtener_proyectos()[0] if obtener_proyectos() else "")
+            )
+            status_guion = gr.Textbox(label="Estado del Editor", lines=2)
+
         with gr.TabItem("Pipeline Automatizado"):
             gr.Markdown("Ejecucion secuencial de Fases 1 a 8 con asignacion automatica de recursos.")
             btn_run_all = gr.Button("Ejecutar Pipeline Completo", variant="primary", size="lg")
@@ -378,15 +435,15 @@ with gr.Blocks(title="Orquestador de Video IA - Studio Web") as demo:
             input_nombre_ensamble = gr.Textbox(label="Archivo de Salida MP4", value="pelicula_completa.mp4")
             log_fases = gr.Textbox(label="Registro de Actividad", lines=8)
 
-    # Eventos
+    # Eventos de Proyecto y Dashboard
     def refrescar_todo(p_id):
-        res, guion, vid = obtener_estado_proyecto(p_id)
-        return res, vid
+        res, guion_prev, vid, guion_txt = obtener_estado_proyecto(p_id)
+        return res, vid, guion_txt
 
     dropdown_proyectos.change(
         refrescar_todo,
         inputs=[dropdown_proyectos],
-        outputs=[dashboard_md, video_preview]
+        outputs=[dashboard_md, video_preview, editor_guion]
     )
 
     btn_recargar_proyectos.click(
@@ -394,6 +451,24 @@ with gr.Blocks(title="Orquestador de Video IA - Studio Web") as demo:
         outputs=[dropdown_proyectos]
     )
 
+    # Eventos del Editor de Guion
+    btn_recargar_guion.click(
+        leer_guion_raw,
+        inputs=[dropdown_proyectos],
+        outputs=[editor_guion]
+    )
+
+    btn_guardar_guion.click(
+        guardar_guion_raw,
+        inputs=[dropdown_proyectos, editor_guion],
+        outputs=[status_guion]
+    ).then(
+        refrescar_todo,
+        inputs=[dropdown_proyectos],
+        outputs=[dashboard_md, video_preview, editor_guion]
+    )
+
+    # Pipeline completo
     btn_run_all.click(
         run_pipeline_completo,
         inputs=[dropdown_proyectos, dropdown_voz, input_voz_manual],
@@ -401,38 +476,39 @@ with gr.Blocks(title="Orquestador de Video IA - Studio Web") as demo:
     ).then(
         refrescar_todo,
         inputs=[dropdown_proyectos],
-        outputs=[dashboard_md, video_preview]
+        outputs=[dashboard_md, video_preview, editor_guion]
     )
 
+    # Fases individuales
     btn_fase1.click(run_fase_guion, inputs=[dropdown_proyectos], outputs=[log_fases]).then(
-        refrescar_todo, inputs=[dropdown_proyectos], outputs=[dashboard_md, video_preview]
+        refrescar_todo, inputs=[dropdown_proyectos], outputs=[dashboard_md, video_preview, editor_guion]
     )
     btn_fase2.click(run_fase_tts, inputs=[dropdown_proyectos, dropdown_voz, input_voz_manual], outputs=[log_fases]).then(
-        refrescar_todo, inputs=[dropdown_proyectos], outputs=[dashboard_md, video_preview]
+        refrescar_todo, inputs=[dropdown_proyectos], outputs=[dashboard_md, video_preview, editor_guion]
     )
     btn_fase3.click(run_fase_imagenes, inputs=[dropdown_proyectos], outputs=[log_fases]).then(
-        refrescar_todo, inputs=[dropdown_proyectos], outputs=[dashboard_md, video_preview]
+        refrescar_todo, inputs=[dropdown_proyectos], outputs=[dashboard_md, video_preview, editor_guion]
     )
     btn_fase4.click(run_fase_sadtalker, inputs=[dropdown_proyectos], outputs=[log_fases]).then(
-        refrescar_todo, inputs=[dropdown_proyectos], outputs=[dashboard_md, video_preview]
+        refrescar_todo, inputs=[dropdown_proyectos], outputs=[dashboard_md, video_preview, editor_guion]
     )
     btn_fase4b.click(run_fase_broll, inputs=[dropdown_proyectos], outputs=[log_fases]).then(
-        refrescar_todo, inputs=[dropdown_proyectos], outputs=[dashboard_md, video_preview]
+        refrescar_todo, inputs=[dropdown_proyectos], outputs=[dashboard_md, video_preview, editor_guion]
     )
     btn_fase5.click(run_fase_liveportrait, inputs=[dropdown_proyectos], outputs=[log_fases]).then(
-        refrescar_todo, inputs=[dropdown_proyectos], outputs=[dashboard_md, video_preview]
+        refrescar_todo, inputs=[dropdown_proyectos], outputs=[dashboard_md, video_preview, editor_guion]
     )
     btn_fase6.click(run_fase_subtitulos, inputs=[dropdown_proyectos], outputs=[log_fases]).then(
-        refrescar_todo, inputs=[dropdown_proyectos], outputs=[dashboard_md, video_preview]
+        refrescar_todo, inputs=[dropdown_proyectos], outputs=[dashboard_md, video_preview, editor_guion]
     )
     btn_fase7.click(run_fase_assembly, inputs=[dropdown_proyectos, input_nombre_ensamble], outputs=[log_fases, video_preview]).then(
-        refrescar_todo, inputs=[dropdown_proyectos], outputs=[dashboard_md, video_preview]
+        refrescar_todo, inputs=[dropdown_proyectos], outputs=[dashboard_md, video_preview, editor_guion]
     )
 
     demo.load(
         refrescar_todo,
         inputs=[dropdown_proyectos],
-        outputs=[dashboard_md, video_preview]
+        outputs=[dashboard_md, video_preview, editor_guion]
     )
 
 if __name__ == "__main__":
