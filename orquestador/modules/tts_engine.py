@@ -163,13 +163,13 @@ class TTSEngine:
             print(f"[KOKORO CLI ERROR] No se encontrÃ³ el ejecutable o script: {e}")
             return False
 
-    def procesar_escena(self, escena_id: str) -> tuple[str, float]:
+    def procesar_escena(self, escena_id: str, voz_override: str = None) -> tuple[str, float]:
         self.audios_dir.mkdir(parents=True, exist_ok=True)
         config = self.storage.cargar_config(self.proyecto_id)
 
         escena = next((e for e in config.get("escenas", []) if e["id"] == escena_id), None)
         if not escena:
-            raise ValueError(f"Escena '{escena_id}' no encontrada en la configuraciÃ³n.")
+            raise ValueError(f"Escena '{escena_id}' no encontrada en la configuración.")
 
         dialogo = escena.get("dialogo", "").strip()
 
@@ -179,21 +179,24 @@ class TTSEngine:
                     e["duracion_audio"] = 0.0
                     break
             self.storage.guardar_config(self.proyecto_id, config)
-            print(f"[TTS] Escena {escena_id} sin diÃ¡logo. Omitida (0.0s).")
+            print(f"[TTS] Escena {escena_id} sin diálogo. Omitida (0.0s).")
             return None, 0.0
 
-        # Resolver voz directamente desde personajes en guion/config sin traducciones
-        personaje_id = escena.get("personaje_id")
-        personajes = config.get("personajes", {})
-
-        if personaje_id and personaje_id in personajes:
-            p_data = personajes[personaje_id]
-            voz_final = p_data.get("voz_tts", p_data.get("voz", self.VOZ_FALLBACK_HOMBRE)).strip()
-        elif len(personajes) == 1:
-            p_data = next(iter(personajes.values()))
-            voz_final = p_data.get("voz_tts", p_data.get("voz", self.VOZ_FALLBACK_HOMBRE)).strip()
+        if voz_override:
+            voz_final = voz_override.strip()
         else:
-            voz_final = config.get("voz_global", self.VOZ_FALLBACK_HOMBRE).strip()
+            # Resolver voz directamente desde personajes en guion/config
+            personaje_id = escena.get("personaje_id")
+            personajes = config.get("personajes", {})
+
+            if personaje_id and personaje_id in personajes:
+                p_data = personajes[personaje_id]
+                voz_final = p_data.get("voz_tts", p_data.get("voz", self.VOZ_FALLBACK_HOMBRE)).strip()
+            elif len(personajes) == 1:
+                p_data = next(iter(personajes.values()))
+                voz_final = p_data.get("voz_tts", p_data.get("voz", self.VOZ_FALLBACK_HOMBRE)).strip()
+            else:
+                voz_final = config.get("voz_global", self.VOZ_FALLBACK_HOMBRE).strip()
 
         if not voz_final:
             voz_final = self.VOZ_FALLBACK_HOMBRE

@@ -2,12 +2,21 @@ import sys
 import argparse
 import json
 import re
+import warnings
+from pathlib import Path
+from unittest.mock import MagicMock
+
+# Evitar bloqueo de WDAC/AppLocker en spacy si la voz es espeak/espanol
+try:
+    import spacy
+except (ImportError, Exception):
+    sys.modules['spacy'] = MagicMock()
+    sys.modules['spacy.tokens'] = MagicMock()
+
 import soundfile as sf
 import numpy as np
-import warnings
 import torch
 import torchaudio.functional as F
-from pathlib import Path
 from kokoro import KPipeline
 
 warnings.filterwarnings("ignore")

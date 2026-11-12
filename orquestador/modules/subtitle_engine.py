@@ -2,8 +2,17 @@ import json
 import re
 import wave
 from pathlib import Path
-import spacy
-from deep_translator import GoogleTranslator
+
+# Carga segura de spacy sin que falle por politicas WDAC/AppLocker
+try:
+    import spacy
+except Exception:
+    spacy = None
+
+try:
+    from deep_translator import GoogleTranslator
+except Exception:
+    GoogleTranslator = None
 
 from config import INPUT_DIR, OUTPUT_DIR
 from core.storage_engine import StorageEngine
@@ -23,13 +32,23 @@ class SubtitleEngine:
         self.subtitulos_dir = OUTPUT_DIR / proyecto_id / "subtitles"
         self.subtitulos_dir.mkdir(parents=True, exist_ok=True)
 
-        try:
-            self.nlp = spacy.load("es_core_news_md")
-        except Exception:
-            self.nlp = None
-            print("[SubtitleEngine] ADVERTENCIA: spaCy 'es_core_news_md' no encontrado.")
+        self.nlp = None
+        if spacy is not None:
+            try:
+                self.nlp = spacy.load("es_core_news_md")
+            except Exception:
+                pass
 
-        self.translator = GoogleTranslator(source='es', target='en')
+        if self.nlp is None:
+            # Fallback fonético y morfológico sin necesidad de binarios spacy
+            print("[SubtitleEngine] Modo de clasificación heurística activo para highlights.")
+
+        self.translator = None
+        if GoogleTranslator is not None:
+            try:
+                self.translator = GoogleTranslator(source='es', target='en')
+            except Exception:
+                self.translator = None
 
     def _obtener_duracion_audio(self, escena_id: str, duracion_config: float = 0.0) -> float:
         ruta_wav = self.audios_dir / f"{escena_id}.wav"
@@ -118,10 +137,12 @@ class SubtitleEngine:
     def _generar_palabras_ingles(self, dialogo_es: str, t_inicio_escena: float, t_fin_escena: float) -> list[dict]:
         """Traduce al inglés y reparte exactamente en la ventana temporal activa."""
         duracion_total = max(0.1, t_fin_escena - t_inicio_escena)
-        try:
-            traduccion = self.translator.translate(dialogo_es)
-        except Exception:
-            traduccion = dialogo_es
+        traduccion = dialogo_es
+        if self.translator is not None:
+            try:
+                traduccion = self.translator.translate(dialogo_es)
+            except Exception:
+                traduccion = dialogo_es
 
         palabras_en = [self._limpiar_palabra(p) for p in traduccion.strip().split() if self._limpiar_palabra(p)]
         if not palabras_en:

@@ -430,6 +430,44 @@ class OrchestratorCLI:
                 self._emitir_alerta_sonora(exito=False)
             UI.pausa()
 
+    def _menu_seleccionar_voz(self) -> str:
+        """Permite al usuario elegir una voz o mezcla de Kokoro o conservar la del guion."""
+        tts = TTSEngine(self.storage, self.proyecto_activo)
+        voces_cat = tts.VOCES_DISPONIBLES
+
+        print(f"\n{UI.BOLD}OPCIONES DE VOZ (KOKORO-82M):{UI.RESET}")
+        print(f"  {UI.BOLD}[0]{UI.RESET} {UI.CYAN}Usar configuración predeterminada del guion/personajes{UI.RESET}")
+
+        lista_voces = []
+        idx = 1
+        for idioma, voces in voces_cat.items():
+            idioma_fmt = idioma.replace("_", " ").capitalize()
+            print(f"\n  {UI.GRAY}-- {idioma_fmt} --{UI.RESET}")
+            for v_id, v_desc in voces.items():
+                print(f"  {UI.BOLD}[{idx:2d}]{UI.RESET} {UI.GREEN}{v_id:<10}{UI.RESET}: {v_desc}")
+                lista_voces.append((v_id, v_desc))
+                idx += 1
+
+        print(f"\n  {UI.YELLOW}[M]{UI.RESET} Escribir fórmula manual de Voice Blending (ej: 'em_alex:0.6+am_fenrir:0.4')")
+
+        sel = input(f"\n{UI.ARROW} Seleccione la voz deseada [0-{len(lista_voces)} / M] (Enter para [0]): ").strip()
+
+        if not sel or sel == "0":
+            return None
+
+        if sel.upper() in ["M", "MANUAL"]:
+            manual_voice = input(f"{UI.ARROW} Ingrese la fórmula de voz (ej: 'em_alex:0.7+am_onyx:0.3'): ").strip()
+            return manual_voice if manual_voice else None
+
+        if sel.isdigit():
+            num = int(sel)
+            if 1 <= num <= len(lista_voces):
+                elegida = lista_voces[num - 1][0]
+                print(f"{UI.GRAY}  -> Voz seleccionada: {elegida}{UI.RESET}")
+                return elegida
+
+        return None
+
     def fase_2_tts(self):
         UI.limpiar()
         print(f"\n{UI.BOLD}{UI.CYAN}=== FASE 2: GENERACIÓN DE VOCES TTS (KOKORO-82M) ==={UI.RESET}")
@@ -439,6 +477,12 @@ class OrchestratorCLI:
             UI.aviso("No hay escenas registradas. Ejecute la Fase 1 primero.")
             UI.pausa()
             return
+
+        voz_seleccionada = self._menu_seleccionar_voz()
+        if voz_seleccionada:
+            UI.info(f"Voz forzada para esta ejecución: {voz_seleccionada}")
+        else:
+            UI.info("Usando voces asignadas en el guion para cada personaje.")
 
         escenas_sel = self._seleccionar_elementos(
             escenas,
@@ -453,9 +497,9 @@ class OrchestratorCLI:
         exitos = 0
         for esc in escenas_sel:
             try:
-                arch, dur = tts.procesar_escena(esc["id"])
+                arch, dur = tts.procesar_escena(esc["id"], voz_override=voz_seleccionada)
                 if arch:
-                    UI.exito(f"Escena {esc['id']}: OK ({arch.name}, {dur:.2f}s)")
+                    UI.exito(f"Escena {esc['id']}: OK ({arch}, {dur:.2f}s)")
                     exitos += 1
             except Exception as e:
                 UI.error(f"Escena {esc['id']}: {e}")
@@ -737,10 +781,16 @@ class OrchestratorCLI:
 
         # 2. TTS
         print(f"\n{UI.BOLD}{UI.CYAN}--- [AUTO 2/7] Síntesis de Voz TTS (Kokoro-82M) ---{UI.RESET}")
+        voz_automatica = self._menu_seleccionar_voz()
+        if voz_automatica:
+            UI.info(f"Voz forzada para todo el pipeline: {voz_automatica}")
+        else:
+            UI.info("Usando voces asignadas en el guion para cada personaje.")
+
         tts = TTSEngine(self.storage, self.proyecto_activo)
         for esc in self.config_activa.get("escenas", []):
             try:
-                tts.procesar_escena(esc["id"])
+                tts.procesar_escena(esc["id"], voz_override=voz_automatica)
                 UI.exito(f"Audio listo: {esc['id']}.wav")
             except Exception as e:
                 UI.error(f"TTS {esc['id']}: {e}")
