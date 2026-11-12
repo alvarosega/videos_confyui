@@ -1,9 +1,7 @@
 import os
 import sys
-import threading
 from pathlib import Path
 
-# Agregar directorio del orquestador al sys.path
 SCRIPT_DIR = Path(__file__).resolve().parent
 sys.path.insert(0, str(SCRIPT_DIR))
 
@@ -23,7 +21,6 @@ from modules.assembly_engine import AssemblyEngine
 storage = StorageEngine()
 api_client = ComfyAPIClient()
 
-# Generar lista de opciones de voz para el selector
 tts_dummy = TTSEngine(storage, "temp")
 VOCES_CHOICES = ["(Usar del guion)"]
 for idioma, v_dict in tts_dummy.VOCES_DISPONIBLES.items():
@@ -38,12 +35,12 @@ def obtener_proyectos():
 
 def obtener_estado_proyecto(proyecto_id: str):
     if not proyecto_id or proyecto_id == "(Sin proyectos)":
-        return "Seleccione un proyecto válido para ver el estado.", "", None, None
+        return "Seleccione un proyecto para visualizar metricas.", "", None
 
     try:
         config = storage.cargar_config(proyecto_id)
     except Exception as e:
-        return f"Error leyendo configuración: {e}", "", None, None
+        return f"Error leyendo configuracion: {e}", "", None
 
     input_dir = INPUT_DIR / proyecto_id
     output_dir = OUTPUT_DIR / proyecto_id
@@ -91,31 +88,22 @@ def obtener_estado_proyecto(proyecto_id: str):
         if candidatos:
             video_pelicula = str(candidatos[0])
 
-    resumen = f"""### 📊 Dashboard: `{proyecto_id}`
-- **Preset de Estilo:** {config.get('preset_usado', 'N/A')}
-- **Escenas Totales:** {len(escenas)} ({len(escenas_p)} personajes, {len(escenas_b)} B-Roll)
-- **Personajes:** {len(personajes)} ({masters_listos} Maestras listas)
-- **Audios TTS:** {audios_listos}/{len(escenas)}
-- **Imágenes HD:** {imgs_p + imgs_b}/{len(escenas)}
-- **Driving SadTalker:** {driving_listos}/{len(escenas_p)}
-- **B-Roll Animado:** {broll_listos}/{len(escenas_b)}
-- **LivePortrait HD:** {lp_listos}/{len(escenas_p)}
-- **Subtítulos SRT:** {'✓ Exportados' if sub_ok else 'Pendiente'}
-- **Película Final:** {'✓ Generada' if video_pelicula else 'Pendiente'}
+    resumen = f"""| Modulo Operativo | Progreso | Estado |
+| :--- | :---: | :--- |
+| **Guion y Escenas** | {len(escenas)} | {'Completado' if escenas else 'Pendiente'} |
+| **Personajes Registrados** | {len(personajes)} | {masters_listos}/{len(personajes)} Retratos Maestros |
+| **Audios TTS (Kokoro)** | {audios_listos}/{len(escenas)} | {'Completado' if audios_listos == len(escenas) and len(escenas) > 0 else 'Parcial'} |
+| **Imagenes HD (SDXL)** | {imgs_p + imgs_b}/{len(escenas)} | {'Completado' if (imgs_p + imgs_b) == len(escenas) and len(escenas) > 0 else 'Parcial'} |
+| **Driving SadTalker** | {driving_listos}/{len(escenas_p)} | {'Completado' if driving_listos == len(escenas_p) and len(escenas_p) > 0 else 'Parcial'} |
+| **Animacion B-Roll (SVD)** | {broll_listos}/{len(escenas_b)} | {'Completado' if broll_listos == len(escenas_b) and len(escenas_b) > 0 else 'Sin B-Roll'} |
+| **LivePortrait HD (Lipsync)** | {lp_listos}/{len(escenas_p)} | {'Completado' if lp_listos == len(escenas_p) and len(escenas_p) > 0 else 'Parcial'} |
+| **Subtitulos SRT** | {'3 Pistas' if sub_ok else '0'} | {'Generados (DaVinci)' if sub_ok else 'Pendiente'} |
+| **Master de Pelicula** | {'1 Archivo' if video_pelicula else '0'} | {'Exportado' if video_pelicula else 'Pendiente'} |
+
+**Preset:** `{config.get('preset_usado', 'N/A')}` | **Resolucion:** `{config.get('resolucion', '512x768')}`
 """
-    guion_preview = f"Guion cargado con {len(escenas)} escenas y {len(personajes)} personajes."
-    return resumen, guion_preview, video_pelicula, gr.update(choices=obtener_escenas_choices(proyecto_id))
-
-
-def obtener_escenas_choices(proyecto_id: str):
-    if not proyecto_id or proyecto_id == "(Sin proyectos)":
-        return []
-    try:
-        config = storage.cargar_config(proyecto_id)
-        escenas = config.get("escenas", [])
-        return [f"{e['id']} ({e.get('tipo', 'escena')}): {e.get('dialogo', '')[:35]}..." for e in escenas]
-    except Exception:
-        return []
+    guion_preview = f"Proyecto: {proyecto_id} | Escenas: {len(escenas)} | Entidades: {len(personajes)}"
+    return resumen, guion_preview, video_pelicula
 
 
 def resolver_voz_seleccionada(voz_str: str, voz_manual: str) -> str:
@@ -126,24 +114,20 @@ def resolver_voz_seleccionada(voz_str: str, voz_manual: str) -> str:
     return voz_str.split(" - ")[0].strip()
 
 
-# ========================================================
-# ACCIONES DEL PIPELINE
-# ========================================================
-
 def run_fase_guion(proyecto_id: str):
     if not proyecto_id or proyecto_id == "(Sin proyectos)":
-        return "Seleccione un proyecto primero."
+        return "[AVISO] Seleccione un proyecto valido."
     try:
         gm = GuionManager(storage, proyecto_id)
         gm.cargar_guion_desde_json()
-        return f"[ÉXITO] Guion de '{proyecto_id}' cargado y sincronizado."
+        return f"[EXITO] Guion de '{proyecto_id}' cargado y sincronizado."
     except Exception as e:
         return f"[ERROR] Guion: {e}"
 
 
 def run_fase_tts(proyecto_id: str, voz_sel: str, voz_manual: str):
     if not proyecto_id or proyecto_id == "(Sin proyectos)":
-        return "Seleccione un proyecto primero."
+        return "[AVISO] Seleccione un proyecto valido."
     try:
         voz = resolver_voz_seleccionada(voz_sel, voz_manual)
         tts = TTSEngine(storage, proyecto_id)
@@ -153,40 +137,38 @@ def run_fase_tts(proyecto_id: str, voz_sel: str, voz_manual: str):
         for esc in escenas:
             arch, dur = tts.procesar_escena(esc["id"], voz_override=voz)
             if arch:
-                logs.append(f"✓ {esc['id']}: {arch} ({dur:.2f}s)")
-        return f"[ÉXITO TTS]\n" + "\n".join(logs)
+                logs.append(f"[OK] {esc['id']}: {arch} ({dur:.2f}s)")
+        return "[EXITO TTS]\n" + "\n".join(logs)
     except Exception as e:
         return f"[ERROR TTS] {e}"
 
 
 def run_fase_imagenes(proyecto_id: str):
     if not proyecto_id or proyecto_id == "(Sin proyectos)":
-        return "Seleccione un proyecto primero."
+        return "[AVISO] Seleccione un proyecto valido."
     try:
         img_engine = ImageEngine(storage, api_client, proyecto_id)
         config = storage.cargar_config(proyecto_id)
         logs = []
-        # Masters
         for p_id, p_data in config.get("personajes", {}).items():
             img_engine.asegurar_imagen_maestra_personaje(p_id, p_data)
-            logs.append(f"✓ Master {p_id} OK")
-        # Escenas
+            logs.append(f"[OK] Retrato Maestro: {p_id}")
         for esc in config.get("escenas", []):
             e_id = esc["id"]
             if esc.get("tipo") == "personaje":
                 img_engine.renderizar_escena_personaje(e_id)
-                logs.append(f"✓ Escena personaje {e_id} renderizada")
+                logs.append(f"[OK] Escena personaje: {e_id}")
             elif esc.get("tipo") == "b_roll":
                 img_engine.renderizar_escena_broll(e_id)
-                logs.append(f"✓ Escena B-Roll {e_id} renderizada")
-        return f"[ÉXITO IMÁGENES]\n" + "\n".join(logs)
+                logs.append(f"[OK] Escena B-Roll: {e_id}")
+        return "[EXITO IMAGENES]\n" + "\n".join(logs)
     except Exception as e:
-        return f"[ERROR IMÁGENES] {e}"
+        return f"[ERROR IMAGENES] {e}"
 
 
 def run_fase_sadtalker(proyecto_id: str):
     if not proyecto_id or proyecto_id == "(Sin proyectos)":
-        return "Seleccione un proyecto primero."
+        return "[AVISO] Seleccione un proyecto valido."
     try:
         api_client.liberar_memoria()
         sadtalker = SadTalkerEngine(proyecto_id)
@@ -199,15 +181,15 @@ def run_fase_sadtalker(proyecto_id: str):
                 p_id = esc.get("personaje_id")
                 avatar = personajes.get(p_id, {}).get("avatar") or "man.png"
                 out = sadtalker.generar_video_borrador(e_id, avatar, f"{e_id}.wav")
-                logs.append(f"✓ Driving SadTalker listo: {out.name}")
-        return f"[ÉXITO SADTALKER]\n" + "\n".join(logs)
+                logs.append(f"[OK] Driving video: {out.name}")
+        return "[EXITO SADTALKER]\n" + "\n".join(logs)
     except Exception as e:
         return f"[ERROR SADTALKER] {e}"
 
 
 def run_fase_broll(proyecto_id: str):
     if not proyecto_id or proyecto_id == "(Sin proyectos)":
-        return "Seleccione un proyecto primero."
+        return "[AVISO] Seleccione un proyecto valido."
     try:
         broll = BRollAnimationEngine(storage, api_client, proyecto_id)
         config = storage.cargar_config(proyecto_id)
@@ -215,15 +197,15 @@ def run_fase_broll(proyecto_id: str):
         for esc in config.get("escenas", []):
             if esc.get("tipo") == "b_roll":
                 out = broll.animar_escena_broll(esc["id"])
-                logs.append(f"✓ B-Roll animado: {out.name}")
-        return f"[ÉXITO B-ROLL]\n" + ("\n".join(logs) if logs else "Sin escenas B-Roll.")
+                logs.append(f"[OK] B-Roll animado: {out.name}")
+        return "[EXITO B-ROLL]\n" + ("\n".join(logs) if logs else "Sin escenas B-Roll.")
     except Exception as e:
         return f"[ERROR B-ROLL] {e}"
 
 
 def run_fase_liveportrait(proyecto_id: str):
     if not proyecto_id or proyecto_id == "(Sin proyectos)":
-        return "Seleccione un proyecto primero."
+        return "[AVISO] Seleccione un proyecto valido."
     try:
         vid_engine = VideoEngine(storage, api_client, proyecto_id)
         config = storage.cargar_config(proyecto_id)
@@ -232,59 +214,57 @@ def run_fase_liveportrait(proyecto_id: str):
             if esc.get("tipo") == "personaje":
                 e_id = esc["id"]
                 exito, p_id = vid_engine.renderizar_lipsync(e_id, f"{e_id}_personaje_00001_.png", f"{e_id}_driving.mp4")
-                logs.append(f"✓ LivePortrait {e_id} completado")
-        return f"[ÉXITO LIVEPORTRAIT]\n" + "\n".join(logs)
+                logs.append(f"[OK] LivePortrait HD masterizado: {e_id}")
+        return "[EXITO LIVEPORTRAIT]\n" + "\n".join(logs)
     except Exception as e:
         return f"[ERROR LIVEPORTRAIT] {e}"
 
 
 def run_fase_subtitulos(proyecto_id: str):
     if not proyecto_id or proyecto_id == "(Sin proyectos)":
-        return "Seleccione un proyecto primero."
+        return "[AVISO] Seleccione un proyecto valido."
     try:
         sub_engine = SubtitleEngine(storage, proyecto_id)
         res = sub_engine.generar_subtitulos_timeline_completo()
-        return f"[ÉXITO SUBTÍTULOS]\nArchivos generados:\n- {res['normal'].name}\n- {res['highlights'].name}\n- {res['en'].name}"
+        return f"[EXITO SUBTITULOS]\nPistas generadas:\n- {res['normal'].name}\n- {res['highlights'].name}\n- {res['en'].name}"
     except Exception as e:
-        return f"[ERROR SUBTÍTULOS] {e}"
+        return f"[ERROR SUBTITULOS] {e}"
 
 
 def run_fase_assembly(proyecto_id: str, nombre_out: str):
     if not proyecto_id or proyecto_id == "(Sin proyectos)":
-        return "Seleccione un proyecto primero.", None
+        return "[AVISO] Seleccione un proyecto valido.", None
     try:
         nombre = nombre_out.strip() if nombre_out else "pelicula_completa.mp4"
         if not nombre.endswith(".mp4"):
             nombre += ".mp4"
         assembly = AssemblyEngine(proyecto_id, storage)
         out = assembly.ensamblar_pelicula(nombre_salida=nombre)
-        return f"[ÉXITO ENSAMBLAJE] Película exportada: {out.name}", str(out)
+        return f"[EXITO ENSAMBLAJE] Pelicula exportada: {out.name}", str(out)
     except Exception as e:
         return f"[ERROR ENSAMBLAJE] {e}", None
 
 
 def run_pipeline_completo(proyecto_id: str, voz_sel: str, voz_manual: str):
     if not proyecto_id or proyecto_id == "(Sin proyectos)":
-        return "Seleccione un proyecto primero.", None
+        return "[AVISO] Seleccione un proyecto valido.", None
     logs = ["=== INICIANDO PIPELINE AUTOMATIZADO COMPLETO ==="]
     try:
         voz = resolver_voz_seleccionada(voz_sel, voz_manual)
-        # 1. Guion
-        logs.append("\n[1/7] Cargando Guion...")
+
+        logs.append("[1/7] Cargando Guion...")
         gm = GuionManager(storage, proyecto_id)
         gm.cargar_guion_desde_json()
         config = storage.cargar_config(proyecto_id)
-        logs.append(f"✓ Guion cargado: {len(config.get('escenas', []))} escenas.")
+        logs.append(f"[OK] Guion procesado: {len(config.get('escenas', []))} escenas.")
 
-        # 2. TTS
-        logs.append(f"\n[2/7] Generando TTS (Voz: {voz or 'Guion'})...")
+        logs.append(f"[2/7] Generando Audio TTS (Voz: {voz or 'Predefinida en Guion'})...")
         tts = TTSEngine(storage, proyecto_id)
         for esc in config.get("escenas", []):
             tts.procesar_escena(esc["id"], voz_override=voz)
-        logs.append("✓ Pistas de audio completadas.")
+        logs.append("[OK] Pistas de audio completadas.")
 
-        # 3. Imágenes
-        logs.append("\n[3/7] Renderizando Imágenes HD (SDXL)...")
+        logs.append("[3/7] Renderizando Imagenes HD (SDXL)...")
         img_engine = ImageEngine(storage, api_client, proyecto_id)
         for p_id, p_data in config.get("personajes", {}).items():
             img_engine.asegurar_imagen_maestra_personaje(p_id, p_data)
@@ -293,10 +273,9 @@ def run_pipeline_completo(proyecto_id: str, voz_sel: str, voz_manual: str):
                 img_engine.renderizar_escena_personaje(esc["id"])
             elif esc.get("tipo") == "b_roll":
                 img_engine.renderizar_escena_broll(esc["id"])
-        logs.append("✓ Imágenes generadas.")
+        logs.append("[OK] Imagenes generadas.")
 
-        # 4. SadTalker
-        logs.append("\n[4/7] Generando Driving Videos (SadTalker)...")
+        logs.append("[4/7] Generando Driving Videos (SadTalker)...")
         api_client.liberar_memoria()
         sadtalker = SadTalkerEngine(proyecto_id)
         for esc in config.get("escenas", []):
@@ -305,116 +284,103 @@ def run_pipeline_completo(proyecto_id: str, voz_sel: str, voz_manual: str):
                 p_id = esc.get("personaje_id")
                 avatar = config.get("personajes", {}).get(p_id, {}).get("avatar") or "man.png"
                 sadtalker.generar_video_borrador(e_id, avatar, f"{e_id}.wav")
-        logs.append("✓ Driving videos listos.")
+        logs.append("[OK] Driving videos listos.")
 
-        # 4b. B-Roll
-        logs.append("\n[5/7] Animando escenas B-Roll (SVD + RIFE)...")
+        logs.append("[5/7] Animando escenas B-Roll (SVD + RIFE)...")
         broll = BRollAnimationEngine(storage, api_client, proyecto_id)
         for esc in config.get("escenas", []):
             if esc.get("tipo") == "b_roll":
                 broll.animar_escena_broll(esc["id"])
-        logs.append("✓ B-Roll animado.")
+        logs.append("[OK] B-Roll animado.")
 
-        # 5. LivePortrait
-        logs.append("\n[6/7] Procesando LivePortrait HD y Masterizado...")
+        logs.append("[6/7] Procesando LivePortrait HD y Masterizado...")
         vid_engine = VideoEngine(storage, api_client, proyecto_id)
         for esc in config.get("escenas", []):
             if esc.get("tipo") == "personaje":
                 e_id = esc["id"]
                 vid_engine.renderizar_lipsync(e_id, f"{e_id}_personaje_00001_.png", f"{e_id}_driving.mp4")
-        logs.append("✓ LivePortrait masterizado.")
+        logs.append("[OK] LivePortrait masterizado.")
 
-        # 6. Subtítulos
-        logs.append("\n[7/7] Generando Pistas SRT Maestras...")
+        logs.append("[7/7] Generando Pistas SRT Maestras...")
         sub_engine = SubtitleEngine(storage, proyecto_id)
         sub_engine.generar_subtitulos_timeline_completo()
-        logs.append("✓ Subtítulos generados.")
+        logs.append("[OK] Subtitulos generados.")
 
-        # 7. Ensamblaje
-        logs.append("\n[FINAL] Ensamblando Película Completa...")
+        logs.append("[FINAL] Ensamblando Pelicula Completa...")
         assembly = AssemblyEngine(proyecto_id, storage)
         out = assembly.ensamblar_pelicula(nombre_salida="pelicula_completa.mp4")
-        logs.append(f"\n🎉 ¡PIPELINE FINALIZADO CON ÉXITO! Película: {out.name}")
+        logs.append(f"\n[COMPLETADO] Pelicula generada exitosamente: {out.name}")
         return "\n".join(logs), str(out)
     except Exception as e:
-        logs.append(f"\n❌ ERROR EN PIPELINE: {e}")
+        logs.append(f"\n[ERROR EN PIPELINE] {e}")
         return "\n".join(logs), None
 
 
 # ========================================================
-# CONSTRUCCIÓN DE INTERFAZ GRADIO
+# CONSTRUCCION DE INTERFAZ GRADIO (DISENO PROFESIONAL Y LIMPIO)
 # ========================================================
-
-tema = gr.themes.Soft(
-    primary_hue="cyan",
-    secondary_hue="slate",
-    neutral_hue="neutral"
-)
 
 with gr.Blocks(title="Orquestador de Video IA - Studio Web") as demo:
     gr.Markdown("""
-    # 🎬 Orquestador de Video IA — Studio Web
-    ### Pipeline Automatizado HD: ComfyUI + Kokoro TTS + SadTalker + LivePortrait + DaVinci SRT
+    # Orquestador de Video IA — Studio Web
+    **Pipeline Automatizado HD:** ComfyUI | Kokoro TTS | SadTalker | LivePortrait | DaVinci SRT
     """)
 
     with gr.Row():
         with gr.Column(scale=1):
             with gr.Group():
-                gr.Markdown("### 📁 Selección de Proyecto")
+                gr.Markdown("### Configuracion del Proyecto")
                 dropdown_proyectos = gr.Dropdown(
                     label="Proyecto Activo",
                     choices=obtener_proyectos(),
                     value=obtener_proyectos()[0] if obtener_proyectos() else "(Sin proyectos)"
                 )
-                btn_recargar_proyectos = gr.Button("🔄 Refrescar Lista", size="sm")
+                btn_recargar_proyectos = gr.Button("Actualizar Proyectos", size="sm")
 
             with gr.Group():
-                gr.Markdown("### 🎙️ Configuración de Voz (Kokoro-82M)")
+                gr.Markdown("### Configuracion de Audio (Kokoro-82M)")
                 dropdown_voz = gr.Dropdown(
-                    label="Voz para el Pipeline",
+                    label="Voz para Sintesis",
                     choices=VOCES_CHOICES,
                     value="(Usar del guion)",
-                    info="Seleccione una voz para sobreescribir el guion o déjelo en predeterminado."
+                    info="Sobreescribe la voz para todas las escenas o respeta las del guion."
                 )
                 input_voz_manual = gr.Textbox(
-                    label="Fórmula Voice Blending (Opcional)",
+                    label="Formula de Mezcla (Opcional)",
                     placeholder="ej: em_alex:0.7+am_fenrir:0.3",
-                    info="Si se llena, tiene prioridad absoluta sobre la lista."
+                    info="Voice Blending ponderado (tiene prioridad sobre la lista)."
                 )
 
         with gr.Column(scale=2):
-            dashboard_md = gr.Markdown("Cargando estado del proyecto...")
-            video_preview = gr.Video(label="Película Ensamblada (Vista Previa)", interactive=False)
+            dashboard_md = gr.Markdown("Cargando metricas...")
+            video_preview = gr.Video(label="Previsualizacion de Video Final", interactive=False)
 
     with gr.Tabs():
-        with gr.TabItem("⚡ Pipeline Automatizado Completo"):
-            gr.Markdown("Ejecuta de manera secuencial y sincronizada todas las fases (1 a 8).")
-            btn_run_all = gr.Button("🚀 EJECUTAR PIPELINE COMPLETO AUTOMATIZADO", variant="primary", size="lg")
-            log_all = gr.Textbox(label="Consola de Ejecución en Vivo", lines=12, max_lines=25)
+        with gr.TabItem("Pipeline Automatizado"):
+            gr.Markdown("Ejecucion secuencial de Fases 1 a 8 con asignacion automatica de recursos.")
+            btn_run_all = gr.Button("Ejecutar Pipeline Completo", variant="primary", size="lg")
+            log_all = gr.Textbox(label="Consola de Procesamiento", lines=12, max_lines=25)
 
-        with gr.TabItem("🎛️ Control Manual por Fases"):
-            gr.Markdown("Ejecuta fases individuales de manera independiente para iterar o revisar.")
+        with gr.TabItem("Control por Fases"):
+            gr.Markdown("Ejecucion independiente por etapas para ajuste, depuracion o reintento de escenas.")
             with gr.Row():
                 btn_fase1 = gr.Button("1. Cargar Guion", size="sm")
-                btn_fase2 = gr.Button("2. Generar Audios TTS", size="sm")
-                btn_fase3 = gr.Button("3. Renderizar Imágenes", size="sm")
+                btn_fase2 = gr.Button("2. Sintesis TTS", size="sm")
+                btn_fase3 = gr.Button("3. Render Imagenes", size="sm")
             with gr.Row():
                 btn_fase4 = gr.Button("4. Driving SadTalker", size="sm")
-                btn_fase4b = gr.Button("5. Animación B-Roll", size="sm")
+                btn_fase4b = gr.Button("5. Animacion B-Roll", size="sm")
                 btn_fase5 = gr.Button("6. LivePortrait HD", size="sm")
             with gr.Row():
-                btn_fase6 = gr.Button("7. Subtítulos SRT", size="sm")
-                btn_fase7 = gr.Button("8. Ensamblar Película", size="sm")
+                btn_fase6 = gr.Button("7. Subtitulos SRT", size="sm")
+                btn_fase7 = gr.Button("8. Ensamblar Video", size="sm")
 
-            input_nombre_ensamble = gr.Textbox(label="Nombre salida video ensamblado", value="pelicula_completa.mp4")
-            log_fases = gr.Textbox(label="Registro de la Fase", lines=8)
+            input_nombre_ensamble = gr.Textbox(label="Archivo de Salida MP4", value="pelicula_completa.mp4")
+            log_fases = gr.Textbox(label="Registro de Actividad", lines=8)
 
-    # ========================================================
-    # EVENTOS Y ENLACES
-    # ========================================================
-
+    # Eventos
     def refrescar_todo(p_id):
-        res, guion, vid, escenas_up = obtener_estado_proyecto(p_id)
+        res, guion, vid = obtener_estado_proyecto(p_id)
         return res, vid
 
     dropdown_proyectos.change(
@@ -428,7 +394,6 @@ with gr.Blocks(title="Orquestador de Video IA - Studio Web") as demo:
         outputs=[dropdown_proyectos]
     )
 
-    # Ejecución completa
     btn_run_all.click(
         run_pipeline_completo,
         inputs=[dropdown_proyectos, dropdown_voz, input_voz_manual],
@@ -439,7 +404,6 @@ with gr.Blocks(title="Orquestador de Video IA - Studio Web") as demo:
         outputs=[dashboard_md, video_preview]
     )
 
-    # Fases individuales
     btn_fase1.click(run_fase_guion, inputs=[dropdown_proyectos], outputs=[log_fases]).then(
         refrescar_todo, inputs=[dropdown_proyectos], outputs=[dashboard_md, video_preview]
     )
@@ -465,7 +429,6 @@ with gr.Blocks(title="Orquestador de Video IA - Studio Web") as demo:
         refrescar_todo, inputs=[dropdown_proyectos], outputs=[dashboard_md, video_preview]
     )
 
-    # Carga inicial al abrir
     demo.load(
         refrescar_todo,
         inputs=[dropdown_proyectos],
@@ -475,4 +438,4 @@ with gr.Blocks(title="Orquestador de Video IA - Studio Web") as demo:
 if __name__ == "__main__":
     puerto = 7860
     print(f"\n[INFO] Iniciando Interfaz Web en http://127.0.0.1:{puerto} ...")
-    demo.launch(server_name="127.0.0.1", server_port=puerto, inbrowser=True, theme=tema)
+    demo.launch(server_name="127.0.0.1", server_port=puerto, inbrowser=True)

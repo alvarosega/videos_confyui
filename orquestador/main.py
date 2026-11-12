@@ -272,9 +272,9 @@ class OrchestratorCLI:
             print(f"{UI.BOLD}{UI.CYAN}==============================================================================={UI.RESET}")
 
             if not self.proyecto_activo:
-                print(f"\n  {UI.BOLD}[1]{UI.RESET} 📁 Cargar Proyecto Existente")
-                print(f"  {UI.BOLD}[2]{UI.RESET} ➕ Crear Nuevo Proyecto")
-                print(f"  {UI.BOLD}[3]{UI.RESET} 🚪 Salir")
+                print(f"\n  {UI.BOLD}[1]{UI.RESET} Cargar Proyecto Existente")
+                print(f"  {UI.BOLD}[2]{UI.RESET} Crear Nuevo Proyecto")
+                print(f"  {UI.BOLD}[3]{UI.RESET} Salir")
 
                 opcion = input(f"\n{UI.ARROW} Seleccione una opción: ").strip()
 
@@ -291,12 +291,12 @@ class OrchestratorCLI:
                 self._imprimir_dashboard()
 
                 print(f"\n{UI.BOLD}ACCIONES DISPONIBLES:{UI.RESET}")
-                print(f"  {UI.BOLD}[1]{UI.RESET} 📝 Registrar / Recargar Guion JSON      {UI.BOLD}[5]{UI.RESET} 🎬 Animación B-Roll (SVD + RIFE)")
-                print(f"  {UI.BOLD}[2]{UI.RESET} 🎙️ Generar Audios TTS (Kokoro-82M)       {UI.BOLD}[6]{UI.RESET} 👄 Renderizar LivePortrait HD")
-                print(f"  {UI.BOLD}[3]{UI.RESET} 🎨 Renderizar Imágenes HD (SDXL)         {UI.BOLD}[7]{UI.RESET} 💬 Generar Subtítulos SRT")
-                print(f"  {UI.BOLD}[4]{UI.RESET} 🎭 Driving Video Morfométrica (SadTalker){UI.BOLD}[8]{UI.RESET} 🎞️ Ensamblar Película Completa")
-                print(f"\n  {UI.GREEN}{UI.BOLD}[9]{UI.RESET} ⚡ {UI.GREEN}{UI.BOLD}EJECUTAR PIPELINE COMPLETO AUTOMATIZADO (Fases 1 a 8){UI.RESET}")
-                print(f"  {UI.GRAY}[0] 🔄 Cambiar de Proyecto                  [S] 🚪 Salir{UI.RESET}")
+                print(f"  {UI.BOLD}[1]{UI.RESET} Registrar / Recargar Guion JSON        {UI.BOLD}[5]{UI.RESET} Animación B-Roll (SVD + RIFE)")
+                print(f"  {UI.BOLD}[2]{UI.RESET} Generar Audios TTS (Kokoro-82M)         {UI.BOLD}[6]{UI.RESET} Renderizar LivePortrait HD")
+                print(f"  {UI.BOLD}[3]{UI.RESET} Renderizar Imágenes HD (SDXL)           {UI.BOLD}[7]{UI.RESET} Generar Subtítulos SRT")
+                print(f"  {UI.BOLD}[4]{UI.RESET} Driving Video Morfométrica (SadTalker)  {UI.BOLD}[8]{UI.RESET} Ensamblar Película Completa")
+                print(f"\n  {UI.GREEN}{UI.BOLD}[9]{UI.RESET} {UI.GREEN}{UI.BOLD}EJECUTAR PIPELINE COMPLETO AUTOMATIZADO (Fases 1 a 8){UI.RESET}")
+                print(f"  {UI.GRAY}[0] Cambiar de Proyecto                    [S] Salir{UI.RESET}")
 
                 opcion = input(f"\n{UI.ARROW} Seleccione una opción: ").strip().lower()
 
